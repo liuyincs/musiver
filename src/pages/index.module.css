@@ -367,16 +367,21 @@
     text-align: center;
     padding-top: 60px;
   }
+  .title {
+    text-align: left;
+  }
   .heroDevices {
     height: 400px;
     margin-top: 40px;
   }
-  .colophon,
+  .colophon {
+    justify-content: flex-start;
+  }
   .buttons {
     justify-content: center;
   }
   .divider {
-    margin: 24px auto;
+    margin: 24px 0;
   }
   .subtitle {
     margin: 0 auto 40px;
@@ -519,16 +524,19 @@
     width: 100%;
     max-width: 100%;
     height: auto;
-    aspect-ratio: 600 / 520;
+    aspect-ratio: 640 / 520;
     margin-top: 20px;
     position: relative;
-    overflow: hidden; /* Prevent child from pushing width */
+    overflow: visible;
   }
   .deviceScene {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 300px);
     width: 600px;
     height: 520px;
-    transform-origin: top left;
-    transform: scale(calc((100vw - 48px) / 600));
+    transform-origin: top center;
+    transform: scale(calc((100vw - 48px) / 640));
   }
   .features {
     padding: 60px 24px 40px;
