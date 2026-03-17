@@ -50,8 +50,7 @@ export default function Home(): ReactNode {
         id: "homepage.meta.title",
         message: "Musiver — Connect Your Music",
       })}
-      noFooter
-    >
+      noFooter>
       <div className={s.wrapper}>
         <div className={s.guidelines}>
           <div className={`${s.guideline} ${s.guideV1}`} />
@@ -68,13 +67,13 @@ export default function Home(): ReactNode {
             <div className={s.divider} />
             <p className={s.subtitle}>
               <Translate id="homepage.hero.subtitle">
-                Musiver is a cross-platform NAS music player that supports multiple
-                server protocols. Enjoy the richness of your personal music library
-                on every device you own.
+                Musiver is a cross-platform NAS music player that supports
+                multiple server protocols. Enjoy the richness of your personal
+                music library on every device you own.
               </Translate>
             </p>
             <div className={s.buttons}>
-              <Link className={s.btnPrimary} to="/docs/intro">
+              <Link className={s.btnPrimary} to="/download">
                 <Translate id="homepage.hero.cta.download">
                   ⬇ Download Now
                 </Translate>
