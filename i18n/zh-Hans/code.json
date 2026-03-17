@@ -18,13 +18,13 @@
     "message": "支持无损音频解码，搭配智能缓存与离线模式，聆听体验不打折。"
   },
   "homepage.meta.title": {
-    "message": "Musiver — 连接你的音乐"
+    "message": "音流 — 连接你的音乐"
   },
   "homepage.hero.title": {
     "message": "连接你的音乐"
   },
   "homepage.hero.subtitle": {
-    "message": "Musiver 是一款跨平台 NAS 音乐播放器，支持多种服务器协议。在你的每一台设备上，享受私人音乐库的纯粹与丰盈。"
+    "message": "音流是一款跨平台 NAS 音乐播放器，支持多种服务器协议。在你的每一台设备上，享受私人音乐库的纯粹与丰盈。"
   },
   "homepage.hero.cta.download": {
     "message": "⬇ 立即下载"
@@ -33,34 +33,34 @@
     "message": "快速开始 →"
   },
   "homepage.devices.tv.alt": {
-    "message": "TV Interface"
+    "message": "电视界面"
   },
   "homepage.devices.tv.title": {
-    "message": "Living Room TV"
+    "message": "客厅电视"
   },
   "homepage.devices.tv.subtitle": {
-    "message": "Now Playing: Dream it Possible"
+    "message": "正在播放：Dream it Possible"
   },
   "homepage.devices.laptop.alt": {
-    "message": "Laptop Interface"
+    "message": "笔记本界面"
   },
   "homepage.devices.laptop.title": {
     "message": "MacBook Pro"
   },
   "homepage.devices.laptop.subtitle": {
-    "message": "Library Management"
+    "message": "媒体库管理"
   },
   "homepage.devices.phone.alt": {
-    "message": "Phone Interface"
+    "message": "手机界面"
   },
   "homepage.features.title": {
     "message": "核心特性"
   },
   "homepage.quote": {
-    "message": "\"音乐是时间的艺术，Musiver 让这份艺术不受空间限制。\""
+    "message": "\"音乐是时间的艺术，音流让这份艺术不受空间限制。\""
   },
   "homepage.footer": {
-    "message": "© 2026 Musiver. All rights reserved."
+    "message": "© 2026 音流。保留所有权利。"
   },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
@@ -107,7 +107,7 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "跟随系统",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -242,7 +242,7 @@
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "（在新标签页中打开）",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
@@ -322,11 +322,11 @@
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "展开下拉菜单",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "收起下拉菜单",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -390,10 +390,10 @@
     "description": "The title of the tag list page"
   },
   "download.title": {
-    "message": "Download"
+    "message": "下载"
   },
   "download.subtitle": {
-    "message": "Choose your platform and get started with the best NAS music player."
+    "message": "选择你的平台，立即开始使用这款优秀的 NAS 音乐播放器。"
   },
   "pricing.features.transfer.category": {
     "message": "⚡️ 传输与播放"
@@ -501,7 +501,7 @@
     "message": "定价"
   },
   "pricing.meta.desc": {
-    "message": "Musiver 定价计划"
+    "message": "音流定价计划"
   },
   "pricing.header.badge": {
     "message": "定价"

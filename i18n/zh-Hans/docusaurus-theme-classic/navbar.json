@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Musiver",
+    "message": "音流",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Musiver Logo",
+    "message": "音流 Logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
@@ -12,19 +12,19 @@
     "description": "Navbar item with label Docs"
   },
   "item.label.Home": {
-    "message": "Home",
+    "message": "首页",
     "description": "Navbar item with label Home"
   },
   "item.label.Pricing": {
-    "message": "Pricing",
+    "message": "价格",
     "description": "Navbar item with label Pricing"
   },
   "item.label.Download": {
-    "message": "Download",
+    "message": "下载",
     "description": "Navbar item with label Download"
   },
   "item.label.Changelog": {
-    "message": "Changelog",
+    "message": "更新日志",
     "description": "Navbar item with label Changelog"
   }
 }
