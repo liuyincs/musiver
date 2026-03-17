@@ -75,6 +75,27 @@ const config: Config = {
       },
       items: [
         {
+          to: "/",
+          label: "Home",
+          position: "left",
+          activeBaseRegex: "^/$",
+        },
+        {
+          to: "/pricing",
+          label: "Pricing",
+          position: "left",
+        },
+        {
+          to: "/download",
+          label: "Download",
+          position: "left",
+        },
+        {
+          to: "/changelog",
+          label: "Changelog",
+          position: "left",
+        },
+        {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
@@ -85,7 +106,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/liuyincs/musiver",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",

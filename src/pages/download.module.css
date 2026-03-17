@@ -1,0 +1,345 @@
+/* Design 5: Azure Editorial — Match Homepage */
+
+.wrapper {
+  font-family: "Manrope", sans-serif;
+  background: var(--warm-white);
+  color: var(--navy);
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+/* Subtle guidelines */
+.guidelines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.04;
+}
+
+.guideline {
+  position: absolute;
+  background: var(--navy);
+}
+
+.guideV1 {
+  top: 0;
+  bottom: 0;
+  left: 12%;
+  width: 1px;
+}
+.guideV2 {
+  top: 0;
+  bottom: 0;
+  right: 12%;
+  width: 1px;
+}
+.guideH1 {
+  left: 0;
+  right: 0;
+  top: 30%;
+  height: 1px;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 60px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start; /* Align to top */
+}
+
+.heroLeft {
+  animation: editFade 1s ease-out both;
+  position: sticky;
+  top: 100px; /* Sticky scroll for the selector */
+}
+
+.heroRight {
+  animation: editFade 1s ease-out 0.3s both;
+}
+
+@keyframes editFade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.colophon {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--azure);
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.colophon::before {
+  content: "";
+  width: 32px;
+  height: 2px;
+  background: var(--azure);
+}
+
+.title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+  color: var(--navy);
+}
+
+.divider {
+  width: 48px;
+  height: 2px;
+  background: var(--azure);
+  margin: 24px 0;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: var(--stone);
+  line-height: 1.85;
+  margin: 0 0 40px;
+  max-width: 440px;
+  font-weight: 400;
+}
+
+/* Platform Selector */
+.platformList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.platformBtn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid rgba(var(--navy-rgb), 0.1);
+  color: var(--navy);
+  font-family: "Manrope", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  width: 100%;
+  max-width: 360px;
+}
+
+.platformBtn:hover {
+  border-color: var(--azure);
+  color: var(--azure);
+  background: rgba(var(--azure-rgb), 0.02);
+  transform: translateX(4px);
+}
+
+.platformBtnActive {
+  background: var(--navy);
+  color: var(--warm-white);
+  border-color: var(--navy);
+  box-shadow: 0 8px 24px rgba(var(--navy-rgb), 0.2);
+}
+
+.platformBtnActive:hover {
+  background: var(--azure);
+  border-color: var(--azure);
+  color: var(--warm-white);
+  transform: translateX(4px);
+  box-shadow: 0 8px 24px rgba(var(--azure-rgb), 0.3);
+}
+
+.platformIcon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Download Card (Right Column) */
+.downloadCard {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow:
+    0 20px 40px -10px rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(var(--navy-rgb), 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(var(--navy-rgb), 0.1);
+}
+
+.cardTitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--navy);
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+  color: var(--stone);
+  margin-top: 8px;
+}
+
+/* Toggle Switch for Stable/Beta */
+.toggleContainer {
+  display: flex;
+  background: rgba(var(--navy-rgb), 0.05);
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.toggleBtn {
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--stone);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggleBtnActive {
+  background: var(--card-bg);
+  color: var(--azure);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.changelogTitle {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--stone);
+  margin-bottom: 16px;
+}
+
+.changelogList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+}
+
+.changelogItem {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  color: var(--navy);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.changelogItem::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--azure);
+}
+
+.downloadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 16px;
+  border-radius: 6px;
+  background: var(--azure);
+  color: var(--warm-white);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.02em;
+  font-family: "Manrope", sans-serif;
+}
+
+.downloadBtn:hover {
+  background: var(--navy);
+  color: var(--warm-white);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(var(--azure-rgb), 0.25);
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 40px 60px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--stone);
+  border-top: 1px solid rgba(var(--navy-rgb), 0.05);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 996px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 60px 24px;
+  }
+
+  .heroLeft {
+    position: static;
+  }
+
+  .platformList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+  }
+
+  .platformBtn {
+    width: 100%;
+    max-width: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+  }
+
+  .guideV1,
+  .guideV2 {
+    display: none;
+  }
+}
