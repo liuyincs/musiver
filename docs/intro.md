@@ -2,46 +2,28 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Musiver 文档总览
 
-Let's discover **Docusaurus in less than 5 minutes**.
+欢迎来到 Musiver 文档站点。
 
-## Getting Started
+## 文档包含内容
 
-Get started by **creating a new site**.
+- 产品能力与边界说明
+- 平台支持与服务兼容性
+- 版本发布相关信息
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 反馈与建议
 
-### What you'll need
+如需提交问题或建议，请在仓库中发起 Issue。
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+提交时建议包含以下信息：
 
-## Generate a new site
+- 使用平台与系统版本
+- 媒体服务类型与版本
+- 问题复现步骤或期望行为
 
-Generate a new Docusaurus site using the **classic template**.
+## 项目状态
 
-The classic template will automatically be added to your project after you run the command:
+Musiver 持续迭代中，文档内容会随版本更新而调整。
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+以实际发布版本为准。
