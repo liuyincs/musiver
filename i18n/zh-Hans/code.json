@@ -388,5 +388,191 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "download.title": {
+    "message": "Download"
+  },
+  "download.subtitle": {
+    "message": "Choose your platform and get started with the best NAS music player."
+  },
+  "pricing.features.transfer.category": {
+    "message": "⚡️ 传输与播放"
+  },
+  "pricing.features.transfer.item1": {
+    "message": "听歌与保存"
+  },
+  "pricing.features.transfer.item2": {
+    "message": "自动播放"
+  },
+  "pricing.features.transfer.item3": {
+    "message": "自动下载"
+  },
+  "pricing.features.transfer.item4": {
+    "message": "睡眠定时"
+  },
+  "pricing.features.transfer.item5": {
+    "message": "二维码同步数据"
+  },
+  "pricing.features.transfer.item6": {
+    "message": "回放增益"
+  },
+  "pricing.features.transfer.item7": {
+    "message": "下载功能"
+  },
+  "pricing.features.transfer.item8": {
+    "message": "DLNA 播放"
+  },
+  "pricing.features.transfer.item8.note": {
+    "message": "目前兼容性差，请当做不可用"
+  },
+  "pricing.features.lyrics.category": {
+    "message": "🎙️ 歌词"
+  },
+  "pricing.features.lyrics.item1": {
+    "message": "歌词显示与编辑"
+  },
+  "pricing.features.lyrics.item2": {
+    "message": "桌面歌词 (Android)"
+  },
+  "pricing.features.lyrics.item3": {
+    "message": "状态栏歌词 (Android/macOS)"
+  },
+  "pricing.features.lyrics.item4": {
+    "message": "画中画歌词 (iOS)"
+  },
+  "pricing.features.system.category": {
+    "message": "📱 系统特性"
+  },
+  "pricing.features.system.item1": {
+    "message": "桌面小部件 (Android/iOS)"
+  },
+  "pricing.features.system.item2": {
+    "message": "全局快捷键 (macOS/Windows)"
+  },
+  "pricing.features.system.item3": {
+    "message": "迷你窗口 (macOS/Windows)"
+  },
+  "pricing.features.system.item4": {
+    "message": "CarPlay"
+  },
+  "pricing.features.system.item4.note": {
+    "message": "如果 APP 被关闭，下次打开时音乐会停止"
+  },
+  "pricing.features.system.item5": {
+    "message": "快捷指令"
+  },
+  "pricing.features.personalization.category": {
+    "message": "🎈 个性化"
+  },
+  "pricing.features.personalization.item1": {
+    "message": "增强手势"
+  },
+  "pricing.features.personalization.item2": {
+    "message": "自定义 API"
+  },
+  "pricing.features.personalization.item3": {
+    "message": "自定义内容"
+  },
+  "pricing.features.personalization.item4": {
+    "message": "主题切换"
+  },
+  "pricing.features.personalization.item5": {
+    "message": "长音频偏好设置"
+  },
+  "pricing.features.library.category": {
+    "message": "📁 媒体库管理"
+  },
+  "pricing.features.library.item1": {
+    "message": "多服务器切换"
+  },
+  "pricing.features.library.item2": {
+    "message": "文件夹视图 (媒体库模式)"
+  },
+  "pricing.features.library.item3": {
+    "message": "重复检测 (媒体库模式)"
+  },
+  "pricing.features.others.category": {
+    "message": "🪄 其他"
+  },
+  "pricing.features.others.item1": {
+    "message": "备用线路"
+  },
+  "pricing.meta.title": {
+    "message": "定价"
+  },
+  "pricing.meta.desc": {
+    "message": "Musiver 定价计划"
+  },
+  "pricing.header.badge": {
+    "message": "定价"
+  },
+  "pricing.header.title": {
+    "message": "选择你的计划"
+  },
+  "pricing.header.subtitle": {
+    "message": "基础功能永久免费。一次性买断即可解锁高级功能。"
+  },
+  "pricing.plan.free.name": {
+    "message": "免费用户"
+  },
+  "pricing.plan.free.currency": {
+    "message": "¥"
+  },
+  "pricing.plan.free.period": {
+    "message": "永久"
+  },
+  "pricing.plan.free.desc": {
+    "message": "提供完整的日常听歌和基础音乐传输体验。"
+  },
+  "pricing.plan.free.cta": {
+    "message": "免费下载"
+  },
+  "pricing.plan.pro.name": {
+    "message": "终身会员"
+  },
+  "pricing.plan.pro.currency": {
+    "message": "¥"
+  },
+  "pricing.plan.pro.period": {
+    "message": "一次性付费"
+  },
+  "pricing.plan.pro.desc": {
+    "message": "一次买断，全平台终身使用。最多支持 7 台设备同时在线。"
+  },
+  "pricing.plan.pro.cta": {
+    "message": "如何购买"
+  },
+  "pricing.table.title": {
+    "message": "功能对比"
+  },
+  "pricing.table.header.feature": {
+    "message": "功能"
+  },
+  "pricing.table.header.free": {
+    "message": "免费版"
+  },
+  "pricing.table.header.pro": {
+    "message": "专业版"
+  },
+  "pricing.faq.title": {
+    "message": "购买指南"
+  },
+  "pricing.faq.q1": {
+    "message": "定价模式是什么？"
+  },
+  "pricing.faq.a1": {
+    "message": "采用一次性买断模式，全平台终身使用。会员最多支持在 7 台设备上同时使用。如果超过限制，最早登录的设备上的会员资格将被自动撤销。"
+  },
+  "pricing.faq.q2": {
+    "message": "如何购买和退款？"
+  },
+  "pricing.faq.a2": {
+    "message": "目前仅支持在移动端购买：\n• iOS：通过 AppStore 购买。3 个月内可通过 AppStore 申请退款（开发者无法控制）。\n• Android：通过支付宝购买。6 个月内可联系 aqzscn@qq.com 申请退款（需提供支付宝订单号）。\n\n建议购买成功后绑定邮箱，以便通过邮箱验证码在其他设备上恢复购买（邮箱绑定后不可更改，请勿使用临时邮箱）。"
+  },
+  "pricing.faq.q3": {
+    "message": "是否需要联网？"
+  },
+  "pricing.faq.a3": {
+    "message": "是的，会员验证采用在线验证方式。验证会在启动时随机触发，因此请尽量保证设备能连接到互联网。"
   }
 }

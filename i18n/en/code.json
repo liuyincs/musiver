@@ -388,5 +388,191 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "download.title": {
+    "message": "Download"
+  },
+  "download.subtitle": {
+    "message": "Choose your platform and get started with the best NAS music player."
+  },
+  "pricing.features.transfer.category": {
+    "message": "⚡️ Transfer & Playback"
+  },
+  "pricing.features.transfer.item1": {
+    "message": "Listen & Save"
+  },
+  "pricing.features.transfer.item2": {
+    "message": "Auto Play"
+  },
+  "pricing.features.transfer.item3": {
+    "message": "Auto Download"
+  },
+  "pricing.features.transfer.item4": {
+    "message": "Sleep Timer"
+  },
+  "pricing.features.transfer.item5": {
+    "message": "Sync Data via QR"
+  },
+  "pricing.features.transfer.item6": {
+    "message": "Replay Gain"
+  },
+  "pricing.features.transfer.item7": {
+    "message": "Download Feature"
+  },
+  "pricing.features.transfer.item8": {
+    "message": "DLNA Playback"
+  },
+  "pricing.features.transfer.item8.note": {
+    "message": "Currently has poor compatibility, please assume unavailable"
+  },
+  "pricing.features.lyrics.category": {
+    "message": "🎙️ Lyrics"
+  },
+  "pricing.features.lyrics.item1": {
+    "message": "Lyrics Display & Edit"
+  },
+  "pricing.features.lyrics.item2": {
+    "message": "Desktop Lyrics (Android)"
+  },
+  "pricing.features.lyrics.item3": {
+    "message": "Status Bar Lyrics (Android/macOS)"
+  },
+  "pricing.features.lyrics.item4": {
+    "message": "PiP Lyrics (iOS)"
+  },
+  "pricing.features.system.category": {
+    "message": "📱 System Features"
+  },
+  "pricing.features.system.item1": {
+    "message": "Desktop Widgets (Android/iOS)"
+  },
+  "pricing.features.system.item2": {
+    "message": "Global Hotkeys (macOS/Windows)"
+  },
+  "pricing.features.system.item3": {
+    "message": "Mini Window (macOS/Windows)"
+  },
+  "pricing.features.system.item4": {
+    "message": "CarPlay"
+  },
+  "pricing.features.system.item4.note": {
+    "message": "If APP is closed, music stops upon next open"
+  },
+  "pricing.features.system.item5": {
+    "message": "Shortcuts"
+  },
+  "pricing.features.personalization.category": {
+    "message": "🎈 Personalization"
+  },
+  "pricing.features.personalization.item1": {
+    "message": "Enhanced Gestures"
+  },
+  "pricing.features.personalization.item2": {
+    "message": "Custom API"
+  },
+  "pricing.features.personalization.item3": {
+    "message": "Custom Content"
+  },
+  "pricing.features.personalization.item4": {
+    "message": "Theme Switching"
+  },
+  "pricing.features.personalization.item5": {
+    "message": "Long Audio Preferences"
+  },
+  "pricing.features.library.category": {
+    "message": "📁 Library Management"
+  },
+  "pricing.features.library.item1": {
+    "message": "Multi-server Switching"
+  },
+  "pricing.features.library.item2": {
+    "message": "Folder View (Library Mode)"
+  },
+  "pricing.features.library.item3": {
+    "message": "Duplicate Detection (Library Mode)"
+  },
+  "pricing.features.others.category": {
+    "message": "🪄 Others"
+  },
+  "pricing.features.others.item1": {
+    "message": "Backup Routes"
+  },
+  "pricing.meta.title": {
+    "message": "Pricing"
+  },
+  "pricing.meta.desc": {
+    "message": "Musiver Pricing Plans"
+  },
+  "pricing.header.badge": {
+    "message": "Pricing"
+  },
+  "pricing.header.title": {
+    "message": "Choose your plan"
+  },
+  "pricing.header.subtitle": {
+    "message": "Basic features are forever free. Unlock advanced features with a one-time lifetime purchase."
+  },
+  "pricing.plan.free.name": {
+    "message": "Free User"
+  },
+  "pricing.plan.free.currency": {
+    "message": "¥"
+  },
+  "pricing.plan.free.period": {
+    "message": "Forever"
+  },
+  "pricing.plan.free.desc": {
+    "message": "Provides a complete basic music playback and transfer experience for daily listening."
+  },
+  "pricing.plan.free.cta": {
+    "message": "Download for Free"
+  },
+  "pricing.plan.pro.name": {
+    "message": "Lifetime Member"
+  },
+  "pricing.plan.pro.currency": {
+    "message": "¥"
+  },
+  "pricing.plan.pro.period": {
+    "message": "One-time payment"
+  },
+  "pricing.plan.pro.desc": {
+    "message": "One-time purchase, lifetime access across all platforms. Supports up to 7 devices simultaneously."
+  },
+  "pricing.plan.pro.cta": {
+    "message": "How to Purchase"
+  },
+  "pricing.table.title": {
+    "message": "Feature Comparison"
+  },
+  "pricing.table.header.feature": {
+    "message": "Features"
+  },
+  "pricing.table.header.free": {
+    "message": "Free"
+  },
+  "pricing.table.header.pro": {
+    "message": "Pro"
+  },
+  "pricing.faq.title": {
+    "message": "Purchase Guide"
+  },
+  "pricing.faq.q1": {
+    "message": "What is the pricing model?"
+  },
+  "pricing.faq.a1": {
+    "message": "It is a one-time purchase for lifetime access across all platforms. The membership can be used on up to 7 devices simultaneously. If the limit is exceeded, the membership on the earliest logged-in device will be automatically revoked."
+  },
+  "pricing.faq.q2": {
+    "message": "How to purchase and refund?"
+  },
+  "pricing.faq.a2": {
+    "message": "Currently available for purchase on mobile devices only:\n• iOS: Purchase via AppStore. Refunds can be requested through AppStore within 3 months (not controlled by the developer).\n• Android: Purchase via Alipay. Contact aqzscn@qq.com within 6 months for a refund (Alipay order number required).\n\nIt is recommended to bind an email after a successful purchase to restore it on other devices via email verification code (Email binding cannot be changed later, so do not use temporary emails)."
+  },
+  "pricing.faq.q3": {
+    "message": "Is internet connection required?"
+  },
+  "pricing.faq.a3": {
+    "message": "Yes, membership verification uses online verification. Verification is triggered randomly upon startup, so please ensure your device can connect to the internet as much as possible."
   }
 }

@@ -10,5 +10,25 @@
   "item.label.文档": {
     "message": "Docs",
     "description": "Navbar item with label 文档"
+  },
+  "item.label.Home": {
+    "message": "Home",
+    "description": "Navbar item with label Home"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Pricing": {
+    "message": "Pricing",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.Download": {
+    "message": "Download",
+    "description": "Navbar item with label Download"
+  },
+  "item.label.Changelog": {
+    "message": "Changelog",
+    "description": "Navbar item with label Changelog"
   }
 }
