@@ -23,7 +23,7 @@ const features = [
 
 export default function Home(): ReactNode {
   return (
-    <Layout title="Musiver — 品质音乐体验" noFooter>
+    <Layout title="Musiver — 连接你的音乐" noFooter>
       <div className={s.wrapper}>
         <div className={s.guidelines}>
           <div className={`${s.guideline} ${s.guideV1}`} />
@@ -34,9 +34,7 @@ export default function Home(): ReactNode {
         <section className={s.hero}>
           <div className={s.heroText}>
             <div className={s.colophon}>Musiver</div>
-            <h1 className={s.title}>
-              连接你的音乐
-            </h1>
+            <h1 className={s.title}>连接你的音乐</h1>
             <div className={s.divider} />
             <p className={s.subtitle}>
               Musiver 是一款跨平台 NAS 音乐播放器，支持多种服务器协议。
