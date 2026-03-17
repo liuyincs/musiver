@@ -51,57 +51,59 @@ export default function Home(): ReactNode {
           </div>
 
           <div className={s.heroDevices}>
-            <div className={s.desktopDevice}>
-              <div className={s.desktopTopBar}>
-                <span className={`${s.tbDot} ${s.tbDotR}`} />
-                <span className={`${s.tbDot} ${s.tbDotY}`} />
-                <span className={`${s.tbDot} ${s.tbDotG}`} />
-              </div>
-              <div className={s.desktopContent}>
-                <div className={s.dSidebar}>
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <div
-                      key={i}
-                      className={s.dSideItem}
-                      style={{ width: `${55 + Math.random() * 45}%` }}
-                    />
-                  ))}
+            <div className={s.deviceScene}>
+              <div className={s.desktopDevice}>
+                <div className={s.desktopTopBar}>
+                  <span className={`${s.tbDot} ${s.tbDotR}`} />
+                  <span className={`${s.tbDot} ${s.tbDotY}`} />
+                  <span className={`${s.tbDot} ${s.tbDotG}`} />
                 </div>
-                <div className={s.dMain}>
-                  <div className={s.dAlbums}>
-                    {Array.from({ length: 6 }).map((_, i) => (
-                      <div key={i} className={s.dAlbum} />
+                <div className={s.desktopContent}>
+                  <div className={s.dSidebar}>
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <div
+                        key={i}
+                        className={s.dSideItem}
+                        style={{ width: `${55 + Math.random() * 45}%` }}
+                      />
                     ))}
                   </div>
-                  <div className={s.dPlayerStrip}>
-                    <div className={s.dPlayIcon} />
-                    <div className={s.dPlayProgress} />
+                  <div className={s.dMain}>
+                    <div className={s.dAlbums}>
+                      {Array.from({ length: 6 }).map((_, i) => (
+                        <div key={i} className={s.dAlbum} />
+                      ))}
+                    </div>
+                    <div className={s.dPlayerStrip}>
+                      <div className={s.dPlayIcon} />
+                      <div className={s.dPlayProgress} />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div className={s.phoneDevice}>
-              <div className={s.phoneContent}>
-                <div className={s.pArt} />
-                <div className={s.pMeta}>
-                  <div className={s.pLine} />
-                  <div className={s.pLine} />
-                </div>
-                <div className={s.pControls}>
-                  <div className={s.pBtn} />
-                  <div className={s.pBtn} />
-                  <div className={s.pBtn} />
+              <div className={s.phoneDevice}>
+                <div className={s.phoneContent}>
+                  <div className={s.pArt} />
+                  <div className={s.pMeta}>
+                    <div className={s.pLine} />
+                    <div className={s.pLine} />
+                  </div>
+                  <div className={s.pControls}>
+                    <div className={s.pBtn} />
+                    <div className={s.pBtn} />
+                    <div className={s.pBtn} />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className={s.tabletDevice}>
-              <div className={s.tabletContent}>
-                <div className={s.tArt} />
-                <div className={s.tMeta}>
-                  <div className={s.tLine} />
-                  <div className={s.tLine} />
+              <div className={s.tabletDevice}>
+                <div className={s.tabletContent}>
+                  <div className={s.tArt} />
+                  <div className={s.tMeta}>
+                    <div className={s.tLine} />
+                    <div className={s.tLine} />
+                  </div>
                 </div>
               </div>
             </div>

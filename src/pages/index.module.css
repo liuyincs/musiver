@@ -179,6 +179,12 @@
   animation: editFade 1s ease-out 0.3s both;
 }
 
+.deviceScene {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 /* Desktop device */
 .desktopDevice {
   position: absolute;
@@ -592,34 +598,27 @@
     grid-template-columns: 1fr;
     gap: 40px;
     padding: 80px 24px 40px;
-    text-align: center;
-  }
-  .heroText {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .colophon {
-    justify-content: center;
+    overflow: hidden; /* Ensure content doesn't break layout */
   }
   .subtitle {
     max-width: 100%;
+    word-break: break-word; /* Ensure long words break */
   }
   .heroDevices {
-    height: 350px;
-    display: flex;
-    justify-content: center;
-  }
-  .desktopDevice {
-    position: relative;
+    display: block;
     width: 100%;
-    max-width: 380px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 600 / 520;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden; /* Prevent child from pushing width */
   }
-  .tabletDevice {
-    display: none;
-  }
-  .phoneDevice {
-    display: none;
+  .deviceScene {
+    width: 600px;
+    height: 520px;
+    transform-origin: top left;
+    transform: scale(calc((100vw - 48px) / 600));
   }
   .features {
     padding: 60px 24px 40px;
