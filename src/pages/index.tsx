@@ -35,9 +35,7 @@ export default function Home(): ReactNode {
           <div className={s.heroText}>
             <div className={s.colophon}>Musiver</div>
             <h1 className={s.title}>
-              你的 NAS 音乐库
-              <br />
-              <span className={s.titleBold}>至臻聆听体验</span>
+              连接你的音乐
             </h1>
             <div className={s.divider} />
             <p className={s.subtitle}>
