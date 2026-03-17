@@ -1,29 +1,57 @@
 import type { ReactNode } from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
+import Translate, { translate } from "@docusaurus/Translate";
 import s from "./index.module.css";
 
 const features = [
   {
     num: "01",
-    title: "全平台覆盖",
-    desc: "iOS、Android、macOS、Windows、Linux — 一次配置，处处聆听，体验始终如一。",
+    title: translate({
+      id: "homepage.features.crossPlatform.title",
+      message: "Cross-Platform Coverage",
+    }),
+    desc: translate({
+      id: "homepage.features.crossPlatform.desc",
+      message:
+        "iOS, Android, macOS, Windows, and Linux — set it up once and enjoy your music everywhere with a consistent experience.",
+    }),
   },
   {
     num: "02",
-    title: "多源连接",
-    desc: "同时连接 Navidrome、Subsonic、Jellyfin 等多种 NAS 音乐服务器，统一管理。",
+    title: translate({
+      id: "homepage.features.multiSource.title",
+      message: "Multi-Source Connectivity",
+    }),
+    desc: translate({
+      id: "homepage.features.multiSource.desc",
+      message:
+        "Connect to multiple NAS music servers at the same time, including Navidrome, Subsonic, and Jellyfin, and manage them in one place.",
+    }),
   },
   {
     num: "03",
-    title: "品质至上",
-    desc: "支持无损音频解码，搭配智能缓存与离线模式，聆听体验不打折。",
+    title: translate({
+      id: "homepage.features.quality.title",
+      message: "Quality First",
+    }),
+    desc: translate({
+      id: "homepage.features.quality.desc",
+      message:
+        "Supports lossless audio decoding with smart caching and offline mode, so your listening quality is never compromised.",
+    }),
   },
 ];
 
 export default function Home(): ReactNode {
   return (
-    <Layout title="Musiver — 连接你的音乐" noFooter>
+    <Layout
+      title={translate({
+        id: "homepage.meta.title",
+        message: "Musiver — Connect Your Music",
+      })}
+      noFooter
+    >
       <div className={s.wrapper}>
         <div className={s.guidelines}>
           <div className={`${s.guideline} ${s.guideV1}`} />
@@ -34,18 +62,27 @@ export default function Home(): ReactNode {
         <section className={s.hero}>
           <div className={s.heroText}>
             <div className={s.colophon}>Musiver</div>
-            <h1 className={s.title}>连接你的音乐</h1>
+            <h1 className={s.title}>
+              <Translate id="homepage.hero.title">Connect Your Music</Translate>
+            </h1>
             <div className={s.divider} />
             <p className={s.subtitle}>
-              Musiver 是一款跨平台 NAS 音乐播放器，支持多种服务器协议。
-              在你的每一台设备上，享受私人音乐库的纯粹与丰盈。
+              <Translate id="homepage.hero.subtitle">
+                Musiver is a cross-platform NAS music player that supports multiple
+                server protocols. Enjoy the richness of your personal music library
+                on every device you own.
+              </Translate>
             </p>
             <div className={s.buttons}>
               <Link className={s.btnPrimary} to="/docs/intro">
-                ⬇ 立即下载
+                <Translate id="homepage.hero.cta.download">
+                  ⬇ Download Now
+                </Translate>
               </Link>
               <Link className={s.btnSecondary} to="/docs/intro">
-                快速开始 →
+                <Translate id="homepage.hero.cta.start">
+                  Quick Start →
+                </Translate>
               </Link>
             </div>
           </div>
@@ -57,13 +94,22 @@ export default function Home(): ReactNode {
                 <div className={s.deviceScreen}>
                   <img
                     src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop"
-                    alt="TV Interface"
+                    alt={translate({
+                      id: "homepage.devices.tv.alt",
+                      message: "TV Interface",
+                    })}
                     className={s.placeholderArt}
                   />
                   <div className={s.placeholderText}>
-                    <span className={s.phTitle}>Living Room TV</span>
+                    <span className={s.phTitle}>
+                      <Translate id="homepage.devices.tv.title">
+                        Living Room TV
+                      </Translate>
+                    </span>
                     <span className={s.phSubtitle}>
-                      Now Playing: Dream it Possible
+                      <Translate id="homepage.devices.tv.subtitle">
+                        Now Playing: Dream it Possible
+                      </Translate>
                     </span>
                   </div>
                 </div>
@@ -76,12 +122,23 @@ export default function Home(): ReactNode {
                     <div className={s.deviceScreen}>
                       <img
                         src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2070&auto=format&fit=crop"
-                        alt="Laptop Interface"
+                        alt={translate({
+                          id: "homepage.devices.laptop.alt",
+                          message: "Laptop Interface",
+                        })}
                         className={s.placeholderArt}
                       />
                       <div className={s.placeholderText}>
-                        <span className={s.phTitle}>MacBook Pro</span>
-                        <span className={s.phSubtitle}>Library Management</span>
+                        <span className={s.phTitle}>
+                          <Translate id="homepage.devices.laptop.title">
+                            MacBook Pro
+                          </Translate>
+                        </span>
+                        <span className={s.phSubtitle}>
+                          <Translate id="homepage.devices.laptop.subtitle">
+                            Library Management
+                          </Translate>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -96,7 +153,10 @@ export default function Home(): ReactNode {
                 <div className={s.deviceScreen}>
                   <img
                     src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=2070&auto=format&fit=crop"
-                    alt="Phone Interface"
+                    alt={translate({
+                      id: "homepage.devices.phone.alt",
+                      message: "Phone Interface",
+                    })}
                     className={s.placeholderArt}
                   />
                 </div>
@@ -107,7 +167,9 @@ export default function Home(): ReactNode {
 
         <section className={s.features}>
           <div className={s.featuresHeader}>
-            <span className={s.featuresLabel}>核心特性</span>
+            <span className={s.featuresLabel}>
+              <Translate id="homepage.features.title">Core Features</Translate>
+            </span>
             <div className={s.featuresLine} />
           </div>
           <div className={s.featuresGrid}>
@@ -123,12 +185,17 @@ export default function Home(): ReactNode {
 
         <section className={s.quote}>
           <p className={s.quoteText}>
-            "音乐是时间的艺术，Musiver 让这份艺术不受空间限制。"
+            <Translate id="homepage.quote">
+              "Music is the art of time, and Musiver lets that art move beyond
+              space."
+            </Translate>
           </p>
         </section>
 
         <footer className={s.footer}>
-          © 2026 Musiver. All rights reserved.
+          <Translate id="homepage.footer">
+            © 2026 Musiver. All rights reserved.
+          </Translate>
         </footer>
       </div>
     </Layout>
