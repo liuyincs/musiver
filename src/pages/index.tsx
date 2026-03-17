@@ -52,58 +52,53 @@ export default function Home(): ReactNode {
 
           <div className={s.heroDevices}>
             <div className={s.deviceScene}>
-              <div className={s.desktopDevice}>
-                <div className={s.desktopTopBar}>
-                  <span className={`${s.tbDot} ${s.tbDotR}`} />
-                  <span className={`${s.tbDot} ${s.tbDotY}`} />
-                  <span className={`${s.tbDot} ${s.tbDotG}`} />
+              {/* TV (Back) */}
+              <div className={`${s.deviceFrame} ${s.tvDevice}`}>
+                <div className={s.deviceScreen}>
+                  <img
+                    src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop"
+                    alt="TV Interface"
+                    className={s.placeholderArt}
+                  />
+                  <div className={s.placeholderText}>
+                    <span className={s.phTitle}>Living Room TV</span>
+                    <span className={s.phSubtitle}>
+                      Now Playing: Dream it Possible
+                    </span>
+                  </div>
                 </div>
-                <div className={s.desktopContent}>
-                  <div className={s.dSidebar}>
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <div
-                        key={i}
-                        className={s.dSideItem}
-                        style={{ width: `${55 + Math.random() * 45}%` }}
+              </div>
+
+              {/* Laptop (Middle Right) */}
+              <div className={s.laptopDevice}>
+                <div className={`${s.deviceFrame} ${s.laptopLid}`}>
+                  <div className={s.laptopScreen}>
+                    <div className={s.deviceScreen}>
+                      <img
+                        src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2070&auto=format&fit=crop"
+                        alt="Laptop Interface"
+                        className={s.placeholderArt}
                       />
-                    ))}
-                  </div>
-                  <div className={s.dMain}>
-                    <div className={s.dAlbums}>
-                      {Array.from({ length: 6 }).map((_, i) => (
-                        <div key={i} className={s.dAlbum} />
-                      ))}
-                    </div>
-                    <div className={s.dPlayerStrip}>
-                      <div className={s.dPlayIcon} />
-                      <div className={s.dPlayProgress} />
+                      <div className={s.placeholderText}>
+                        <span className={s.phTitle}>MacBook Pro</span>
+                        <span className={s.phSubtitle}>Library Management</span>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div className={s.phoneDevice}>
-                <div className={s.phoneContent}>
-                  <div className={s.pArt} />
-                  <div className={s.pMeta}>
-                    <div className={s.pLine} />
-                    <div className={s.pLine} />
-                  </div>
-                  <div className={s.pControls}>
-                    <div className={s.pBtn} />
-                    <div className={s.pBtn} />
-                    <div className={s.pBtn} />
-                  </div>
+                <div className={s.laptopBase}>
+                  <div className={s.laptopTrackpad} />
                 </div>
               </div>
 
-              <div className={s.tabletDevice}>
-                <div className={s.tabletContent}>
-                  <div className={s.tArt} />
-                  <div className={s.tMeta}>
-                    <div className={s.tLine} />
-                    <div className={s.tLine} />
-                  </div>
+              {/* Phone (Front Far Left) */}
+              <div className={`${s.deviceFrame} ${s.phoneDevice}`}>
+                <div className={s.deviceScreen}>
+                  <img
+                    src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=2070&auto=format&fit=crop"
+                    alt="Phone Interface"
+                    className={s.placeholderArt}
+                  />
                 </div>
               </div>
             </div>
