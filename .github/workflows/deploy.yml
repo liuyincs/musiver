@@ -1,0 +1,48 @@
+name: Deploy to My Server
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    env:
+      DEPLOY_PATH: /var/www/app.musiver.cn
+      NODEJS_ORG_MIRROR: https://npmmirror.com/mirrors/node/
+      NPM_CONFIG_REGISTRY: https://registry.npmmirror.com
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies and build
+        run: |
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile --prefer-offline
+          else
+            pnpm install --no-frozen-lockfile --prefer-offline
+          fi
+          pnpm run build
+
+      - name: Sync files to server
+        run: |
+          mkdir -p ${{ env.DEPLOY_PATH }}
+          chown -R $USER:www-data ${{ env.DEPLOY_PATH }}
+          rsync -av --delete \
+            build/ \
+            ${{ env.DEPLOY_PATH }}/
+
+      - name: Reload Nginx
+        run: sudo systemctl reload nginx
