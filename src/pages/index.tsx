@@ -49,8 +49,7 @@ export default function Home(): ReactNode {
       title={translate({
         id: "homepage.meta.title",
         message: "Musiver — Connect Your Music",
-      })}
-      noFooter>
+      })}>
       <div className={s.wrapper}>
         <div className={s.guidelines}>
           <div className={`${s.guideline} ${s.guideV1}`} />
@@ -191,11 +190,6 @@ export default function Home(): ReactNode {
           </p>
         </section>
 
-        <footer className={s.footer}>
-          <Translate id="homepage.footer">
-            © 2026 Musiver. All rights reserved.
-          </Translate>
-        </footer>
       </div>
     </Layout>
   );

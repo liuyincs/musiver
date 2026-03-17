@@ -81,6 +81,12 @@ const config: Config = {
           activeBaseRegex: "^/$",
         },
         {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Docs",
+        },
+        {
           to: "/pricing",
           label: "Pricing",
           position: "left",
@@ -96,12 +102,6 @@ const config: Config = {
           position: "left",
         },
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Docs",
-        },
-        {
           type: "localeDropdown",
           position: "right",
         },
@@ -114,8 +114,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Musiver, Inc. Built with Docusaurus.`,
+      copyright: "© 2026 Musiver. All rights reserved.",
     },
     prism: {
       theme: prismThemes.github,

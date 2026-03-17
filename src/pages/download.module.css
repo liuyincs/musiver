@@ -57,24 +57,13 @@
 }
 
 .heroLeft {
-  animation: editFade 1s ease-out both;
+  animation: none;
   position: sticky;
   top: 100px; /* Sticky scroll for the selector */
 }
 
 .heroRight {
-  animation: editFade 1s ease-out 0.3s both;
-}
-
-@keyframes editFade {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  animation: none;
 }
 
 .colophon {
@@ -297,18 +286,6 @@
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(var(--azure-rgb), 0.25);
   text-decoration: none;
-}
-
-.footer {
-  margin-top: 60px;
-  padding: 40px 60px;
-  text-align: center;
-  font-size: 0.9rem;
-  color: var(--stone);
-  border-top: 1px solid rgba(var(--navy-rgb), 0.05);
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Mobile Responsiveness */

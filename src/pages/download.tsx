@@ -190,8 +190,7 @@ export default function Download(): React.ReactNode {
   return (
     <Layout
       title="Download Musiver"
-      description="Download Musiver for Android, iOS, macOS, Windows, and Web."
-      noFooter>
+      description="Download Musiver for Android, iOS, macOS, Windows, and Web.">
       <div className={s.wrapper}>
         <div className={s.guidelines}>
           <div className={`${s.guideline} ${s.guideV1}`} />
@@ -334,11 +333,6 @@ export default function Download(): React.ReactNode {
           </div>
         </section>
 
-        <footer className={s.footer}>
-          <Translate id="homepage.footer">
-            © 2026 Musiver. All rights reserved.
-          </Translate>
-        </footer>
       </div>
     </Layout>
   );
