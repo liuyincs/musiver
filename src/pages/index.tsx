@@ -91,7 +91,7 @@ export default function Home(): ReactNode {
               <div className={`${s.deviceFrame} ${s.tvDevice}`}>
                 <div className={s.deviceScreen}>
                   <img
-                    src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop"
+                    src="/img/devices/tv-screen.jpg"
                     alt={translate({
                       id: "homepage.devices.tv.alt",
                       message: "TV Interface",
@@ -118,14 +118,14 @@ export default function Home(): ReactNode {
                 <div className={`${s.deviceFrame} ${s.laptopLid}`}>
                   <div className={s.laptopScreen}>
                     <div className={s.deviceScreen}>
-                      <img
-                        src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2070&auto=format&fit=crop"
-                        alt={translate({
-                          id: "homepage.devices.laptop.alt",
-                          message: "Laptop Interface",
-                        })}
-                        className={s.placeholderArt}
-                      />
+                    <img
+                      src="/img/devices/laptop-screen.jpg"
+                      alt={translate({
+                        id: "homepage.devices.laptop.alt",
+                        message: "Laptop Interface",
+                      })}
+                      className={s.placeholderArt}
+                    />
                       <div className={s.placeholderText}>
                         <span className={s.phTitle}>
                           <Translate id="homepage.devices.laptop.title">
@@ -150,7 +150,7 @@ export default function Home(): ReactNode {
               <div className={`${s.deviceFrame} ${s.phoneDevice}`}>
                 <div className={s.deviceScreen}>
                   <img
-                    src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=2070&auto=format&fit=crop"
+                    src="/img/devices/phone-screen.jpg"
                     alt={translate({
                       id: "homepage.devices.phone.alt",
                       message: "Phone Interface",
