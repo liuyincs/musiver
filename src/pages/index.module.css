@@ -171,11 +171,18 @@
 /* Devices on right — studio arrangement */
 .heroDevices {
   position: relative;
-  height: 520px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Add perspective for 3D effect if needed, currently flat layering */
+}
+
+.heroDevicesImage {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 1600 / 1040;
+  height: auto;
+  display: block;
 }
 
 .deviceScene {
@@ -370,7 +377,7 @@
     text-align: left;
   }
   .heroDevices {
-    height: 400px;
+    height: auto;
     margin-top: 40px;
   }
   .colophon {
@@ -497,23 +504,16 @@
     word-break: break-word; /* Ensure long words break */
   }
   .heroDevices {
-    display: block;
+    display: flex;
     width: 100%;
     max-width: 100%;
     height: auto;
-    aspect-ratio: 640 / 520;
     margin-top: 20px;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
   }
-  .deviceScene {
-    position: absolute;
-    top: 0;
-    left: calc(50% - 300px);
-    width: 600px;
-    height: 520px;
-    transform-origin: top center;
-    transform: scale(calc((100vw - 48px) / 640));
+  .heroDevicesImage {
+    max-width: min(100%, 560px);
   }
   .features {
     padding: 60px 24px 40px;

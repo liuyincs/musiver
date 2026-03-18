@@ -53,6 +53,9 @@
   "homepage.devices.phone.alt": {
     "message": "手机界面"
   },
+  "homepage.devices.image.alt": {
+    "message": "Musiver 设备预览图"
+  },
   "homepage.features.title": {
     "message": "核心特性"
   },

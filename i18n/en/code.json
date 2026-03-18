@@ -53,6 +53,9 @@
   "homepage.devices.phone.alt": {
     "message": "Phone Interface"
   },
+  "homepage.devices.image.alt": {
+    "message": "Musiver devices preview"
+  },
   "homepage.features.title": {
     "message": "Core Features"
   },

@@ -86,80 +86,14 @@ export default function Home(): ReactNode {
           </div>
 
           <div className={s.heroDevices}>
-            <div className={s.deviceScene}>
-              {/* TV (Back) */}
-              <div className={`${s.deviceFrame} ${s.tvDevice}`}>
-                <div className={s.deviceScreen}>
-                  <img
-                    src="/img/devices/tv-screen.jpg"
-                    alt={translate({
-                      id: "homepage.devices.tv.alt",
-                      message: "TV Interface",
-                    })}
-                    className={s.placeholderArt}
-                  />
-                  <div className={s.placeholderText}>
-                    <span className={s.phTitle}>
-                      <Translate id="homepage.devices.tv.title">
-                        Living Room TV
-                      </Translate>
-                    </span>
-                    <span className={s.phSubtitle}>
-                      <Translate id="homepage.devices.tv.subtitle">
-                        Now Playing: Dream it Possible
-                      </Translate>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Laptop (Middle Right) */}
-              <div className={s.laptopDevice}>
-                <div className={`${s.deviceFrame} ${s.laptopLid}`}>
-                  <div className={s.laptopScreen}>
-                    <div className={s.deviceScreen}>
-                    <img
-                      src="/img/devices/laptop-screen.jpg"
-                      alt={translate({
-                        id: "homepage.devices.laptop.alt",
-                        message: "Laptop Interface",
-                      })}
-                      className={s.placeholderArt}
-                    />
-                      <div className={s.placeholderText}>
-                        <span className={s.phTitle}>
-                          <Translate id="homepage.devices.laptop.title">
-                            MacBook Pro
-                          </Translate>
-                        </span>
-                        <span className={s.phSubtitle}>
-                          <Translate id="homepage.devices.laptop.subtitle">
-                            Library Management
-                          </Translate>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={s.laptopBase}>
-                  <div className={s.laptopTrackpad} />
-                </div>
-              </div>
-
-              {/* Phone (Front Far Left) */}
-              <div className={`${s.deviceFrame} ${s.phoneDevice}`}>
-                <div className={s.deviceScreen}>
-                  <img
-                    src="/img/devices/phone-screen.jpg"
-                    alt={translate({
-                      id: "homepage.devices.phone.alt",
-                      message: "Phone Interface",
-                    })}
-                    className={s.placeholderArt}
-                  />
-                </div>
-              </div>
-            </div>
+            <img
+              src="/img/devices/musiver-devices.png"
+              alt={translate({
+                id: "homepage.devices.image.alt",
+                message: "Musiver devices preview",
+              })}
+              className={s.heroDevicesImage}
+            />
           </div>
         </section>
 
