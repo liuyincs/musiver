@@ -104,6 +104,7 @@ const config: Config = {
         {
           type: "localeDropdown",
           position: "right",
+          queryString: "?persistLocale=true",
         },
         {
           href: "https://github.com/liuyincs/musiver",
