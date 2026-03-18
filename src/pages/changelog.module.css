@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Manrope:wght@300;400;500;600;700&display=swap");
+
+.wrapper {
+  font-family: "Manrope", sans-serif;
+  background: var(--warm-white);
+  color: var(--navy);
+  min-height: 100vh;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.guidelines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.04;
+}
+
+.guideline {
+  position: absolute;
+  background: var(--navy);
+}
+
+.guideV1 {
+  top: 0;
+  bottom: 0;
+  left: 12%;
+  width: 1px;
+}
+
+.guideV2 {
+  top: 0;
+  bottom: 0;
+  right: 12%;
+  width: 1px;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 120px 24px 56px;
+  text-align: center;
+}
+
+.colophon {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--stone);
+  margin-bottom: 18px;
+}
+
+.title {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.8rem, 7vw, 5.2rem);
+  line-height: 0.95;
+  color: var(--navy);
+}
+
+.subtitle {
+  max-width: 660px;
+  margin: 20px auto 0;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: var(--stone);
+}
+
+.timeline {
+  position: relative;
+  z-index: 1;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.versionBlock {
+  padding: 56px 0 48px;
+  border-top: 1px solid rgba(var(--navy-rgb), 0.12);
+}
+
+.versionBlock:first-child {
+  border-top: none;
+}
+
+.versionHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.versionTitle {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  line-height: 1;
+  color: var(--navy);
+}
+
+.versionDate {
+  color: var(--stone);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.commonSection {
+  margin-bottom: 24px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(var(--navy-rgb), 0.08);
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.commonHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.commonLabel {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.platformsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.platformSection {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(var(--navy-rgb), 0.1);
+  border-radius: 12px;
+  padding: 20px 20px 16px;
+  box-shadow: 0 10px 28px rgba(var(--navy-rgb), 0.06);
+}
+
+.platformHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.platformIcon {
+  width: 20px;
+  height: 20px;
+  color: var(--azure);
+}
+
+.platformName {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.changeList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.changeItem {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 10px;
+  color: var(--navy);
+  line-height: 1.6;
+  font-size: 0.94rem;
+}
+
+.changeItem::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--azure);
+}
+
+.changeItem:last-child {
+  margin-bottom: 0;
+}
+
+.downloadsSection {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(var(--navy-rgb), 0.1);
+  background: linear-gradient(
+    135deg,
+    rgba(var(--azure-rgb), 0.08),
+    rgba(var(--navy-rgb), 0.03)
+  );
+}
+
+.downloadsTitle {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-weight: 700;
+  color: var(--stone);
+  margin-bottom: 12px;
+}
+
+.downloadButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  padding: 9px 16px;
+  color: var(--navy);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(var(--navy-rgb), 0.14);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.downloadBtn:hover {
+  text-decoration: none;
+  color: var(--warm-white);
+  border-color: transparent;
+  background: var(--azure);
+  transform: translateY(-1px);
+}
+
+.downloadBtnIcon {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 996px) {
+  .guideV1,
+  .guideV2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 88px 24px 40px;
+  }
+
+  .versionBlock {
+    padding: 40px 0 34px;
+  }
+
+  .versionHeader {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+
+  .platformsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .downloadsSection {
+    padding: 16px;
+  }
+
+  .downloadBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}

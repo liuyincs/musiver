@@ -586,5 +586,26 @@
   },
   "pricing.faq.a3": {
     "message": "是的，会员验证采用在线验证方式。验证会在启动时随机触发，因此请尽量保证设备能连接到互联网。"
+  },
+  "changelog.meta.title": {
+    "message": "更新日志"
+  },
+  "changelog.meta.desc": {
+    "message": "音流更新日志与版本历史。"
+  },
+  "changelog.colophon": {
+    "message": "最新动态"
+  },
+  "changelog.title": {
+    "message": "更新日志"
+  },
+  "changelog.subtitle": {
+    "message": "了解音流的最新功能。我们持续更新，致力于为您带来最佳的跨平台音乐体验。"
+  },
+  "changelog.download.title": {
+    "message": "下载"
+  },
+  "changelog.common": {
+    "message": "通用更新"
   }
 }

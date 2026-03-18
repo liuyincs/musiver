@@ -586,5 +586,26 @@
   },
   "pricing.faq.a3": {
     "message": "Yes, membership verification uses online verification. Verification is triggered randomly upon startup, so please ensure your device can connect to the internet as much as possible."
+  },
+  "changelog.meta.title": {
+    "message": "Changelog"
+  },
+  "changelog.meta.desc": {
+    "message": "Musiver release notes and version history."
+  },
+  "changelog.colophon": {
+    "message": "Updates"
+  },
+  "changelog.title": {
+    "message": "Release Notes"
+  },
+  "changelog.subtitle": {
+    "message": "Discover what's new in Musiver. We constantly update the app to bring you the best cross-platform music experience."
+  },
+  "changelog.download.title": {
+    "message": "Download"
+  },
+  "changelog.common": {
+    "message": "General Updates"
   }
 }
