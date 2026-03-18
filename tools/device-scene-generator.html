@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musiver Device Scene Generator</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+      :root {
+        --card-width: 800px;
+        --card-height: 520px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #222;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: "Manrope", sans-serif;
+      }
+
+      .controls {
+        margin-bottom: 20px;
+        text-align: center;
+        color: #fff;
+        width: min(100%, 1280px);
+      }
+
+      .control-panel {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .field {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.86);
+      }
+
+      .field input {
+        width: 92px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.24);
+        background: rgba(255, 255, 255, 0.08);
+        color: #fff;
+        font-size: 14px;
+        padding: 8px 10px;
+        font-family: inherit;
+      }
+
+      button {
+        padding: 12px 24px;
+        font-size: 16px;
+        cursor: pointer;
+        background: #6d28d9;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-family: inherit;
+        transition: background 0.3s;
+      }
+
+      button:hover {
+        background: #5b21b6;
+      }
+
+      /* Container for capture */
+      .card-container {
+        width: var(--card-width);
+        height: var(--card-height);
+        background-image:
+          linear-gradient(45deg, #333 25%, transparent 25%),
+          linear-gradient(-45deg, #333 25%, transparent 25%),
+          linear-gradient(45deg, transparent 75%, #333 75%),
+          linear-gradient(-45deg, transparent 75%, #333 75%);
+        background-size: 20px 20px;
+        background-position:
+          0 0,
+          0 10px,
+          10px -10px,
+          -10px 0px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+      }
+
+      #capture {
+        width: var(--card-width);
+        height: var(--card-height);
+        background: transparent;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Devices on right — studio arrangement */
+      .heroDevices {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .deviceScene {
+        position: relative;
+        width: 500px; /* Locked width to match homepage column width */
+        height: 420px; /* Locked height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform-origin: center;
+      }
+
+      /* Common Device Styles */
+      .deviceFrame {
+        position: absolute;
+        background: #1a1a1a;
+        border-radius: 12px;
+        box-shadow:
+          0 20px 40px -10px rgba(0, 0, 0, 0.3),
+          0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+        overflow: hidden;
+      }
+
+      .deviceScreen {
+        background: #000;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.8rem;
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* Device: TV (Back, Center) */
+      .tvDevice {
+        width: 88%;
+        aspect-ratio: 16/11;
+        top: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        border-radius: 8px;
+        border: 4px solid #2a2a2a; /* Bezel */
+        box-shadow:
+          0 30px 60px -12px rgba(0, 0, 0, 0.5),
+          0 0 0 1px #000;
+      }
+      .tvDevice::after {
+        /* TV Stand hint */
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30%;
+        height: 20px;
+        background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
+        z-index: -1;
+        border-radius: 0 0 8px 8px;
+      }
+
+      /* Device: Laptop (Right, Middle) */
+      .laptopDevice {
+        position: absolute;
+        width: 60%;
+        bottom: 60px; /* Raised up to overlap TV's right side */
+        right: -10px;
+        z-index: 2;
+      }
+
+      .laptopLid {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16/10;
+        background: #1a1a1a;
+        padding: 10px 10px 25px 10px; /* Bezel + Bottom chin */
+        border-radius: 8px 8px 0 0; /* Flat bottom */
+        box-shadow:
+          0 25px 50px -12px rgba(0, 0, 0, 0.4),
+          inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+        z-index: 2;
+      }
+
+      .laptopScreen {
+        background: #000;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      /* Laptop Base (Frontal View - just the edge) */
+      .laptopBase {
+        position: relative;
+        width: 120%; /* Slightly wider base */
+        height: 10px; /* Ultra thin profile */
+        background: #2a2a2a;
+        left: -10%;
+        margin-top: -3px; /* Connect to lid */
+        border-radius: 0 0 12px 12px; /* Rounded bottom corners */
+        box-shadow:
+          0 10px 20px rgba(0, 0, 0, 0.3),
+          inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        z-index: 1;
+      }
+
+      .laptopBase::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 15%;
+        height: 3px;
+        background: #1a1a1a; /* Match lid color for the cutout illusion */
+        border-radius: 0 0 4px 4px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .laptopTrackpad {
+        display: none;
+      }
+
+      /* Device: Phone (Far Left, Front) */
+      .phoneDevice {
+        position: absolute;
+        width: 18%;
+        aspect-ratio: 9/19;
+        left: -2%;
+        bottom: 60px;
+        z-index: 4;
+        border-radius: 14px;
+        border: 4px solid #1a1a1a; /* Bezel */
+        box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.5);
+      }
+      .phoneDevice::before {
+        /* Dynamic Island / Notch */
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 25%;
+        height: 8px;
+        background: #000;
+        border-radius: 10px;
+        z-index: 10;
+      }
+
+      /* Placeholder Content Styles */
+      .placeholderArt {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
+      }
+
+      .placeholderText {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      }
+      .phTitle {
+        font-size: 1.2em;
+        font-weight: 700;
+        display: block;
+      }
+      .phSubtitle {
+        font-size: 0.8em;
+        opacity: 0.8;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js"></script>
+  </head>
+  <body>
+    <div class="controls">
+      <div class="control-panel">
+        <label class="field"
+          >宽度
+          <input id="widthInput" type="number" min="200" step="10" value="400"
+        /></label>
+        <label class="field"
+          >高度
+          <input id="heightInput" type="number" min="200" step="10" value="260"
+        /></label>
+        <button onclick="downloadCard()">下载设备区域图（透明 PNG）</button>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <div id="capture">
+        <div class="heroDevices">
+          <div class="deviceScene">
+            <!-- TV (Back) -->
+            <div class="deviceFrame tvDevice">
+              <div class="deviceScreen">
+                <img
+                  src="../static/img/devices/tv-screen.jpg"
+                  alt="TV Interface"
+                  class="placeholderArt" />
+                <div class="placeholderText">
+                  <span class="phTitle">Living Room TV</span>
+                  <span class="phSubtitle">Now Playing: Dream it Possible</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Laptop (Middle Right) -->
+            <div class="laptopDevice">
+              <div class="deviceFrame laptopLid">
+                <div class="laptopScreen">
+                  <div class="deviceScreen">
+                    <img
+                      src="../static/img/devices/laptop-screen.jpg"
+                      alt="Laptop Interface"
+                      class="placeholderArt" />
+                    <div class="placeholderText">
+                      <span class="phTitle">MacBook Pro</span>
+                      <span class="phSubtitle">Library Management</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="laptopBase">
+                <div class="laptopTrackpad"></div>
+              </div>
+            </div>
+
+            <!-- Phone (Front Far Left) -->
+            <div class="deviceFrame phoneDevice">
+              <div class="deviceScreen">
+                <img
+                  src="../static/img/devices/phone-screen.jpg"
+                  alt="Phone Interface"
+                  class="placeholderArt" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function clamp(value, min, max) {
+        return Math.min(Math.max(value, min), max);
+      }
+
+      function getExportOptions() {
+        const widthInput = document.getElementById("widthInput");
+        const heightInput = document.getElementById("heightInput");
+
+        const width = clamp(Number(widthInput.value) || 800, 200, 10000);
+        const height = clamp(Number(heightInput.value) || 520, 200, 10000);
+
+        widthInput.value = String(width);
+        heightInput.value = String(height);
+
+        return { width, height };
+      }
+
+      function applyCardSize() {
+        const { width, height } = getExportOptions();
+        const root = document.documentElement;
+        root.style.setProperty("--card-width", `${width}px`);
+        root.style.setProperty("--card-height", `${height}px`);
+
+        // Calculate scale to fit the 500x420 intrinsic device scene
+        const scene = document.querySelector(".deviceScene");
+        const scale = Math.min(width / 500, height / 420);
+        scene.style.transform = `scale(${scale})`;
+      }
+
+      async function waitForImages(container) {
+        const images = Array.from(container.querySelectorAll("img"));
+        await Promise.all(
+          images.map((img) => {
+            if (img.complete) return Promise.resolve();
+            return new Promise((resolve) => {
+              img.addEventListener("load", resolve, { once: true });
+              img.addEventListener("error", resolve, { once: true });
+            });
+          }),
+        );
+      }
+
+      async function downloadCard() {
+        const card = document.getElementById("capture");
+        applyCardSize();
+        const { width, height } = getExportOptions();
+
+        if (document.fonts && document.fonts.ready) {
+          await document.fonts.ready;
+        }
+        await waitForImages(card);
+        await new Promise((resolve) => requestAnimationFrame(resolve));
+
+        const canvas = await htmlToImage.toCanvas(card, {
+          pixelRatio: 2,
+          width,
+          height,
+          canvasWidth: width * 2,
+          canvasHeight: height * 2,
+          backgroundColor: null,
+          cacheBust: true,
+        });
+
+        const dataUrl = canvas.toDataURL("image/png");
+        const link = document.createElement("a");
+        link.download = `musiver-devices-${width}x${height}.png`;
+        link.href = dataUrl;
+        link.click();
+      }
+
+      applyCardSize();
+      document
+        .getElementById("widthInput")
+        .addEventListener("input", applyCardSize);
+      document
+        .getElementById("heightInput")
+        .addEventListener("input", applyCardSize);
+    </script>
+  </body>
+</html>
