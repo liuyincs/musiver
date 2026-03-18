@@ -189,8 +189,14 @@ export default function Download(): React.ReactNode {
 
   return (
     <Layout
-      title="Download Musiver"
-      description="Download Musiver for Android, iOS, macOS, Windows, and Web.">
+      title={translate({
+        id: "download.meta.title",
+        message: "Download Musiver",
+      })}
+      description={translate({
+        id: "download.meta.desc",
+        message: "Download Musiver for Android, iOS, macOS, Windows, and Web.",
+      })}>
       <div className={s.wrapper}>
         <div className={s.guidelines}>
           <div className={`${s.guideline} ${s.guideV1}`} />
@@ -258,7 +264,7 @@ export default function Download(): React.ReactNode {
                       releaseType === "stable" && s.toggleBtnActive,
                     )}
                     onClick={() => handleReleaseTypeChange("stable")}>
-                    Stable
+                    <Translate id="download.channel.stable">Stable</Translate>
                   </button>
                   <button
                     className={clsx(
@@ -266,7 +272,7 @@ export default function Download(): React.ReactNode {
                       releaseType === "beta" && s.toggleBtnActive,
                     )}
                     onClick={() => handleReleaseTypeChange("beta")}>
-                    Beta
+                    <Translate id="download.channel.beta">Beta</Translate>
                   </button>
                 </div>
               </div>

@@ -395,6 +395,18 @@
   "download.subtitle": {
     "message": "选择你的平台，立即开始使用这款优秀的 NAS 音乐播放器。"
   },
+  "download.channel.stable": {
+    "message": "稳定版"
+  },
+  "download.channel.beta": {
+    "message": "测试版"
+  },
+  "download.meta.title": {
+    "message": "下载音流"
+  },
+  "download.meta.desc": {
+    "message": "下载适用于 Android、iOS、macOS、Windows 和 Web 的音流。"
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ 传输与播放"
   },

@@ -395,6 +395,18 @@
   "download.subtitle": {
     "message": "Choose your platform and get started with the best NAS music player."
   },
+  "download.channel.stable": {
+    "message": "Stable"
+  },
+  "download.channel.beta": {
+    "message": "Beta"
+  },
+  "download.meta.title": {
+    "message": "Download Musiver"
+  },
+  "download.meta.desc": {
+    "message": "Download Musiver for Android, iOS, macOS, Windows, and Web."
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ Transfer & Playback"
   },

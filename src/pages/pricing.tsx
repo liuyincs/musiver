@@ -116,7 +116,7 @@ export default function Pricing() {
                 Provides a complete basic music playback and transfer experience for daily listening.
               </Translate>
             </p>
-            <Link to="/docs/intro" className={`${styles.actionBtn} ${styles.actionBtnFree}`}>
+            <Link to="/download" className={`${styles.actionBtn} ${styles.actionBtnFree}`}>
               <Translate id="pricing.plan.free.cta">Download for Free</Translate>
             </Link>
           </div>
