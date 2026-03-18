@@ -67,11 +67,32 @@
         border: none;
         border-radius: 8px;
         font-family: inherit;
-        transition: background 0.3s;
+        transition:
+          background 0.3s,
+          opacity 0.3s;
       }
 
-      button:hover {
+      button:hover:not(:disabled) {
         background: #5b21b6;
+      }
+
+      button:disabled {
+        background: #4b5563;
+        cursor: not-allowed;
+        opacity: 0.7;
+      }
+
+      .error-prompt {
+        display: none;
+        color: #ef4444;
+        background: rgba(239, 68, 68, 0.1);
+        border: 1px solid rgba(239, 68, 68, 0.2);
+        padding: 12px 24px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
       }
 
       .card-container {
@@ -232,11 +253,15 @@
             step="0.01"
             value="0.88"
         /></label>
-        <button onclick="downloadCard()">下载社交卡片（JPG）</button>
+        <button id="downloadBtn" onclick="downloadCard()">
+          下载社交卡片（JPG）
+        </button>
       </div>
     </div>
 
-    <div class="card-container">
+    <div id="errorPrompt" class="error-prompt"></div>
+
+    <div class="card-container" id="cardContainer">
       <div class="card" id="capture">
         <div class="grid"></div>
         <div class="orb orb-1"></div>
@@ -257,28 +282,69 @@
     </div>
 
     <script>
-      function clamp(value, min, max) {
-        return Math.min(Math.max(value, min), max);
-      }
-
-      function getExportOptions() {
+      function validateInputs() {
         const widthInput = document.getElementById("widthInput");
         const heightInput = document.getElementById("heightInput");
         const qualityInput = document.getElementById("qualityInput");
+        const errorPrompt = document.getElementById("errorPrompt");
+        const downloadBtn = document.getElementById("downloadBtn");
+        const cardContainer = document.getElementById("cardContainer");
 
-        const width = clamp(Number(widthInput.value) || 1200, 200, 10000);
-        const height = clamp(Number(heightInput.value) || 675, 200, 10000);
-        const quality = clamp(Number(qualityInput.value) || 0.88, 0.1, 1);
+        const width = Number(widthInput.value);
+        const height = Number(heightInput.value);
+        const quality = Number(qualityInput.value);
 
-        widthInput.value = String(width);
-        heightInput.value = String(height);
-        qualityInput.value = quality.toFixed(2);
+        let isValid = true;
+        let errorMessage = "";
+
+        if (
+          !widthInput.value ||
+          !heightInput.value ||
+          isNaN(width) ||
+          isNaN(height)
+        ) {
+          isValid = false;
+          errorMessage = "请输入有效的宽度和高度数字";
+        } else if (
+          width < 200 ||
+          width > 10000 ||
+          height < 200 ||
+          height > 10000
+        ) {
+          isValid = false;
+          errorMessage = "宽度和高度必须在 200 到 10000 之间";
+        } else if (
+          !qualityInput.value ||
+          isNaN(quality) ||
+          quality < 0.1 ||
+          quality > 1
+        ) {
+          isValid = false;
+          errorMessage = "压缩质量必须在 0.1 到 1 之间";
+        }
+
+        if (!isValid) {
+          errorPrompt.textContent = errorMessage;
+          errorPrompt.style.display = "block";
+          downloadBtn.disabled = true;
+          cardContainer.style.opacity = "0.2";
+          cardContainer.style.pointerEvents = "none";
+          return null;
+        }
+
+        errorPrompt.style.display = "none";
+        downloadBtn.disabled = false;
+        cardContainer.style.opacity = "1";
+        cardContainer.style.pointerEvents = "auto";
 
         return { width, height, quality };
       }
 
       function applyCardSize() {
-        const { width, height } = getExportOptions();
+        const options = validateInputs();
+        if (!options) return;
+
+        const { width, height } = options;
         const root = document.documentElement;
         root.style.setProperty("--card-width", `${width}px`);
         root.style.setProperty("--card-height", `${height}px`);
@@ -298,9 +364,12 @@
       }
 
       async function downloadCard() {
+        const options = validateInputs();
+        if (!options) return;
+
         const card = document.getElementById("capture");
         applyCardSize();
-        const { width, height, quality } = getExportOptions();
+        const { width, height, quality } = options;
 
         if (document.fonts && document.fonts.ready) {
           await document.fonts.ready;
