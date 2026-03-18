@@ -288,6 +288,15 @@
   text-decoration: none;
 }
 
+.downloadBtnDisabled,
+.downloadBtnDisabled:hover {
+  background: rgba(var(--navy-rgb), 0.35);
+  color: var(--warm-white);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 996px) {
   .hero {

@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import Translate, { translate } from "@docusaurus/Translate";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
+import stableReleasesData from "../data/releases/stable.json";
+import betaReleasesData from "../data/releases/beta.json";
 import s from "./download.module.css";
 
 type Platform = "android" | "ios" | "macos" | "windows" | "web";
@@ -11,115 +14,49 @@ type ReleaseType = "stable" | "beta";
 interface VersionInfo {
   version: string;
   date: string;
-  changelog: string[];
+  changelogI18nKeys: string[];
   downloadUrl: string;
 }
 
 interface Releases {
-  stable: Partial<Record<Platform, VersionInfo>>;
-  beta: Partial<Record<Platform, VersionInfo[]>>;
+  beta: Record<Platform, VersionInfo[]>;
 }
 
+interface StablePlatformInfo {
+  changelogI18nKeys: string[];
+  downloadUrl: string;
+}
+
+interface StableReleaseFile {
+  channel: "stable";
+  updatedAt: string;
+  version: string;
+  platforms: Record<Platform, StablePlatformInfo | null>;
+}
+
+interface BetaReleaseFile {
+  channel: "beta";
+  updatedAt: string;
+  platforms: Record<Platform, VersionInfo[]>;
+}
+
+const stableReleases = stableReleasesData as StableReleaseFile;
+const betaReleases = betaReleasesData as BetaReleaseFile;
+
 const releases: Releases = {
-  stable: {
-    android: {
-      version: "1.2.0",
-      date: "2023-11-15",
-      changelog: [
-        "Added support for Jellyfin servers",
-        "Improved offline caching performance",
-        "Fixed album art display issues on some devices",
-        'New "Dark Night" theme option',
-      ],
-      downloadUrl:
-        "https://github.com/liuyincs/musiver/releases/download/v1.2.0/musiver-android-1.2.0.apk",
-    },
-    ios: {
-      version: "1.2.0",
-      date: "2023-11-16",
-      changelog: [
-        "Added support for Jellyfin servers",
-        "Optimized battery usage during playback",
-        "Fixed CarPlay integration bugs",
-        "Smoother transitions in navigation",
-      ],
-      downloadUrl: "https://apps.apple.com/app/musiver",
-    },
-    macos: {
-      version: "1.2.0",
-      date: "2023-11-16",
-      changelog: [
-        "Added support for Jellyfin servers",
-        "Native Apple Silicon support",
-        "Keyboard shortcuts for playback control",
-        "Mini player mode",
-      ],
-      downloadUrl:
-        "https://github.com/liuyincs/musiver/releases/download/v1.2.0/musiver-macos-1.2.0.dmg",
-    },
-    windows: {
-      version: "1.2.0",
-      date: "2023-11-15",
-      changelog: [
-        "Added support for Jellyfin servers",
-        "System tray integration",
-        "Media key support",
-        "High DPI scaling improvements",
-      ],
-      downloadUrl:
-        "https://github.com/liuyincs/musiver/releases/download/v1.2.0/musiver-windows-1.2.0.exe",
-    },
-    web: {
-      version: "1.2.0",
-      date: "2023-11-15",
-      changelog: [
-        "Added support for Jellyfin servers",
-        "PWA support - install as an app",
-        "Improved responsiveness on mobile browsers",
-        "Keyboard navigation support",
-      ],
-      downloadUrl: "https://app.musiver.cn",
-    },
-  },
-  beta: {
-    android: [
-      {
-        version: "1.3.0-beta.2",
-        date: "2023-12-15",
-        changelog: [
-          "Improved syncing speed",
-          "UI polish and animation fixes",
-          "Updated translations",
-        ],
-        downloadUrl:
-          "https://github.com/liuyincs/musiver/releases/download/v1.3.0-beta.2/musiver-android-1.3.0-beta.2.apk",
-      },
-      {
-        version: "1.3.0-beta.1",
-        date: "2023-12-01",
-        changelog: [
-          "Experimental: Lyrics syncing support",
-          "New equalizer interface",
-          "Bug fixes for Android 14",
-        ],
-        downloadUrl:
-          "https://github.com/liuyincs/musiver/releases/download/v1.3.0-beta.1/musiver-android-1.3.0-beta.1.apk",
-      },
-    ],
-    windows: [
-      {
-        version: "1.3.0-beta.1",
-        date: "2023-12-02",
-        changelog: [
-          "Experimental: Lyrics syncing support",
-          "Hardware acceleration settings",
-          "Fixed crash on startup for some users",
-        ],
-        downloadUrl:
-          "https://github.com/liuyincs/musiver/releases/download/v1.3.0-beta.1/musiver-windows-1.3.0-beta.1.exe",
-      },
-    ],
-  },
+  beta: betaReleases.platforms,
+};
+
+const formatReleaseDate = (date: string, locale: string) => {
+  const parsedDate = new Date(`${date}T00:00:00`);
+  if (Number.isNaN(parsedDate.getTime())) {
+    return date;
+  }
+  return new Intl.DateTimeFormat(locale, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  }).format(parsedDate);
 };
 
 const PlatformIcon = ({ platform }: { platform: Platform }) => {
@@ -161,27 +98,41 @@ const PlatformIcon = ({ platform }: { platform: Platform }) => {
 
 const PlatformLabel = ({ platform }: { platform: Platform }) => {
   const labels: Record<Platform, string> = {
-    android: "Android",
-    ios: "iOS",
-    macos: "macOS",
-    windows: "Windows",
-    web: "Web",
+    android: translate({ id: "download.platform.android", message: "Android" }),
+    ios: translate({ id: "download.platform.ios", message: "iOS" }),
+    macos: translate({ id: "download.platform.macos", message: "macOS" }),
+    windows: translate({ id: "download.platform.windows", message: "Windows" }),
+    web: translate({ id: "download.platform.web", message: "Web" }),
   };
   return <>{labels[platform]}</>;
 };
 
 export default function Download(): React.ReactNode {
+  const { i18n } = useDocusaurusContext();
   const [releaseType, setReleaseType] = useState<ReleaseType>("stable");
   const [platform, setPlatform] = useState<Platform>("android");
 
   const platforms: Platform[] = ["android", "ios", "macos", "windows", "web"];
 
-  const releaseData = releases[releaseType][platform];
-  const versions: VersionInfo[] = Array.isArray(releaseData)
-    ? releaseData
-    : releaseData
-      ? [releaseData]
-      : [];
+  const versions: VersionInfo[] =
+    releaseType === "stable"
+      ? stableReleases.platforms[platform]
+        ? [
+            {
+              version: stableReleases.version,
+              date: stableReleases.updatedAt,
+              changelogI18nKeys:
+                stableReleases.platforms[platform]?.changelogI18nKeys ?? [],
+              downloadUrl: stableReleases.platforms[platform]?.downloadUrl ?? "",
+            },
+          ]
+        : []
+      : releases.beta[platform];
+
+  const releaseTypeLabel =
+    releaseType === "stable"
+      ? translate({ id: "download.channel.stable", message: "Stable" })
+      : translate({ id: "download.channel.beta", message: "Beta" });
 
   const handleReleaseTypeChange = (type: ReleaseType) => {
     setReleaseType(type);
@@ -206,7 +157,9 @@ export default function Download(): React.ReactNode {
 
         <section className={s.hero}>
           <div className={s.heroLeft}>
-            <div className={s.colophon}>Get Musiver</div>
+            <div className={s.colophon}>
+              <Translate id="download.colophon">Get Musiver</Translate>
+            </div>
             <h1 className={s.title}>
               <Translate id="download.title">Download</Translate>
             </h1>
@@ -245,14 +198,51 @@ export default function Download(): React.ReactNode {
                     {versions.length > 0 ? (
                       releaseType === "stable" ? (
                         <>
-                          <span>Version {versions[0].version}</span>
-                          <span>Updated on {versions[0].date}</span>
+                          <span>
+                            {translate(
+                              {
+                                id: "download.meta.version",
+                                message: "Version {version}",
+                              },
+                              { version: versions[0].version },
+                            )}
+                          </span>
+                          <span>
+                            {translate(
+                              {
+                                id: "download.meta.updatedOn",
+                                message: "Updated on {date}",
+                              },
+                              {
+                                date: formatReleaseDate(
+                                  versions[0].date,
+                                  i18n.currentLocale,
+                                ),
+                              },
+                            )}
+                          </span>
                         </>
                       ) : (
-                        <span>{versions.length} versions available</span>
+                        <span>
+                          {translate(
+                            {
+                              id: "download.meta.versionsAvailable",
+                              message: "{count} versions available",
+                            },
+                            { count: versions.length },
+                          )}
+                        </span>
                       )
                     ) : (
-                      <span>Not available in {releaseType} channel</span>
+                      <span>
+                        {translate(
+                          {
+                            id: "download.meta.notAvailableChannel",
+                            message: "Not available in {channel} channel",
+                          },
+                          { channel: releaseTypeLabel },
+                        )}
+                      </span>
                     )}
                   </div>
                 </div>
@@ -291,36 +281,66 @@ export default function Download(): React.ReactNode {
                           <span className={s.versionTag}>
                             v{version.version}
                           </span>
-                          <span className={s.versionDate}>{version.date}</span>
+                          <span className={s.versionDate}>
+                            {formatReleaseDate(
+                              version.date,
+                              i18n.currentLocale,
+                            )}
+                          </span>
                         </div>
                       )}
 
-                      <div className={s.changelogTitle}>What's New</div>
+                      <div className={s.changelogTitle}>
+                        <Translate id="download.whatsNew">What's New</Translate>
+                      </div>
                       <ul className={s.changelogList}>
-                        {version.changelog.map((item, i) => (
+                        {version.changelogI18nKeys.map((item, i) => (
                           <li key={i} className={s.changelogItem}>
-                            {item}
+                            {translate({ id: item, message: item })}
                           </li>
                         ))}
                       </ul>
 
-                      <Link className={s.downloadBtn} to={version.downloadUrl}>
-                        Download{" "}
-                        {releaseType === "beta" ? version.version : "Now"}
-                        <svg
-                          width="20"
-                          height="20"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round">
-                          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                          <polyline points="7 10 12 15 17 10" />
-                          <line x1="12" y1="15" x2="12" y2="3" />
-                        </svg>
-                      </Link>
+                      {version.downloadUrl.trim().length === 0 ? (
+                        <button
+                          className={clsx(s.downloadBtn, s.downloadBtnDisabled)}
+                          type="button"
+                          disabled>
+                          <Translate id="download.comingSoon">
+                            Coming Soon
+                          </Translate>
+                        </button>
+                      ) : (
+                        <Link
+                          className={s.downloadBtn}
+                          to={version.downloadUrl}>
+                          {releaseType === "beta"
+                            ? translate(
+                                {
+                                  id: "download.downloadVersion",
+                                  message: "Download {version}",
+                                },
+                                { version: version.version },
+                              )
+                            : translate({
+                                id: "download.downloadNow",
+                                message: "Download Now",
+                              })}
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                          </svg>
+                        </Link>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -331,14 +351,19 @@ export default function Download(): React.ReactNode {
                     padding: "40px 0",
                     color: "var(--stone)",
                   }}>
-                  No release available for this platform in the {releaseType}{" "}
-                  channel.
+                  {translate(
+                    {
+                      id: "download.meta.noReleaseForPlatform",
+                      message:
+                        "No release available for this platform in the {channel} channel.",
+                    },
+                    { channel: releaseTypeLabel },
+                  )}
                 </div>
               )}
             </div>
           </div>
         </section>
-
       </div>
     </Layout>
   );

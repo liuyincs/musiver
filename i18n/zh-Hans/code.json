@@ -407,6 +407,135 @@
   "download.meta.desc": {
     "message": "下载适用于 Android、iOS、macOS、Windows 和 Web 的音流。"
   },
+  "download.colophon": {
+    "message": "获取音流"
+  },
+  "download.platform.android": {
+    "message": "Android"
+  },
+  "download.platform.ios": {
+    "message": "iOS"
+  },
+  "download.platform.macos": {
+    "message": "macOS"
+  },
+  "download.platform.windows": {
+    "message": "Windows"
+  },
+  "download.platform.web": {
+    "message": "网页"
+  },
+  "download.meta.version": {
+    "message": "版本 {version}"
+  },
+  "download.meta.updatedOn": {
+    "message": "更新于 {date}"
+  },
+  "download.meta.versionsAvailable": {
+    "message": "共 {count} 个版本"
+  },
+  "download.meta.notAvailableChannel": {
+    "message": "{channel} 暂不可用"
+  },
+  "download.meta.noReleaseForPlatform": {
+    "message": "当前平台在 {channel} 暂无可用版本。"
+  },
+  "download.whatsNew": {
+    "message": "更新内容"
+  },
+  "download.downloadNow": {
+    "message": "立即下载"
+  },
+  "download.downloadVersion": {
+    "message": "下载 {version}"
+  },
+  "download.comingSoon": {
+    "message": "即将到来"
+  },
+  "download.notReleased": {
+    "message": "暂未发布"
+  },
+  "download.release.stable.upcoming": {
+    "message": "全新版本，即将登场！"
+  },
+  "download.release.stable.1_2_0.common.jellyfin": {
+    "message": "新增对 Jellyfin 服务器的支持"
+  },
+  "download.release.stable.1_2_0.android.cache": {
+    "message": "提升离线缓存性能"
+  },
+  "download.release.stable.1_2_0.android.albumArt": {
+    "message": "修复部分设备封面显示异常"
+  },
+  "download.release.stable.1_2_0.android.darkNight": {
+    "message": "新增「Dark Night」主题选项"
+  },
+  "download.release.stable.1_2_0.ios.battery": {
+    "message": "优化播放过程中的电量消耗"
+  },
+  "download.release.stable.1_2_0.ios.carplay": {
+    "message": "修复 CarPlay 集成问题"
+  },
+  "download.release.stable.1_2_0.ios.transitions": {
+    "message": "优化导航切换动画流畅度"
+  },
+  "download.release.stable.1_2_0.macos.silicon": {
+    "message": "原生支持 Apple Silicon"
+  },
+  "download.release.stable.1_2_0.macos.shortcuts": {
+    "message": "新增播放控制键盘快捷键"
+  },
+  "download.release.stable.1_2_0.macos.miniPlayer": {
+    "message": "新增迷你播放器模式"
+  },
+  "download.release.stable.1_2_0.windows.tray": {
+    "message": "新增系统托盘集成"
+  },
+  "download.release.stable.1_2_0.windows.mediaKey": {
+    "message": "支持媒体按键控制"
+  },
+  "download.release.stable.1_2_0.windows.dpi": {
+    "message": "改进高 DPI 缩放显示"
+  },
+  "download.release.stable.1_2_0.web.pwa": {
+    "message": "支持 PWA，可安装为应用"
+  },
+  "download.release.stable.1_2_0.web.mobileResponsive": {
+    "message": "提升移动浏览器响应表现"
+  },
+  "download.release.stable.1_2_0.web.keyboard": {
+    "message": "支持键盘导航操作"
+  },
+  "download.release.beta.1_3_0_beta_2.android.sync": {
+    "message": "提升同步速度"
+  },
+  "download.release.beta.1_3_0_beta_2.android.ui": {
+    "message": "优化界面细节与动画表现"
+  },
+  "download.release.beta.1_3_0_beta_2.android.translations": {
+    "message": "更新多语言翻译"
+  },
+  "download.release.beta.1_3_0_beta_1.android.lyrics": {
+    "message": "实验功能：歌词同步支持"
+  },
+  "download.release.beta.1_3_0_beta_1.android.equalizer": {
+    "message": "新增均衡器界面"
+  },
+  "download.release.beta.1_3_0_beta_1.android.android14": {
+    "message": "修复 Android 14 相关问题"
+  },
+  "download.release.beta.1_3_0_beta_1.windows.lyrics": {
+    "message": "实验功能：歌词同步支持"
+  },
+  "download.release.beta.1_3_0_beta_1.windows.acceleration": {
+    "message": "新增硬件加速设置"
+  },
+  "download.release.beta.1_3_0_beta_1.windows.startup": {
+    "message": "修复部分用户启动崩溃问题"
+  },
+  "download.release.beta.upcoming.light": {
+    "message": "全新版本，轻装上阵！"
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ 传输与播放"
   },

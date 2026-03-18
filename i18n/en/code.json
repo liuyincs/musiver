@@ -407,6 +407,135 @@
   "download.meta.desc": {
     "message": "Download Musiver for Android, iOS, macOS, Windows, and Web."
   },
+  "download.colophon": {
+    "message": "Get Musiver"
+  },
+  "download.platform.android": {
+    "message": "Android"
+  },
+  "download.platform.ios": {
+    "message": "iOS"
+  },
+  "download.platform.macos": {
+    "message": "macOS"
+  },
+  "download.platform.windows": {
+    "message": "Windows"
+  },
+  "download.platform.web": {
+    "message": "Web"
+  },
+  "download.meta.version": {
+    "message": "Version {version}"
+  },
+  "download.meta.updatedOn": {
+    "message": "Updated on {date}"
+  },
+  "download.meta.versionsAvailable": {
+    "message": "{count} versions available"
+  },
+  "download.meta.notAvailableChannel": {
+    "message": "Not available in {channel} channel"
+  },
+  "download.meta.noReleaseForPlatform": {
+    "message": "No release available for this platform in the {channel} channel."
+  },
+  "download.whatsNew": {
+    "message": "What's New"
+  },
+  "download.downloadNow": {
+    "message": "Download Now"
+  },
+  "download.downloadVersion": {
+    "message": "Download {version}"
+  },
+  "download.comingSoon": {
+    "message": "Coming Soon"
+  },
+  "download.notReleased": {
+    "message": "Not Released Yet"
+  },
+  "download.release.stable.upcoming": {
+    "message": "A brand-new version is coming soon!"
+  },
+  "download.release.stable.1_2_0.common.jellyfin": {
+    "message": "Added support for Jellyfin servers"
+  },
+  "download.release.stable.1_2_0.android.cache": {
+    "message": "Improved offline caching performance"
+  },
+  "download.release.stable.1_2_0.android.albumArt": {
+    "message": "Fixed album art display issues on some devices"
+  },
+  "download.release.stable.1_2_0.android.darkNight": {
+    "message": "New \"Dark Night\" theme option"
+  },
+  "download.release.stable.1_2_0.ios.battery": {
+    "message": "Optimized battery usage during playback"
+  },
+  "download.release.stable.1_2_0.ios.carplay": {
+    "message": "Fixed CarPlay integration bugs"
+  },
+  "download.release.stable.1_2_0.ios.transitions": {
+    "message": "Smoother transitions in navigation"
+  },
+  "download.release.stable.1_2_0.macos.silicon": {
+    "message": "Native Apple Silicon support"
+  },
+  "download.release.stable.1_2_0.macos.shortcuts": {
+    "message": "Keyboard shortcuts for playback control"
+  },
+  "download.release.stable.1_2_0.macos.miniPlayer": {
+    "message": "Mini player mode"
+  },
+  "download.release.stable.1_2_0.windows.tray": {
+    "message": "System tray integration"
+  },
+  "download.release.stable.1_2_0.windows.mediaKey": {
+    "message": "Media key support"
+  },
+  "download.release.stable.1_2_0.windows.dpi": {
+    "message": "High DPI scaling improvements"
+  },
+  "download.release.stable.1_2_0.web.pwa": {
+    "message": "PWA support - install as an app"
+  },
+  "download.release.stable.1_2_0.web.mobileResponsive": {
+    "message": "Improved responsiveness on mobile browsers"
+  },
+  "download.release.stable.1_2_0.web.keyboard": {
+    "message": "Keyboard navigation support"
+  },
+  "download.release.beta.1_3_0_beta_2.android.sync": {
+    "message": "Improved syncing speed"
+  },
+  "download.release.beta.1_3_0_beta_2.android.ui": {
+    "message": "UI polish and animation fixes"
+  },
+  "download.release.beta.1_3_0_beta_2.android.translations": {
+    "message": "Updated translations"
+  },
+  "download.release.beta.1_3_0_beta_1.android.lyrics": {
+    "message": "Experimental: Lyrics syncing support"
+  },
+  "download.release.beta.1_3_0_beta_1.android.equalizer": {
+    "message": "New equalizer interface"
+  },
+  "download.release.beta.1_3_0_beta_1.android.android14": {
+    "message": "Bug fixes for Android 14"
+  },
+  "download.release.beta.1_3_0_beta_1.windows.lyrics": {
+    "message": "Experimental: Lyrics syncing support"
+  },
+  "download.release.beta.1_3_0_beta_1.windows.acceleration": {
+    "message": "Hardware acceleration settings"
+  },
+  "download.release.beta.1_3_0_beta_1.windows.startup": {
+    "message": "Fixed crash on startup for some users"
+  },
+  "download.release.beta.upcoming.light": {
+    "message": "A brand-new version, ready to go light!"
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ Transfer & Playback"
   },

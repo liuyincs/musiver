@@ -1,0 +1,27 @@
+{
+  "channel": "stable",
+  "updatedAt": "2026-03-18",
+  "version": "2.0.0",
+  "platforms": {
+    "android": {
+      "downloadUrl": "",
+      "changelogI18nKeys": ["download.release.stable.upcoming"]
+    },
+    "ios": {
+      "downloadUrl": "",
+      "changelogI18nKeys": ["download.release.stable.upcoming"]
+    },
+    "macos": {
+      "downloadUrl": "",
+      "changelogI18nKeys": ["download.release.stable.upcoming"]
+    },
+    "windows": {
+      "downloadUrl": "",
+      "changelogI18nKeys": ["download.release.stable.upcoming"]
+    },
+    "web": {
+      "downloadUrl": "",
+      "changelogI18nKeys": ["download.release.stable.upcoming"]
+    }
+  }
+}
