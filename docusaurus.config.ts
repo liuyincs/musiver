@@ -78,7 +78,7 @@ const config: Config = {
           to: "/",
           label: "Home",
           position: "left",
-          activeBaseRegex: "^/$",
+          activeBaseRegex: "^(?:/|/[\\w-]+/)$",
         },
         {
           type: "docSidebar",
