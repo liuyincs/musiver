@@ -6,6 +6,7 @@
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
     "start": "pnpm build && docusaurus serve --dir build --host 0.0.0.0 --port 3000",
+    "tools:serve": "python3 -m http.server 4173",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
