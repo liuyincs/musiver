@@ -8,8 +8,11 @@
       @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
 
       :root {
-        --card-width: 800px;
-        --card-height: 520px;
+        --card-width: 400px;
+        --card-height: 260px;
+        --scene-gap-x: 0px;
+        --scene-gap-y: 0px;
+        --device-scale: 1;
       }
 
       * {
@@ -71,7 +74,9 @@
         border: none;
         border-radius: 8px;
         font-family: inherit;
-        transition: background 0.3s, opacity 0.3s;
+        transition:
+          background 0.3s,
+          opacity 0.3s;
       }
 
       button:hover:not(:disabled) {
@@ -138,12 +143,17 @@
 
       .deviceScene {
         position: relative;
-        width: 500px; /* Locked width to match homepage column width */
-        height: 420px; /* Locked height */
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
         transform-origin: center;
+      }
+
+      .deviceLayout {
+        position: absolute;
+        top: var(--scene-gap-y);
+        right: var(--scene-gap-x);
+        bottom: var(--scene-gap-y);
+        left: var(--scene-gap-x);
       }
 
       /* Common Device Styles */
@@ -151,9 +161,6 @@
         position: absolute;
         background: #1a1a1a;
         border-radius: 12px;
-        box-shadow:
-          0 20px 40px -10px rgba(0, 0, 0, 0.3),
-          0 0 0 1px rgba(255, 255, 255, 0.1) inset;
         overflow: hidden;
       }
 
@@ -173,17 +180,15 @@
 
       /* Device: TV (Back, Center) */
       .tvDevice {
-        width: 88%;
+        width: 80%;
         aspect-ratio: 16/11;
-        top: 24px;
+        top: 0;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%) scale(var(--device-scale));
+        transform-origin: top center;
         z-index: 1;
         border-radius: 8px;
         border: 4px solid #2a2a2a; /* Bezel */
-        box-shadow:
-          0 30px 60px -12px rgba(0, 0, 0, 0.5),
-          0 0 0 1px #000;
       }
       .tvDevice::after {
         /* TV Stand hint */
@@ -203,8 +208,10 @@
       .laptopDevice {
         position: absolute;
         width: 60%;
-        bottom: 60px; /* Raised up to overlap TV's right side */
-        right: -10px;
+        bottom: 0;
+        right: 0;
+        transform: scale(var(--device-scale));
+        transform-origin: bottom right;
         z-index: 2;
       }
 
@@ -215,9 +222,6 @@
         background: #1a1a1a;
         padding: 10px 10px 25px 10px; /* Bezel + Bottom chin */
         border-radius: 8px 8px 0 0; /* Flat bottom */
-        box-shadow:
-          0 25px 50px -12px rgba(0, 0, 0, 0.4),
-          inset 0 0 0 1px rgba(255, 255, 255, 0.05);
         z-index: 2;
       }
 
@@ -233,15 +237,12 @@
       /* Laptop Base (Frontal View - just the edge) */
       .laptopBase {
         position: relative;
-        width: 120%; /* Slightly wider base */
+        width: 120%;
         height: 10px; /* Ultra thin profile */
         background: #2a2a2a;
         left: -10%;
         margin-top: -3px; /* Connect to lid */
         border-radius: 0 0 12px 12px; /* Rounded bottom corners */
-        box-shadow:
-          0 10px 20px rgba(0, 0, 0, 0.3),
-          inset 0 1px 0 rgba(255, 255, 255, 0.1);
         z-index: 1;
       }
 
@@ -255,7 +256,6 @@
         height: 3px;
         background: #1a1a1a; /* Match lid color for the cutout illusion */
         border-radius: 0 0 4px 4px;
-        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
       }
 
       .laptopTrackpad {
@@ -265,14 +265,15 @@
       /* Device: Phone (Far Left, Front) */
       .phoneDevice {
         position: absolute;
-        width: 18%;
-        aspect-ratio: 9/19;
-        left: -2%;
-        bottom: 60px;
+        width: 20%;
+        aspect-ratio: 8/17;
+        left: 0;
+        bottom: 0;
+        transform: scale(var(--device-scale));
+        transform-origin: bottom left;
         z-index: 4;
         border-radius: 14px;
         border: 4px solid #1a1a1a; /* Bezel */
-        box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.5);
       }
       .phoneDevice::before {
         /* Dynamic Island / Notch */
@@ -295,23 +296,6 @@
         object-fit: cover;
         opacity: 0.8;
       }
-
-      .placeholderText {
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-        color: white;
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-      }
-      .phTitle {
-        font-size: 1.2em;
-        font-weight: 700;
-        display: block;
-      }
-      .phSubtitle {
-        font-size: 0.8em;
-        opacity: 0.8;
-      }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js"></script>
   </head>
@@ -324,9 +308,11 @@
         /></label>
         <label class="field"
           >高度
-          <input id="heightInput" type="number" min="200" step="10" value="260"
+          <input id="heightInput" type="number" min="200" step="10" value="240"
         /></label>
-        <button id="downloadBtn" onclick="downloadCard()">下载设备区域图（透明 PNG）</button>
+        <button id="downloadBtn" onclick="downloadCard()">
+          下载设备区域图（透明 PNG）
+        </button>
       </div>
     </div>
 
@@ -336,48 +322,42 @@
       <div id="capture">
         <div class="heroDevices">
           <div class="deviceScene">
-            <!-- TV (Back) -->
-            <div class="deviceFrame tvDevice">
-              <div class="deviceScreen">
-                <img
-                  src="../static/img/devices/tv-screen.jpg"
-                  alt="TV Interface"
-                  class="placeholderArt" />
-                <div class="placeholderText">
-                  <span class="phTitle">Living Room TV</span>
-                  <span class="phSubtitle">Now Playing: Dream it Possible</span>
+            <div class="deviceLayout">
+              <!-- TV (Back) -->
+              <div class="deviceFrame tvDevice">
+                <div class="deviceScreen">
+                  <img
+                    src="../static/img/devices/tv-screen.jpg"
+                    alt="TV Interface"
+                    class="placeholderArt" />
                 </div>
               </div>
-            </div>
 
-            <!-- Laptop (Middle Right) -->
-            <div class="laptopDevice">
-              <div class="deviceFrame laptopLid">
-                <div class="laptopScreen">
-                  <div class="deviceScreen">
-                    <img
-                      src="../static/img/devices/laptop-screen.jpg"
-                      alt="Laptop Interface"
-                      class="placeholderArt" />
-                    <div class="placeholderText">
-                      <span class="phTitle">MacBook Pro</span>
-                      <span class="phSubtitle">Library Management</span>
+              <!-- Laptop (Middle Right) -->
+              <div class="laptopDevice">
+                <div class="deviceFrame laptopLid">
+                  <div class="laptopScreen">
+                    <div class="deviceScreen">
+                      <img
+                        src="../static/img/devices/laptop-screen.jpg"
+                        alt="Laptop Interface"
+                        class="placeholderArt" />
                     </div>
                   </div>
                 </div>
+                <div class="laptopBase">
+                  <div class="laptopTrackpad"></div>
+                </div>
               </div>
-              <div class="laptopBase">
-                <div class="laptopTrackpad"></div>
-              </div>
-            </div>
 
-            <!-- Phone (Front Far Left) -->
-            <div class="deviceFrame phoneDevice">
-              <div class="deviceScreen">
-                <img
-                  src="../static/img/devices/phone-screen.jpg"
-                  alt="Phone Interface"
-                  class="placeholderArt" />
+              <!-- Phone (Front Far Left) -->
+              <div class="deviceFrame phoneDevice">
+                <div class="deviceScreen">
+                  <img
+                    src="../static/img/devices/phone-screen.jpg"
+                    alt="Phone Interface"
+                    class="placeholderArt" />
+                </div>
               </div>
             </div>
           </div>
@@ -399,10 +379,20 @@
         let isValid = true;
         let errorMessage = "";
 
-        if (!widthInput.value || !heightInput.value || isNaN(width) || isNaN(height)) {
+        if (
+          !widthInput.value ||
+          !heightInput.value ||
+          isNaN(width) ||
+          isNaN(height)
+        ) {
           isValid = false;
           errorMessage = "请输入有效的宽度和高度数字";
-        } else if (width < 200 || width > 10000 || height < 200 || height > 10000) {
+        } else if (
+          width < 200 ||
+          width > 10000 ||
+          height < 200 ||
+          height > 10000
+        ) {
           isValid = false;
           errorMessage = "宽度和高度必须在 200 到 10000 之间";
         }
@@ -427,16 +417,29 @@
       function applyCardSize() {
         const options = validateInputs();
         if (!options) return;
-        
+
         const { width, height } = options;
         const root = document.documentElement;
         root.style.setProperty("--card-width", `${width}px`);
         root.style.setProperty("--card-height", `${height}px`);
 
-        // Calculate scale to fit the 500x420 intrinsic device scene
         const scene = document.querySelector(".deviceScene");
-        const scale = Math.min(width / 500, height / 420);
-        scene.style.transform = `scale(${scale})`;
+        scene.style.transform = "none";
+        alignLaptopToKeyboardRight();
+      }
+
+      function alignLaptopToKeyboardRight() {
+        const layout = document.querySelector(".deviceLayout");
+        const laptop = document.querySelector(".laptopDevice");
+        const base = document.querySelector(".laptopBase");
+        if (!layout || !laptop || !base) return;
+
+        laptop.style.right = "0px";
+
+        const layoutRect = layout.getBoundingClientRect();
+        const baseRect = base.getBoundingClientRect();
+        const overflowRight = Math.max(0, baseRect.right - layoutRect.right);
+        laptop.style.right = `${overflowRight}px`;
       }
 
       async function waitForImages(container) {
