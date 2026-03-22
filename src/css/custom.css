@@ -89,6 +89,16 @@
   font-size: 0.95rem;
 }
 
+.navbar-item-disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.navbar-item-disabled:hover {
+  color: var(--ifm-navbar-link-color);
+}
+
 /* Navbar Logo */
 .navbar__logo img {
   border-radius: 8px;

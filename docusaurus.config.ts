@@ -100,6 +100,7 @@ const config: Config = {
           to: "/changelog",
           label: "Changelog",
           position: "left",
+          className: "navbar-item-disabled",
         },
         {
           type: "localeDropdown",
