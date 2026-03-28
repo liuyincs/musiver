@@ -2,17 +2,28 @@
   "channel": "beta",
   "updatedAt": "2026-03-18",
   "platforms": {
-    "android": [
-      {
-        "version": "2.0.0-beta.1",
-        "date": "2026-03-18",
-        "downloadUrl": "",
-        "changelogI18nKeys": ["download.release.beta.upcoming.light"]
-      }
-    ],
+    "android": [],
     "ios": [],
     "macos": [],
-    "windows": [],
-    "web": []
+    "windows": [
+      {
+        "version": "2.0.1-beta.1",
+        "date": "2026-03-28",
+        "downloadUrl": "https://www.ilanzou.com/s/0CcIXAlz",
+        "changelogI18nKeys": [
+          "download.release.beta.upcoming.light"
+        ]
+      }
+    ],
+    "web": [
+      {
+        "version": "2.0.1-beta.1",
+        "date": "2026-03-28",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.upcoming.light"
+        ]
+      }
+    ]
   }
 }
