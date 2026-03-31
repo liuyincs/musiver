@@ -1,11 +1,69 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-03-18",
+  "updatedAt": "2026-04-01",
   "platforms": {
-    "android": [],
-    "ios": [],
-    "macos": [],
+    "android": [
+      {
+        "version": "2.0.1-beta.2",
+        "date": "2026-03-31",
+        "downloadUrl": "",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_2.common.emby",
+          "download.release.beta.2_0_1_beta_2.common.privacy",
+          "download.release.beta.2_0_1_beta_2.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_2.common.playlistSidebar",
+          "download.release.beta.2_0_1_beta_2.common.favoriteSync",
+          "download.release.beta.2_0_1_beta_2.common.audiobookSupport"
+        ]
+      }
+    ],
+    "ios": [
+      {
+        "version": "2.0.1-beta.2",
+        "date": "2026-03-31",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_2.common.emby",
+          "download.release.beta.2_0_1_beta_2.common.privacy",
+          "download.release.beta.2_0_1_beta_2.ios.lyricsPresentation",
+          "download.release.beta.2_0_1_beta_2.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_2.common.playlistSidebar",
+          "download.release.beta.2_0_1_beta_2.common.favoriteSync",
+          "download.release.beta.2_0_1_beta_2.common.audiobookSupport"
+        ]
+      }
+    ],
+    "macos": [
+      {
+        "version": "2.0.1-beta.2",
+        "date": "2026-03-31",
+        "downloadUrl": "",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_2.common.emby",
+          "download.release.beta.2_0_1_beta_2.common.privacy",
+          "download.release.beta.2_0_1_beta_2.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_2.common.playlistSidebar",
+          "download.release.beta.2_0_1_beta_2.common.favoriteSync",
+          "download.release.beta.2_0_1_beta_2.common.audiobookSupport"
+        ]
+      }
+    ],
     "windows": [
+      {
+        "version": "2.0.1-beta.2",
+        "date": "2026-03-31",
+        "downloadUrl": "",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_2.common.emby",
+          "download.release.beta.2_0_1_beta_2.common.privacy",
+          "download.release.beta.2_0_1_beta_2.desktop.singleInstance",
+          "download.release.beta.2_0_1_beta_2.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_2.common.playlistSidebar",
+          "download.release.beta.2_0_1_beta_2.common.favoriteSync",
+          "download.release.beta.2_0_1_beta_2.desktop.loopButtonStyle",
+          "download.release.beta.2_0_1_beta_2.common.audiobookSupport"
+        ]
+      },
       {
         "version": "2.0.1-beta.1",
         "date": "2026-03-28",
@@ -16,6 +74,19 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.2",
+        "date": "2026-03-31",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_2.common.emby",
+          "download.release.beta.2_0_1_beta_2.common.privacy",
+          "download.release.beta.2_0_1_beta_2.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_2.common.playlistSidebar",
+          "download.release.beta.2_0_1_beta_2.common.favoriteSync",
+          "download.release.beta.2_0_1_beta_2.common.audiobookSupport"
+        ]
+      },
       {
         "version": "2.0.1-beta.1",
         "date": "2026-03-28",

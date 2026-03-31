@@ -539,6 +539,33 @@
   "download.release.beta.upcoming.light": {
     "message": "A brand-new version, ready to go light!"
   },
+  "download.release.beta.2_0_1_beta_2.common.emby": {
+    "message": "Added support for Emby servers"
+  },
+  "download.release.beta.2_0_1_beta_2.common.privacy": {
+    "message": "Added privacy policy consent dialog for compliance"
+  },
+  "download.release.beta.2_0_1_beta_2.ios.lyricsPresentation": {
+    "message": "Enhanced full-screen lyrics presentation in player"
+  },
+  "download.release.beta.2_0_1_beta_2.desktop.singleInstance": {
+    "message": "Prevent multiple app instances on desktop (single-instance plugin)"
+  },
+  "download.release.beta.2_0_1_beta_2.common.folderBrowsing": {
+    "message": "Added folder browsing feature for compatible servers"
+  },
+  "download.release.beta.2_0_1_beta_2.common.playlistSidebar": {
+    "message": "Enhanced sidebar playlist loading and display"
+  },
+  "download.release.beta.2_0_1_beta_2.common.favoriteSync": {
+    "message": "Improved favorite track state synchronization across views"
+  },
+  "download.release.beta.2_0_1_beta_2.desktop.loopButtonStyle": {
+    "message": "Improved loop/repeat button active state styling"
+  },
+  "download.release.beta.2_0_1_beta_2.common.audiobookSupport": {
+    "message": "Added audiobook library support for Emby servers"
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ Transfer & Playback"
   },

@@ -6,42 +6,24 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
 import stableReleasesData from "../data/releases/stable.json";
 import betaReleasesData from "../data/releases/beta.json";
+import {
+  Platform,
+  ReleaseChannel,
+  VersionInfo,
+  StableRelease,
+  BetaRelease,
+  BetaPlatforms,
+} from "../types/releases";
 import s from "./download.module.css";
 
-type Platform = "android" | "ios" | "macos" | "windows" | "web";
-type ReleaseType = "stable" | "beta";
-
-interface VersionInfo {
-  version: string;
-  date: string;
-  changelogI18nKeys: string[];
-  downloadUrl: string;
-}
+type ReleaseType = ReleaseChannel;
 
 interface Releases {
-  beta: Record<Platform, VersionInfo[]>;
+  beta: BetaPlatforms;
 }
 
-interface StablePlatformInfo {
-  changelogI18nKeys: string[];
-  downloadUrl: string;
-}
-
-interface StableReleaseFile {
-  channel: "stable";
-  updatedAt: string;
-  version: string;
-  platforms: Record<Platform, StablePlatformInfo | null>;
-}
-
-interface BetaReleaseFile {
-  channel: "beta";
-  updatedAt: string;
-  platforms: Record<Platform, VersionInfo[]>;
-}
-
-const stableReleases = stableReleasesData as StableReleaseFile;
-const betaReleases = betaReleasesData as BetaReleaseFile;
+const stableReleases = stableReleasesData as StableRelease;
+const betaReleases = betaReleasesData as BetaRelease;
 
 const releases: Releases = {
   beta: betaReleases.platforms,

@@ -539,6 +539,33 @@
   "download.release.beta.upcoming.light": {
     "message": "全新版本，轻装上阵！"
   },
+  "download.release.beta.2_0_1_beta_2.common.emby": {
+    "message": "新增 Emby 服务器支持"
+  },
+  "download.release.beta.2_0_1_beta_2.common.privacy": {
+    "message": "新增隐私政策同意弹窗，满足合规要求"
+  },
+  "download.release.beta.2_0_1_beta_2.ios.lyricsPresentation": {
+    "message": "优化全屏播放器歌词展示效果"
+  },
+  "download.release.beta.2_0_1_beta_2.desktop.singleInstance": {
+    "message": "桌面端防止重复启动，已启动时自动聚焦"
+  },
+  "download.release.beta.2_0_1_beta_2.common.folderBrowsing": {
+    "message": "新增文件夹浏览功能，兼容支持的服务器"
+  },
+  "download.release.beta.2_0_1_beta_2.common.playlistSidebar": {
+    "message": "增强侧边栏歌单加载与展示"
+  },
+  "download.release.beta.2_0_1_beta_2.common.favoriteSync": {
+    "message": "优化收藏状态跨页面同步"
+  },
+  "download.release.beta.2_0_1_beta_2.desktop.loopButtonStyle": {
+    "message": "优化循环播放按钮激活状态样式"
+  },
+  "download.release.beta.2_0_1_beta_2.common.audiobookSupport": {
+    "message": "Emby 服务器新增有声书资料库支持"
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ 传输与播放"
   },
