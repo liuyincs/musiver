@@ -566,6 +566,54 @@
   "download.release.beta.2_0_1_beta_2.common.audiobookSupport": {
     "message": "Added audiobook library support for Emby servers"
   },
+  "download.release.beta.2_0_1_beta_3.common.serverManagement": {
+    "message": "Refactored server management interface with new server configuration and management features"
+  },
+  "download.release.beta.2_0_1_beta_3.common.playlistPagination": {
+    "message": "Playlist now supports pagination loading with infinite scroll"
+  },
+  "download.release.beta.2_0_1_beta_3.common.playlistEdit": {
+    "message": "Enhanced playlist functionality with edit and delete support"
+  },
+  "download.release.beta.2_0_1_beta_3.common.lyricsTranslation": {
+    "message": "Lyrics display now supports translated text"
+  },
+  "download.release.beta.2_0_1_beta_3.common.fullscreenPlayer": {
+    "message": "Enhanced fullscreen player visual effects"
+  },
+  "download.release.beta.2_0_1_beta_3.ios.accentColor": {
+    "message": "Playback controls now use cover-extracted color as accent"
+  },
+  "download.release.beta.2_0_1_beta_3.ios.keyboardHidePlayer": {
+    "message": "Fixed: Player view now auto-hides when keyboard is visible"
+  },
+  "download.release.beta.2_0_1_beta_3.android.tabletSupport": {
+    "message": "Added tablet device adaptation (sw600dp)"
+  },
+  "download.release.beta.2_0_1_beta_3.android.miniPlayerSimplification": {
+    "message": "Simplified MiniPlayerBar by removing playback control buttons"
+  },
+  "download.release.beta.2_0_1_beta_3.android.playbackMode": {
+    "message": "Artist page now supports shuffle playback mode toggle"
+  },
+  "download.release.beta.2_0_1_beta_3.android.queueLayout": {
+    "message": "Improved playback queue layout"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.splashScreen": {
+    "message": "Added startup loading splash screen"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.songDetailPage": {
+    "message": "New song detail page with comprehensive track information"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.lyricsBlurFix": {
+    "message": "Fixed: Lyrics blur effect no longer gets clipped"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.singleInstance": {
+    "message": "Prevent multiple app instances on desktop (single-instance plugin)"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.loopButtonStyle": {
+    "message": "Improved loop/repeat button active state styling"
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ Transfer & Playback"
   },

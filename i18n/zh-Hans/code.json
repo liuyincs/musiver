@@ -566,6 +566,54 @@
   "download.release.beta.2_0_1_beta_2.common.audiobookSupport": {
     "message": "Emby 服务器新增有声书资料库支持"
   },
+  "download.release.beta.2_0_1_beta_3.common.serverManagement": {
+    "message": "重构服务器管理界面，新增服务器配置与管理功能"
+  },
+  "download.release.beta.2_0_1_beta_3.common.playlistPagination": {
+    "message": "播放列表支持分页加载与无限滚动"
+  },
+  "download.release.beta.2_0_1_beta_3.common.playlistEdit": {
+    "message": "增强播放列表功能，支持编辑与删除"
+  },
+  "download.release.beta.2_0_1_beta_3.common.lyricsTranslation": {
+    "message": "歌词显示支持翻译文本"
+  },
+  "download.release.beta.2_0_1_beta_3.common.fullscreenPlayer": {
+    "message": "优化全屏播放器视觉效果"
+  },
+  "download.release.beta.2_0_1_beta_3.ios.accentColor": {
+    "message": "播放控制强调色采用封面提取色"
+  },
+  "download.release.beta.2_0_1_beta_3.ios.keyboardHidePlayer": {
+    "message": "修复键盘显示时自动隐藏播放器视图的问题"
+  },
+  "download.release.beta.2_0_1_beta_3.android.tabletSupport": {
+    "message": "添加平板设备适配 (sw600dp)"
+  },
+  "download.release.beta.2_0_1_beta_3.android.miniPlayerSimplification": {
+    "message": "简化 MiniPlayerBar，移除播放控制按钮"
+  },
+  "download.release.beta.2_0_1_beta_3.android.playbackMode": {
+    "message": "歌手页面支持随机播放模式切换"
+  },
+  "download.release.beta.2_0_1_beta_3.android.queueLayout": {
+    "message": "优化播放队列布局"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.splashScreen": {
+    "message": "新增启动加载画面"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.songDetailPage": {
+    "message": "新增歌曲详情页，展示完整的曲目信息"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.lyricsBlurFix": {
+    "message": "修复歌词模糊效果被裁剪的问题"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.singleInstance": {
+    "message": "桌面端防止重复启动，已启动时自动聚焦"
+  },
+  "download.release.beta.2_0_1_beta_3.desktop.loopButtonStyle": {
+    "message": "优化循环播放按钮激活状态样式"
+  },
   "pricing.features.transfer.category": {
     "message": "⚡️ 传输与播放"
   },
