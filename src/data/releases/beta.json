@@ -1,8 +1,23 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-04-06",
+  "updatedAt": "2026-04-12",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.4",
+        "date": "2026-04-12",
+        "downloadUrl": "",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_4.common.audioStation",
+          "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
+          "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
+          "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
+          "download.release.beta.2_0_1_beta_4.android.trackSorting",
+          "download.release.beta.2_0_1_beta_4.android.dynamicColor",
+          "download.release.beta.2_0_1_beta_4.android.networkProxy",
+          "download.release.beta.2_0_1_beta_4.android.trackActions"
+        ]
+      },
       {
         "version": "2.0.1-beta.3",
         "date": "2026-04-06",
@@ -34,6 +49,18 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.4",
+        "date": "2026-04-12",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_4.common.audioStation",
+          "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
+          "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
+          "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
+          "download.release.beta.2_0_1_beta_4.ios.lanDiscovery"
+        ]
+      },
+      {
         "version": "2.0.1-beta.3",
         "date": "2026-04-06",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -62,8 +89,42 @@
         ]
       }
     ],
-    "harmony": [],
+    "harmony": [
+      {
+        "version": "2.0.1-beta.4",
+        "date": "2026-04-12",
+        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=a9d1b5ae481b808c21fc58266c70d6f2&invitationCode=5FEMGPbOeMM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_4.common.audioStation",
+          "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
+          "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
+          "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
+          "download.release.beta.2_0_1_beta_4.harmony.networkProxy",
+          "download.release.beta.2_0_1_beta_4.harmony.privacyConsent",
+          "download.release.beta.2_0_1_beta_4.harmony.playlistCreation",
+          "download.release.beta.2_0_1_beta_4.harmony.dailyRecommendation",
+          "download.release.beta.2_0_1_beta_4.harmony.fullscreenPlayer",
+          "download.release.beta.2_0_1_beta_4.harmony.sleepTimer",
+          "download.release.beta.2_0_1_beta_4.harmony.backgroundPlayback",
+          "download.release.beta.2_0_1_beta_4.harmony.imagePreCache"
+        ]
+      }
+    ],
     "macos": [
+      {
+        "version": "2.0.1-beta.4",
+        "date": "2026-04-12",
+        "downloadUrl": "",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_4.common.audioStation",
+          "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
+          "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
+          "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
+          "download.release.beta.2_0_1_beta_4.desktop.asyncProxyTest",
+          "download.release.beta.2_0_1_beta_4.desktop.failedImageCache",
+          "download.release.beta.2_0_1_beta_4.desktop.mediaSession"
+        ]
+      },
       {
         "version": "2.0.1-beta.3",
         "date": "2026-04-06",
@@ -94,6 +155,20 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.4",
+        "date": "2026-04-12",
+        "downloadUrl": "https://www.ilanzou.com/s/b3O6MxNP",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_4.common.audioStation",
+          "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
+          "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
+          "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
+          "download.release.beta.2_0_1_beta_4.desktop.asyncProxyTest",
+          "download.release.beta.2_0_1_beta_4.desktop.failedImageCache",
+          "download.release.beta.2_0_1_beta_4.desktop.mediaSession"
+        ]
+      },
       {
         "version": "2.0.1-beta.3",
         "date": "2026-04-06",
@@ -136,6 +211,19 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.4",
+        "date": "2026-04-12",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_4.common.audioStation",
+          "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
+          "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
+          "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
+          "download.release.beta.2_0_1_beta_4.web.sourceQueue",
+          "download.release.beta.2_0_1_beta_4.web.playbackControl"
+        ]
+      },
       {
         "version": "2.0.1-beta.3",
         "date": "2026-04-06",

@@ -817,5 +817,71 @@
   },
   "changelog.common": {
     "message": "通用更新"
+  },
+  "download.release.beta.2_0_1_beta_4.common.audioStation": {
+    "message": "新增 AudioStation 服务器支持（群晖）"
+  },
+  "download.release.beta.2_0_1_beta_4.common.starredBrowsing": {
+    "message": "新增收藏歌曲浏览功能"
+  },
+  "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters": {
+    "message": "播放队列支持语义筛选（最近播放/最常播放/随机）"
+  },
+  "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch": {
+    "message": "删除活动服务器时自动切换到其他可用服务器"
+  },
+  "download.release.beta.2_0_1_beta_4.android.trackSorting": {
+    "message": "歌曲列表支持排序功能"
+  },
+  "download.release.beta.2_0_1_beta_4.android.dynamicColor": {
+    "message": "新增 Material Kolor 动态配色，根据专辑封面自动配色"
+  },
+  "download.release.beta.2_0_1_beta_4.android.networkProxy": {
+    "message": "新增网络代理设置功能"
+  },
+  "download.release.beta.2_0_1_beta_4.android.trackActions": {
+    "message": "新增 Track 操作菜单（更多选项按钮）"
+  },
+  "download.release.beta.2_0_1_beta_4.ios.lanDiscovery": {
+    "message": "新增基于 HTTP 探测的局域网发现服务，自动检测服务器"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.networkProxy": {
+    "message": "新增网络代理功能"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.privacyConsent": {
+    "message": "新增隐私政策同意流程"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.playlistCreation": {
+    "message": "新增歌单创建功能"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.dailyRecommendation": {
+    "message": "新增每日推荐页面"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.fullscreenPlayer": {
+    "message": "优化全屏播放器，支持歌词内联切换和主题色提取"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.sleepTimer": {
+    "message": "新增睡眠定时器功能"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.backgroundPlayback": {
+    "message": "新增后台播放支持，集成 AVSession 媒体会话"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.imagePreCache": {
+    "message": "新增图片预缓存系统和存储管理"
+  },
+  "download.release.beta.2_0_1_beta_4.desktop.asyncProxyTest": {
+    "message": "代理连接测试重构为异步处理"
+  },
+  "download.release.beta.2_0_1_beta_4.desktop.failedImageCache": {
+    "message": "记忆加载失败的图片，避免重复请求失败的封面地址"
+  },
+  "download.release.beta.2_0_1_beta_4.desktop.mediaSession": {
+    "message": "新增浏览器媒体会话集成（Media Session API）"
+  },
+  "download.release.beta.2_0_1_beta_4.web.sourceQueue": {
+    "message": "实现 source_queue 队列管理功能"
+  },
+  "download.release.beta.2_0_1_beta_4.web.playbackControl": {
+    "message": "事件驱动的播放控制增强"
   }
 }

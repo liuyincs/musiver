@@ -817,5 +817,71 @@
   },
   "changelog.common": {
     "message": "General Updates"
+  },
+  "download.release.beta.2_0_1_beta_4.common.audioStation": {
+    "message": "Added AudioStation server support (Synology)"
+  },
+  "download.release.beta.2_0_1_beta_4.common.starredBrowsing": {
+    "message": "Added favorite tracks browsing feature"
+  },
+  "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters": {
+    "message": "Playback queue supports semantic filtering (Recently Played/Most Played/Random)"
+  },
+  "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch": {
+    "message": "Auto-switch to available server when active server is deleted"
+  },
+  "download.release.beta.2_0_1_beta_4.android.trackSorting": {
+    "message": "Track list now supports sorting"
+  },
+  "download.release.beta.2_0_1_beta_4.android.dynamicColor": {
+    "message": "Added Material Kolor dynamic theming based on album art"
+  },
+  "download.release.beta.2_0_1_beta_4.android.networkProxy": {
+    "message": "Added network proxy settings"
+  },
+  "download.release.beta.2_0_1_beta_4.android.trackActions": {
+    "message": "Added track action menu (more options button)"
+  },
+  "download.release.beta.2_0_1_beta_4.ios.lanDiscovery": {
+    "message": "HTTP-based LAN discovery service for server auto-detection"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.networkProxy": {
+    "message": "Added network proxy functionality"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.privacyConsent": {
+    "message": "Added privacy policy consent flow"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.playlistCreation": {
+    "message": "Added playlist creation feature"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.dailyRecommendation": {
+    "message": "Added daily recommendation page"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.fullscreenPlayer": {
+    "message": "Enhanced fullscreen player with inline lyrics toggle and theme color extraction"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.sleepTimer": {
+    "message": "Added sleep timer functionality"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.backgroundPlayback": {
+    "message": "Added background playback support with AVSession media session"
+  },
+  "download.release.beta.2_0_1_beta_4.harmony.imagePreCache": {
+    "message": "Added image pre-caching system and storage management"
+  },
+  "download.release.beta.2_0_1_beta_4.desktop.asyncProxyTest": {
+    "message": "Refactored proxy connection test to be asynchronous"
+  },
+  "download.release.beta.2_0_1_beta_4.desktop.failedImageCache": {
+    "message": "Cache failed image loads to avoid repeated requests to failed cover URLs"
+  },
+  "download.release.beta.2_0_1_beta_4.desktop.mediaSession": {
+    "message": "Added browser Media Session API integration"
+  },
+  "download.release.beta.2_0_1_beta_4.web.sourceQueue": {
+    "message": "Implemented source queue management for playback control"
+  },
+  "download.release.beta.2_0_1_beta_4.web.playbackControl": {
+    "message": "Event-driven playback control enhancements"
   }
 }
