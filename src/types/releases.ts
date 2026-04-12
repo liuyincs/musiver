@@ -22,11 +22,12 @@
  * 定义了 Musiver 应用支持的所有目标平台：
  * - android: Android 移动设备
  * - ios: iOS 移动设备（iPhone/iPad）
+ * - harmony: HarmonyOS 鸿蒙系统
  * - macos: macOS 桌面系统
  * - windows: Windows 桌面系统
  * - web: Web 浏览器版本
  */
-export type Platform = 'android' | 'ios' | 'macos' | 'windows' | 'web';
+export type Platform = 'android' | 'ios' | 'harmony' | 'macos' | 'windows' | 'web';
 
 /**
  * 发布频道类型

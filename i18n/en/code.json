@@ -419,6 +419,9 @@
   "download.platform.ios": {
     "message": "iOS"
   },
+  "download.platform.harmony": {
+    "message": "HarmonyOS"
+  },
   "download.platform.macos": {
     "message": "macOS"
   },

@@ -11,6 +11,10 @@
       "downloadUrl": "",
       "changelogI18nKeys": ["download.release.stable.upcoming"]
     },
+    "harmony": {
+      "downloadUrl": "",
+      "changelogI18nKeys": ["download.release.stable.upcoming"]
+    },
     "macos": {
       "downloadUrl": "",
       "changelogI18nKeys": ["download.release.stable.upcoming"]
