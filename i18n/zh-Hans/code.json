@@ -883,5 +883,80 @@
   },
   "download.release.beta.2_0_1_beta_4.web.playbackControl": {
     "message": "事件驱动的播放控制增强"
+  },
+  "download.release.beta.2_0_1_beta_5.common.plexSupport": {
+    "message": "新增 Plex 媒体服务器支持"
+  },
+  "download.release.beta.2_0_1_beta_5.common.genreBrowsing": {
+    "message": "新增流派（Genre）浏览功能"
+  },
+  "download.release.beta.2_0_1_beta_5.android.playerBarLyrics": {
+    "message": "播放条支持显示歌词"
+  },
+  "download.release.beta.2_0_1_beta_5.android.lyricsScreenOn": {
+    "message": "歌词视图支持保持屏幕常亮"
+  },
+  "download.release.beta.2_0_1_beta_5.android.genreSupport": {
+    "message": "支持流派（Genre）浏览与导航"
+  },
+  "download.release.beta.2_0_1_beta_5.android.artistListEnhancement": {
+    "message": "艺术家列表支持网格/列表切换、角色过滤和下拉刷新"
+  },
+  "download.release.beta.2_0_1_beta_5.android.artistDetailAllSongs": {
+    "message": "艺术家详情页展示全部歌曲"
+  },
+  "download.release.beta.2_0_1_beta_5.android.queuePanelEdit": {
+    "message": "播放队列面板支持移除和移动队列项"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.genreBrowsing": {
+    "message": "新增流派（Genre）列表与详情浏览"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.lyricsScreenOn": {
+    "message": "新增歌词视图保持屏幕常亮开关"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.plexSupport": {
+    "message": "新增 Plex 服务器支持与 OAuth 认证"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.macOSDeploy": {
+    "message": "macOS 成为一级部署目标，支持沙盒和签名"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.playerBarLyrics": {
+    "message": "播放条支持歌词显示与开关"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.lyricsScreenOn": {
+    "message": "歌词视图支持保持屏幕常亮"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.genreBrowsing": {
+    "message": "支持流派（Genre）浏览与上下文导航"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.radioPlayback": {
+    "message": "新增电台播放能力"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.dailyRecommendationShuffle": {
+    "message": "每日推荐随机播放与发现页卡片播放联动"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.queueSheetRedesign": {
+    "message": "播放队列面板重新设计"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.playerBarLyrics": {
+    "message": "播放条支持显示歌词"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.lyricsScreenOn": {
+    "message": "歌词视图支持保持屏幕常亮"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.startupScreen": {
+    "message": "新增启动加载画面和启动诊断"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.plexSupport": {
+    "message": "支持 Plex 媒体服务器与 OAuth 认证"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.queuePanelDrawer": {
+    "message": "播放队列面板改为抽屉式设计"
+  },
+  "download.release.beta.2_0_1_beta_5.web.plexOAuth": {
+    "message": "支持 Plex OAuth 认证"
+  },
+  "download.release.beta.2_0_1_beta_5.web.multiEndpointAuth": {
+    "message": "服务端点多终点认证回退支持"
   }
 }

@@ -1,8 +1,23 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-04-12",
+  "updatedAt": "2026-04-21",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.5",
+        "date": "2026-04-21",
+        "downloadUrl": "",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_5.common.plexSupport",
+          "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.android.playerBarLyrics",
+          "download.release.beta.2_0_1_beta_5.android.lyricsScreenOn",
+          "download.release.beta.2_0_1_beta_5.android.genreSupport",
+          "download.release.beta.2_0_1_beta_5.android.artistListEnhancement",
+          "download.release.beta.2_0_1_beta_5.android.artistDetailAllSongs",
+          "download.release.beta.2_0_1_beta_5.android.queuePanelEdit"
+        ]
+      },
       {
         "version": "2.0.1-beta.4",
         "date": "2026-04-12",
@@ -49,6 +64,19 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.5",
+        "date": "2026-04-21",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_5.common.plexSupport",
+          "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.ios.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.ios.lyricsScreenOn",
+          "download.release.beta.2_0_1_beta_5.ios.plexSupport",
+          "download.release.beta.2_0_1_beta_5.ios.macOSDeploy"
+        ]
+      },
+      {
         "version": "2.0.1-beta.4",
         "date": "2026-04-12",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -91,6 +119,21 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.5",
+        "date": "2026-04-21",
+        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=0c01cb81536f7ec4c3e1ce9e9a36d2fa&invitationCode=5FEMGPbOeMM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_5.common.plexSupport",
+          "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.harmony.playerBarLyrics",
+          "download.release.beta.2_0_1_beta_5.harmony.lyricsScreenOn",
+          "download.release.beta.2_0_1_beta_5.harmony.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.harmony.radioPlayback",
+          "download.release.beta.2_0_1_beta_5.harmony.dailyRecommendationShuffle",
+          "download.release.beta.2_0_1_beta_5.harmony.queueSheetRedesign"
+        ]
+      },
+      {
         "version": "2.0.1-beta.4",
         "date": "2026-04-12",
         "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=a9d1b5ae481b808c21fc58266c70d6f2&invitationCode=5FEMGPbOeMM",
@@ -111,6 +154,20 @@
       }
     ],
     "macos": [
+      {
+        "version": "2.0.1-beta.5",
+        "date": "2026-04-21",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_5.common.plexSupport",
+          "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.desktop.playerBarLyrics",
+          "download.release.beta.2_0_1_beta_5.desktop.lyricsScreenOn",
+          "download.release.beta.2_0_1_beta_5.desktop.startupScreen",
+          "download.release.beta.2_0_1_beta_5.desktop.plexSupport",
+          "download.release.beta.2_0_1_beta_5.desktop.queuePanelDrawer"
+        ]
+      },
       {
         "version": "2.0.1-beta.4",
         "date": "2026-04-12",
@@ -155,6 +212,20 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.5",
+        "date": "2026-04-21",
+        "downloadUrl": "https://www.ilanzou.com/s/epb6FnsU",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_5.common.plexSupport",
+          "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.desktop.playerBarLyrics",
+          "download.release.beta.2_0_1_beta_5.desktop.lyricsScreenOn",
+          "download.release.beta.2_0_1_beta_5.desktop.startupScreen",
+          "download.release.beta.2_0_1_beta_5.desktop.plexSupport",
+          "download.release.beta.2_0_1_beta_5.desktop.queuePanelDrawer"
+        ]
+      },
       {
         "version": "2.0.1-beta.4",
         "date": "2026-04-12",
@@ -211,6 +282,17 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.5",
+        "date": "2026-04-21",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_5.common.plexSupport",
+          "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.web.plexOAuth",
+          "download.release.beta.2_0_1_beta_5.web.multiEndpointAuth"
+        ]
+      },
       {
         "version": "2.0.1-beta.4",
         "date": "2026-04-12",

@@ -883,5 +883,80 @@
   },
   "download.release.beta.2_0_1_beta_4.web.playbackControl": {
     "message": "Event-driven playback control enhancements"
+  },
+  "download.release.beta.2_0_1_beta_5.common.plexSupport": {
+    "message": "Added Plex media server support"
+  },
+  "download.release.beta.2_0_1_beta_5.common.genreBrowsing": {
+    "message": "Added Genre browsing feature"
+  },
+  "download.release.beta.2_0_1_beta_5.android.playerBarLyrics": {
+    "message": "Player bar now supports lyrics display"
+  },
+  "download.release.beta.2_0_1_beta_5.android.lyricsScreenOn": {
+    "message": "Lyrics view supports keeping screen on"
+  },
+  "download.release.beta.2_0_1_beta_5.android.genreSupport": {
+    "message": "Added Genre browsing and navigation"
+  },
+  "download.release.beta.2_0_1_beta_5.android.artistListEnhancement": {
+    "message": "Artist list supports grid/list toggle, role filtering and pull-to-refresh"
+  },
+  "download.release.beta.2_0_1_beta_5.android.artistDetailAllSongs": {
+    "message": "Artist detail page now shows all songs"
+  },
+  "download.release.beta.2_0_1_beta_5.android.queuePanelEdit": {
+    "message": "Playback queue panel supports removing and moving items"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.genreBrowsing": {
+    "message": "Added Genre list and detail browsing"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.lyricsScreenOn": {
+    "message": "Added lyrics view keep-screen-on toggle"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.plexSupport": {
+    "message": "Added Plex server support with OAuth authentication"
+  },
+  "download.release.beta.2_0_1_beta_5.ios.macOSDeploy": {
+    "message": "macOS is now a first-class deploy target with sandbox and signing"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.playerBarLyrics": {
+    "message": "Player bar supports lyrics display with toggle"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.lyricsScreenOn": {
+    "message": "Lyrics view supports keeping screen on"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.genreBrowsing": {
+    "message": "Added Genre browsing with contextual navigation"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.radioPlayback": {
+    "message": "Added radio playback capability"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.dailyRecommendationShuffle": {
+    "message": "Daily recommendation shuffle play linked with discovery page cards"
+  },
+  "download.release.beta.2_0_1_beta_5.harmony.queueSheetRedesign": {
+    "message": "Redesigned playback queue panel"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.playerBarLyrics": {
+    "message": "Player bar now supports lyrics display"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.lyricsScreenOn": {
+    "message": "Lyrics view supports keeping screen on"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.startupScreen": {
+    "message": "Added startup loading screen and startup diagnostics"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.plexSupport": {
+    "message": "Added Plex media server support with OAuth authentication"
+  },
+  "download.release.beta.2_0_1_beta_5.desktop.queuePanelDrawer": {
+    "message": "Playback queue panel redesigned as drawer"
+  },
+  "download.release.beta.2_0_1_beta_5.web.plexOAuth": {
+    "message": "Added Plex OAuth authentication support"
+  },
+  "download.release.beta.2_0_1_beta_5.web.multiEndpointAuth": {
+    "message": "Added server multi-endpoint authentication fallback"
   }
 }
