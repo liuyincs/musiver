@@ -512,33 +512,6 @@
   "download.release.stable.1_2_0.web.keyboard": {
     "message": "支持键盘导航操作"
   },
-  "download.release.beta.1_3_0_beta_2.android.sync": {
-    "message": "提升同步速度"
-  },
-  "download.release.beta.1_3_0_beta_2.android.ui": {
-    "message": "优化界面细节与动画表现"
-  },
-  "download.release.beta.1_3_0_beta_2.android.translations": {
-    "message": "更新多语言翻译"
-  },
-  "download.release.beta.1_3_0_beta_1.android.lyrics": {
-    "message": "实验功能：歌词同步支持"
-  },
-  "download.release.beta.1_3_0_beta_1.android.equalizer": {
-    "message": "新增均衡器界面"
-  },
-  "download.release.beta.1_3_0_beta_1.android.android14": {
-    "message": "修复 Android 14 相关问题"
-  },
-  "download.release.beta.1_3_0_beta_1.windows.lyrics": {
-    "message": "实验功能：歌词同步支持"
-  },
-  "download.release.beta.1_3_0_beta_1.windows.acceleration": {
-    "message": "新增硬件加速设置"
-  },
-  "download.release.beta.1_3_0_beta_1.windows.startup": {
-    "message": "修复部分用户启动崩溃问题"
-  },
   "download.release.beta.upcoming.light": {
     "message": "全新版本，轻装上阵！"
   },
@@ -958,5 +931,56 @@
   },
   "download.release.beta.2_0_1_beta_5.web.multiEndpointAuth": {
     "message": "服务端点多终点认证回退支持"
+  },
+  "download.release.beta.2_0_1_beta_7.common.folderBrowsing": {
+    "message": "新增全部音乐库文件夹浏览功能"
+  },
+  "download.release.beta.2_0_1_beta_7.common.lyricsMode": {
+    "message": "播放栏歌词切换改为三态模式（关闭/迷你/全屏）"
+  },
+  "download.release.beta.2_0_1_beta_7.android.streamCache": {
+    "message": "新增边听边存流缓存功能，支持离线回放"
+  },
+  "download.release.beta.2_0_1_beta_7.android.audioQuality": {
+    "message": "新增在线音质设置，支持按网络类型选择音质和转码格式"
+  },
+  "download.release.beta.2_0_1_beta_7.android.splashScreen": {
+    "message": "集成 Android 12+ SplashScreen API，优化启动体验"
+  },
+  "download.release.beta.2_0_1_beta_7.android.settings": {
+    "message": "改进设置页面功能和用户体验"
+  },
+  "download.release.beta.2_0_1_beta_7.ios.streamCache": {
+    "message": "新增边听边存流缓存功能，支持离线回放"
+  },
+  "download.release.beta.2_0_1_beta_7.ios.launchScreen": {
+    "message": "新增渐变背景动画启动画面"
+  },
+  "download.release.beta.2_0_1_beta_7.ios.playerAnimation": {
+    "message": "重构播放器展开/收起动画，支持 iOS 18+ Zoom 转场"
+  },
+  "download.release.beta.2_0_1_beta_7.harmony.streamCache": {
+    "message": "新增边听边存流缓存功能，支持离线回放"
+  },
+  "download.release.beta.2_0_1_beta_7.harmony.audioQuality": {
+    "message": "新增在线音质设置，支持按网络类型选择音质和转码格式"
+  },
+  "download.release.beta.2_0_1_beta_7.harmony.splashScreen": {
+    "message": "新增品牌启动画面，适配启动窗口配置"
+  },
+  "download.release.beta.2_0_1_beta_7.desktop.streamCache": {
+    "message": "新增边听边存流缓存功能，支持代理服务器和设置集成"
+  },
+  "download.release.beta.2_0_1_beta_7.desktop.seekClick": {
+    "message": "进度条支持点击跳转，交互模式可配置"
+  },
+  "download.release.beta.2_0_1_beta_7.desktop.addToPlaylist": {
+    "message": "播放栏新增更多操作菜单，支持添加到歌单和页面导航"
+  },
+  "download.release.beta.2_0_1_beta_7.web.streamCache": {
+    "message": "新增边听边存流缓存功能"
+  },
+  "download.release.beta.2_0_1_beta_7.web.seekClick": {
+    "message": "进度条支持点击跳转"
   }
 }

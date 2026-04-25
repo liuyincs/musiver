@@ -1,8 +1,21 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-04-21",
+  "updatedAt": "2026-04-25",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.7",
+        "date": "2026-04-25",
+        "downloadUrl": "https://wwapa.lanzouq.com/b00jf8hdyd",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_7.common.lyricsMode",
+          "download.release.beta.2_0_1_beta_7.android.streamCache",
+          "download.release.beta.2_0_1_beta_7.android.audioQuality",
+          "download.release.beta.2_0_1_beta_7.android.splashScreen",
+          "download.release.beta.2_0_1_beta_7.android.settings"
+        ]
+      },
       {
         "version": "2.0.1-beta.5",
         "date": "2026-04-21",
@@ -64,6 +77,18 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.7",
+        "date": "2026-04-25",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_7.common.lyricsMode",
+          "download.release.beta.2_0_1_beta_7.ios.streamCache",
+          "download.release.beta.2_0_1_beta_7.ios.launchScreen",
+          "download.release.beta.2_0_1_beta_7.ios.playerAnimation"
+        ]
+      },
+      {
         "version": "2.0.1-beta.5",
         "date": "2026-04-21",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -119,6 +144,18 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.7",
+        "date": "2026-04-25",
+        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=7012f1b2f86f029a78bdb58b7beee066",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_7.common.lyricsMode",
+          "download.release.beta.2_0_1_beta_7.harmony.streamCache",
+          "download.release.beta.2_0_1_beta_7.harmony.audioQuality",
+          "download.release.beta.2_0_1_beta_7.harmony.splashScreen"
+        ]
+      },
+      {
         "version": "2.0.1-beta.5",
         "date": "2026-04-21",
         "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=0c01cb81536f7ec4c3e1ce9e9a36d2fa&invitationCode=5FEMGPbOeMM",
@@ -154,6 +191,18 @@
       }
     ],
     "macos": [
+      {
+        "version": "2.0.1-beta.7",
+        "date": "2026-04-25",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_7.common.lyricsMode",
+          "download.release.beta.2_0_1_beta_7.desktop.streamCache",
+          "download.release.beta.2_0_1_beta_7.desktop.seekClick",
+          "download.release.beta.2_0_1_beta_7.desktop.addToPlaylist"
+        ]
+      },
       {
         "version": "2.0.1-beta.5",
         "date": "2026-04-21",
@@ -212,6 +261,18 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.7",
+        "date": "2026-04-25",
+        "downloadUrl": "https://www.ilanzou.com/s/uqd6Qupy",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_7.common.lyricsMode",
+          "download.release.beta.2_0_1_beta_7.desktop.streamCache",
+          "download.release.beta.2_0_1_beta_7.desktop.seekClick",
+          "download.release.beta.2_0_1_beta_7.desktop.addToPlaylist"
+        ]
+      },
       {
         "version": "2.0.1-beta.5",
         "date": "2026-04-21",
@@ -282,6 +343,17 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.7",
+        "date": "2026-04-25",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
+          "download.release.beta.2_0_1_beta_7.common.lyricsMode",
+          "download.release.beta.2_0_1_beta_7.web.streamCache",
+          "download.release.beta.2_0_1_beta_7.web.seekClick"
+        ]
+      },
       {
         "version": "2.0.1-beta.5",
         "date": "2026-04-21",

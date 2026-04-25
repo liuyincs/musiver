@@ -512,33 +512,6 @@
   "download.release.stable.1_2_0.web.keyboard": {
     "message": "Keyboard navigation support"
   },
-  "download.release.beta.1_3_0_beta_2.android.sync": {
-    "message": "Improved syncing speed"
-  },
-  "download.release.beta.1_3_0_beta_2.android.ui": {
-    "message": "UI polish and animation fixes"
-  },
-  "download.release.beta.1_3_0_beta_2.android.translations": {
-    "message": "Updated translations"
-  },
-  "download.release.beta.1_3_0_beta_1.android.lyrics": {
-    "message": "Experimental: Lyrics syncing support"
-  },
-  "download.release.beta.1_3_0_beta_1.android.equalizer": {
-    "message": "New equalizer interface"
-  },
-  "download.release.beta.1_3_0_beta_1.android.android14": {
-    "message": "Bug fixes for Android 14"
-  },
-  "download.release.beta.1_3_0_beta_1.windows.lyrics": {
-    "message": "Experimental: Lyrics syncing support"
-  },
-  "download.release.beta.1_3_0_beta_1.windows.acceleration": {
-    "message": "Hardware acceleration settings"
-  },
-  "download.release.beta.1_3_0_beta_1.windows.startup": {
-    "message": "Fixed crash on startup for some users"
-  },
   "download.release.beta.upcoming.light": {
     "message": "A brand-new version, ready to go light!"
   },
@@ -958,5 +931,56 @@
   },
   "download.release.beta.2_0_1_beta_5.web.multiEndpointAuth": {
     "message": "Added server multi-endpoint authentication fallback"
+  },
+  "download.release.beta.2_0_1_beta_7.common.folderBrowsing": {
+    "message": "Added full music library folder browsing feature"
+  },
+  "download.release.beta.2_0_1_beta_7.common.lyricsMode": {
+    "message": "Player bar lyrics toggle replaced with three-state mode (Off/Mini/Fullscreen)"
+  },
+  "download.release.beta.2_0_1_beta_7.android.streamCache": {
+    "message": "Added stream caching while listening, supports offline playback"
+  },
+  "download.release.beta.2_0_1_beta_7.android.audioQuality": {
+    "message": "Added online audio quality settings with per-network quality and transcode format selection"
+  },
+  "download.release.beta.2_0_1_beta_7.android.splashScreen": {
+    "message": "Integrated Android 12+ SplashScreen API for improved startup experience"
+  },
+  "download.release.beta.2_0_1_beta_7.android.settings": {
+    "message": "Improved settings page functionality and user experience"
+  },
+  "download.release.beta.2_0_1_beta_7.ios.streamCache": {
+    "message": "Added stream caching while listening, supports offline playback"
+  },
+  "download.release.beta.2_0_1_beta_7.ios.launchScreen": {
+    "message": "Added animated gradient background launch screen"
+  },
+  "download.release.beta.2_0_1_beta_7.ios.playerAnimation": {
+    "message": "Refactored player expand/collapse animation with iOS 18+ Zoom transition support"
+  },
+  "download.release.beta.2_0_1_beta_7.harmony.streamCache": {
+    "message": "Added stream caching while listening, supports offline playback"
+  },
+  "download.release.beta.2_0_1_beta_7.harmony.audioQuality": {
+    "message": "Added online audio quality settings with per-network quality and transcode format selection"
+  },
+  "download.release.beta.2_0_1_beta_7.harmony.splashScreen": {
+    "message": "Added branded splash screen with start window profile"
+  },
+  "download.release.beta.2_0_1_beta_7.desktop.streamCache": {
+    "message": "Added stream caching while listening with proxy server and settings integration"
+  },
+  "download.release.beta.2_0_1_beta_7.desktop.seekClick": {
+    "message": "Progress bar now supports click-to-seek with configurable interaction mode"
+  },
+  "download.release.beta.2_0_1_beta_7.desktop.addToPlaylist": {
+    "message": "Player bar adds more actions menu supporting add-to-playlist and page navigation"
+  },
+  "download.release.beta.2_0_1_beta_7.web.streamCache": {
+    "message": "Added stream caching while listening"
+  },
+  "download.release.beta.2_0_1_beta_7.web.seekClick": {
+    "message": "Progress bar now supports click-to-seek"
   }
 }
