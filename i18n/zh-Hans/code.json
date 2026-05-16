@@ -982,5 +982,128 @@
   },
   "download.release.beta.2_0_1_beta_7.web.seekClick": {
     "message": "进度条支持点击跳转"
+  },
+  "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup": {
+    "message": "新增启动自动播放功能（设置中可开启，默认关闭）"
+  },
+  "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope": {
+    "message": "每日推荐支持按资料库作用域独立配置"
+  },
+  "download.release.beta.2_0_1_beta_8.common.recentlyAdded": {
+    "message": "资料库浏览新增「最近添加」语义筛选"
+  },
+  "download.release.beta.2_0_1_beta_8.common.playbackReporting": {
+    "message": "播放记录实时上报（scrobble）至服务器"
+  },
+  "download.release.beta.2_0_1_beta_8.common.embeddedLyrics": {
+    "message": "支持读取歌曲内嵌歌词，自动清洗服务器噪音前缀"
+  },
+  "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff": {
+    "message": "边听边存默认改为关闭，可从设置中重新开启"
+  },
+  "download.release.beta.2_0_1_beta_8.common.autoDownloadRules": {
+    "message": "新增自动下载规则管理"
+  },
+  "download.release.beta.2_0_1_beta_8.android.playerEngine": {
+    "message": "播放引擎重构，从 VLC 迁移至 Media3 ExoPlayer + FFmpeg 解码"
+  },
+  "download.release.beta.2_0_1_beta_8.android.playbackPreparation": {
+    "message": "播放准备阶段展示来源队列拉取进度"
+  },
+  "download.release.beta.2_0_1_beta_8.android.bottomPadding": {
+    "message": "迷你播放器底部全局留白，防止遮挡列表内容"
+  },
+  "download.release.beta.2_0_1_beta_8.android.offlineList": {
+    "message": "离线列表改为封面+行布局，支持顺序/随机播放"
+  },
+  "download.release.beta.2_0_1_beta_8.android.streamCacheEnhancement": {
+    "message": "流缓存后台补全，自动聚合到离线内容"
+  },
+  "download.release.beta.2_0_1_beta_8.android.hideGenreMultiLibrary": {
+    "message": "多资料库时自动隐藏流派入口"
+  },
+  "download.release.beta.2_0_1_beta_8.android.locateCurrentSong": {
+    "message": "歌曲列表支持定位当前播放歌曲，新增频谱播放指示器"
+  },
+  "download.release.beta.2_0_1_beta_8.android.tabletLayout": {
+    "message": "平板端 Home 页与播放器适配宽屏布局"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.playerEngine": {
+    "message": "播放引擎重构，从 VLCKit 迁移至 Apple Native Playback + FFmpeg 解码"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.playbackPreparation": {
+    "message": "新增来源队列拉取进度展示"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.autoDownload": {
+    "message": "自动下载规则设置页"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.streamCacheMeta": {
+    "message": "流缓存增强，支持尾段预取与离线列表集成"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.playlistPicker": {
+    "message": "全屏播放器新增歌单选择器与导航菜单"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.plexBranding": {
+    "message": "Plex 认证流程 UI 重构，统一品牌视觉"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.systemPlaylist": {
+    "message": "系统歌单显示本地化名称并禁止编辑"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.locateCurrentSong": {
+    "message": "歌曲列表支持定位当前播放歌曲"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.playbackPreparation": {
+    "message": "新增来源队列拉取进度展示"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.autoPlayOnStartup": {
+    "message": "启动自动播放支持倒计时提示 UI"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.eventDrivenSettings": {
+    "message": "事件驱动设置管理"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.hideGenreMultiLibrary": {
+    "message": "多资料库时自动隐藏流派入口"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.plexOAuth": {
+    "message": "Plex OAuth 授权流程 UI 重构，与三端统一"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.playerEngine": {
+    "message": "播放引擎重构，从 VLC 迁移至 MPV"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.autoPlayOnStartup": {
+    "message": "启动自动播放支持倒计时提示 UI 及设置开关"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.smtc": {
+    "message": "SMTC 媒体会话绑定窗口，修复播放状态与封面显示"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.autoDownload": {
+    "message": "自动下载规则管理"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.offlineCacheUI": {
+    "message": "下载页展示边听边存离线条目，UI 重构"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.scrollToCurrent": {
+    "message": "新增滚动到当前歌曲按钮，歌曲行高亮当前播放"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.fullscreenNav": {
+    "message": "全屏播放器导航时自动关闭全屏"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.urlPaste": {
+    "message": "服务器 URL 支持粘贴完整地址自动拆分"
+  },
+  "download.release.beta.2_0_1_beta_8.macos.playerOverlay": {
+    "message": "macOS 播放器改为 overlay 覆盖窗口，固定侧边栏宽度"
+  },
+  "download.release.beta.2_0_1_beta_8.macos.fullscreenToolbar": {
+    "message": "macOS 全屏播放页新增工具栏联动与过渡动画"
+  },
+  "download.release.beta.2_0_1_beta_8.macos.liquidGlass": {
+    "message": "macOS 播放条与迷你播放器适配 Liquid Glass 效果"
+  },
+  "download.release.beta.2_0_1_beta_8.windows.acrylicWindows11": {
+    "message": "亚克力模糊效果仅限 Windows 11+ 启用"
+  },
+  "download.release.beta.2_0_1_beta_8.web.dailyRecommendation": {
+    "message": "每日推荐优化"
   }
 }

@@ -982,5 +982,128 @@
   },
   "download.release.beta.2_0_1_beta_7.web.seekClick": {
     "message": "Progress bar now supports click-to-seek"
+  },
+  "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup": {
+    "message": "Added auto-play on startup (disabled by default, toggle in Settings)"
+  },
+  "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope": {
+    "message": "Daily recommendations now support per-library scope configuration"
+  },
+  "download.release.beta.2_0_1_beta_8.common.recentlyAdded": {
+    "message": "Added \"Recently Added\" semantic filter to library browsing"
+  },
+  "download.release.beta.2_0_1_beta_8.common.playbackReporting": {
+    "message": "Playback records are now reported to the server in real-time (scrobble)"
+  },
+  "download.release.beta.2_0_1_beta_8.common.embeddedLyrics": {
+    "message": "Support reading embedded lyrics from tracks, with automatic cleanup of server noise prefixes"
+  },
+  "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff": {
+    "message": "Stream caching is now disabled by default, can be re-enabled in Settings"
+  },
+  "download.release.beta.2_0_1_beta_8.common.autoDownloadRules": {
+    "message": "Added auto-download rule management"
+  },
+  "download.release.beta.2_0_1_beta_8.android.playerEngine": {
+    "message": "Playback engine refactored from VLC to Media3 ExoPlayer + FFmpeg decoding"
+  },
+  "download.release.beta.2_0_1_beta_8.android.playbackPreparation": {
+    "message": "Playback preparation now shows source queue fetching progress"
+  },
+  "download.release.beta.2_0_1_beta_8.android.bottomPadding": {
+    "message": "Global bottom content padding to prevent mini player from obstructing list content"
+  },
+  "download.release.beta.2_0_1_beta_8.android.offlineList": {
+    "message": "Offline list redesigned with cover + row layout, supports sequential/shuffle playback"
+  },
+  "download.release.beta.2_0_1_beta_8.android.streamCacheEnhancement": {
+    "message": "Stream cache background completion, auto-aggregated into offline content"
+  },
+  "download.release.beta.2_0_1_beta_8.android.hideGenreMultiLibrary": {
+    "message": "Genre entry is automatically hidden when multiple libraries are configured"
+  },
+  "download.release.beta.2_0_1_beta_8.android.locateCurrentSong": {
+    "message": "Track list supports jumping to currently playing song, with spectrum play indicator"
+  },
+  "download.release.beta.2_0_1_beta_8.android.tabletLayout": {
+    "message": "Tablet Home page and player adapted for wide-screen layout"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.playerEngine": {
+    "message": "Playback engine refactored from VLCKit to Apple Native Playback + FFmpeg decoding"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.playbackPreparation": {
+    "message": "Added source queue fetching progress display"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.autoDownload": {
+    "message": "Auto-download rule settings page"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.streamCacheMeta": {
+    "message": "Stream cache enhanced with tail pre-fetch and offline list integration"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.playlistPicker": {
+    "message": "Fullscreen player adds playlist picker and navigation menu"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.plexBranding": {
+    "message": "Plex authentication flow UI redesigned with unified brand visual"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.systemPlaylist": {
+    "message": "System playlists now display localized names and are non-editable"
+  },
+  "download.release.beta.2_0_1_beta_8.ios.locateCurrentSong": {
+    "message": "Track list supports jumping to currently playing song"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.playbackPreparation": {
+    "message": "Added source queue fetching progress display"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.autoPlayOnStartup": {
+    "message": "Auto-play on startup supports countdown prompt UI"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.eventDrivenSettings": {
+    "message": "Event-driven settings management"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.hideGenreMultiLibrary": {
+    "message": "Genre entry is automatically hidden when multiple libraries are configured"
+  },
+  "download.release.beta.2_0_1_beta_8.harmony.plexOAuth": {
+    "message": "Plex OAuth authorization flow UI redesigned, unified across three clients"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.playerEngine": {
+    "message": "Playback engine refactored from VLC to MPV"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.autoPlayOnStartup": {
+    "message": "Auto-play on startup supports countdown prompt UI and settings toggle"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.smtc": {
+    "message": "SMTC media session bound to window, fixed playback state and cover art display"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.autoDownload": {
+    "message": "Auto-download rule management"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.offlineCacheUI": {
+    "message": "Download page shows stream-cached offline items, UI refactored"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.scrollToCurrent": {
+    "message": "Added scroll-to-current-song button, SongRow highlights currently playing track"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.fullscreenNav": {
+    "message": "Fullscreen player automatically exits fullscreen on navigation"
+  },
+  "download.release.beta.2_0_1_beta_8.desktop.urlPaste": {
+    "message": "Server URL supports pasting full address for automatic splitting"
+  },
+  "download.release.beta.2_0_1_beta_8.macos.playerOverlay": {
+    "message": "macOS player changed to overlay window with fixed sidebar width"
+  },
+  "download.release.beta.2_0_1_beta_8.macos.fullscreenToolbar": {
+    "message": "macOS fullscreen player adds toolbar linkage and threshold transition animation"
+  },
+  "download.release.beta.2_0_1_beta_8.macos.liquidGlass": {
+    "message": "macOS player bar and mini player adapted with Liquid Glass effects"
+  },
+  "download.release.beta.2_0_1_beta_8.windows.acrylicWindows11": {
+    "message": "Acrylic blur effect is now limited to Windows 11+"
+  },
+  "download.release.beta.2_0_1_beta_8.web.dailyRecommendation": {
+    "message": "Daily recommendations optimized"
   }
 }

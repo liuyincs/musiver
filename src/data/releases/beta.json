@@ -1,8 +1,30 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-04-25",
+  "updatedAt": "2026-05-16",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.8",
+        "date": "2026-05-16",
+        "downloadUrl": "https://wwapa.lanzouq.com/b00jfa8fuj",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
+          "download.release.beta.2_0_1_beta_8.common.recentlyAdded",
+          "download.release.beta.2_0_1_beta_8.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
+          "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
+          "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
+          "download.release.beta.2_0_1_beta_8.android.playerEngine",
+          "download.release.beta.2_0_1_beta_8.android.playbackPreparation",
+          "download.release.beta.2_0_1_beta_8.android.bottomPadding",
+          "download.release.beta.2_0_1_beta_8.android.offlineList",
+          "download.release.beta.2_0_1_beta_8.android.streamCacheEnhancement",
+          "download.release.beta.2_0_1_beta_8.android.hideGenreMultiLibrary",
+          "download.release.beta.2_0_1_beta_8.android.locateCurrentSong",
+          "download.release.beta.2_0_1_beta_8.android.tabletLayout"
+        ]
+      },
       {
         "version": "2.0.1-beta.7",
         "date": "2026-04-25",
@@ -77,6 +99,28 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.8",
+        "date": "2026-05-16",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
+          "download.release.beta.2_0_1_beta_8.common.recentlyAdded",
+          "download.release.beta.2_0_1_beta_8.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
+          "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
+          "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
+          "download.release.beta.2_0_1_beta_8.ios.playerEngine",
+          "download.release.beta.2_0_1_beta_8.ios.playbackPreparation",
+          "download.release.beta.2_0_1_beta_8.ios.autoDownload",
+          "download.release.beta.2_0_1_beta_8.ios.streamCacheMeta",
+          "download.release.beta.2_0_1_beta_8.ios.playlistPicker",
+          "download.release.beta.2_0_1_beta_8.ios.plexBranding",
+          "download.release.beta.2_0_1_beta_8.ios.systemPlaylist",
+          "download.release.beta.2_0_1_beta_8.ios.locateCurrentSong"
+        ]
+      },
+      {
         "version": "2.0.1-beta.7",
         "date": "2026-04-25",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -144,6 +188,25 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.8",
+        "date": "2026-05-16",
+        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=ed1bfb688fc612f1220abc381e401089",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
+          "download.release.beta.2_0_1_beta_8.common.recentlyAdded",
+          "download.release.beta.2_0_1_beta_8.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
+          "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
+          "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
+          "download.release.beta.2_0_1_beta_8.harmony.playbackPreparation",
+          "download.release.beta.2_0_1_beta_8.harmony.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.harmony.eventDrivenSettings",
+          "download.release.beta.2_0_1_beta_8.harmony.hideGenreMultiLibrary",
+          "download.release.beta.2_0_1_beta_8.harmony.plexOAuth"
+        ]
+      },
+      {
         "version": "2.0.1-beta.7",
         "date": "2026-04-25",
         "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=7012f1b2f86f029a78bdb58b7beee066",
@@ -191,6 +254,31 @@
       }
     ],
     "macos": [
+      {
+        "version": "2.0.1-beta.8",
+        "date": "2026-05-16",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
+          "download.release.beta.2_0_1_beta_8.common.recentlyAdded",
+          "download.release.beta.2_0_1_beta_8.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
+          "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
+          "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
+          "download.release.beta.2_0_1_beta_8.desktop.playerEngine",
+          "download.release.beta.2_0_1_beta_8.desktop.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.desktop.smtc",
+          "download.release.beta.2_0_1_beta_8.desktop.autoDownload",
+          "download.release.beta.2_0_1_beta_8.desktop.offlineCacheUI",
+          "download.release.beta.2_0_1_beta_8.desktop.scrollToCurrent",
+          "download.release.beta.2_0_1_beta_8.desktop.fullscreenNav",
+          "download.release.beta.2_0_1_beta_8.desktop.urlPaste",
+          "download.release.beta.2_0_1_beta_8.macos.playerOverlay",
+          "download.release.beta.2_0_1_beta_8.macos.fullscreenToolbar",
+          "download.release.beta.2_0_1_beta_8.macos.liquidGlass"
+        ]
+      },
       {
         "version": "2.0.1-beta.7",
         "date": "2026-04-25",
@@ -261,6 +349,29 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.8",
+        "date": "2026-05-16",
+        "downloadUrl": "https://www.ilanzou.com/s/8qPW7vG5",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
+          "download.release.beta.2_0_1_beta_8.common.recentlyAdded",
+          "download.release.beta.2_0_1_beta_8.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
+          "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
+          "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
+          "download.release.beta.2_0_1_beta_8.desktop.playerEngine",
+          "download.release.beta.2_0_1_beta_8.desktop.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.desktop.smtc",
+          "download.release.beta.2_0_1_beta_8.desktop.autoDownload",
+          "download.release.beta.2_0_1_beta_8.desktop.offlineCacheUI",
+          "download.release.beta.2_0_1_beta_8.desktop.scrollToCurrent",
+          "download.release.beta.2_0_1_beta_8.desktop.fullscreenNav",
+          "download.release.beta.2_0_1_beta_8.desktop.urlPaste",
+          "download.release.beta.2_0_1_beta_8.windows.acrylicWindows11"
+        ]
+      },
       {
         "version": "2.0.1-beta.7",
         "date": "2026-04-25",
@@ -343,6 +454,21 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.8",
+        "date": "2026-05-16",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
+          "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
+          "download.release.beta.2_0_1_beta_8.common.recentlyAdded",
+          "download.release.beta.2_0_1_beta_8.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
+          "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
+          "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
+          "download.release.beta.2_0_1_beta_8.web.dailyRecommendation"
+        ]
+      },
       {
         "version": "2.0.1-beta.7",
         "date": "2026-04-25",
