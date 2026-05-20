@@ -1105,5 +1105,104 @@
   },
   "download.release.beta.2_0_1_beta_8.web.dailyRecommendation": {
     "message": "Daily recommendations optimized"
+  },
+  "download.release.beta.2_0_1_beta_9.common.discoverAsHome": {
+    "message": "Discover page can be set as the home page"
+  },
+  "download.release.beta.2_0_1_beta_9.common.serverManagementGuide": {
+    "message": "Distinguish first-time server setup from daily management with clearer entry points"
+  },
+  "download.release.beta.2_0_1_beta_9.common.customApi": {
+    "message": "Custom lyrics/cover API settings"
+  },
+  "download.release.beta.2_0_1_beta_9.common.playbackResume": {
+    "message": "Improved playback position and queue restoration on cold start"
+  },
+  "download.release.beta.2_0_1_beta_9.android.notificationLyrics": {
+    "message": "Notification bar displays current lyrics line"
+  },
+  "download.release.beta.2_0_1_beta_9.android.mixWithOthers": {
+    "message": "Added mix-with-other-apps playback setting"
+  },
+  "download.release.beta.2_0_1_beta_9.android.plexOAuthRetry": {
+    "message": "Plex OAuth polling adds timeout retry and page recovery"
+  },
+  "download.release.beta.2_0_1_beta_9.android.serverManagementFromAvatar": {
+    "message": "Server management accessible from avatar menu"
+  },
+  "download.release.beta.2_0_1_beta_9.android.doubleTapBackExit": {
+    "message": "Double-tap back on main screen exits to home screen"
+  },
+  "download.release.beta.2_0_1_beta_9.android.mediaNotificationRefresh": {
+    "message": "Media notification uses app icon and vector media buttons"
+  },
+  "download.release.beta.2_0_1_beta_9.android.themeColorPalettes": {
+    "message": "Deep Sea Blue and Stream Green themes use full Material 3 color palettes"
+  },
+  "download.release.beta.2_0_1_beta_9.android.dailyRecommendationCovers": {
+    "message": "Daily recommendation header and track actions show real album covers"
+  },
+  "download.release.beta.2_0_1_beta_9.android.playingPagePerformance": {
+    "message": "Improved performance for track switching and cover color extraction on Now Playing page"
+  },
+  "download.release.beta.2_0_1_beta_9.android.lyricsDragInteraction": {
+    "message": "Refined lyrics drag interaction"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.mixWithOthers": {
+    "message": "Added mix-with-other-apps playback setting"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.infoPlistLocalization": {
+    "message": "InfoPlist localization for app name and permission descriptions"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.playerNavToArtistAlbum": {
+    "message": "Player song info supports navigation to artist/album detail pages"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.notificationLyrics": {
+    "message": "Now Playing and notification bar display current lyrics line with offset settings"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.localNetworkPreCheck": {
+    "message": "Local network permission pre-check for server discovery"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.lyricsSyncFix": {
+    "message": "Fixed lyrics sync for non-continuous index in player bar and notification"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.fullscreenTransitionFix": {
+    "message": "Fixed interactive dismiss for fullscreen player zoom transition"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.notificationLyrics": {
+    "message": "Notification bar lyrics display and lyrics settings page"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.coldStartResume": {
+    "message": "Cold start resume playback with queue position restoration"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.localizedAppName": {
+    "message": "Localized app name, displays as 音流 in Chinese"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.lyricsScrollPreview": {
+    "message": "Manual lyrics scroll only previews highlight, auto-follow resumes after delay"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.serverSwitchReset": {
+    "message": "Switching server/library resets playback context and refreshes related UI"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.notificationLyrics": {
+    "message": "System media controls display current lyrics line"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.seamlessPlayback": {
+    "message": "Added seamless playback toggle for smoother track transitions"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.welcomePageMobile": {
+    "message": "Optimized welcome page layout for narrow screens"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.serverCardStyle": {
+    "message": "Unified card styling for server-related pages"
+  },
+  "download.release.beta.2_0_1_beta_9.macos.playerEnhancements": {
+    "message": "macOS player interaction enhancements and playlist picker refactor"
+  },
+  "download.release.beta.2_0_1_beta_9.macos.secureRestore": {
+    "message": "macOS 13+ declares support for secure window state restoration"
+  },
+  "download.release.beta.2_0_1_beta_9.web.compactLayout": {
+    "message": "Compact layout for narrow screens with sidebar drawer"
   }
 }

@@ -1105,5 +1105,104 @@
   },
   "download.release.beta.2_0_1_beta_8.web.dailyRecommendation": {
     "message": "每日推荐优化"
+  },
+  "download.release.beta.2_0_1_beta_9.common.discoverAsHome": {
+    "message": "可将发现页设为首页，启动时直接进入发现页"
+  },
+  "download.release.beta.2_0_1_beta_9.common.serverManagementGuide": {
+    "message": "区分服务器首次配置与日常管理，优化相关入口"
+  },
+  "download.release.beta.2_0_1_beta_9.common.customApi": {
+    "message": "支持自定义歌词/封面 API"
+  },
+  "download.release.beta.2_0_1_beta_9.common.playbackResume": {
+    "message": "播放队列位置恢复，冷启动续播更可靠"
+  },
+  "download.release.beta.2_0_1_beta_9.android.notificationLyrics": {
+    "message": "通知栏媒体控件显示当前歌词行"
+  },
+  "download.release.beta.2_0_1_beta_9.android.mixWithOthers": {
+    "message": "新增与其他应用同时播放开关"
+  },
+  "download.release.beta.2_0_1_beta_9.android.plexOAuthRetry": {
+    "message": "Plex OAuth 授权增加超时重试与页面恢复机制"
+  },
+  "download.release.beta.2_0_1_beta_9.android.serverManagementFromAvatar": {
+    "message": "从头像菜单进入服务器管理"
+  },
+  "download.release.beta.2_0_1_beta_9.android.doubleTapBackExit": {
+    "message": "主界面双击返回键退至桌面"
+  },
+  "download.release.beta.2_0_1_beta_9.android.mediaNotificationRefresh": {
+    "message": "媒体通知使用应用图标与矢量媒体按钮"
+  },
+  "download.release.beta.2_0_1_beta_9.android.themeColorPalettes": {
+    "message": "Deep Sea Blue 与 Stream Green 主题采用 Material 3 完整色板"
+  },
+  "download.release.beta.2_0_1_beta_9.android.dailyRecommendationCovers": {
+    "message": "每日推荐头部与曲目操作页展示真实封面"
+  },
+  "download.release.beta.2_0_1_beta_9.android.playingPagePerformance": {
+    "message": "正在播放页切歌与封面取色性能优化"
+  },
+  "download.release.beta.2_0_1_beta_9.android.lyricsDragInteraction": {
+    "message": "歌词拖拽交互优化"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.mixWithOthers": {
+    "message": "新增与其他应用同时播放开关"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.infoPlistLocalization": {
+    "message": "InfoPlist 本地化，应用名与权限描述支持多语言"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.playerNavToArtistAlbum": {
+    "message": "播放器歌曲信息支持跳转艺术家/专辑详情页"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.notificationLyrics": {
+    "message": "Now Playing 与通知栏显示当前歌词行"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.localNetworkPreCheck": {
+    "message": "本地网络权限预检，优化局域网服务器发现"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.lyricsSyncFix": {
+    "message": "非连续歌词索引时播放条与通知栏正确命中当前行"
+  },
+  "download.release.beta.2_0_1_beta_9.ios.fullscreenTransitionFix": {
+    "message": "全屏播放页 zoom 转场交互修复"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.notificationLyrics": {
+    "message": "通知栏歌词显示与歌词设置页"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.coldStartResume": {
+    "message": "冷启动续播与队列位置恢复"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.localizedAppName": {
+    "message": "应用名称本地化，中文显示「音流」"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.lyricsScrollPreview": {
+    "message": "歌词手动滚动仅预览高亮，延迟恢复自动跟随"
+  },
+  "download.release.beta.2_0_1_beta_9.harmony.serverSwitchReset": {
+    "message": "切换服务器/资料库时重置播放上下文并刷新相关 UI"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.notificationLyrics": {
+    "message": "系统媒体控件（SMTC）显示当前歌词行"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.seamlessPlayback": {
+    "message": "新增无缝播放开关，切歌更流畅"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.welcomePageMobile": {
+    "message": "欢迎页窄屏布局与底部操作区优化"
+  },
+  "download.release.beta.2_0_1_beta_9.desktop.serverCardStyle": {
+    "message": "服务器相关页面卡片样式统一"
+  },
+  "download.release.beta.2_0_1_beta_9.macos.playerEnhancements": {
+    "message": "macOS 播放器交互增强与歌单选择器重构"
+  },
+  "download.release.beta.2_0_1_beta_9.macos.secureRestore": {
+    "message": "macOS 13+ 支持安全窗口状态恢复"
+  },
+  "download.release.beta.2_0_1_beta_9.web.compactLayout": {
+    "message": "窄屏紧凑布局，侧边栏改为抽屉式"
   }
 }

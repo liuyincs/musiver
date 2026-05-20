@@ -1,8 +1,29 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-05-16",
+  "updatedAt": "2026-05-20",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.9",
+        "date": "2026-05-20",
+        "downloadUrl": "https://wwapa.lanzouq.com/b00jfaiiyb",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_9.common.discoverAsHome",
+          "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
+          "download.release.beta.2_0_1_beta_9.common.customApi",
+          "download.release.beta.2_0_1_beta_9.common.playbackResume",
+          "download.release.beta.2_0_1_beta_9.android.notificationLyrics",
+          "download.release.beta.2_0_1_beta_9.android.mixWithOthers",
+          "download.release.beta.2_0_1_beta_9.android.plexOAuthRetry",
+          "download.release.beta.2_0_1_beta_9.android.serverManagementFromAvatar",
+          "download.release.beta.2_0_1_beta_9.android.doubleTapBackExit",
+          "download.release.beta.2_0_1_beta_9.android.mediaNotificationRefresh",
+          "download.release.beta.2_0_1_beta_9.android.themeColorPalettes",
+          "download.release.beta.2_0_1_beta_9.android.dailyRecommendationCovers",
+          "download.release.beta.2_0_1_beta_9.android.playingPagePerformance",
+          "download.release.beta.2_0_1_beta_9.android.lyricsDragInteraction"
+        ]
+      },
       {
         "version": "2.0.1-beta.8",
         "date": "2026-05-16",
@@ -99,6 +120,24 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.9",
+        "date": "2026-05-20",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_9.common.discoverAsHome",
+          "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
+          "download.release.beta.2_0_1_beta_9.common.customApi",
+          "download.release.beta.2_0_1_beta_9.common.playbackResume",
+          "download.release.beta.2_0_1_beta_9.ios.mixWithOthers",
+          "download.release.beta.2_0_1_beta_9.ios.infoPlistLocalization",
+          "download.release.beta.2_0_1_beta_9.ios.playerNavToArtistAlbum",
+          "download.release.beta.2_0_1_beta_9.ios.notificationLyrics",
+          "download.release.beta.2_0_1_beta_9.ios.localNetworkPreCheck",
+          "download.release.beta.2_0_1_beta_9.ios.lyricsSyncFix",
+          "download.release.beta.2_0_1_beta_9.ios.fullscreenTransitionFix"
+        ]
+      },
+      {
         "version": "2.0.1-beta.8",
         "date": "2026-05-16",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -188,9 +227,25 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.9",
+        "date": "2026-05-20",
+        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=c467cdabfe4619eed5e6172a30653891&invitationCode=4tNjSUOus3p",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_9.common.discoverAsHome",
+          "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
+          "download.release.beta.2_0_1_beta_9.common.customApi",
+          "download.release.beta.2_0_1_beta_9.common.playbackResume",
+          "download.release.beta.2_0_1_beta_9.harmony.notificationLyrics",
+          "download.release.beta.2_0_1_beta_9.harmony.coldStartResume",
+          "download.release.beta.2_0_1_beta_9.harmony.localizedAppName",
+          "download.release.beta.2_0_1_beta_9.harmony.lyricsScrollPreview",
+          "download.release.beta.2_0_1_beta_9.harmony.serverSwitchReset"
+        ]
+      },
+      {
         "version": "2.0.1-beta.8",
         "date": "2026-05-16",
-        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=ed1bfb688fc612f1220abc381e401089",
+        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=ed1bfb688fc612f1220abc381e401089&invitationCode=4tNjSUOus3p",
         "changelogI18nKeys": [
           "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
           "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
@@ -254,6 +309,19 @@
       }
     ],
     "macos": [
+      {
+        "version": "2.0.1-beta.9",
+        "date": "2026-05-20",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_9.common.discoverAsHome",
+          "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
+          "download.release.beta.2_0_1_beta_9.common.customApi",
+          "download.release.beta.2_0_1_beta_9.common.playbackResume",
+          "download.release.beta.2_0_1_beta_9.macos.playerEnhancements",
+          "download.release.beta.2_0_1_beta_9.macos.secureRestore"
+        ]
+      },
       {
         "version": "2.0.1-beta.8",
         "date": "2026-05-16",
@@ -349,6 +417,21 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.9",
+        "date": "2026-05-20",
+        "downloadUrl": "https://www.ilanzou.com/s/Y6oWEB3m",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_9.common.discoverAsHome",
+          "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
+          "download.release.beta.2_0_1_beta_9.common.customApi",
+          "download.release.beta.2_0_1_beta_9.common.playbackResume",
+          "download.release.beta.2_0_1_beta_9.desktop.notificationLyrics",
+          "download.release.beta.2_0_1_beta_9.desktop.seamlessPlayback",
+          "download.release.beta.2_0_1_beta_9.desktop.welcomePageMobile",
+          "download.release.beta.2_0_1_beta_9.desktop.serverCardStyle"
+        ]
+      },
       {
         "version": "2.0.1-beta.8",
         "date": "2026-05-16",
@@ -454,6 +537,18 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.9",
+        "date": "2026-05-20",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_9.common.discoverAsHome",
+          "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
+          "download.release.beta.2_0_1_beta_9.common.customApi",
+          "download.release.beta.2_0_1_beta_9.common.playbackResume",
+          "download.release.beta.2_0_1_beta_9.web.compactLayout"
+        ]
+      },
       {
         "version": "2.0.1-beta.8",
         "date": "2026-05-16",
