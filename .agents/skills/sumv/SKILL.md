@@ -9,8 +9,9 @@ description: 版本总结
 2. 使用提问工具询问用户需要总结测试版还是正式版
 3. 使用 `gh` 获取 `gitbobobo/musiver` 仓库最近的版本标签，以及同类型的上一个版本标签
 4. 获取两个标签之间的全部提交历史，依次筛选出可被用户感知的更新内容，隐藏技术细节
-5. 参考 `src/types/releases.ts` 修改 `src/data/releases/stable.json` 或 `src/data/releases/beta.json`
-6. 最后输出一份 Github Release 风格的更新内容，用代码块包裹
+5. 输出一份 Github Release 风格的更新内容，用代码块包裹
+6. 停下来，询问用户是否需要更新版本文件（不要使用提问工具）。用户同意后，参考 `src/types/releases.ts` 修改 `src/data/releases/stable.json` 或 `src/data/releases/beta.json`
+
 
 ## 注意事项
 

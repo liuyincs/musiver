@@ -1204,5 +1204,92 @@
   },
   "download.release.beta.2_0_1_beta_9.web.compactLayout": {
     "message": "Compact layout for narrow screens with sidebar drawer"
+  },
+  "download.release.beta.2_0_1_beta_10.common.lyricsSearch": {
+    "message": "Support lyrics search and manual override save"
+  },
+  "download.release.beta.2_0_1_beta_10.common.multiArtist": {
+    "message": "Tracks now support displaying multiple artists, tap to navigate to artist detail"
+  },
+  "download.release.beta.2_0_1_beta_10.common.albumSort": {
+    "message": "Album list supports sorting by recent release"
+  },
+  "download.release.beta.2_0_1_beta_10.common.membership": {
+    "message": "Introduced membership system (rolling out across platforms)"
+  },
+  "download.release.beta.2_0_1_beta_10.android.lyricsSearch": {
+    "message": "Implemented lyrics search"
+  },
+  "download.release.beta.2_0_1_beta_10.android.multiArtistNav": {
+    "message": "Consume multi-artist data and support artist navigation"
+  },
+  "download.release.beta.2_0_1_beta_10.android.albumSort": {
+    "message": "Album list supports sorting by added time and release time"
+  },
+  "download.release.beta.2_0_1_beta_10.android.membership": {
+    "message": "Improved membership features and settings page"
+  },
+  "download.release.beta.2_0_1_beta_10.android.serverManagementUI": {
+    "message": "Improved server management UI components and error hints"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.lyricsSearch": {
+    "message": "Lyrics search UI (macOS / iPad)"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.multiArtistNav": {
+    "message": "Player and various pages support multi-artist display and navigation"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.membership": {
+    "message": "Implemented membership system"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.serverEndpointConfig": {
+    "message": "Refactored server endpoint config page with macOS adaptation"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.lyricsSearch": {
+    "message": "Lyrics search UI (macOS / iPad)"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.multiArtistNav": {
+    "message": "Player and various pages support multi-artist display and navigation"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.membership": {
+    "message": "Implemented membership system"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.serverEndpointConfig": {
+    "message": "Refactored server endpoint config page with macOS adaptation"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.serverEndpointConfig": {
+    "message": "Added server endpoint configuration"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.multiArtist": {
+    "message": "Multi-artist support"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.albumSort": {
+    "message": "Album list page adds recent release sorting"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.networkAwareRouting": {
+    "message": "Introduced EndpointRoutingCoordinator for network-aware endpoint routing"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.backgroundAudioWidget": {
+    "message": "Background audio task improvements, Widget snapshot sync and UI interaction optimizations"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.fullscreenSubtitle": {
+    "message": "Fullscreen player subtitle layout and color adjustments"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.volumeFade": {
+    "message": "Implemented volume fade in/out"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.lyricsSearch": {
+    "message": "End-to-end lyrics search implementation"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.endpointHealth": {
+    "message": "Endpoint health UI, network monitoring and route rebinding"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.artistNav": {
+    "message": "Support artist navigation and enhanced playback queue metadata sync"
+  },
+  "download.release.beta.2_0_1_beta_10.web.lyricsSearch": {
+    "message": "Lyrics search and user lyrics persistence"
+  },
+  "download.release.beta.2_0_1_beta_10.web.endpointHealth": {
+    "message": "Endpoint health probing and runtime route rebinding"
   }
 }

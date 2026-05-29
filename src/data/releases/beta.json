@@ -1,8 +1,24 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-05-20",
+  "updatedAt": "2026-05-29",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.10",
+        "date": "2026-05-29",
+        "downloadUrl": "https://wwapa.lanzouq.com/b00jfb98wb",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_10.common.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.common.multiArtist",
+          "download.release.beta.2_0_1_beta_10.common.albumSort",
+          "download.release.beta.2_0_1_beta_10.common.membership",
+          "download.release.beta.2_0_1_beta_10.android.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.android.multiArtistNav",
+          "download.release.beta.2_0_1_beta_10.android.albumSort",
+          "download.release.beta.2_0_1_beta_10.android.membership",
+          "download.release.beta.2_0_1_beta_10.android.serverManagementUI"
+        ]
+      },
       {
         "version": "2.0.1-beta.9",
         "date": "2026-05-20",
@@ -120,6 +136,21 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.10",
+        "date": "2026-05-29",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_10.common.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.common.multiArtist",
+          "download.release.beta.2_0_1_beta_10.common.albumSort",
+          "download.release.beta.2_0_1_beta_10.common.membership",
+          "download.release.beta.2_0_1_beta_10.ios.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.ios.multiArtistNav",
+          "download.release.beta.2_0_1_beta_10.ios.membership",
+          "download.release.beta.2_0_1_beta_10.ios.serverEndpointConfig"
+        ]
+      },
+      {
         "version": "2.0.1-beta.9",
         "date": "2026-05-20",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -227,6 +258,23 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.10",
+        "date": "2026-05-29",
+        "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=37ebf5bf778d01a30e664bf88f17ea4d&invitationCode=4tNjSUOus3p",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_10.common.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.common.multiArtist",
+          "download.release.beta.2_0_1_beta_10.common.albumSort",
+          "download.release.beta.2_0_1_beta_10.common.membership",
+          "download.release.beta.2_0_1_beta_10.harmony.serverEndpointConfig",
+          "download.release.beta.2_0_1_beta_10.harmony.multiArtist",
+          "download.release.beta.2_0_1_beta_10.harmony.albumSort",
+          "download.release.beta.2_0_1_beta_10.harmony.networkAwareRouting",
+          "download.release.beta.2_0_1_beta_10.harmony.backgroundAudioWidget",
+          "download.release.beta.2_0_1_beta_10.harmony.fullscreenSubtitle"
+        ]
+      },
+      {
         "version": "2.0.1-beta.9",
         "date": "2026-05-20",
         "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=c467cdabfe4619eed5e6172a30653891&invitationCode=4tNjSUOus3p",
@@ -309,6 +357,21 @@
       }
     ],
     "macos": [
+      {
+        "version": "2.0.1-beta.10",
+        "date": "2026-05-29",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_10.common.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.common.multiArtist",
+          "download.release.beta.2_0_1_beta_10.common.albumSort",
+          "download.release.beta.2_0_1_beta_10.common.membership",
+          "download.release.beta.2_0_1_beta_10.macos.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.macos.multiArtistNav",
+          "download.release.beta.2_0_1_beta_10.macos.membership",
+          "download.release.beta.2_0_1_beta_10.macos.serverEndpointConfig"
+        ]
+      },
       {
         "version": "2.0.1-beta.9",
         "date": "2026-05-20",
@@ -417,6 +480,21 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.10",
+        "date": "2026-05-29",
+        "downloadUrl": "https://www.ilanzou.com/s/8RMwVWwy",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_10.common.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.common.multiArtist",
+          "download.release.beta.2_0_1_beta_10.common.albumSort",
+          "download.release.beta.2_0_1_beta_10.common.membership",
+          "download.release.beta.2_0_1_beta_10.desktop.volumeFade",
+          "download.release.beta.2_0_1_beta_10.desktop.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.desktop.endpointHealth",
+          "download.release.beta.2_0_1_beta_10.desktop.artistNav"
+        ]
+      },
       {
         "version": "2.0.1-beta.9",
         "date": "2026-05-20",
@@ -537,6 +615,19 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.10",
+        "date": "2026-05-29",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_10.common.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.common.multiArtist",
+          "download.release.beta.2_0_1_beta_10.common.albumSort",
+          "download.release.beta.2_0_1_beta_10.common.membership",
+          "download.release.beta.2_0_1_beta_10.web.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.web.endpointHealth"
+        ]
+      },
       {
         "version": "2.0.1-beta.9",
         "date": "2026-05-20",

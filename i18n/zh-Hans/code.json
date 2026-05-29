@@ -1204,5 +1204,92 @@
   },
   "download.release.beta.2_0_1_beta_9.web.compactLayout": {
     "message": "窄屏紧凑布局，侧边栏改为抽屉式"
+  },
+  "download.release.beta.2_0_1_beta_10.common.lyricsSearch": {
+    "message": "支持歌词搜索与手动覆盖保存"
+  },
+  "download.release.beta.2_0_1_beta_10.common.multiArtist": {
+    "message": "曲目支持展示多个艺术家，点击可跳转对应艺术家详情页"
+  },
+  "download.release.beta.2_0_1_beta_10.common.albumSort": {
+    "message": "专辑列表支持按最近发行排序"
+  },
+  "download.release.beta.2_0_1_beta_10.common.membership": {
+    "message": "引入会员系统（各平台陆续接入中）"
+  },
+  "download.release.beta.2_0_1_beta_10.android.lyricsSearch": {
+    "message": "实现歌词搜索功能"
+  },
+  "download.release.beta.2_0_1_beta_10.android.multiArtistNav": {
+    "message": "消费多艺术家数据并支持艺术家导航"
+  },
+  "download.release.beta.2_0_1_beta_10.android.albumSort": {
+    "message": "专辑列表支持按添加时间和发行时间排序"
+  },
+  "download.release.beta.2_0_1_beta_10.android.membership": {
+    "message": "完善会员功能与设置页面"
+  },
+  "download.release.beta.2_0_1_beta_10.android.serverManagementUI": {
+    "message": "改进服务器管理界面 UI 组件与错误提示"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.lyricsSearch": {
+    "message": "歌词搜索 UI（macOS / iPad）"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.multiArtistNav": {
+    "message": "播放器及各页面支持多艺术家展示与导航"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.membership": {
+    "message": "实现会员系统"
+  },
+  "download.release.beta.2_0_1_beta_10.ios.serverEndpointConfig": {
+    "message": "重构服务器端点配置页面，macOS 适配"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.lyricsSearch": {
+    "message": "歌词搜索 UI（macOS / iPad）"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.multiArtistNav": {
+    "message": "播放器及各页面支持多艺术家展示与导航"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.membership": {
+    "message": "实现会员系统"
+  },
+  "download.release.beta.2_0_1_beta_10.macos.serverEndpointConfig": {
+    "message": "重构服务器端点配置页面，macOS 适配"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.serverEndpointConfig": {
+    "message": "新增服务器端点配置功能"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.multiArtist": {
+    "message": "多艺术家支持"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.albumSort": {
+    "message": "专辑列表页增加最近发行排序"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.networkAwareRouting": {
+    "message": "引入 EndpointRoutingCoordinator 实现网络感知端点路由"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.backgroundAudioWidget": {
+    "message": "后台音频任务改进、Widget 快照同步及 UI 交互优化"
+  },
+  "download.release.beta.2_0_1_beta_10.harmony.fullscreenSubtitle": {
+    "message": "全屏播放器副标题布局与颜色调整"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.volumeFade": {
+    "message": "实现音量淡入淡出功能"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.lyricsSearch": {
+    "message": "歌词搜索端到端实现"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.endpointHealth": {
+    "message": "端点健康 UI、网络监听与线路重绑"
+  },
+  "download.release.beta.2_0_1_beta_10.desktop.artistNav": {
+    "message": "支持艺术家导航，增强播放队列元数据同步"
+  },
+  "download.release.beta.2_0_1_beta_10.web.lyricsSearch": {
+    "message": "歌词搜索与用户歌词持久化"
+  },
+  "download.release.beta.2_0_1_beta_10.web.endpointHealth": {
+    "message": "端点健康探测与运行时线路重绑"
   }
 }
