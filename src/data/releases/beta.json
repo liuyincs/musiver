@@ -1,8 +1,31 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-05-29",
+  "updatedAt": "2026-06-28",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.11",
+        "date": "2026-06-28",
+        "downloadUrl": "https://wwapa.lanzouq.com/b00jfdadfc",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_11.common.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
+          "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
+          "download.release.beta.2_0_1_beta_11.common.desktopLyrics",
+          "download.release.beta.2_0_1_beta_11.android.playbackVolume",
+          "download.release.beta.2_0_1_beta_11.android.playbackModeProgress",
+          "download.release.beta.2_0_1_beta_11.android.lyricsFetch",
+          "download.release.beta.2_0_1_beta_11.android.snackbarRouting",
+          "download.release.beta.2_0_1_beta_11.android.networkPool",
+          "download.release.beta.2_0_1_beta_11.android.pagination",
+          "download.release.beta.2_0_1_beta_11.android.immersiveLyrics",
+          "download.release.beta.2_0_1_beta_11.android.sleepTimer",
+          "download.release.beta.2_0_1_beta_11.android.plexOAuthError",
+          "download.release.beta.2_0_1_beta_11.android.serverConfigNav",
+          "download.release.beta.2_0_1_beta_11.android.shuffleWindow"
+        ]
+      },
       {
         "version": "2.0.1-beta.10",
         "date": "2026-05-29",
@@ -136,6 +159,26 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.11",
+        "date": "2026-06-28",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_11.common.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
+          "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
+          "download.release.beta.2_0_1_beta_11.ios.playerTransition",
+          "download.release.beta.2_0_1_beta_11.ios.miniPlayerGesture",
+          "download.release.beta.2_0_1_beta_11.ios.coverTransition",
+          "download.release.beta.2_0_1_beta_11.ios.miniPlayerTouch",
+          "download.release.beta.2_0_1_beta_11.ios.immersiveLyrics",
+          "download.release.beta.2_0_1_beta_11.ios.singleEndpoint",
+          "download.release.beta.2_0_1_beta_11.ios.audioTimeline",
+          "download.release.beta.2_0_1_beta_11.ios.appIntents",
+          "download.release.beta.2_0_1_beta_11.ios.subsonicDownload"
+        ]
+      },
+      {
         "version": "2.0.1-beta.10",
         "date": "2026-05-29",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -258,6 +301,25 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.11",
+        "date": "2026-06-28",
+        "downloadUrl": "https://appgallery.huawei.com/apptest/join/f9dc77a5455863f9c7ac237e217aba47",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_11.common.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
+          "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
+          "download.release.beta.2_0_1_beta_11.harmony.playbackVolume",
+          "download.release.beta.2_0_1_beta_11.harmony.singleEndpoint",
+          "download.release.beta.2_0_1_beta_11.harmony.audioQualityConfig",
+          "download.release.beta.2_0_1_beta_11.harmony.artistPagination",
+          "download.release.beta.2_0_1_beta_11.harmony.queueStability",
+          "download.release.beta.2_0_1_beta_11.harmony.immersiveLyrics",
+          "download.release.beta.2_0_1_beta_11.harmony.fullscreenLayout",
+          "download.release.beta.2_0_1_beta_11.harmony.listPagination"
+        ]
+      },
+      {
         "version": "2.0.1-beta.10",
         "date": "2026-05-29",
         "downloadUrl": "https://appgallery.huawei.com/link/invite-test-wap?taskId=37ebf5bf778d01a30e664bf88f17ea4d&invitationCode=4tNjSUOus3p",
@@ -357,6 +419,33 @@
       }
     ],
     "macos": [
+      {
+        "version": "2.0.1-beta.11",
+        "date": "2026-06-28",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_11.common.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
+          "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
+          "download.release.beta.2_0_1_beta_11.common.desktopLyrics",
+          "download.release.beta.2_0_1_beta_11.desktop.startup",
+          "download.release.beta.2_0_1_beta_11.desktop.compilationArtist",
+          "download.release.beta.2_0_1_beta_11.desktop.playbackScrobble",
+          "download.release.beta.2_0_1_beta_11.desktop.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.desktop.downloadPage",
+          "download.release.beta.2_0_1_beta_11.desktop.favoriteSync",
+          "download.release.beta.2_0_1_beta_11.desktop.membershipError",
+          "download.release.beta.2_0_1_beta_11.macos.playerTransition",
+          "download.release.beta.2_0_1_beta_11.macos.miniPlayerGesture",
+          "download.release.beta.2_0_1_beta_11.macos.coverTransition",
+          "download.release.beta.2_0_1_beta_11.macos.miniPlayerTouch",
+          "download.release.beta.2_0_1_beta_11.macos.immersiveLyrics",
+          "download.release.beta.2_0_1_beta_11.macos.singleEndpoint",
+          "download.release.beta.2_0_1_beta_11.macos.audioTimeline",
+          "download.release.beta.2_0_1_beta_11.macos.formSpacer"
+        ]
+      },
       {
         "version": "2.0.1-beta.10",
         "date": "2026-05-29",
@@ -480,6 +569,25 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.11",
+        "date": "2026-06-28",
+        "downloadUrl": "https://www.ilanzou.com/s/0v8x3luV",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_11.common.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
+          "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
+          "download.release.beta.2_0_1_beta_11.common.desktopLyrics",
+          "download.release.beta.2_0_1_beta_11.desktop.startup",
+          "download.release.beta.2_0_1_beta_11.desktop.compilationArtist",
+          "download.release.beta.2_0_1_beta_11.desktop.playbackScrobble",
+          "download.release.beta.2_0_1_beta_11.desktop.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.desktop.downloadPage",
+          "download.release.beta.2_0_1_beta_11.desktop.favoriteSync",
+          "download.release.beta.2_0_1_beta_11.desktop.membershipError"
+        ]
+      },
       {
         "version": "2.0.1-beta.10",
         "date": "2026-05-29",
@@ -615,6 +723,20 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.11",
+        "date": "2026-06-28",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_11.common.endpointHealth",
+          "download.release.beta.2_0_1_beta_11.common.playbackReporting",
+          "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
+          "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
+          "download.release.beta.2_0_1_beta_11.web.indexedDb",
+          "download.release.beta.2_0_1_beta_11.web.playbackSync",
+          "download.release.beta.2_0_1_beta_11.web.favoriteSync"
+        ]
+      },
       {
         "version": "2.0.1-beta.10",
         "date": "2026-05-29",

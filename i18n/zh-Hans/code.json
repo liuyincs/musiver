@@ -464,54 +464,6 @@
   "download.release.stable.upcoming": {
     "message": "全新版本，即将登场！"
   },
-  "download.release.stable.1_2_0.common.jellyfin": {
-    "message": "新增对 Jellyfin 服务器的支持"
-  },
-  "download.release.stable.1_2_0.android.cache": {
-    "message": "提升离线缓存性能"
-  },
-  "download.release.stable.1_2_0.android.albumArt": {
-    "message": "修复部分设备封面显示异常"
-  },
-  "download.release.stable.1_2_0.android.darkNight": {
-    "message": "新增「Dark Night」主题选项"
-  },
-  "download.release.stable.1_2_0.ios.battery": {
-    "message": "优化播放过程中的电量消耗"
-  },
-  "download.release.stable.1_2_0.ios.carplay": {
-    "message": "修复 CarPlay 集成问题"
-  },
-  "download.release.stable.1_2_0.ios.transitions": {
-    "message": "优化导航切换动画流畅度"
-  },
-  "download.release.stable.1_2_0.macos.silicon": {
-    "message": "原生支持 Apple Silicon"
-  },
-  "download.release.stable.1_2_0.macos.shortcuts": {
-    "message": "新增播放控制键盘快捷键"
-  },
-  "download.release.stable.1_2_0.macos.miniPlayer": {
-    "message": "新增迷你播放器模式"
-  },
-  "download.release.stable.1_2_0.windows.tray": {
-    "message": "新增系统托盘集成"
-  },
-  "download.release.stable.1_2_0.windows.mediaKey": {
-    "message": "支持媒体按键控制"
-  },
-  "download.release.stable.1_2_0.windows.dpi": {
-    "message": "改进高 DPI 缩放显示"
-  },
-  "download.release.stable.1_2_0.web.pwa": {
-    "message": "支持 PWA，可安装为应用"
-  },
-  "download.release.stable.1_2_0.web.mobileResponsive": {
-    "message": "提升移动浏览器响应表现"
-  },
-  "download.release.stable.1_2_0.web.keyboard": {
-    "message": "支持键盘导航操作"
-  },
   "download.release.beta.upcoming.light": {
     "message": "全新版本，轻装上阵！"
   },
@@ -1291,5 +1243,158 @@
   },
   "download.release.beta.2_0_1_beta_10.web.endpointHealth": {
     "message": "端点健康探测与运行时线路重绑"
+  },
+  "download.release.beta.2_0_1_beta_11.common.endpointHealth": {
+    "message": "新增线路健康检测，网络变化时自动切换可用线路"
+  },
+  "download.release.beta.2_0_1_beta_11.common.playbackReporting": {
+    "message": "听歌记录上报更可靠，切歌与暂停时进度同步更准确"
+  },
+  "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail": {
+    "message": "修复 Navidrome 艺术家详情曲目列表显示问题"
+  },
+  "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures": {
+    "message": "Navidrome 根据服务端版本自动启用资料库与筛选能力"
+  },
+  "download.release.beta.2_0_1_beta_11.common.desktopLyrics": {
+    "message": "新增桌面歌词悬浮窗，支持独立窗口显示、样式自定义（位置、透明度、字体、颜色、描边）与锁定"
+  },
+  "download.release.beta.2_0_1_beta_11.android.playbackVolume": {
+    "message": "播放页新增独立音量控制，并支持记忆设置"
+  },
+  "download.release.beta.2_0_1_beta_11.android.playbackModeProgress": {
+    "message": "修复切换随机/循环播放时进度被重置的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.android.lyricsFetch": {
+    "message": "优化歌词拉取逻辑，减少切歌时的重复请求"
+  },
+  "download.release.beta.2_0_1_beta_11.android.snackbarRouting": {
+    "message": "Snackbar 动态避让系统导航条，线路切换提示更友好"
+  },
+  "download.release.beta.2_0_1_beta_11.android.networkPool": {
+    "message": "网络切换后主动清理连接池，修复服务器连接失效问题"
+  },
+  "download.release.beta.2_0_1_beta_11.android.pagination": {
+    "message": "分页列表组件升级，多处列表改为分页加载"
+  },
+  "download.release.beta.2_0_1_beta_11.android.immersiveLyrics": {
+    "message": "沉浸式歌词交互改进，自定义音量条交互优化"
+  },
+  "download.release.beta.2_0_1_beta_11.android.sleepTimer": {
+    "message": "睡眠定时器接入核心引擎，倒计时更准确"
+  },
+  "download.release.beta.2_0_1_beta_11.android.plexOAuthError": {
+    "message": "Plex 登录失败时显示更清晰的错误提示"
+  },
+  "download.release.beta.2_0_1_beta_11.android.serverConfigNav": {
+    "message": "完成服务器配置后自动返回主界面"
+  },
+  "download.release.beta.2_0_1_beta_11.android.shuffleWindow": {
+    "message": "修复切换随机播放后播放队列未同步的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.playerTransition": {
+    "message": "缩短播放条与全屏播放页过渡动画时长"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.miniPlayerGesture": {
+    "message": "优化迷你播放条展开手势，减少轻微横向滑动导致误切歌"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.coverTransition": {
+    "message": "修复未完成上滑时封面卡在中间态、导致播放条不显示封面的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.miniPlayerTouch": {
+    "message": "修复迷你播放条空白区域点击穿透问题"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.immersiveLyrics": {
+    "message": "沉浸式歌词交互修复"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.singleEndpoint": {
+    "message": "单线路场景不再提示线路切换"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.audioTimeline": {
+    "message": "修复解码音频后端恢复播放时的时间线同步"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.appIntents": {
+    "message": "支持 Siri 快捷指令，可快速控制播放与收藏"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.subsonicDownload": {
+    "message": "修复 Subsonic 歌曲下载失败或体积为 0 的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.playerTransition": {
+    "message": "缩短播放条与全屏播放页过渡动画时长"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.miniPlayerGesture": {
+    "message": "优化迷你播放条展开手势，减少轻微横向滑动导致误切歌"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.coverTransition": {
+    "message": "修复未完成上滑时封面卡在中间态、导致播放条不显示封面的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.miniPlayerTouch": {
+    "message": "修复迷你播放条空白区域点击穿透问题"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.immersiveLyrics": {
+    "message": "沉浸式歌词交互修复"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.singleEndpoint": {
+    "message": "单线路场景不再提示线路切换"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.audioTimeline": {
+    "message": "修复解码音频后端恢复播放时的时间线同步"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.formSpacer": {
+    "message": "修复设置页出现空白卡片的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.playbackVolume": {
+    "message": "全屏播放器支持音量控制并持久化记忆"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.singleEndpoint": {
+    "message": "单线路场景不再提示线路切换"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.audioQualityConfig": {
+    "message": "线路配置页显示音质标签，并修复刷新等待体验"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.artistPagination": {
+    "message": "艺术家详情曲目列表改为分页加载"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.queueStability": {
+    "message": "播放队列核对后保持当前项稳定"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.immersiveLyrics": {
+    "message": "沉浸式歌词通过信号驱动用户交互检测"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.fullscreenLayout": {
+    "message": "全屏播放页布局与间距优化，后台音频任务与 Widget 同步改进"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.listPagination": {
+    "message": "专辑、艺术家等列表改为分页加载，浏览更流畅"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.startup": {
+    "message": "修复桌面端启动流程与首屏体验"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.compilationArtist": {
+    "message": "支持合辑等多歌手条目的歌手详情页校验"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.playbackScrobble": {
+    "message": "修复播放控制与 scrobble 通知问题"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.endpointHealth": {
+    "message": "端点健康 UI 与网络监听改进"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.downloadPage": {
+    "message": "下载页组件拆分与体验优化"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.favoriteSync": {
+    "message": "全资料库视图下收藏状态同步更准确"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.membershipError": {
+    "message": "会员相关错误提示与设备识别优化"
+  },
+  "download.release.beta.2_0_1_beta_11.web.indexedDb": {
+    "message": "修复浏览器本地数据存储互相干扰的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.web.playbackSync": {
+    "message": "修复播放状态与界面显示偶尔不同步的问题"
+  },
+  "download.release.beta.2_0_1_beta_11.web.favoriteSync": {
+    "message": "全资料库视图下收藏操作更准确"
   }
 }

@@ -464,54 +464,6 @@
   "download.release.stable.upcoming": {
     "message": "A brand-new version is coming soon!"
   },
-  "download.release.stable.1_2_0.common.jellyfin": {
-    "message": "Added support for Jellyfin servers"
-  },
-  "download.release.stable.1_2_0.android.cache": {
-    "message": "Improved offline caching performance"
-  },
-  "download.release.stable.1_2_0.android.albumArt": {
-    "message": "Fixed album art display issues on some devices"
-  },
-  "download.release.stable.1_2_0.android.darkNight": {
-    "message": "New \"Dark Night\" theme option"
-  },
-  "download.release.stable.1_2_0.ios.battery": {
-    "message": "Optimized battery usage during playback"
-  },
-  "download.release.stable.1_2_0.ios.carplay": {
-    "message": "Fixed CarPlay integration bugs"
-  },
-  "download.release.stable.1_2_0.ios.transitions": {
-    "message": "Smoother transitions in navigation"
-  },
-  "download.release.stable.1_2_0.macos.silicon": {
-    "message": "Native Apple Silicon support"
-  },
-  "download.release.stable.1_2_0.macos.shortcuts": {
-    "message": "Keyboard shortcuts for playback control"
-  },
-  "download.release.stable.1_2_0.macos.miniPlayer": {
-    "message": "Mini player mode"
-  },
-  "download.release.stable.1_2_0.windows.tray": {
-    "message": "System tray integration"
-  },
-  "download.release.stable.1_2_0.windows.mediaKey": {
-    "message": "Media key support"
-  },
-  "download.release.stable.1_2_0.windows.dpi": {
-    "message": "High DPI scaling improvements"
-  },
-  "download.release.stable.1_2_0.web.pwa": {
-    "message": "PWA support - install as an app"
-  },
-  "download.release.stable.1_2_0.web.mobileResponsive": {
-    "message": "Improved responsiveness on mobile browsers"
-  },
-  "download.release.stable.1_2_0.web.keyboard": {
-    "message": "Keyboard navigation support"
-  },
   "download.release.beta.upcoming.light": {
     "message": "A brand-new version, ready to go light!"
   },
@@ -1291,5 +1243,158 @@
   },
   "download.release.beta.2_0_1_beta_10.web.endpointHealth": {
     "message": "Endpoint health probing and runtime route rebinding"
+  },
+  "download.release.beta.2_0_1_beta_11.common.endpointHealth": {
+    "message": "Added endpoint health detection with automatic failover when the network changes"
+  },
+  "download.release.beta.2_0_1_beta_11.common.playbackReporting": {
+    "message": "More reliable listening history reporting with accurate progress sync on track changes and pause"
+  },
+  "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail": {
+    "message": "Fixed Navidrome artist detail track list display"
+  },
+  "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures": {
+    "message": "Navidrome library and filtering features now enabled based on server version"
+  },
+  "download.release.beta.2_0_1_beta_11.common.desktopLyrics": {
+    "message": "Added desktop lyrics overlay with independent window, customizable style (position, opacity, font, color, stroke), and lock"
+  },
+  "download.release.beta.2_0_1_beta_11.android.playbackVolume": {
+    "message": "Added independent volume control on the player screen with persistence"
+  },
+  "download.release.beta.2_0_1_beta_11.android.playbackModeProgress": {
+    "message": "Fixed progress reset when switching shuffle/loop modes"
+  },
+  "download.release.beta.2_0_1_beta_11.android.lyricsFetch": {
+    "message": "Reduced duplicate lyric requests when switching tracks"
+  },
+  "download.release.beta.2_0_1_beta_11.android.snackbarRouting": {
+    "message": "Snackbar dynamically avoids system navigation bar; nicer route-switching hints"
+  },
+  "download.release.beta.2_0_1_beta_11.android.networkPool": {
+    "message": "Clear connection pool on network changes to fix server connection failures"
+  },
+  "download.release.beta.2_0_1_beta_11.android.pagination": {
+    "message": "Upgraded paginated list component; more screens now use paging"
+  },
+  "download.release.beta.2_0_1_beta_11.android.immersiveLyrics": {
+    "message": "Improved immersive lyrics interaction and custom volume slider"
+  },
+  "download.release.beta.2_0_1_beta_11.android.sleepTimer": {
+    "message": "Sleep timer now managed by the core engine for more accurate countdown"
+  },
+  "download.release.beta.2_0_1_beta_11.android.plexOAuthError": {
+    "message": "Clearer error messages when Plex sign-in fails"
+  },
+  "download.release.beta.2_0_1_beta_11.android.serverConfigNav": {
+    "message": "Automatically return to the main screen after server setup"
+  },
+  "download.release.beta.2_0_1_beta_11.android.shuffleWindow": {
+    "message": "Fixed playback queue not syncing after toggling shuffle mode"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.playerTransition": {
+    "message": "Shortened transition animations for the player bar and full-screen player"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.miniPlayerGesture": {
+    "message": "Improved mini-player expand gesture to avoid accidental track skips on slight horizontal swipes"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.coverTransition": {
+    "message": "Fixed cover stuck in mid-state during incomplete upward swipe, which hid cover in player bar"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.miniPlayerTouch": {
+    "message": "Fixed touch-through on blank areas of the mini player"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.immersiveLyrics": {
+    "message": "Immersive lyrics interaction fixes"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.singleEndpoint": {
+    "message": "No longer shows route-switching hint when only one endpoint exists"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.audioTimeline": {
+    "message": "Fixed timeline sync when decoding audio backend resumes playback"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.appIntents": {
+    "message": "Added Siri Shortcuts for quick playback and favorite controls"
+  },
+  "download.release.beta.2_0_1_beta_11.ios.subsonicDownload": {
+    "message": "Fixed Subsonic downloads failing or returning 0 KB files"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.playerTransition": {
+    "message": "Shortened transition animations for the player bar and full-screen player"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.miniPlayerGesture": {
+    "message": "Improved mini-player expand gesture to avoid accidental track skips on slight horizontal swipes"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.coverTransition": {
+    "message": "Fixed cover stuck in mid-state during incomplete upward swipe, which hid cover in player bar"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.miniPlayerTouch": {
+    "message": "Fixed touch-through on blank areas of the mini player"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.immersiveLyrics": {
+    "message": "Immersive lyrics interaction fixes"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.singleEndpoint": {
+    "message": "No longer shows route-switching hint when only one endpoint exists"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.audioTimeline": {
+    "message": "Fixed timeline sync when decoding audio backend resumes playback"
+  },
+  "download.release.beta.2_0_1_beta_11.macos.formSpacer": {
+    "message": "Fixed blank cards appearing in Settings"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.playbackVolume": {
+    "message": "Full-screen player supports volume control with persistence"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.singleEndpoint": {
+    "message": "No longer shows route-switching hint when only one endpoint exists"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.audioQualityConfig": {
+    "message": "Audio quality labels in route config page and fixed refresh waiting experience"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.artistPagination": {
+    "message": "Artist detail track list now loads paginated"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.queueStability": {
+    "message": "Keep current queue item stable after queue reconciliation"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.immersiveLyrics": {
+    "message": "Immersive lyrics driven by signal-based user interaction detection"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.fullscreenLayout": {
+    "message": "Full-screen player layout and spacing improvements; background audio task and widget sync"
+  },
+  "download.release.beta.2_0_1_beta_11.harmony.listPagination": {
+    "message": "Album, artist, and more lists now load paginated for smoother browsing"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.startup": {
+    "message": "Fixed desktop startup flow and first-screen experience"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.compilationArtist": {
+    "message": "Support artist detail validation for compilation and multi-artist tracks"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.playbackScrobble": {
+    "message": "Fixed playback control and scrobble notification issues"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.endpointHealth": {
+    "message": "Endpoint health UI and network monitoring improvements"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.downloadPage": {
+    "message": "Downloads page split into focused components with better UX"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.favoriteSync": {
+    "message": "More accurate favorite state sync in all-libraries view"
+  },
+  "download.release.beta.2_0_1_beta_11.desktop.membershipError": {
+    "message": "Improved membership error messages and device identification"
+  },
+  "download.release.beta.2_0_1_beta_11.web.indexedDb": {
+    "message": "Fixed browser local storage isolation between data stores"
+  },
+  "download.release.beta.2_0_1_beta_11.web.playbackSync": {
+    "message": "Fixed occasional playback state and UI display desync"
+  },
+  "download.release.beta.2_0_1_beta_11.web.favoriteSync": {
+    "message": "More accurate favorite actions in all-libraries view"
   }
 }
