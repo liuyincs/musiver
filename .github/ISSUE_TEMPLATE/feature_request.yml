@@ -1,0 +1,37 @@
+name: Feature Request / 功能建议
+description: Suggest a new feature or improvement / 提出新功能或改进建议
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Musiver!
+        感谢你为音流（Musiver）提出改进建议！
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description / 功能描述
+      description: What feature would you like? / 你希望增加什么功能？
+      placeholder: "I would like ... / 我希望 ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case / 使用场景
+      description: In what situation would you use this? / 在什么情况下你会用到它？
+      placeholder: "When I ... / 当我 ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: Expected Outcome / 期望效果
+      description: What result would this feature achieve? / 这个功能应达到什么效果？
+    validations:
+      required: true

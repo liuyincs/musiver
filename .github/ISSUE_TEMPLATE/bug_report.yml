@@ -1,0 +1,109 @@
+name: Bug Report / 问题反馈
+description: Report a bug or unexpected behavior / 报告缺陷或异常行为
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in as much detail as possible to help us investigate.
+        请尽量填写完整信息，以便我们更快定位问题。
+
+        **Tip / 提示:** Client version can be found in Settings → About.
+        客户端版本号可在「设置 → 关于」中查看。
+
+  - type: checkboxes
+    id: client-platforms
+    attributes:
+      label: Client Platform(s) / 客户端平台
+      description: Select all that apply / 可多选
+      options:
+        - label: Android
+        - label: iOS
+        - label: HarmonyOS
+        - label: macOS
+        - label: Windows
+        - label: Web
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Version / 操作系统版本
+      description: "Optional. e.g. Android 14, iOS 18.2, HarmonyOS NEXT 5.0, Windows 11 / 选填，如 Android 14、iOS 18.2、HarmonyOS NEXT 5.0、Windows 11"
+      placeholder: "e.g. Android 14 / 如 Android 14"
+    validations:
+      required: false
+
+  - type: input
+    id: client-version
+    attributes:
+      label: Client Version / 客户端版本号
+      description: "Optional. e.g. 2.0.1-beta.12 / 选填，如 2.0.1-beta.12"
+      placeholder: "e.g. 2.0.1-beta.12"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: server-platforms
+    attributes:
+      label: Media Server Type(s) / 服务端平台
+      description: "Optional. Select all that apply / 选填，可多选"
+      options:
+        - label: Navidrome
+        - label: Subsonic
+        - label: Plex
+        - label: Jellyfin
+        - label: Emby
+        - label: Audio Station
+        - label: Audiobookshelf
+    validations:
+      required: false
+
+  - type: input
+    id: server-version
+    attributes:
+      label: Media Server Version / 服务端版本号
+      description: "Optional. e.g. Navidrome 0.62.0, Jellyfin 10.8.13 / 选填，如 Navidrome 0.62.0、Jellyfin 10.8.13"
+      placeholder: "e.g. Navidrome 0.62.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description / 问题描述
+      description: A clear and concise description of the problem / 简要说明遇到的问题
+      placeholder: "What happened? / 发生了什么？"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / 复现步骤
+      description: Numbered steps to reproduce the issue / 按步骤描述如何复现
+      placeholder: |
+        1. Go to ... / 打开 ...
+        2. Click on ... / 点击 ...
+        3. See error / 出现错误
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior / 预期行为
+      description: What you expected to happen / 你期望发生什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior / 实际行为
+      description: What actually happened / 实际发生了什么
+    validations:
+      required: true

@@ -1,0 +1,29 @@
+name: Question / 使用咨询
+description: Ask a question about using Musiver / 咨询音流（Musiver）的使用问题
+title: "[Question] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask your question below. For bug reports, please use the Bug Report template instead.
+        请在下方描述你的问题。如果是缺陷反馈，请使用「问题反馈」模版。
+
+  - type: input
+    id: topic
+    attributes:
+      label: Topic / 咨询主题
+      description: A short summary of your question / 用一句话概括你的问题
+      placeholder: "e.g. How to connect Plex? / 如：如何连接 Plex？"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details / 详细说明
+      description: Provide as much context as possible / 请尽量提供详细背景信息
+      placeholder: "Describe your question in detail ... / 详细描述你的问题 ..."
+    validations:
+      required: true
