@@ -1,8 +1,33 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-06-28",
+  "updatedAt": "2026-07-04",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.12",
+        "date": "2026-07-04",
+        "downloadUrl": "https://wwapa.lanzouq.com/b00jfdx6dg",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_12.common.playerBackground",
+          "download.release.beta.2_0_1_beta_12.common.playlistServerSort",
+          "download.release.beta.2_0_1_beta_12.common.plexHomePin",
+          "download.release.beta.2_0_1_beta_12.common.perfMonitoring",
+          "download.release.beta.2_0_1_beta_12.common.logReporting",
+          "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity",
+          "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
+          "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
+          "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
+          "download.release.beta.2_0_1_beta_12.android.landscapePlayer",
+          "download.release.beta.2_0_1_beta_12.android.meshGradientBackground",
+          "download.release.beta.2_0_1_beta_12.android.serverMenu",
+          "download.release.beta.2_0_1_beta_12.android.backgroundKeepAlive",
+          "download.release.beta.2_0_1_beta_12.android.queueEndJitter",
+          "download.release.beta.2_0_1_beta_12.android.miniPlayerOverlap",
+          "download.release.beta.2_0_1_beta_12.android.dynamicBackgroundFlash",
+          "download.release.beta.2_0_1_beta_12.android.playPauseButton",
+          "download.release.beta.2_0_1_beta_12.android.streamCache401"
+        ]
+      },
       {
         "version": "2.0.1-beta.11",
         "date": "2026-06-28",
@@ -159,6 +184,29 @@
     ],
     "ios": [
       {
+        "version": "2.0.1-beta.12",
+        "date": "2026-07-04",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_12.common.playerBackground",
+          "download.release.beta.2_0_1_beta_12.common.playlistServerSort",
+          "download.release.beta.2_0_1_beta_12.common.plexHomePin",
+          "download.release.beta.2_0_1_beta_12.common.perfMonitoring",
+          "download.release.beta.2_0_1_beta_12.common.logReporting",
+          "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity",
+          "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
+          "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
+          "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
+          "download.release.beta.2_0_1_beta_12.ios.landscapePlayer",
+          "download.release.beta.2_0_1_beta_12.ios.colorfulXBackground",
+          "download.release.beta.2_0_1_beta_12.ios.navigationRefactor",
+          "download.release.beta.2_0_1_beta_12.ios.loopToast",
+          "download.release.beta.2_0_1_beta_12.ios.immersiveLyricsFix",
+          "download.release.beta.2_0_1_beta_12.ios.detailPageMiniBar",
+          "download.release.beta.2_0_1_beta_12.ios.sharedPlaylistArrow"
+        ]
+      },
+      {
         "version": "2.0.1-beta.11",
         "date": "2026-06-28",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -301,6 +349,28 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.12",
+        "date": "2026-07-04",
+        "downloadUrl": "https://appgallery.huawei.com/apptest/join/cdee8b42498b0e34d222168b0ec7a960",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_12.common.playerBackground",
+          "download.release.beta.2_0_1_beta_12.common.playlistServerSort",
+          "download.release.beta.2_0_1_beta_12.common.plexHomePin",
+          "download.release.beta.2_0_1_beta_12.common.perfMonitoring",
+          "download.release.beta.2_0_1_beta_12.common.logReporting",
+          "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity",
+          "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
+          "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
+          "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
+          "download.release.beta.2_0_1_beta_12.harmony.landscapePlayer",
+          "download.release.beta.2_0_1_beta_12.harmony.playlistSortMenu",
+          "download.release.beta.2_0_1_beta_12.harmony.fullscreenPlayerRefactor",
+          "download.release.beta.2_0_1_beta_12.harmony.playbackModeFix",
+          "download.release.beta.2_0_1_beta_12.harmony.betaFeedbackFix",
+          "download.release.beta.2_0_1_beta_12.harmony.frameworkTransition"
+        ]
+      },
+      {
         "version": "2.0.1-beta.11",
         "date": "2026-06-28",
         "downloadUrl": "https://appgallery.huawei.com/apptest/join/f9dc77a5455863f9c7ac237e217aba47",
@@ -419,6 +489,25 @@
       }
     ],
     "macos": [
+      {
+        "version": "2.0.1-beta.12",
+        "date": "2026-07-04",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_12.common.playerBackground",
+          "download.release.beta.2_0_1_beta_12.common.playlistServerSort",
+          "download.release.beta.2_0_1_beta_12.common.plexHomePin",
+          "download.release.beta.2_0_1_beta_12.common.perfMonitoring",
+          "download.release.beta.2_0_1_beta_12.common.logReporting",
+          "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity",
+          "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
+          "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
+          "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
+          "download.release.beta.2_0_1_beta_12.macos.miniWindow",
+          "download.release.beta.2_0_1_beta_12.macos.windowGeometry",
+          "download.release.beta.2_0_1_beta_12.macos.sharedPlaylistArrow"
+        ]
+      },
       {
         "version": "2.0.1-beta.11",
         "date": "2026-06-28",
@@ -569,6 +658,29 @@
       }
     ],
     "windows": [
+      {
+        "version": "2.0.1-beta.12",
+        "date": "2026-07-04",
+        "downloadUrl": "https://www.ilanzou.com/s/cO0xdrIR",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_12.common.playerBackground",
+          "download.release.beta.2_0_1_beta_12.common.playlistServerSort",
+          "download.release.beta.2_0_1_beta_12.common.plexHomePin",
+          "download.release.beta.2_0_1_beta_12.common.perfMonitoring",
+          "download.release.beta.2_0_1_beta_12.common.logReporting",
+          "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity",
+          "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
+          "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
+          "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
+          "download.release.beta.2_0_1_beta_12.desktop.miniWindow",
+          "download.release.beta.2_0_1_beta_12.desktop.windowGeometry",
+          "download.release.beta.2_0_1_beta_12.desktop.desktopLyricsEntry",
+          "download.release.beta.2_0_1_beta_12.desktop.thumbBarTooltips",
+          "download.release.beta.2_0_1_beta_12.desktop.streamCacheSession",
+          "download.release.beta.2_0_1_beta_12.desktop.playbackResumeSeek",
+          "download.release.beta.2_0_1_beta_12.desktop.fullscreenLyricsMode"
+        ]
+      },
       {
         "version": "2.0.1-beta.11",
         "date": "2026-06-28",
@@ -723,6 +835,24 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.12",
+        "date": "2026-07-04",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_12.common.playerBackground",
+          "download.release.beta.2_0_1_beta_12.common.playlistServerSort",
+          "download.release.beta.2_0_1_beta_12.common.plexHomePin",
+          "download.release.beta.2_0_1_beta_12.common.perfMonitoring",
+          "download.release.beta.2_0_1_beta_12.common.logReporting",
+          "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity",
+          "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
+          "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
+          "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
+          "download.release.beta.2_0_1_beta_12.web.streamCacheSession",
+          "download.release.beta.2_0_1_beta_12.web.playbackResumeSeek"
+        ]
+      },
       {
         "version": "2.0.1-beta.11",
         "date": "2026-06-28",

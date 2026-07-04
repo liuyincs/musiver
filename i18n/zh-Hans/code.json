@@ -1396,5 +1396,134 @@
   },
   "download.release.beta.2_0_1_beta_11.web.favoriteSync": {
     "message": "全资料库视图下收藏操作更准确"
+  },
+  "download.release.beta.2_0_1_beta_12.common.playerBackground": {
+    "message": "播放页背景切换：支持纯色、模糊、动态三种背景模式"
+  },
+  "download.release.beta.2_0_1_beta_12.common.playlistServerSort": {
+    "message": "歌单列表服务端排序与分页，移除本地拖拽排序"
+  },
+  "download.release.beta.2_0_1_beta_12.common.plexHomePin": {
+    "message": "Plex Home 受管用户与 PIN 登录：支持通过 PIN 码添加受管用户服务器"
+  },
+  "download.release.beta.2_0_1_beta_12.common.perfMonitoring": {
+    "message": "开发者页新增运行时性能监控面板"
+  },
+  "download.release.beta.2_0_1_beta_12.common.logReporting": {
+    "message": "客户端日志可上报至 Fast Ship 平台，便于问题排查"
+  },
+  "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity": {
+    "message": "切换播放模式时保持播放连续性，进度条不再回跳"
+  },
+  "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix": {
+    "message": "Emby 歌单查询修复，不再错误注入资料库范围限制"
+  },
+  "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode": {
+    "message": "Unknown 网络质量下原品质音频不再被静默转码为 MP3"
+  },
+  "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic": {
+    "message": "Subsonic 协议兼容性改进，支持 qm-music 资料库格式"
+  },
+  "download.release.beta.2_0_1_beta_12.android.landscapePlayer": {
+    "message": "横屏播放页：新增横屏播放布局，歌词效果与竖屏对齐"
+  },
+  "download.release.beta.2_0_1_beta_12.android.meshGradientBackground": {
+    "message": "动态背景：复刻 AMLL MeshGradient 风格动态背景"
+  },
+  "download.release.beta.2_0_1_beta_12.android.serverMenu": {
+    "message": "服务器菜单优化：头像菜单中将服务器列表移入「切换服务器」子菜单"
+  },
+  "download.release.beta.2_0_1_beta_12.android.backgroundKeepAlive": {
+    "message": "后台保活优化：切歌时播放器封面保活，后台唤起不再重建主界面"
+  },
+  "download.release.beta.2_0_1_beta_12.android.queueEndJitter": {
+    "message": "修复队列末尾播放完成后状态抖动"
+  },
+  "download.release.beta.2_0_1_beta_12.android.miniPlayerOverlap": {
+    "message": "修复底部迷你播放栏遮挡列表内容"
+  },
+  "download.release.beta.2_0_1_beta_12.android.dynamicBackgroundFlash": {
+    "message": "修复播放页动态背景每次打开由暗转亮的问题"
+  },
+  "download.release.beta.2_0_1_beta_12.android.playPauseButton": {
+    "message": "播放/暂停大按钮改为镂空样式"
+  },
+  "download.release.beta.2_0_1_beta_12.android.streamCache401": {
+    "message": "流缓存场景下切歌不再因 401 中断"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.landscapePlayer": {
+    "message": "横屏播放页：播放页支持横屏显示"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.colorfulXBackground": {
+    "message": "动态背景升级：全屏播放页动态背景改用 ColorfulX，并从封面提取动态调色板"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.navigationRefactor": {
+    "message": "导航重构：iPhone 主导航改为根级单栈，Tab 栏仅在首页显示"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.loopToast": {
+    "message": "循环播放提示：激活循环播放时显示 Toast 提示"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.immersiveLyricsFix": {
+    "message": "修复沉浸式歌词收起后迷你条不可点击、滑动无法恢复控件的问题"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.detailPageMiniBar": {
+    "message": "修复详情页底部被迷你播放条遮挡"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.sharedPlaylistArrow": {
+    "message": "修复共享歌单行重复显示右箭头"
+  },
+  "download.release.beta.2_0_1_beta_12.macos.miniWindow": {
+    "message": "迷你窗口模式：支持迷你窗口模式，方便边听边做其他事"
+  },
+  "download.release.beta.2_0_1_beta_12.macos.windowGeometry": {
+    "message": "主窗口几何记忆：记住窗口位置与大小，下次启动自动恢复"
+  },
+  "download.release.beta.2_0_1_beta_12.macos.sharedPlaylistArrow": {
+    "message": "修复共享歌单行重复显示右箭头"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.landscapePlayer": {
+    "message": "横屏播放页：播放页支持横屏显示"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.playlistSortMenu": {
+    "message": "歌单排序：歌单列表支持服务端排序，排序选项改为子菜单形式"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.fullscreenPlayerRefactor": {
+    "message": "全屏播放页重构：统一半模态实现，横屏布局、动效与歌词滚动体验优化"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.playbackModeFix": {
+    "message": "修复切换播放模式无响应及播放中断问题"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.betaFeedbackFix": {
+    "message": "修复 Beta.11 用户反馈的多项问题"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.frameworkTransition": {
+    "message": "全屏播放页改用框架转场，避免动画跳变"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.miniWindow": {
+    "message": "迷你窗口模式：支持迷你窗口模式"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.windowGeometry": {
+    "message": "主窗口几何记忆：记住窗口位置与大小"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.desktopLyricsEntry": {
+    "message": "桌面歌词入口：新增 Windows 桌面歌词入口及相关优化"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.thumbBarTooltips": {
+    "message": "任务栏控件：任务栏 Thumb Bar 按钮补全悬停提示"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.streamCacheSession": {
+    "message": "修复流缓存开启时切歌会话丢失问题"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.playbackResumeSeek": {
+    "message": "修复恢复播放时自动播放与进度条 seek 抖动"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.fullscreenLyricsMode": {
+    "message": "全屏播放页忽略播放条歌词模式，避免布局冲突"
+  },
+  "download.release.beta.2_0_1_beta_12.web.streamCacheSession": {
+    "message": "修复流缓存开启时切歌会话丢失问题"
+  },
+  "download.release.beta.2_0_1_beta_12.web.playbackResumeSeek": {
+    "message": "修复恢复播放时自动播放与进度条 seek 抖动"
   }
 }

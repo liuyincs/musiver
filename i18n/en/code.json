@@ -1396,5 +1396,134 @@
   },
   "download.release.beta.2_0_1_beta_11.web.favoriteSync": {
     "message": "More accurate favorite actions in all-libraries view"
+  },
+  "download.release.beta.2_0_1_beta_12.common.playerBackground": {
+    "message": "Player background switching: solid, blur, and dynamic modes"
+  },
+  "download.release.beta.2_0_1_beta_12.common.playlistServerSort": {
+    "message": "Server-side playlist sorting and pagination; removed local drag-to-sort"
+  },
+  "download.release.beta.2_0_1_beta_12.common.plexHomePin": {
+    "message": "Plex Home managed users and PIN login: add managed-user servers via PIN"
+  },
+  "download.release.beta.2_0_1_beta_12.common.perfMonitoring": {
+    "message": "Added runtime performance monitoring panel in Developer settings"
+  },
+  "download.release.beta.2_0_1_beta_12.common.logReporting": {
+    "message": "Client logs can be reported to Fast Ship for easier troubleshooting"
+  },
+  "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity": {
+    "message": "Switching playback modes keeps playback continuous without progress bar jumps"
+  },
+  "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix": {
+    "message": "Fixed Emby playlist queries incorrectly injecting library scope limits"
+  },
+  "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode": {
+    "message": "Original-quality audio is no longer silently transcoded to MP3 on Unknown network quality"
+  },
+  "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic": {
+    "message": "Improved Subsonic compatibility, including qm-music library format support"
+  },
+  "download.release.beta.2_0_1_beta_12.android.landscapePlayer": {
+    "message": "Landscape player: new landscape layout with lyrics aligned to portrait mode"
+  },
+  "download.release.beta.2_0_1_beta_12.android.meshGradientBackground": {
+    "message": "Dynamic background: AMLL MeshGradient-style animated background"
+  },
+  "download.release.beta.2_0_1_beta_12.android.serverMenu": {
+    "message": "Server menu: moved server list into a Switch Server submenu in the avatar menu"
+  },
+  "download.release.beta.2_0_1_beta_12.android.backgroundKeepAlive": {
+    "message": "Background keep-alive: player cover survives track changes; background resume no longer rebuilds the main screen"
+  },
+  "download.release.beta.2_0_1_beta_12.android.queueEndJitter": {
+    "message": "Fixed state jitter after playback completes at the end of the queue"
+  },
+  "download.release.beta.2_0_1_beta_12.android.miniPlayerOverlap": {
+    "message": "Fixed bottom mini player overlapping list content"
+  },
+  "download.release.beta.2_0_1_beta_12.android.dynamicBackgroundFlash": {
+    "message": "Fixed dynamic background flashing from dark to bright on every open"
+  },
+  "download.release.beta.2_0_1_beta_12.android.playPauseButton": {
+    "message": "Large play/pause button now uses a hollow cutout style"
+  },
+  "download.release.beta.2_0_1_beta_12.android.streamCache401": {
+    "message": "Track changes no longer interrupt playback with 401 errors when stream cache is enabled"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.landscapePlayer": {
+    "message": "Landscape player: full-screen player supports landscape orientation"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.colorfulXBackground": {
+    "message": "Dynamic background upgrade: ColorfulX with palette extracted from cover art"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.navigationRefactor": {
+    "message": "Navigation refactor: iPhone uses a root single stack; tab bar only on Home"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.loopToast": {
+    "message": "Loop playback hint: shows a toast when loop mode is enabled"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.immersiveLyricsFix": {
+    "message": "Fixed mini bar not clickable and controls not restoring after collapsing immersive lyrics"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.detailPageMiniBar": {
+    "message": "Fixed detail page bottom obscured by the mini player bar"
+  },
+  "download.release.beta.2_0_1_beta_12.ios.sharedPlaylistArrow": {
+    "message": "Fixed duplicate right arrows on shared playlist rows"
+  },
+  "download.release.beta.2_0_1_beta_12.macos.miniWindow": {
+    "message": "Mini window mode for listening while doing other tasks"
+  },
+  "download.release.beta.2_0_1_beta_12.macos.windowGeometry": {
+    "message": "Main window geometry memory: restores position and size on next launch"
+  },
+  "download.release.beta.2_0_1_beta_12.macos.sharedPlaylistArrow": {
+    "message": "Fixed duplicate right arrows on shared playlist rows"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.landscapePlayer": {
+    "message": "Landscape player: full-screen player supports landscape orientation"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.playlistSortMenu": {
+    "message": "Playlist sorting: server-side sort with options in a submenu"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.fullscreenPlayerRefactor": {
+    "message": "Full-screen player refactor: unified sheet, landscape layout, animations, and lyrics scrolling"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.playbackModeFix": {
+    "message": "Fixed unresponsive playback mode switching and playback interruption"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.betaFeedbackFix": {
+    "message": "Fixed multiple issues reported in Beta.11 feedback"
+  },
+  "download.release.beta.2_0_1_beta_12.harmony.frameworkTransition": {
+    "message": "Full-screen player uses framework transitions to avoid animation jumps"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.miniWindow": {
+    "message": "Mini window mode"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.windowGeometry": {
+    "message": "Main window geometry memory: restores position and size"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.desktopLyricsEntry": {
+    "message": "Desktop lyrics: added Windows desktop lyrics entry and related improvements"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.thumbBarTooltips": {
+    "message": "Taskbar Thumb Bar buttons now show hover tooltips"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.streamCacheSession": {
+    "message": "Fixed lost playback session when changing tracks with stream cache enabled"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.playbackResumeSeek": {
+    "message": "Fixed auto-play on resume and progress bar seek jitter"
+  },
+  "download.release.beta.2_0_1_beta_12.desktop.fullscreenLyricsMode": {
+    "message": "Full-screen player ignores player-bar lyrics mode to avoid layout conflicts"
+  },
+  "download.release.beta.2_0_1_beta_12.web.streamCacheSession": {
+    "message": "Fixed lost playback session when changing tracks with stream cache enabled"
+  },
+  "download.release.beta.2_0_1_beta_12.web.playbackResumeSeek": {
+    "message": "Fixed auto-play on resume and progress bar seek jitter"
   }
 }
