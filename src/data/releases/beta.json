@@ -1,8 +1,38 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-07-04",
+  "updatedAt": "2026-07-22",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-beta.13",
+        "date": "2026-07-22",
+        "downloadUrl": "https://wwapa.lanzouq.com/b00jffd35c",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_13.common.audiobookshelf",
+          "download.release.beta.2_0_1_beta_13.common.trackDelete",
+          "download.release.beta.2_0_1_beta_13.common.lyricsStyle",
+          "download.release.beta.2_0_1_beta_13.common.coverTierLoading",
+          "download.release.beta.2_0_1_beta_13.common.unplayableSkip",
+          "download.release.beta.2_0_1_beta_13.common.longAudioSkipTransport",
+          "download.release.beta.2_0_1_beta_13.common.seamlessPlaybackBuiltin",
+          "download.release.beta.2_0_1_beta_13.common.immersiveLyricsPalette",
+          "download.release.beta.2_0_1_beta_13.common.coverPlaceholders",
+          "download.release.beta.2_0_1_beta_13.common.shuffleStartFix",
+          "download.release.beta.2_0_1_beta_13.common.embyPlaylistRemoveFix",
+          "download.release.beta.2_0_1_beta_13.common.audioStationRandomFix",
+          "download.release.beta.2_0_1_beta_13.android.androidTv",
+          "download.release.beta.2_0_1_beta_13.android.androidTvPlexOAuth",
+          "download.release.beta.2_0_1_beta_13.android.dlna",
+          "download.release.beta.2_0_1_beta_13.android.absContinueListening",
+          "download.release.beta.2_0_1_beta_13.android.searchPagination",
+          "download.release.beta.2_0_1_beta_13.android.folderBrowsing",
+          "download.release.beta.2_0_1_beta_13.android.sessionQueueRestore",
+          "download.release.beta.2_0_1_beta_13.android.rotationLock",
+          "download.release.beta.2_0_1_beta_13.android.landscapePlayer",
+          "download.release.beta.2_0_1_beta_13.android.coldStartQueueFix",
+          "download.release.beta.2_0_1_beta_13.android.playlistRemoveFix"
+        ]
+      },
       {
         "version": "2.0.1-beta.12",
         "date": "2026-07-04",
@@ -184,6 +214,35 @@
     ],
     "harmony": [
       {
+        "version": "2.0.1-beta.13",
+        "date": "2026-07-22",
+        "downloadUrl": "https://appgallery.huawei.com/apptest/join/32fbd25c63c6d873ddc2469f8160487c?invitationCode=A21oqKOAeFd",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_13.common.audiobookshelf",
+          "download.release.beta.2_0_1_beta_13.common.trackDelete",
+          "download.release.beta.2_0_1_beta_13.common.lyricsStyle",
+          "download.release.beta.2_0_1_beta_13.common.coverTierLoading",
+          "download.release.beta.2_0_1_beta_13.common.unplayableSkip",
+          "download.release.beta.2_0_1_beta_13.common.longAudioSkipTransport",
+          "download.release.beta.2_0_1_beta_13.common.seamlessPlaybackBuiltin",
+          "download.release.beta.2_0_1_beta_13.common.immersiveLyricsPalette",
+          "download.release.beta.2_0_1_beta_13.common.coverPlaceholders",
+          "download.release.beta.2_0_1_beta_13.common.shuffleStartFix",
+          "download.release.beta.2_0_1_beta_13.common.embyPlaylistRemoveFix",
+          "download.release.beta.2_0_1_beta_13.common.audioStationRandomFix",
+          "download.release.beta.2_0_1_beta_13.harmony.avCast",
+          "download.release.beta.2_0_1_beta_13.harmony.serverCapabilityHome",
+          "download.release.beta.2_0_1_beta_13.harmony.searchPagination",
+          "download.release.beta.2_0_1_beta_13.harmony.folderBrowsing",
+          "download.release.beta.2_0_1_beta_13.harmony.sessionQueueRestore",
+          "download.release.beta.2_0_1_beta_13.harmony.darkThemeDiscover",
+          "download.release.beta.2_0_1_beta_13.harmony.rotationLock",
+          "download.release.beta.2_0_1_beta_13.harmony.coldStartQueueFix",
+          "download.release.beta.2_0_1_beta_13.harmony.artistAlbumCrashFix",
+          "download.release.beta.2_0_1_beta_13.harmony.splashHangFix"
+        ]
+      },
+      {
         "version": "2.0.1-beta.12",
         "date": "2026-07-04",
         "downloadUrl": "https://appgallery.huawei.com/apptest/join/cdee8b42498b0e34d222168b0ec7a960",
@@ -324,6 +383,40 @@
       }
     ],
     "apple": [
+      {
+        "version": "2.0.1-beta.13",
+        "date": "2026-07-22",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_13.common.audiobookshelf",
+          "download.release.beta.2_0_1_beta_13.common.trackDelete",
+          "download.release.beta.2_0_1_beta_13.common.lyricsStyle",
+          "download.release.beta.2_0_1_beta_13.common.coverTierLoading",
+          "download.release.beta.2_0_1_beta_13.common.unplayableSkip",
+          "download.release.beta.2_0_1_beta_13.common.longAudioSkipTransport",
+          "download.release.beta.2_0_1_beta_13.common.seamlessPlaybackBuiltin",
+          "download.release.beta.2_0_1_beta_13.common.immersiveLyricsPalette",
+          "download.release.beta.2_0_1_beta_13.common.coverPlaceholders",
+          "download.release.beta.2_0_1_beta_13.common.shuffleStartFix",
+          "download.release.beta.2_0_1_beta_13.common.embyPlaylistRemoveFix",
+          "download.release.beta.2_0_1_beta_13.common.audioStationRandomFix",
+          "download.release.beta.2_0_1_beta_13.apple.tvosPolish",
+          "download.release.beta.2_0_1_beta_13.apple.macosStatusBarLyrics",
+          "download.release.beta.2_0_1_beta_13.apple.airplayDlna",
+          "download.release.beta.2_0_1_beta_13.apple.volumeFade",
+          "download.release.beta.2_0_1_beta_13.apple.friendlyErrors",
+          "download.release.beta.2_0_1_beta_13.apple.landscapePlayer",
+          "download.release.beta.2_0_1_beta_13.apple.searchSubmit",
+          "download.release.beta.2_0_1_beta_13.apple.playbackSpeedMenu",
+          "download.release.beta.2_0_1_beta_13.apple.idlePlaceholder",
+          "download.release.beta.2_0_1_beta_13.apple.trackMoreMenu",
+          "download.release.beta.2_0_1_beta_13.apple.songCountFix",
+          "download.release.beta.2_0_1_beta_13.apple.dockRestoreFix",
+          "download.release.beta.2_0_1_beta_13.apple.lockScreenResumeFix",
+          "download.release.beta.2_0_1_beta_13.apple.searchTabInputFix",
+          "download.release.beta.2_0_1_beta_13.apple.lyricsNoLibraryFix"
+        ]
+      },
       {
         "version": "2.0.1-beta.12",
         "date": "2026-07-04",
@@ -529,6 +622,36 @@
     ],
     "windows": [
       {
+        "version": "2.0.1-beta.13",
+        "date": "2026-07-22",
+        "downloadUrl": "https://www.ilanzou.com/s/TaQLSWnv",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_13.common.audiobookshelf",
+          "download.release.beta.2_0_1_beta_13.common.trackDelete",
+          "download.release.beta.2_0_1_beta_13.common.lyricsStyle",
+          "download.release.beta.2_0_1_beta_13.common.coverTierLoading",
+          "download.release.beta.2_0_1_beta_13.common.unplayableSkip",
+          "download.release.beta.2_0_1_beta_13.common.longAudioSkipTransport",
+          "download.release.beta.2_0_1_beta_13.common.seamlessPlaybackBuiltin",
+          "download.release.beta.2_0_1_beta_13.common.immersiveLyricsPalette",
+          "download.release.beta.2_0_1_beta_13.common.coverPlaceholders",
+          "download.release.beta.2_0_1_beta_13.common.shuffleStartFix",
+          "download.release.beta.2_0_1_beta_13.common.embyPlaylistRemoveFix",
+          "download.release.beta.2_0_1_beta_13.common.audioStationRandomFix",
+          "download.release.beta.2_0_1_beta_13.desktop.musicRoaming",
+          "download.release.beta.2_0_1_beta_13.desktop.dlna",
+          "download.release.beta.2_0_1_beta_13.desktop.appNameI18n",
+          "download.release.beta.2_0_1_beta_13.desktop.searchPagination",
+          "download.release.beta.2_0_1_beta_13.desktop.folderBrowsing",
+          "download.release.beta.2_0_1_beta_13.desktop.artistDetailTabs",
+          "download.release.beta.2_0_1_beta_13.desktop.idlePlayerBar",
+          "download.release.beta.2_0_1_beta_13.desktop.headerBack",
+          "download.release.beta.2_0_1_beta_13.desktop.tabStateUrl",
+          "download.release.beta.2_0_1_beta_13.desktop.sessionQueueRestore",
+          "download.release.beta.2_0_1_beta_13.desktop.hls"
+        ]
+      },
+      {
         "version": "2.0.1-beta.12",
         "date": "2026-07-04",
         "downloadUrl": "https://www.ilanzou.com/s/cO0xdrIR",
@@ -705,6 +828,33 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-beta.13",
+        "date": "2026-07-22",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_13.common.audiobookshelf",
+          "download.release.beta.2_0_1_beta_13.common.trackDelete",
+          "download.release.beta.2_0_1_beta_13.common.lyricsStyle",
+          "download.release.beta.2_0_1_beta_13.common.coverTierLoading",
+          "download.release.beta.2_0_1_beta_13.common.unplayableSkip",
+          "download.release.beta.2_0_1_beta_13.common.longAudioSkipTransport",
+          "download.release.beta.2_0_1_beta_13.common.seamlessPlaybackBuiltin",
+          "download.release.beta.2_0_1_beta_13.common.immersiveLyricsPalette",
+          "download.release.beta.2_0_1_beta_13.common.coverPlaceholders",
+          "download.release.beta.2_0_1_beta_13.common.shuffleStartFix",
+          "download.release.beta.2_0_1_beta_13.common.embyPlaylistRemoveFix",
+          "download.release.beta.2_0_1_beta_13.common.audioStationRandomFix",
+          "download.release.beta.2_0_1_beta_13.web.searchPagination",
+          "download.release.beta.2_0_1_beta_13.web.folderBrowsing",
+          "download.release.beta.2_0_1_beta_13.web.artistDetailTabs",
+          "download.release.beta.2_0_1_beta_13.web.idlePlayerBar",
+          "download.release.beta.2_0_1_beta_13.web.tabStateUrl",
+          "download.release.beta.2_0_1_beta_13.web.sessionQueueRestore",
+          "download.release.beta.2_0_1_beta_13.web.hls",
+          "download.release.beta.2_0_1_beta_13.web.sidebarLogoFix"
+        ]
+      },
       {
         "version": "2.0.1-beta.12",
         "date": "2026-07-04",

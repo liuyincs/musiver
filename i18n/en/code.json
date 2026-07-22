@@ -1489,5 +1489,206 @@
   },
   "download.release.beta.2_0_1_beta_12.web.playbackResumeSeek": {
     "message": "Fixed auto-play on resume and progress bar seek jitter"
+  },
+  "download.release.beta.2_0_1_beta_13.common.audiobookshelf": {
+    "message": "Audiobookshelf support: bookshelf / series / author browsing, progress sync and resume, chapters and playback speed for long audio"
+  },
+  "download.release.beta.2_0_1_beta_13.common.trackDelete": {
+    "message": "Physically delete tracks from the media library, with automatic play-queue recovery"
+  },
+  "download.release.beta.2_0_1_beta_13.common.lyricsStyle": {
+    "message": "Player lyrics style settings for alignment, font size, and blur"
+  },
+  "download.release.beta.2_0_1_beta_13.common.coverTierLoading": {
+    "message": "Tiered cover loading by display context; notifications, lock screen, and media sessions use thumbnails"
+  },
+  "download.release.beta.2_0_1_beta_13.common.unplayableSkip": {
+    "message": "Automatically skip unplayable tracks with a lightweight prompt"
+  },
+  "download.release.beta.2_0_1_beta_13.common.longAudioSkipTransport": {
+    "message": "Optional skip-forward/back controls instead of previous/next for audiobooks"
+  },
+  "download.release.beta.2_0_1_beta_13.common.seamlessPlaybackBuiltin": {
+    "message": "Seamless playback is always on; the related setting has been removed"
+  },
+  "download.release.beta.2_0_1_beta_13.common.immersiveLyricsPalette": {
+    "message": "Immersive lyrics dynamic palette extraction aligned across platforms"
+  },
+  "download.release.beta.2_0_1_beta_13.common.coverPlaceholders": {
+    "message": "Unified cover placeholder images across clients"
+  },
+  "download.release.beta.2_0_1_beta_13.common.shuffleStartFix": {
+    "message": "Fixed shuffle start pinning the first queue item when no track is selected"
+  },
+  "download.release.beta.2_0_1_beta_13.common.embyPlaylistRemoveFix": {
+    "message": "Fixed failing to remove songs from Emby playlists"
+  },
+  "download.release.beta.2_0_1_beta_13.common.audioStationRandomFix": {
+    "message": "Fixed Audio Station random playback queries"
+  },
+  "download.release.beta.2_0_1_beta_13.android.androidTv": {
+    "message": "Android TV native experience: onboarding, main shell, library, search, downloads / offline, now playing, Home Channel, deep links, and focus navigation"
+  },
+  "download.release.beta.2_0_1_beta_13.android.androidTvPlexOAuth": {
+    "message": "Android TV Plex QR OAuth, plus improved membership and hierarchical settings pages"
+  },
+  "download.release.beta.2_0_1_beta_13.android.dlna": {
+    "message": "DLNA casting support"
+  },
+  "download.release.beta.2_0_1_beta_13.android.absContinueListening": {
+    "message": "Discover page Audiobookshelf Continue Listening"
+  },
+  "download.release.beta.2_0_1_beta_13.android.searchPagination": {
+    "message": "Paginated search results; improved search filters and result presentation"
+  },
+  "download.release.beta.2_0_1_beta_13.android.folderBrowsing": {
+    "message": "Emby folder browsing mix layout aligned with other clients, with same-level track playback"
+  },
+  "download.release.beta.2_0_1_beta_13.android.sessionQueueRestore": {
+    "message": "Restore the matching play queue when switching servers or libraries"
+  },
+  "download.release.beta.2_0_1_beta_13.android.rotationLock": {
+    "message": "Fullscreen player follows the system auto-rotate setting"
+  },
+  "download.release.beta.2_0_1_beta_13.android.landscapePlayer": {
+    "message": "Improved landscape player control layout"
+  },
+  "download.release.beta.2_0_1_beta_13.android.coldStartQueueFix": {
+    "message": "Fixed play queue not restoring before entering the main UI on cold start"
+  },
+  "download.release.beta.2_0_1_beta_13.android.playlistRemoveFix": {
+    "message": "Fixed playlist track removal (wired through removeId)"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.avCast": {
+    "message": "System casting via AVCastPicker"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.serverCapabilityHome": {
+    "message": "Home entries filtered by server capabilities, with manual Audiobookshelf add support"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.searchPagination": {
+    "message": "Paginated search results"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.folderBrowsing": {
+    "message": "Folder browsing mix layout with same-level track playback"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.sessionQueueRestore": {
+    "message": "Restore the matching play queue when switching servers or libraries"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.darkThemeDiscover": {
+    "message": "Dark theme and Discover section capabilities aligned; title and tab bars refresh immediately after theme switches"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.rotationLock": {
+    "message": "Fullscreen player respects the system rotation lock"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.coldStartQueueFix": {
+    "message": "Fixed incomplete play-queue restore on cold start and getting stuck in buffering"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.artistAlbumCrashFix": {
+    "message": "Fixed empty artist covers, empty track lists, and freezes/crashes when opening albums"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.splashHangFix": {
+    "message": "Fixed occasional hang on the splash screen"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.tvosPolish": {
+    "message": "tvOS polish: home shelves, library, paginated search, player and immersive lyrics, Top Shelf, remote focus, membership entry, and multi-server gating"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.macosStatusBarLyrics": {
+    "message": "macOS: improved status-bar lyrics and related settings; player bar uses lyrics display options; localized app name"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.airplayDlna": {
+    "message": "AirPlay and DLNA casting (DLNA temporarily disabled on iOS pending multicast entitlement approval)"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.volumeFade": {
+    "message": "Volume fade-in/out aligned with desktop semantics"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.friendlyErrors": {
+    "message": "Friendlier error presentation that avoids exposing technical error strings"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.landscapePlayer": {
+    "message": "iPhone landscape player uses a three-column layout; casting entry points merged with smoother swipe-to-dismiss"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.searchSubmit": {
+    "message": "iOS search runs on submit and dismisses the keyboard when tapping outside"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.playbackSpeedMenu": {
+    "message": "Playback speed stays available in the player more menu"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.idlePlaceholder": {
+    "message": "When no track is playing, the player placeholder shows the app name and slogan"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.trackMoreMenu": {
+    "message": "Unified track-row more menu, with confirmation before remove"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.songCountFix": {
+    "message": "Fixed list pages not showing the real total song count"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.dockRestoreFix": {
+    "message": "Fixed macOS Dock click not restoring the main window"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.lockScreenResumeFix": {
+    "message": "Fixed inability to resume playback after waking from the iOS lock screen"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.searchTabInputFix": {
+    "message": "Fixed iPhone Search tab not accepting input"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.lyricsNoLibraryFix": {
+    "message": "Fixed lyrics failing to load on Mac when no library is active"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.musicRoaming": {
+    "message": "Desktop music roaming aligned with other platforms"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.dlna": {
+    "message": "DLNA casting with friendly device names and volume sync"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.appNameI18n": {
+    "message": "Windows app name internationalization"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.searchPagination": {
+    "message": "Paginated search results; aligned filters and result styling, with quality badges on track rows"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.folderBrowsing": {
+    "message": "Folder browsing mix layout, pagination, and same-level track playback"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.artistDetailTabs": {
+    "message": "Artist detail uses Albums / Songs tabs, with corrected album counts"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.idlePlayerBar": {
+    "message": "Idle player bar shows the app name and slogan"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.headerBack": {
+    "message": "Navigation header always shows Back"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.tabStateUrl": {
+    "message": "Search / Favorites tab state is stored in the URL and preserved on back navigation"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.sessionQueueRestore": {
+    "message": "Restore the matching play queue when switching servers or libraries"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.hls": {
+    "message": "Playback layer supports HLS"
+  },
+  "download.release.beta.2_0_1_beta_13.web.searchPagination": {
+    "message": "Paginated search results; aligned filters and result styling, with quality badges on track rows"
+  },
+  "download.release.beta.2_0_1_beta_13.web.folderBrowsing": {
+    "message": "Folder browsing mix layout, pagination, and same-level track playback"
+  },
+  "download.release.beta.2_0_1_beta_13.web.artistDetailTabs": {
+    "message": "Artist detail uses Albums / Songs tabs, with corrected album counts"
+  },
+  "download.release.beta.2_0_1_beta_13.web.idlePlayerBar": {
+    "message": "Idle player bar shows the app name and slogan"
+  },
+  "download.release.beta.2_0_1_beta_13.web.tabStateUrl": {
+    "message": "Search / Favorites tab state is stored in the URL and preserved on back navigation"
+  },
+  "download.release.beta.2_0_1_beta_13.web.sessionQueueRestore": {
+    "message": "Restore the matching play queue when switching servers or libraries"
+  },
+  "download.release.beta.2_0_1_beta_13.web.hls": {
+    "message": "Playback layer supports HLS"
+  },
+  "download.release.beta.2_0_1_beta_13.web.sidebarLogoFix": {
+    "message": "Fixed sidebar logo not being left-aligned"
   }
 }

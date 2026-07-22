@@ -1489,5 +1489,206 @@
   },
   "download.release.beta.2_0_1_beta_12.web.playbackResumeSeek": {
     "message": "修复恢复播放时自动播放与进度条 seek 抖动"
+  },
+  "download.release.beta.2_0_1_beta_13.common.audiobookshelf": {
+    "message": "支持 Audiobookshelf：有声书书架 / 系列 / 作者浏览、进度同步与断点续播、章节与倍速等长音频体验"
+  },
+  "download.release.beta.2_0_1_beta_13.common.trackDelete": {
+    "message": "支持从媒体库物理删除曲目，播放队列自动自愈"
+  },
+  "download.release.beta.2_0_1_beta_13.common.lyricsStyle": {
+    "message": "播放页歌词样式支持配置对齐、字号与模糊"
+  },
+  "download.release.beta.2_0_1_beta_13.common.coverTierLoading": {
+    "message": "封面按展示场景分档加载；系统通知、锁屏与媒体会话改用缩略图"
+  },
+  "download.release.beta.2_0_1_beta_13.common.unplayableSkip": {
+    "message": "无法播放的曲目自动跳过并轻量提示"
+  },
+  "download.release.beta.2_0_1_beta_13.common.longAudioSkipTransport": {
+    "message": "有声书场景可开启「跳秒」替换上一曲 / 下一曲控件"
+  },
+  "download.release.beta.2_0_1_beta_13.common.seamlessPlaybackBuiltin": {
+    "message": "无缝播放改为内置开启，并移除对应设置项"
+  },
+  "download.release.beta.2_0_1_beta_13.common.immersiveLyricsPalette": {
+    "message": "沉浸式歌词动态调色板取色跨端对齐"
+  },
+  "download.release.beta.2_0_1_beta_13.common.coverPlaceholders": {
+    "message": "统一各端封面占位图"
+  },
+  "download.release.beta.2_0_1_beta_13.common.shuffleStartFix": {
+    "message": "修复未选曲随机起播时固定播放队列第一首的问题"
+  },
+  "download.release.beta.2_0_1_beta_13.common.embyPlaylistRemoveFix": {
+    "message": "修复 Emby 播放列表移除歌曲失败"
+  },
+  "download.release.beta.2_0_1_beta_13.common.audioStationRandomFix": {
+    "message": "修复 Audio Station 随机播放查询异常"
+  },
+  "download.release.beta.2_0_1_beta_13.android.androidTv": {
+    "message": "Android TV 原生体验：引导、主壳、资料库、搜索、下载 / 离线、正在播放、Home Channel、深链与焦点导航"
+  },
+  "download.release.beta.2_0_1_beta_13.android.androidTvPlexOAuth": {
+    "message": "Android TV 支持 Plex 二维码 OAuth，并完善会员页与设置分级页"
+  },
+  "download.release.beta.2_0_1_beta_13.android.dlna": {
+    "message": "支持 DLNA 外放投屏"
+  },
+  "download.release.beta.2_0_1_beta_13.android.absContinueListening": {
+    "message": "发现页支持 Audiobookshelf「继续收听」"
+  },
+  "download.release.beta.2_0_1_beta_13.android.searchPagination": {
+    "message": "搜索结果支持分页；优化搜索页筛选与结果展示"
+  },
+  "download.release.beta.2_0_1_beta_13.android.folderBrowsing": {
+    "message": "Emby 文件夹浏览混排对齐其它端，支持同级曲目点播"
+  },
+  "download.release.beta.2_0_1_beta_13.android.sessionQueueRestore": {
+    "message": "切换服务器 / 资料库时按上下文恢复对应播放队列"
+  },
+  "download.release.beta.2_0_1_beta_13.android.rotationLock": {
+    "message": "全屏播放展开时跟随系统自动旋转开关"
+  },
+  "download.release.beta.2_0_1_beta_13.android.landscapePlayer": {
+    "message": "优化横屏播放页控件布局"
+  },
+  "download.release.beta.2_0_1_beta_13.android.coldStartQueueFix": {
+    "message": "修复冷启动进入主界面前未恢复播放队列"
+  },
+  "download.release.beta.2_0_1_beta_13.android.playlistRemoveFix": {
+    "message": "修复歌单移除歌曲失败（贯通 removeId）"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.avCast": {
+    "message": "接入系统投播（AVCastPicker）"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.serverCapabilityHome": {
+    "message": "首页入口按服务器能力过滤，并支持手动添加 Audiobookshelf"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.searchPagination": {
+    "message": "搜索结果支持分页"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.folderBrowsing": {
+    "message": "文件夹浏览支持混排与同级曲目点播"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.sessionQueueRestore": {
+    "message": "切换服务器 / 资料库时按上下文恢复对应播放队列"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.darkThemeDiscover": {
+    "message": "深色主题与发现页分区能力对齐；深浅色切换后即时刷新标题栏与 Tab 栏"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.rotationLock": {
+    "message": "全屏播放展开时尊重系统旋转锁"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.coldStartQueueFix": {
+    "message": "修复冷启动播放队列恢复不完整、以及卡在缓冲状态"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.artistAlbumCrashFix": {
+    "message": "修复艺人封面为空、曲目列表为空、进入专辑卡死闪退"
+  },
+  "download.release.beta.2_0_1_beta_13.harmony.splashHangFix": {
+    "message": "修复启动页偶发卡死"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.tvosPolish": {
+    "message": "完善 tvOS：首页货架、资料库、搜索分页、播放页与沉浸歌词、Top Shelf、遥控器焦点、会员入口与多服务器门控"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.macosStatusBarLyrics": {
+    "message": "macOS：优化状态栏歌词与相关设置；播放条接入歌词显示配置；应用名支持本地化"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.airplayDlna": {
+    "message": "支持 AirPlay 与 DLNA 外放（iOS 因组播特权未获批，暂关闭 DLNA）"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.volumeFade": {
+    "message": "接入音量淡入淡出（与桌面端语义对齐）"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.friendlyErrors": {
+    "message": "统一友好错误展示，避免技术错误信息直接暴露给用户"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.landscapePlayer": {
+    "message": "iPhone 横屏播放页改为三列布局；合并投屏入口，并优化下滑收起跟手"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.searchSubmit": {
+    "message": "iOS 搜索改为提交后搜索，支持点击空白处收起键盘"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.playbackSpeedMenu": {
+    "message": "播放页更多菜单常驻倍速选项"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.idlePlaceholder": {
+    "message": "无当前曲目时，播放界面占位显示应用名与 slogan"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.trackMoreMenu": {
+    "message": "曲目行更多菜单统一，移除操作增加二次确认"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.songCountFix": {
+    "message": "修复列表页歌曲数量未显示真实总数"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.dockRestoreFix": {
+    "message": "修复 macOS 点击 Dock 图标无法恢复主界面"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.lockScreenResumeFix": {
+    "message": "修复 iOS 锁屏唤醒后无法续播"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.searchTabInputFix": {
+    "message": "修复 iPhone 搜索 Tab 无法输入"
+  },
+  "download.release.beta.2_0_1_beta_13.apple.lyricsNoLibraryFix": {
+    "message": "修复 Mac 无活动资料库时歌词加载失败"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.musicRoaming": {
+    "message": "桌面端接入音乐漫游（与其它端对齐）"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.dlna": {
+    "message": "支持 DLNA 外放投屏（显示设备友好名称，并同步设备音量）"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.appNameI18n": {
+    "message": "Windows 应用名称支持国际化"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.searchPagination": {
+    "message": "搜索结果支持分页；搜索筛选与结果样式对齐，曲目行显示音质角标"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.folderBrowsing": {
+    "message": "文件夹浏览支持混排、分页与同级曲目点播"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.artistDetailTabs": {
+    "message": "艺术家详情改为专辑 / 歌曲分栏，并修正专辑数统计"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.idlePlayerBar": {
+    "message": "播放栏空闲态显示应用名与 slogan"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.headerBack": {
+    "message": "导航 Header 始终显示返回"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.tabStateUrl": {
+    "message": "搜索 / 收藏 Tab 状态写入 URL，返回后保持筛选状态"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.sessionQueueRestore": {
+    "message": "切换服务器 / 资料库时按上下文恢复对应播放队列"
+  },
+  "download.release.beta.2_0_1_beta_13.desktop.hls": {
+    "message": "播放层支持 HLS"
+  },
+  "download.release.beta.2_0_1_beta_13.web.searchPagination": {
+    "message": "搜索结果支持分页；搜索筛选与结果样式对齐，曲目行显示音质角标"
+  },
+  "download.release.beta.2_0_1_beta_13.web.folderBrowsing": {
+    "message": "文件夹浏览支持混排、分页与同级曲目点播"
+  },
+  "download.release.beta.2_0_1_beta_13.web.artistDetailTabs": {
+    "message": "艺术家详情改为专辑 / 歌曲分栏，并修正专辑数统计"
+  },
+  "download.release.beta.2_0_1_beta_13.web.idlePlayerBar": {
+    "message": "播放栏空闲态显示应用名与 slogan"
+  },
+  "download.release.beta.2_0_1_beta_13.web.tabStateUrl": {
+    "message": "搜索 / 收藏 Tab 状态写入 URL，返回后保持筛选状态"
+  },
+  "download.release.beta.2_0_1_beta_13.web.sessionQueueRestore": {
+    "message": "切换服务器 / 资料库时按上下文恢复对应播放队列"
+  },
+  "download.release.beta.2_0_1_beta_13.web.hls": {
+    "message": "播放层支持 HLS"
+  },
+  "download.release.beta.2_0_1_beta_13.web.sidebarLogoFix": {
+    "message": "修复侧边栏 logo 未左对齐"
   }
 }
