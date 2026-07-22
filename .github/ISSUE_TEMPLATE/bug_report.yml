@@ -20,9 +20,11 @@ body:
       description: Select all that apply / 可多选
       options:
         - label: Android
+        - label: Android TV
         - label: iOS
         - label: HarmonyOS
         - label: macOS
+        - label: Apple TV
         - label: Windows
         - label: Web
     validations:
@@ -32,7 +34,7 @@ body:
     id: os-version
     attributes:
       label: OS Version / 操作系统版本
-      description: "Optional. e.g. Android 14, iOS 18.2, HarmonyOS NEXT 5.0, Windows 11 / 选填，如 Android 14、iOS 18.2、HarmonyOS NEXT 5.0、Windows 11"
+      description: "Optional. e.g. Android 14, Android TV 14, iOS 18.2, tvOS 18, HarmonyOS NEXT 5.0, Windows 11 / 选填，如 Android 14、Android TV 14、iOS 18.2、tvOS 18、HarmonyOS NEXT 5.0、Windows 11"
       placeholder: "e.g. Android 14 / 如 Android 14"
     validations:
       required: false

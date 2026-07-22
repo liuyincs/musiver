@@ -21,13 +21,12 @@
  *
  * 定义了 Musiver 应用支持的所有目标平台：
  * - android: Android 移动设备
- * - ios: iOS 移动设备（iPhone/iPad）
  * - harmony: HarmonyOS 鸿蒙系统
- * - macos: macOS 桌面系统
+ * - apple: iOS / macOS / Apple TV（tvOS），共用下载入口
  * - windows: Windows 桌面系统
  * - web: Web 浏览器版本
  */
-export type Platform = 'android' | 'ios' | 'harmony' | 'macos' | 'windows' | 'web';
+export type Platform = 'android' | 'harmony' | 'apple' | 'windows' | 'web';
 
 /**
  * 发布频道类型
@@ -118,7 +117,7 @@ export interface StablePlatformInfo {
  *   version: "2.0.0",
  *   platforms: {
  *     android: { downloadUrl: "", changelogI18nKeys: [...] },
- *     ios: { downloadUrl: "", changelogI18nKeys: [...] },
+ *     apple: { downloadUrl: "", changelogI18nKeys: [...] },
  *     ...
  *   }
  * }
@@ -227,8 +226,7 @@ export type BetaPlatforms = Record<Platform, BetaPlatformVersions>;
  * @example
  * const platformLabels: PlatformLabels = {
  *   android: "Android",
- *   ios: "iOS",
- *   macos: "macOS",
+ *   apple: "iOS/macOS/tvOS",
  *   windows: "Windows",
  *   web: "Web"
  * };

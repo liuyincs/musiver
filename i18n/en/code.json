@@ -3,7 +3,7 @@
     "message": "Cross-Platform Coverage"
   },
   "homepage.features.crossPlatform.desc": {
-    "message": "iOS, Android, macOS, Windows, and Linux — set it up once and enjoy your music everywhere with a consistent experience."
+    "message": "Android, HarmonyOS, iOS, macOS, Apple TV, Windows, and Web — set it up once and enjoy your music everywhere with a consistent experience."
   },
   "homepage.features.multiSource.title": {
     "message": "Multi-Source Connectivity"
@@ -408,7 +408,7 @@
     "message": "Download Musiver"
   },
   "download.meta.desc": {
-    "message": "Download Musiver for Android, iOS, macOS, Windows, and Web."
+    "message": "Download Musiver for Android, HarmonyOS, iOS, macOS, Apple TV, Windows, and Web."
   },
   "download.colophon": {
     "message": "Get Musiver"
@@ -416,14 +416,11 @@
   "download.platform.android": {
     "message": "Android"
   },
-  "download.platform.ios": {
-    "message": "iOS"
-  },
   "download.platform.harmony": {
     "message": "HarmonyOS"
   },
-  "download.platform.macos": {
-    "message": "macOS"
+  "download.platform.apple": {
+    "message": "iOS/macOS/tvOS"
   },
   "download.platform.windows": {
     "message": "Windows"
@@ -473,7 +470,7 @@
   "download.release.beta.2_0_1_beta_2.common.privacy": {
     "message": "Added privacy policy consent dialog for compliance"
   },
-  "download.release.beta.2_0_1_beta_2.ios.lyricsPresentation": {
+  "download.release.beta.2_0_1_beta_2.apple.lyricsPresentation": {
     "message": "Enhanced full-screen lyrics presentation in player"
   },
   "download.release.beta.2_0_1_beta_2.desktop.singleInstance": {
@@ -509,10 +506,10 @@
   "download.release.beta.2_0_1_beta_3.common.fullscreenPlayer": {
     "message": "Enhanced fullscreen player visual effects"
   },
-  "download.release.beta.2_0_1_beta_3.ios.accentColor": {
+  "download.release.beta.2_0_1_beta_3.apple.accentColor": {
     "message": "Playback controls now use cover-extracted color as accent"
   },
-  "download.release.beta.2_0_1_beta_3.ios.keyboardHidePlayer": {
+  "download.release.beta.2_0_1_beta_3.apple.keyboardHidePlayer": {
     "message": "Fixed: Player view now auto-hides when keyboard is visible"
   },
   "download.release.beta.2_0_1_beta_3.android.tabletSupport": {
@@ -767,7 +764,7 @@
   "download.release.beta.2_0_1_beta_4.android.trackActions": {
     "message": "Added track action menu (more options button)"
   },
-  "download.release.beta.2_0_1_beta_4.ios.lanDiscovery": {
+  "download.release.beta.2_0_1_beta_4.apple.lanDiscovery": {
     "message": "HTTP-based LAN discovery service for server auto-detection"
   },
   "download.release.beta.2_0_1_beta_4.harmony.networkProxy": {
@@ -833,16 +830,16 @@
   "download.release.beta.2_0_1_beta_5.android.queuePanelEdit": {
     "message": "Playback queue panel supports removing and moving items"
   },
-  "download.release.beta.2_0_1_beta_5.ios.genreBrowsing": {
+  "download.release.beta.2_0_1_beta_5.apple.genreBrowsing": {
     "message": "Added Genre list and detail browsing"
   },
-  "download.release.beta.2_0_1_beta_5.ios.lyricsScreenOn": {
+  "download.release.beta.2_0_1_beta_5.apple.lyricsScreenOn": {
     "message": "Added lyrics view keep-screen-on toggle"
   },
-  "download.release.beta.2_0_1_beta_5.ios.plexSupport": {
+  "download.release.beta.2_0_1_beta_5.apple.plexSupport": {
     "message": "Added Plex server support with OAuth authentication"
   },
-  "download.release.beta.2_0_1_beta_5.ios.macOSDeploy": {
+  "download.release.beta.2_0_1_beta_5.apple.macOSDeploy": {
     "message": "macOS is now a first-class deploy target with sandbox and signing"
   },
   "download.release.beta.2_0_1_beta_5.harmony.playerBarLyrics": {
@@ -902,13 +899,13 @@
   "download.release.beta.2_0_1_beta_7.android.settings": {
     "message": "Improved settings page functionality and user experience"
   },
-  "download.release.beta.2_0_1_beta_7.ios.streamCache": {
+  "download.release.beta.2_0_1_beta_7.apple.streamCache": {
     "message": "Added stream caching while listening, supports offline playback"
   },
-  "download.release.beta.2_0_1_beta_7.ios.launchScreen": {
+  "download.release.beta.2_0_1_beta_7.apple.launchScreen": {
     "message": "Added animated gradient background launch screen"
   },
-  "download.release.beta.2_0_1_beta_7.ios.playerAnimation": {
+  "download.release.beta.2_0_1_beta_7.apple.playerAnimation": {
     "message": "Refactored player expand/collapse animation with iOS 18+ Zoom transition support"
   },
   "download.release.beta.2_0_1_beta_7.harmony.streamCache": {
@@ -980,28 +977,28 @@
   "download.release.beta.2_0_1_beta_8.android.tabletLayout": {
     "message": "Tablet Home page and player adapted for wide-screen layout"
   },
-  "download.release.beta.2_0_1_beta_8.ios.playerEngine": {
+  "download.release.beta.2_0_1_beta_8.apple.playerEngine": {
     "message": "Playback engine refactored from VLCKit to Apple Native Playback + FFmpeg decoding"
   },
-  "download.release.beta.2_0_1_beta_8.ios.playbackPreparation": {
+  "download.release.beta.2_0_1_beta_8.apple.playbackPreparation": {
     "message": "Added source queue fetching progress display"
   },
-  "download.release.beta.2_0_1_beta_8.ios.autoDownload": {
+  "download.release.beta.2_0_1_beta_8.apple.autoDownload": {
     "message": "Auto-download rule settings page"
   },
-  "download.release.beta.2_0_1_beta_8.ios.streamCacheMeta": {
+  "download.release.beta.2_0_1_beta_8.apple.streamCacheMeta": {
     "message": "Stream cache enhanced with tail pre-fetch and offline list integration"
   },
-  "download.release.beta.2_0_1_beta_8.ios.playlistPicker": {
+  "download.release.beta.2_0_1_beta_8.apple.playlistPicker": {
     "message": "Fullscreen player adds playlist picker and navigation menu"
   },
-  "download.release.beta.2_0_1_beta_8.ios.plexBranding": {
+  "download.release.beta.2_0_1_beta_8.apple.plexBranding": {
     "message": "Plex authentication flow UI redesigned with unified brand visual"
   },
-  "download.release.beta.2_0_1_beta_8.ios.systemPlaylist": {
+  "download.release.beta.2_0_1_beta_8.apple.systemPlaylist": {
     "message": "System playlists now display localized names and are non-editable"
   },
-  "download.release.beta.2_0_1_beta_8.ios.locateCurrentSong": {
+  "download.release.beta.2_0_1_beta_8.apple.locateCurrentSong": {
     "message": "Track list supports jumping to currently playing song"
   },
   "download.release.beta.2_0_1_beta_8.harmony.playbackPreparation": {
@@ -1043,13 +1040,13 @@
   "download.release.beta.2_0_1_beta_8.desktop.urlPaste": {
     "message": "Server URL supports pasting full address for automatic splitting"
   },
-  "download.release.beta.2_0_1_beta_8.macos.playerOverlay": {
+  "download.release.beta.2_0_1_beta_8.apple.playerOverlay": {
     "message": "macOS player changed to overlay window with fixed sidebar width"
   },
-  "download.release.beta.2_0_1_beta_8.macos.fullscreenToolbar": {
+  "download.release.beta.2_0_1_beta_8.apple.fullscreenToolbar": {
     "message": "macOS fullscreen player adds toolbar linkage and threshold transition animation"
   },
-  "download.release.beta.2_0_1_beta_8.macos.liquidGlass": {
+  "download.release.beta.2_0_1_beta_8.apple.liquidGlass": {
     "message": "macOS player bar and mini player adapted with Liquid Glass effects"
   },
   "download.release.beta.2_0_1_beta_8.windows.acrylicWindows11": {
@@ -1100,25 +1097,25 @@
   "download.release.beta.2_0_1_beta_9.android.lyricsDragInteraction": {
     "message": "Refined lyrics drag interaction"
   },
-  "download.release.beta.2_0_1_beta_9.ios.mixWithOthers": {
+  "download.release.beta.2_0_1_beta_9.apple.mixWithOthers": {
     "message": "Added mix-with-other-apps playback setting"
   },
-  "download.release.beta.2_0_1_beta_9.ios.infoPlistLocalization": {
+  "download.release.beta.2_0_1_beta_9.apple.infoPlistLocalization": {
     "message": "InfoPlist localization for app name and permission descriptions"
   },
-  "download.release.beta.2_0_1_beta_9.ios.playerNavToArtistAlbum": {
+  "download.release.beta.2_0_1_beta_9.apple.playerNavToArtistAlbum": {
     "message": "Player song info supports navigation to artist/album detail pages"
   },
-  "download.release.beta.2_0_1_beta_9.ios.notificationLyrics": {
+  "download.release.beta.2_0_1_beta_9.apple.notificationLyrics": {
     "message": "Now Playing and notification bar display current lyrics line with offset settings"
   },
-  "download.release.beta.2_0_1_beta_9.ios.localNetworkPreCheck": {
+  "download.release.beta.2_0_1_beta_9.apple.localNetworkPreCheck": {
     "message": "Local network permission pre-check for server discovery"
   },
-  "download.release.beta.2_0_1_beta_9.ios.lyricsSyncFix": {
+  "download.release.beta.2_0_1_beta_9.apple.lyricsSyncFix": {
     "message": "Fixed lyrics sync for non-continuous index in player bar and notification"
   },
-  "download.release.beta.2_0_1_beta_9.ios.fullscreenTransitionFix": {
+  "download.release.beta.2_0_1_beta_9.apple.fullscreenTransitionFix": {
     "message": "Fixed interactive dismiss for fullscreen player zoom transition"
   },
   "download.release.beta.2_0_1_beta_9.harmony.notificationLyrics": {
@@ -1148,10 +1145,10 @@
   "download.release.beta.2_0_1_beta_9.desktop.serverCardStyle": {
     "message": "Unified card styling for server-related pages"
   },
-  "download.release.beta.2_0_1_beta_9.macos.playerEnhancements": {
+  "download.release.beta.2_0_1_beta_9.apple.playerEnhancements": {
     "message": "macOS player interaction enhancements and playlist picker refactor"
   },
-  "download.release.beta.2_0_1_beta_9.macos.secureRestore": {
+  "download.release.beta.2_0_1_beta_9.apple.secureRestore": {
     "message": "macOS 13+ declares support for secure window state restoration"
   },
   "download.release.beta.2_0_1_beta_9.web.compactLayout": {
@@ -1184,28 +1181,16 @@
   "download.release.beta.2_0_1_beta_10.android.serverManagementUI": {
     "message": "Improved server management UI components and error hints"
   },
-  "download.release.beta.2_0_1_beta_10.ios.lyricsSearch": {
+  "download.release.beta.2_0_1_beta_10.apple.lyricsSearch": {
     "message": "Lyrics search UI (macOS / iPad)"
   },
-  "download.release.beta.2_0_1_beta_10.ios.multiArtistNav": {
+  "download.release.beta.2_0_1_beta_10.apple.multiArtistNav": {
     "message": "Player and various pages support multi-artist display and navigation"
   },
-  "download.release.beta.2_0_1_beta_10.ios.membership": {
+  "download.release.beta.2_0_1_beta_10.apple.membership": {
     "message": "Implemented membership system"
   },
-  "download.release.beta.2_0_1_beta_10.ios.serverEndpointConfig": {
-    "message": "Refactored server endpoint config page with macOS adaptation"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.lyricsSearch": {
-    "message": "Lyrics search UI (macOS / iPad)"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.multiArtistNav": {
-    "message": "Player and various pages support multi-artist display and navigation"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.membership": {
-    "message": "Implemented membership system"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.serverEndpointConfig": {
+  "download.release.beta.2_0_1_beta_10.apple.serverEndpointConfig": {
     "message": "Refactored server endpoint config page with macOS adaptation"
   },
   "download.release.beta.2_0_1_beta_10.harmony.serverEndpointConfig": {
@@ -1292,55 +1277,34 @@
   "download.release.beta.2_0_1_beta_11.android.shuffleWindow": {
     "message": "Fixed playback queue not syncing after toggling shuffle mode"
   },
-  "download.release.beta.2_0_1_beta_11.ios.playerTransition": {
+  "download.release.beta.2_0_1_beta_11.apple.playerTransition": {
     "message": "Shortened transition animations for the player bar and full-screen player"
   },
-  "download.release.beta.2_0_1_beta_11.ios.miniPlayerGesture": {
+  "download.release.beta.2_0_1_beta_11.apple.miniPlayerGesture": {
     "message": "Improved mini-player expand gesture to avoid accidental track skips on slight horizontal swipes"
   },
-  "download.release.beta.2_0_1_beta_11.ios.coverTransition": {
+  "download.release.beta.2_0_1_beta_11.apple.coverTransition": {
     "message": "Fixed cover stuck in mid-state during incomplete upward swipe, which hid cover in player bar"
   },
-  "download.release.beta.2_0_1_beta_11.ios.miniPlayerTouch": {
+  "download.release.beta.2_0_1_beta_11.apple.miniPlayerTouch": {
     "message": "Fixed touch-through on blank areas of the mini player"
   },
-  "download.release.beta.2_0_1_beta_11.ios.immersiveLyrics": {
+  "download.release.beta.2_0_1_beta_11.apple.immersiveLyrics": {
     "message": "Immersive lyrics interaction fixes"
   },
-  "download.release.beta.2_0_1_beta_11.ios.singleEndpoint": {
+  "download.release.beta.2_0_1_beta_11.apple.singleEndpoint": {
     "message": "No longer shows route-switching hint when only one endpoint exists"
   },
-  "download.release.beta.2_0_1_beta_11.ios.audioTimeline": {
+  "download.release.beta.2_0_1_beta_11.apple.audioTimeline": {
     "message": "Fixed timeline sync when decoding audio backend resumes playback"
   },
-  "download.release.beta.2_0_1_beta_11.ios.appIntents": {
+  "download.release.beta.2_0_1_beta_11.apple.appIntents": {
     "message": "Added Siri Shortcuts for quick playback and favorite controls"
   },
-  "download.release.beta.2_0_1_beta_11.ios.subsonicDownload": {
+  "download.release.beta.2_0_1_beta_11.apple.subsonicDownload": {
     "message": "Fixed Subsonic downloads failing or returning 0 KB files"
   },
-  "download.release.beta.2_0_1_beta_11.macos.playerTransition": {
-    "message": "Shortened transition animations for the player bar and full-screen player"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.miniPlayerGesture": {
-    "message": "Improved mini-player expand gesture to avoid accidental track skips on slight horizontal swipes"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.coverTransition": {
-    "message": "Fixed cover stuck in mid-state during incomplete upward swipe, which hid cover in player bar"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.miniPlayerTouch": {
-    "message": "Fixed touch-through on blank areas of the mini player"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.immersiveLyrics": {
-    "message": "Immersive lyrics interaction fixes"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.singleEndpoint": {
-    "message": "No longer shows route-switching hint when only one endpoint exists"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.audioTimeline": {
-    "message": "Fixed timeline sync when decoding audio backend resumes playback"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.formSpacer": {
+  "download.release.beta.2_0_1_beta_11.apple.formSpacer": {
     "message": "Fixed blank cards appearing in Settings"
   },
   "download.release.beta.2_0_1_beta_11.harmony.playbackVolume": {
@@ -1451,35 +1415,35 @@
   "download.release.beta.2_0_1_beta_12.android.streamCache401": {
     "message": "Track changes no longer interrupt playback with 401 errors when stream cache is enabled"
   },
-  "download.release.beta.2_0_1_beta_12.ios.landscapePlayer": {
+  "download.release.beta.2_0_1_beta_12.apple.landscapePlayer": {
     "message": "Landscape player: full-screen player supports landscape orientation"
   },
-  "download.release.beta.2_0_1_beta_12.ios.colorfulXBackground": {
+  "download.release.beta.2_0_1_beta_12.apple.colorfulXBackground": {
     "message": "Dynamic background upgrade: ColorfulX with palette extracted from cover art"
   },
-  "download.release.beta.2_0_1_beta_12.ios.navigationRefactor": {
+  "download.release.beta.2_0_1_beta_12.apple.navigationRefactor": {
     "message": "Navigation refactor: iPhone uses a root single stack; tab bar only on Home"
   },
-  "download.release.beta.2_0_1_beta_12.ios.loopToast": {
+  "download.release.beta.2_0_1_beta_12.apple.loopToast": {
     "message": "Loop playback hint: shows a toast when loop mode is enabled"
   },
-  "download.release.beta.2_0_1_beta_12.ios.immersiveLyricsFix": {
+  "download.release.beta.2_0_1_beta_12.apple.immersiveLyricsFix": {
     "message": "Fixed mini bar not clickable and controls not restoring after collapsing immersive lyrics"
   },
-  "download.release.beta.2_0_1_beta_12.ios.detailPageMiniBar": {
+  "download.release.beta.2_0_1_beta_12.apple.detailPageMiniBar": {
     "message": "Fixed detail page bottom obscured by the mini player bar"
   },
-  "download.release.beta.2_0_1_beta_12.ios.sharedPlaylistArrow": {
+  "download.release.beta.2_0_1_beta_12.apple.sharedPlaylistArrow": {
     "message": "Fixed duplicate right arrows on shared playlist rows"
   },
-  "download.release.beta.2_0_1_beta_12.macos.miniWindow": {
+  "download.release.beta.2_0_1_beta_12.apple.miniWindow": {
     "message": "Mini window mode for listening while doing other tasks"
   },
-  "download.release.beta.2_0_1_beta_12.macos.windowGeometry": {
+  "download.release.beta.2_0_1_beta_12.apple.windowGeometry": {
     "message": "Main window geometry memory: restores position and size on next launch"
   },
-  "download.release.beta.2_0_1_beta_12.macos.sharedPlaylistArrow": {
-    "message": "Fixed duplicate right arrows on shared playlist rows"
+  "download.release.beta.2_0_1_beta_12.apple.initialClient": {
+    "message": "New Apple TV client: browse your library, play music, and restore membership"
   },
   "download.release.beta.2_0_1_beta_12.harmony.landscapePlayer": {
     "message": "Landscape player: full-screen player supports landscape orientation"

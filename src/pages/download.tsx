@@ -47,8 +47,7 @@ const formatReleaseDate = (date: string, locale: string) => {
 const platformIcons: Record<Platform, React.ReactNode> = {
   android: <SiAndroid className={s.platformIcon} />,
   harmony: <SiHuawei className={s.platformIcon} />,
-  ios: <SiApple className={s.platformIcon} />,
-  macos: <SiApple className={s.platformIcon} />,
+  apple: <SiApple className={s.platformIcon} />,
   windows: <TbBrandWindowsFilled className={s.platformIcon} />,
   web: <FiGlobe className={s.platformIcon} />,
 };
@@ -60,9 +59,14 @@ const PlatformIcon = ({ platform }: { platform: Platform }) => (
 const PlatformLabel = ({ platform }: { platform: Platform }) => {
   const labels: Record<Platform, string> = {
     android: translate({ id: "download.platform.android", message: "Android" }),
-    harmony: translate({ id: "download.platform.harmony", message: "HarmonyOS" }),
-    ios: translate({ id: "download.platform.ios", message: "iOS" }),
-    macos: translate({ id: "download.platform.macos", message: "macOS" }),
+    harmony: translate({
+      id: "download.platform.harmony",
+      message: "HarmonyOS",
+    }),
+    apple: translate({
+      id: "download.platform.apple",
+      message: "iOS/macOS/tvOS",
+    }),
     windows: translate({ id: "download.platform.windows", message: "Windows" }),
     web: translate({ id: "download.platform.web", message: "Web" }),
   };
@@ -74,7 +78,13 @@ export default function Download(): React.ReactNode {
   const [releaseType, setReleaseType] = useState<ReleaseType>("stable");
   const [platform, setPlatform] = useState<Platform>("android");
 
-  const platforms: Platform[] = ["android", "harmony", "ios", "macos", "windows", "web"];
+  const platforms: Platform[] = [
+    "android",
+    "harmony",
+    "apple",
+    "windows",
+    "web",
+  ];
 
   const versions: VersionInfo[] =
     releaseType === "stable"
@@ -108,7 +118,8 @@ export default function Download(): React.ReactNode {
       })}
       description={translate({
         id: "download.meta.desc",
-        message: "Download Musiver for Android, iOS, macOS, Windows, and Web.",
+        message:
+          "Download Musiver for Android, HarmonyOS, iOS, macOS, Apple TV, Windows, and Web.",
       })}>
       <div className={s.wrapper}>
         <div className={s.guidelines}>

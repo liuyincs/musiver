@@ -182,171 +182,6 @@
         ]
       }
     ],
-    "ios": [
-      {
-        "version": "2.0.1-beta.12",
-        "date": "2026-07-04",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_12.common.playerBackground",
-          "download.release.beta.2_0_1_beta_12.common.playlistServerSort",
-          "download.release.beta.2_0_1_beta_12.common.plexHomePin",
-          "download.release.beta.2_0_1_beta_12.common.perfMonitoring",
-          "download.release.beta.2_0_1_beta_12.common.logReporting",
-          "download.release.beta.2_0_1_beta_12.common.playbackModeContinuity",
-          "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
-          "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
-          "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
-          "download.release.beta.2_0_1_beta_12.ios.landscapePlayer",
-          "download.release.beta.2_0_1_beta_12.ios.colorfulXBackground",
-          "download.release.beta.2_0_1_beta_12.ios.navigationRefactor",
-          "download.release.beta.2_0_1_beta_12.ios.loopToast",
-          "download.release.beta.2_0_1_beta_12.ios.immersiveLyricsFix",
-          "download.release.beta.2_0_1_beta_12.ios.detailPageMiniBar",
-          "download.release.beta.2_0_1_beta_12.ios.sharedPlaylistArrow"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.11",
-        "date": "2026-06-28",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_11.common.endpointHealth",
-          "download.release.beta.2_0_1_beta_11.common.playbackReporting",
-          "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
-          "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
-          "download.release.beta.2_0_1_beta_11.ios.playerTransition",
-          "download.release.beta.2_0_1_beta_11.ios.miniPlayerGesture",
-          "download.release.beta.2_0_1_beta_11.ios.coverTransition",
-          "download.release.beta.2_0_1_beta_11.ios.miniPlayerTouch",
-          "download.release.beta.2_0_1_beta_11.ios.immersiveLyrics",
-          "download.release.beta.2_0_1_beta_11.ios.singleEndpoint",
-          "download.release.beta.2_0_1_beta_11.ios.audioTimeline",
-          "download.release.beta.2_0_1_beta_11.ios.appIntents",
-          "download.release.beta.2_0_1_beta_11.ios.subsonicDownload"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.10",
-        "date": "2026-05-29",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_10.common.lyricsSearch",
-          "download.release.beta.2_0_1_beta_10.common.multiArtist",
-          "download.release.beta.2_0_1_beta_10.common.albumSort",
-          "download.release.beta.2_0_1_beta_10.common.membership",
-          "download.release.beta.2_0_1_beta_10.ios.lyricsSearch",
-          "download.release.beta.2_0_1_beta_10.ios.multiArtistNav",
-          "download.release.beta.2_0_1_beta_10.ios.membership",
-          "download.release.beta.2_0_1_beta_10.ios.serverEndpointConfig"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.9",
-        "date": "2026-05-20",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_9.common.discoverAsHome",
-          "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
-          "download.release.beta.2_0_1_beta_9.common.customApi",
-          "download.release.beta.2_0_1_beta_9.common.playbackResume",
-          "download.release.beta.2_0_1_beta_9.ios.mixWithOthers",
-          "download.release.beta.2_0_1_beta_9.ios.infoPlistLocalization",
-          "download.release.beta.2_0_1_beta_9.ios.playerNavToArtistAlbum",
-          "download.release.beta.2_0_1_beta_9.ios.notificationLyrics",
-          "download.release.beta.2_0_1_beta_9.ios.localNetworkPreCheck",
-          "download.release.beta.2_0_1_beta_9.ios.lyricsSyncFix",
-          "download.release.beta.2_0_1_beta_9.ios.fullscreenTransitionFix"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.8",
-        "date": "2026-05-16",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_8.common.autoPlayOnStartup",
-          "download.release.beta.2_0_1_beta_8.common.dailyRecommendationScope",
-          "download.release.beta.2_0_1_beta_8.common.recentlyAdded",
-          "download.release.beta.2_0_1_beta_8.common.playbackReporting",
-          "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
-          "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
-          "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
-          "download.release.beta.2_0_1_beta_8.ios.playerEngine",
-          "download.release.beta.2_0_1_beta_8.ios.playbackPreparation",
-          "download.release.beta.2_0_1_beta_8.ios.autoDownload",
-          "download.release.beta.2_0_1_beta_8.ios.streamCacheMeta",
-          "download.release.beta.2_0_1_beta_8.ios.playlistPicker",
-          "download.release.beta.2_0_1_beta_8.ios.plexBranding",
-          "download.release.beta.2_0_1_beta_8.ios.systemPlaylist",
-          "download.release.beta.2_0_1_beta_8.ios.locateCurrentSong"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.7",
-        "date": "2026-04-25",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
-          "download.release.beta.2_0_1_beta_7.common.lyricsMode",
-          "download.release.beta.2_0_1_beta_7.ios.streamCache",
-          "download.release.beta.2_0_1_beta_7.ios.launchScreen",
-          "download.release.beta.2_0_1_beta_7.ios.playerAnimation"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.5",
-        "date": "2026-04-21",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_5.common.plexSupport",
-          "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
-          "download.release.beta.2_0_1_beta_5.ios.genreBrowsing",
-          "download.release.beta.2_0_1_beta_5.ios.lyricsScreenOn",
-          "download.release.beta.2_0_1_beta_5.ios.plexSupport",
-          "download.release.beta.2_0_1_beta_5.ios.macOSDeploy"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.4",
-        "date": "2026-04-12",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_4.common.audioStation",
-          "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
-          "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
-          "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
-          "download.release.beta.2_0_1_beta_4.ios.lanDiscovery"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.3",
-        "date": "2026-04-06",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_3.common.serverManagement",
-          "download.release.beta.2_0_1_beta_3.common.playlistPagination",
-          "download.release.beta.2_0_1_beta_3.common.playlistEdit",
-          "download.release.beta.2_0_1_beta_3.common.lyricsTranslation",
-          "download.release.beta.2_0_1_beta_3.common.fullscreenPlayer",
-          "download.release.beta.2_0_1_beta_3.ios.accentColor",
-          "download.release.beta.2_0_1_beta_3.ios.keyboardHidePlayer"
-        ]
-      },
-      {
-        "version": "2.0.1-beta.2",
-        "date": "2026-03-31",
-        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
-        "changelogI18nKeys": [
-          "download.release.beta.2_0_1_beta_2.common.emby",
-          "download.release.beta.2_0_1_beta_2.common.privacy",
-          "download.release.beta.2_0_1_beta_2.ios.lyricsPresentation",
-          "download.release.beta.2_0_1_beta_2.common.folderBrowsing",
-          "download.release.beta.2_0_1_beta_2.common.playlistSidebar",
-          "download.release.beta.2_0_1_beta_2.common.favoriteSync",
-          "download.release.beta.2_0_1_beta_2.common.audiobookSupport"
-        ]
-      }
-    ],
     "harmony": [
       {
         "version": "2.0.1-beta.12",
@@ -488,7 +323,7 @@
         ]
       }
     ],
-    "macos": [
+    "apple": [
       {
         "version": "2.0.1-beta.12",
         "date": "2026-07-04",
@@ -503,9 +338,16 @@
           "download.release.beta.2_0_1_beta_12.common.embyPlaylistFix",
           "download.release.beta.2_0_1_beta_12.common.audioQualityTranscode",
           "download.release.beta.2_0_1_beta_12.common.subsonicQmMusic",
-          "download.release.beta.2_0_1_beta_12.macos.miniWindow",
-          "download.release.beta.2_0_1_beta_12.macos.windowGeometry",
-          "download.release.beta.2_0_1_beta_12.macos.sharedPlaylistArrow"
+          "download.release.beta.2_0_1_beta_12.apple.landscapePlayer",
+          "download.release.beta.2_0_1_beta_12.apple.colorfulXBackground",
+          "download.release.beta.2_0_1_beta_12.apple.navigationRefactor",
+          "download.release.beta.2_0_1_beta_12.apple.loopToast",
+          "download.release.beta.2_0_1_beta_12.apple.immersiveLyricsFix",
+          "download.release.beta.2_0_1_beta_12.apple.detailPageMiniBar",
+          "download.release.beta.2_0_1_beta_12.apple.sharedPlaylistArrow",
+          "download.release.beta.2_0_1_beta_12.apple.miniWindow",
+          "download.release.beta.2_0_1_beta_12.apple.windowGeometry",
+          "download.release.beta.2_0_1_beta_12.apple.initialClient"
         ]
       },
       {
@@ -517,6 +359,15 @@
           "download.release.beta.2_0_1_beta_11.common.playbackReporting",
           "download.release.beta.2_0_1_beta_11.common.navidromeArtistDetail",
           "download.release.beta.2_0_1_beta_11.common.navidromeVersionFeatures",
+          "download.release.beta.2_0_1_beta_11.apple.playerTransition",
+          "download.release.beta.2_0_1_beta_11.apple.miniPlayerGesture",
+          "download.release.beta.2_0_1_beta_11.apple.coverTransition",
+          "download.release.beta.2_0_1_beta_11.apple.miniPlayerTouch",
+          "download.release.beta.2_0_1_beta_11.apple.immersiveLyrics",
+          "download.release.beta.2_0_1_beta_11.apple.singleEndpoint",
+          "download.release.beta.2_0_1_beta_11.apple.audioTimeline",
+          "download.release.beta.2_0_1_beta_11.apple.appIntents",
+          "download.release.beta.2_0_1_beta_11.apple.subsonicDownload",
           "download.release.beta.2_0_1_beta_11.common.desktopLyrics",
           "download.release.beta.2_0_1_beta_11.desktop.startup",
           "download.release.beta.2_0_1_beta_11.desktop.compilationArtist",
@@ -525,14 +376,7 @@
           "download.release.beta.2_0_1_beta_11.desktop.downloadPage",
           "download.release.beta.2_0_1_beta_11.desktop.favoriteSync",
           "download.release.beta.2_0_1_beta_11.desktop.membershipError",
-          "download.release.beta.2_0_1_beta_11.macos.playerTransition",
-          "download.release.beta.2_0_1_beta_11.macos.miniPlayerGesture",
-          "download.release.beta.2_0_1_beta_11.macos.coverTransition",
-          "download.release.beta.2_0_1_beta_11.macos.miniPlayerTouch",
-          "download.release.beta.2_0_1_beta_11.macos.immersiveLyrics",
-          "download.release.beta.2_0_1_beta_11.macos.singleEndpoint",
-          "download.release.beta.2_0_1_beta_11.macos.audioTimeline",
-          "download.release.beta.2_0_1_beta_11.macos.formSpacer"
+          "download.release.beta.2_0_1_beta_11.apple.formSpacer"
         ]
       },
       {
@@ -544,10 +388,10 @@
           "download.release.beta.2_0_1_beta_10.common.multiArtist",
           "download.release.beta.2_0_1_beta_10.common.albumSort",
           "download.release.beta.2_0_1_beta_10.common.membership",
-          "download.release.beta.2_0_1_beta_10.macos.lyricsSearch",
-          "download.release.beta.2_0_1_beta_10.macos.multiArtistNav",
-          "download.release.beta.2_0_1_beta_10.macos.membership",
-          "download.release.beta.2_0_1_beta_10.macos.serverEndpointConfig"
+          "download.release.beta.2_0_1_beta_10.apple.lyricsSearch",
+          "download.release.beta.2_0_1_beta_10.apple.multiArtistNav",
+          "download.release.beta.2_0_1_beta_10.apple.membership",
+          "download.release.beta.2_0_1_beta_10.apple.serverEndpointConfig"
         ]
       },
       {
@@ -559,8 +403,15 @@
           "download.release.beta.2_0_1_beta_9.common.serverManagementGuide",
           "download.release.beta.2_0_1_beta_9.common.customApi",
           "download.release.beta.2_0_1_beta_9.common.playbackResume",
-          "download.release.beta.2_0_1_beta_9.macos.playerEnhancements",
-          "download.release.beta.2_0_1_beta_9.macos.secureRestore"
+          "download.release.beta.2_0_1_beta_9.apple.mixWithOthers",
+          "download.release.beta.2_0_1_beta_9.apple.infoPlistLocalization",
+          "download.release.beta.2_0_1_beta_9.apple.playerNavToArtistAlbum",
+          "download.release.beta.2_0_1_beta_9.apple.notificationLyrics",
+          "download.release.beta.2_0_1_beta_9.apple.localNetworkPreCheck",
+          "download.release.beta.2_0_1_beta_9.apple.lyricsSyncFix",
+          "download.release.beta.2_0_1_beta_9.apple.fullscreenTransitionFix",
+          "download.release.beta.2_0_1_beta_9.apple.playerEnhancements",
+          "download.release.beta.2_0_1_beta_9.apple.secureRestore"
         ]
       },
       {
@@ -575,6 +426,14 @@
           "download.release.beta.2_0_1_beta_8.common.embeddedLyrics",
           "download.release.beta.2_0_1_beta_8.common.streamCacheDefaultOff",
           "download.release.beta.2_0_1_beta_8.common.autoDownloadRules",
+          "download.release.beta.2_0_1_beta_8.apple.playerEngine",
+          "download.release.beta.2_0_1_beta_8.apple.playbackPreparation",
+          "download.release.beta.2_0_1_beta_8.apple.autoDownload",
+          "download.release.beta.2_0_1_beta_8.apple.streamCacheMeta",
+          "download.release.beta.2_0_1_beta_8.apple.playlistPicker",
+          "download.release.beta.2_0_1_beta_8.apple.plexBranding",
+          "download.release.beta.2_0_1_beta_8.apple.systemPlaylist",
+          "download.release.beta.2_0_1_beta_8.apple.locateCurrentSong",
           "download.release.beta.2_0_1_beta_8.desktop.playerEngine",
           "download.release.beta.2_0_1_beta_8.desktop.autoPlayOnStartup",
           "download.release.beta.2_0_1_beta_8.desktop.smtc",
@@ -583,9 +442,9 @@
           "download.release.beta.2_0_1_beta_8.desktop.scrollToCurrent",
           "download.release.beta.2_0_1_beta_8.desktop.fullscreenNav",
           "download.release.beta.2_0_1_beta_8.desktop.urlPaste",
-          "download.release.beta.2_0_1_beta_8.macos.playerOverlay",
-          "download.release.beta.2_0_1_beta_8.macos.fullscreenToolbar",
-          "download.release.beta.2_0_1_beta_8.macos.liquidGlass"
+          "download.release.beta.2_0_1_beta_8.apple.playerOverlay",
+          "download.release.beta.2_0_1_beta_8.apple.fullscreenToolbar",
+          "download.release.beta.2_0_1_beta_8.apple.liquidGlass"
         ]
       },
       {
@@ -595,6 +454,9 @@
         "changelogI18nKeys": [
           "download.release.beta.2_0_1_beta_7.common.folderBrowsing",
           "download.release.beta.2_0_1_beta_7.common.lyricsMode",
+          "download.release.beta.2_0_1_beta_7.apple.streamCache",
+          "download.release.beta.2_0_1_beta_7.apple.launchScreen",
+          "download.release.beta.2_0_1_beta_7.apple.playerAnimation",
           "download.release.beta.2_0_1_beta_7.desktop.streamCache",
           "download.release.beta.2_0_1_beta_7.desktop.seekClick",
           "download.release.beta.2_0_1_beta_7.desktop.addToPlaylist"
@@ -607,6 +469,10 @@
         "changelogI18nKeys": [
           "download.release.beta.2_0_1_beta_5.common.plexSupport",
           "download.release.beta.2_0_1_beta_5.common.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.apple.genreBrowsing",
+          "download.release.beta.2_0_1_beta_5.apple.lyricsScreenOn",
+          "download.release.beta.2_0_1_beta_5.apple.plexSupport",
+          "download.release.beta.2_0_1_beta_5.apple.macOSDeploy",
           "download.release.beta.2_0_1_beta_5.desktop.playerBarLyrics",
           "download.release.beta.2_0_1_beta_5.desktop.lyricsScreenOn",
           "download.release.beta.2_0_1_beta_5.desktop.startupScreen",
@@ -617,12 +483,13 @@
       {
         "version": "2.0.1-beta.4",
         "date": "2026-04-12",
-        "downloadUrl": "",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
         "changelogI18nKeys": [
           "download.release.beta.2_0_1_beta_4.common.audioStation",
           "download.release.beta.2_0_1_beta_4.common.starredBrowsing",
           "download.release.beta.2_0_1_beta_4.common.playbackQueueFilters",
           "download.release.beta.2_0_1_beta_4.common.serverAutoSwitch",
+          "download.release.beta.2_0_1_beta_4.apple.lanDiscovery",
           "download.release.beta.2_0_1_beta_4.desktop.asyncProxyTest",
           "download.release.beta.2_0_1_beta_4.desktop.failedImageCache",
           "download.release.beta.2_0_1_beta_4.desktop.mediaSession"
@@ -631,13 +498,15 @@
       {
         "version": "2.0.1-beta.3",
         "date": "2026-04-06",
-        "downloadUrl": "",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
         "changelogI18nKeys": [
           "download.release.beta.2_0_1_beta_3.common.serverManagement",
           "download.release.beta.2_0_1_beta_3.common.playlistPagination",
           "download.release.beta.2_0_1_beta_3.common.playlistEdit",
           "download.release.beta.2_0_1_beta_3.common.lyricsTranslation",
           "download.release.beta.2_0_1_beta_3.common.fullscreenPlayer",
+          "download.release.beta.2_0_1_beta_3.apple.accentColor",
+          "download.release.beta.2_0_1_beta_3.apple.keyboardHidePlayer",
           "download.release.beta.2_0_1_beta_3.desktop.splashScreen",
           "download.release.beta.2_0_1_beta_3.desktop.songDetailPage",
           "download.release.beta.2_0_1_beta_3.desktop.lyricsBlurFix"
@@ -646,10 +515,11 @@
       {
         "version": "2.0.1-beta.2",
         "date": "2026-03-31",
-        "downloadUrl": "",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
         "changelogI18nKeys": [
           "download.release.beta.2_0_1_beta_2.common.emby",
           "download.release.beta.2_0_1_beta_2.common.privacy",
+          "download.release.beta.2_0_1_beta_2.apple.lyricsPresentation",
           "download.release.beta.2_0_1_beta_2.common.folderBrowsing",
           "download.release.beta.2_0_1_beta_2.common.playlistSidebar",
           "download.release.beta.2_0_1_beta_2.common.favoriteSync",

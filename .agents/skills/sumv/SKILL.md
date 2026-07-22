@@ -43,27 +43,29 @@ gh api "repos/gitbobobo/musiver/compare/<旧标签>...<新标签>" --paginate \
 输出前逐项确认，全部打勾才可定稿：
 
 - [ ] 已确认 `total_commits` 与已分析提交数一致（或已用 `--paginate` 覆盖全量）
-- [ ] **六个平台**（Android / iOS / macOS / HarmonyOS / Windows / Web）均已检查，无平台 changelog 为空（Web 尤其容易遗漏）
-- [ ] macOS 与 Windows 的桌面端能力已区分：共享项用 `desktop.*`，Apple 播放器专属用 `macos.*` / `ios.*`
+- [ ] **五个下载平台**（Android / HarmonyOS / Apple(iOS·macOS·tvOS) / Windows / Web）均已检查，无平台 changelog 为空（Web 尤其容易遗漏）
+- [ ] Apple 系（iOS / macOS / tvOS）变更统一写入 `apple` 的 VersionInfo，前缀使用 `.apple.`
+- [ ] Windows 的桌面端共享能力用 `desktop.*`
 - [ ] 跨端能力使用 `common.*`，平台差异使用对应平台前缀
+- [ ] 排除对新功能的问题修复项
 - [ ] 未把仅基础设施/测试/E2E 改动写入用户发布说明
 
 ## 注意事项
 
 - 修改 `stable.json` 或 `beta.json` 时，更新内容必须支持国际化。即同步修改 `i18n/en/code.json` 和 `i18n/zh-Hans/code.json`，并删除不再使用的 key。
-- **严格区分更新内容属于哪些平台**（Android/HarmonyOS/iOS/macOS/Windows/Web），并增加对应平台的 VersionInfo，不得遗漏
+- **严格区分更新内容属于哪些下载平台**（Android / HarmonyOS / Apple / Windows / Web），并为每个平台增加对应 VersionInfo，不得遗漏
+- Apple 平台（iOS / macOS / tvOS）共用 JSON 字段 `apple`、同一下载入口与 `.apple.` changelog 前缀
 - `beta.json` 旧的 VersionInfo 需要保留，只在原来基础上新增
 - 新增的 VersionInfo 下载地址留空，以下情况例外：web 端固定填 `https://web.musiver.cn`
 - 用户要求保留已有下载地址时，只更新 `changelogI18nKeys` 与 i18n，不改动 `downloadUrl`
 
 ## 平台与 i18n 键命名
 
-| 平台 | JSON 字段 | i18n 前缀 |
+| 下载平台 | JSON 字段 | i18n 前缀 |
 |------|-----------|-----------|
 | Android | `android` | `.android.` |
-| iOS | `ios` | `.ios.` |
-| macOS | `macos` | `.macos.` + 可共用 `.desktop.` |
 | HarmonyOS | `harmony` | `.harmony.` |
+| iOS / macOS / tvOS | `apple` | `.apple.` |
 | Windows | `windows` | `.desktop.` |
 | Web | `web` | `.web.` |
 | 跨端 | 各平台均引用 | `.common.` |

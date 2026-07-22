@@ -5,27 +5,33 @@
   "platforms": {
     "android": {
       "downloadUrl": "",
-      "changelogI18nKeys": ["download.release.stable.upcoming"]
-    },
-    "ios": {
-      "downloadUrl": "",
-      "changelogI18nKeys": ["download.release.stable.upcoming"]
+      "changelogI18nKeys": [
+        "download.release.stable.upcoming"
+      ]
     },
     "harmony": {
       "downloadUrl": "",
-      "changelogI18nKeys": ["download.release.stable.upcoming"]
+      "changelogI18nKeys": [
+        "download.release.stable.upcoming"
+      ]
     },
-    "macos": {
+    "apple": {
       "downloadUrl": "",
-      "changelogI18nKeys": ["download.release.stable.upcoming"]
+      "changelogI18nKeys": [
+        "download.release.stable.upcoming"
+      ]
     },
     "windows": {
       "downloadUrl": "",
-      "changelogI18nKeys": ["download.release.stable.upcoming"]
+      "changelogI18nKeys": [
+        "download.release.stable.upcoming"
+      ]
     },
     "web": {
       "downloadUrl": "",
-      "changelogI18nKeys": ["download.release.stable.upcoming"]
+      "changelogI18nKeys": [
+        "download.release.stable.upcoming"
+      ]
     }
   }
 }

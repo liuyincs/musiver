@@ -3,7 +3,7 @@
     "message": "全平台覆盖"
   },
   "homepage.features.crossPlatform.desc": {
-    "message": "iOS、Android、macOS、Windows、Linux — 一次配置，处处聆听，体验始终如一。"
+    "message": "Android、HarmonyOS、iOS、macOS、Apple TV、Windows、Web — 一次配置，处处聆听，体验始终如一。"
   },
   "homepage.features.multiSource.title": {
     "message": "多源连接"
@@ -408,7 +408,7 @@
     "message": "下载音流"
   },
   "download.meta.desc": {
-    "message": "下载适用于 Android、iOS、macOS、Windows 和 Web 的音流。"
+    "message": "下载适用于 Android、HarmonyOS、iOS、macOS、Apple TV、Windows 和 Web 的音流。"
   },
   "download.colophon": {
     "message": "获取音流"
@@ -416,14 +416,11 @@
   "download.platform.android": {
     "message": "Android"
   },
-  "download.platform.ios": {
-    "message": "iOS"
-  },
   "download.platform.harmony": {
     "message": "HarmonyOS"
   },
-  "download.platform.macos": {
-    "message": "macOS"
+  "download.platform.apple": {
+    "message": "iOS/macOS/tvOS"
   },
   "download.platform.windows": {
     "message": "Windows"
@@ -473,7 +470,7 @@
   "download.release.beta.2_0_1_beta_2.common.privacy": {
     "message": "新增隐私政策同意弹窗，满足合规要求"
   },
-  "download.release.beta.2_0_1_beta_2.ios.lyricsPresentation": {
+  "download.release.beta.2_0_1_beta_2.apple.lyricsPresentation": {
     "message": "优化全屏播放器歌词展示效果"
   },
   "download.release.beta.2_0_1_beta_2.desktop.singleInstance": {
@@ -509,10 +506,10 @@
   "download.release.beta.2_0_1_beta_3.common.fullscreenPlayer": {
     "message": "优化全屏播放器视觉效果"
   },
-  "download.release.beta.2_0_1_beta_3.ios.accentColor": {
+  "download.release.beta.2_0_1_beta_3.apple.accentColor": {
     "message": "播放控制强调色采用封面提取色"
   },
-  "download.release.beta.2_0_1_beta_3.ios.keyboardHidePlayer": {
+  "download.release.beta.2_0_1_beta_3.apple.keyboardHidePlayer": {
     "message": "修复键盘显示时自动隐藏播放器视图的问题"
   },
   "download.release.beta.2_0_1_beta_3.android.tabletSupport": {
@@ -767,7 +764,7 @@
   "download.release.beta.2_0_1_beta_4.android.trackActions": {
     "message": "新增 Track 操作菜单（更多选项按钮）"
   },
-  "download.release.beta.2_0_1_beta_4.ios.lanDiscovery": {
+  "download.release.beta.2_0_1_beta_4.apple.lanDiscovery": {
     "message": "新增基于 HTTP 探测的局域网发现服务，自动检测服务器"
   },
   "download.release.beta.2_0_1_beta_4.harmony.networkProxy": {
@@ -833,16 +830,16 @@
   "download.release.beta.2_0_1_beta_5.android.queuePanelEdit": {
     "message": "播放队列面板支持移除和移动队列项"
   },
-  "download.release.beta.2_0_1_beta_5.ios.genreBrowsing": {
+  "download.release.beta.2_0_1_beta_5.apple.genreBrowsing": {
     "message": "新增流派（Genre）列表与详情浏览"
   },
-  "download.release.beta.2_0_1_beta_5.ios.lyricsScreenOn": {
+  "download.release.beta.2_0_1_beta_5.apple.lyricsScreenOn": {
     "message": "新增歌词视图保持屏幕常亮开关"
   },
-  "download.release.beta.2_0_1_beta_5.ios.plexSupport": {
+  "download.release.beta.2_0_1_beta_5.apple.plexSupport": {
     "message": "新增 Plex 服务器支持与 OAuth 认证"
   },
-  "download.release.beta.2_0_1_beta_5.ios.macOSDeploy": {
+  "download.release.beta.2_0_1_beta_5.apple.macOSDeploy": {
     "message": "macOS 成为一级部署目标，支持沙盒和签名"
   },
   "download.release.beta.2_0_1_beta_5.harmony.playerBarLyrics": {
@@ -902,13 +899,13 @@
   "download.release.beta.2_0_1_beta_7.android.settings": {
     "message": "改进设置页面功能和用户体验"
   },
-  "download.release.beta.2_0_1_beta_7.ios.streamCache": {
+  "download.release.beta.2_0_1_beta_7.apple.streamCache": {
     "message": "新增边听边存流缓存功能，支持离线回放"
   },
-  "download.release.beta.2_0_1_beta_7.ios.launchScreen": {
+  "download.release.beta.2_0_1_beta_7.apple.launchScreen": {
     "message": "新增渐变背景动画启动画面"
   },
-  "download.release.beta.2_0_1_beta_7.ios.playerAnimation": {
+  "download.release.beta.2_0_1_beta_7.apple.playerAnimation": {
     "message": "重构播放器展开/收起动画，支持 iOS 18+ Zoom 转场"
   },
   "download.release.beta.2_0_1_beta_7.harmony.streamCache": {
@@ -980,28 +977,28 @@
   "download.release.beta.2_0_1_beta_8.android.tabletLayout": {
     "message": "平板端 Home 页与播放器适配宽屏布局"
   },
-  "download.release.beta.2_0_1_beta_8.ios.playerEngine": {
+  "download.release.beta.2_0_1_beta_8.apple.playerEngine": {
     "message": "播放引擎重构，从 VLCKit 迁移至 Apple Native Playback + FFmpeg 解码"
   },
-  "download.release.beta.2_0_1_beta_8.ios.playbackPreparation": {
+  "download.release.beta.2_0_1_beta_8.apple.playbackPreparation": {
     "message": "新增来源队列拉取进度展示"
   },
-  "download.release.beta.2_0_1_beta_8.ios.autoDownload": {
+  "download.release.beta.2_0_1_beta_8.apple.autoDownload": {
     "message": "自动下载规则设置页"
   },
-  "download.release.beta.2_0_1_beta_8.ios.streamCacheMeta": {
+  "download.release.beta.2_0_1_beta_8.apple.streamCacheMeta": {
     "message": "流缓存增强，支持尾段预取与离线列表集成"
   },
-  "download.release.beta.2_0_1_beta_8.ios.playlistPicker": {
+  "download.release.beta.2_0_1_beta_8.apple.playlistPicker": {
     "message": "全屏播放器新增歌单选择器与导航菜单"
   },
-  "download.release.beta.2_0_1_beta_8.ios.plexBranding": {
+  "download.release.beta.2_0_1_beta_8.apple.plexBranding": {
     "message": "Plex 认证流程 UI 重构，统一品牌视觉"
   },
-  "download.release.beta.2_0_1_beta_8.ios.systemPlaylist": {
+  "download.release.beta.2_0_1_beta_8.apple.systemPlaylist": {
     "message": "系统歌单显示本地化名称并禁止编辑"
   },
-  "download.release.beta.2_0_1_beta_8.ios.locateCurrentSong": {
+  "download.release.beta.2_0_1_beta_8.apple.locateCurrentSong": {
     "message": "歌曲列表支持定位当前播放歌曲"
   },
   "download.release.beta.2_0_1_beta_8.harmony.playbackPreparation": {
@@ -1043,13 +1040,13 @@
   "download.release.beta.2_0_1_beta_8.desktop.urlPaste": {
     "message": "服务器 URL 支持粘贴完整地址自动拆分"
   },
-  "download.release.beta.2_0_1_beta_8.macos.playerOverlay": {
+  "download.release.beta.2_0_1_beta_8.apple.playerOverlay": {
     "message": "macOS 播放器改为 overlay 覆盖窗口，固定侧边栏宽度"
   },
-  "download.release.beta.2_0_1_beta_8.macos.fullscreenToolbar": {
+  "download.release.beta.2_0_1_beta_8.apple.fullscreenToolbar": {
     "message": "macOS 全屏播放页新增工具栏联动与过渡动画"
   },
-  "download.release.beta.2_0_1_beta_8.macos.liquidGlass": {
+  "download.release.beta.2_0_1_beta_8.apple.liquidGlass": {
     "message": "macOS 播放条与迷你播放器适配 Liquid Glass 效果"
   },
   "download.release.beta.2_0_1_beta_8.windows.acrylicWindows11": {
@@ -1100,25 +1097,25 @@
   "download.release.beta.2_0_1_beta_9.android.lyricsDragInteraction": {
     "message": "歌词拖拽交互优化"
   },
-  "download.release.beta.2_0_1_beta_9.ios.mixWithOthers": {
+  "download.release.beta.2_0_1_beta_9.apple.mixWithOthers": {
     "message": "新增与其他应用同时播放开关"
   },
-  "download.release.beta.2_0_1_beta_9.ios.infoPlistLocalization": {
+  "download.release.beta.2_0_1_beta_9.apple.infoPlistLocalization": {
     "message": "InfoPlist 本地化，应用名与权限描述支持多语言"
   },
-  "download.release.beta.2_0_1_beta_9.ios.playerNavToArtistAlbum": {
+  "download.release.beta.2_0_1_beta_9.apple.playerNavToArtistAlbum": {
     "message": "播放器歌曲信息支持跳转艺术家/专辑详情页"
   },
-  "download.release.beta.2_0_1_beta_9.ios.notificationLyrics": {
+  "download.release.beta.2_0_1_beta_9.apple.notificationLyrics": {
     "message": "Now Playing 与通知栏显示当前歌词行"
   },
-  "download.release.beta.2_0_1_beta_9.ios.localNetworkPreCheck": {
+  "download.release.beta.2_0_1_beta_9.apple.localNetworkPreCheck": {
     "message": "本地网络权限预检，优化局域网服务器发现"
   },
-  "download.release.beta.2_0_1_beta_9.ios.lyricsSyncFix": {
+  "download.release.beta.2_0_1_beta_9.apple.lyricsSyncFix": {
     "message": "非连续歌词索引时播放条与通知栏正确命中当前行"
   },
-  "download.release.beta.2_0_1_beta_9.ios.fullscreenTransitionFix": {
+  "download.release.beta.2_0_1_beta_9.apple.fullscreenTransitionFix": {
     "message": "全屏播放页 zoom 转场交互修复"
   },
   "download.release.beta.2_0_1_beta_9.harmony.notificationLyrics": {
@@ -1148,10 +1145,10 @@
   "download.release.beta.2_0_1_beta_9.desktop.serverCardStyle": {
     "message": "服务器相关页面卡片样式统一"
   },
-  "download.release.beta.2_0_1_beta_9.macos.playerEnhancements": {
+  "download.release.beta.2_0_1_beta_9.apple.playerEnhancements": {
     "message": "macOS 播放器交互增强与歌单选择器重构"
   },
-  "download.release.beta.2_0_1_beta_9.macos.secureRestore": {
+  "download.release.beta.2_0_1_beta_9.apple.secureRestore": {
     "message": "macOS 13+ 支持安全窗口状态恢复"
   },
   "download.release.beta.2_0_1_beta_9.web.compactLayout": {
@@ -1184,28 +1181,16 @@
   "download.release.beta.2_0_1_beta_10.android.serverManagementUI": {
     "message": "改进服务器管理界面 UI 组件与错误提示"
   },
-  "download.release.beta.2_0_1_beta_10.ios.lyricsSearch": {
+  "download.release.beta.2_0_1_beta_10.apple.lyricsSearch": {
     "message": "歌词搜索 UI（macOS / iPad）"
   },
-  "download.release.beta.2_0_1_beta_10.ios.multiArtistNav": {
+  "download.release.beta.2_0_1_beta_10.apple.multiArtistNav": {
     "message": "播放器及各页面支持多艺术家展示与导航"
   },
-  "download.release.beta.2_0_1_beta_10.ios.membership": {
+  "download.release.beta.2_0_1_beta_10.apple.membership": {
     "message": "实现会员系统"
   },
-  "download.release.beta.2_0_1_beta_10.ios.serverEndpointConfig": {
-    "message": "重构服务器端点配置页面，macOS 适配"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.lyricsSearch": {
-    "message": "歌词搜索 UI（macOS / iPad）"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.multiArtistNav": {
-    "message": "播放器及各页面支持多艺术家展示与导航"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.membership": {
-    "message": "实现会员系统"
-  },
-  "download.release.beta.2_0_1_beta_10.macos.serverEndpointConfig": {
+  "download.release.beta.2_0_1_beta_10.apple.serverEndpointConfig": {
     "message": "重构服务器端点配置页面，macOS 适配"
   },
   "download.release.beta.2_0_1_beta_10.harmony.serverEndpointConfig": {
@@ -1292,55 +1277,34 @@
   "download.release.beta.2_0_1_beta_11.android.shuffleWindow": {
     "message": "修复切换随机播放后播放队列未同步的问题"
   },
-  "download.release.beta.2_0_1_beta_11.ios.playerTransition": {
+  "download.release.beta.2_0_1_beta_11.apple.playerTransition": {
     "message": "缩短播放条与全屏播放页过渡动画时长"
   },
-  "download.release.beta.2_0_1_beta_11.ios.miniPlayerGesture": {
+  "download.release.beta.2_0_1_beta_11.apple.miniPlayerGesture": {
     "message": "优化迷你播放条展开手势，减少轻微横向滑动导致误切歌"
   },
-  "download.release.beta.2_0_1_beta_11.ios.coverTransition": {
+  "download.release.beta.2_0_1_beta_11.apple.coverTransition": {
     "message": "修复未完成上滑时封面卡在中间态、导致播放条不显示封面的问题"
   },
-  "download.release.beta.2_0_1_beta_11.ios.miniPlayerTouch": {
+  "download.release.beta.2_0_1_beta_11.apple.miniPlayerTouch": {
     "message": "修复迷你播放条空白区域点击穿透问题"
   },
-  "download.release.beta.2_0_1_beta_11.ios.immersiveLyrics": {
+  "download.release.beta.2_0_1_beta_11.apple.immersiveLyrics": {
     "message": "沉浸式歌词交互修复"
   },
-  "download.release.beta.2_0_1_beta_11.ios.singleEndpoint": {
+  "download.release.beta.2_0_1_beta_11.apple.singleEndpoint": {
     "message": "单线路场景不再提示线路切换"
   },
-  "download.release.beta.2_0_1_beta_11.ios.audioTimeline": {
+  "download.release.beta.2_0_1_beta_11.apple.audioTimeline": {
     "message": "修复解码音频后端恢复播放时的时间线同步"
   },
-  "download.release.beta.2_0_1_beta_11.ios.appIntents": {
+  "download.release.beta.2_0_1_beta_11.apple.appIntents": {
     "message": "支持 Siri 快捷指令，可快速控制播放与收藏"
   },
-  "download.release.beta.2_0_1_beta_11.ios.subsonicDownload": {
+  "download.release.beta.2_0_1_beta_11.apple.subsonicDownload": {
     "message": "修复 Subsonic 歌曲下载失败或体积为 0 的问题"
   },
-  "download.release.beta.2_0_1_beta_11.macos.playerTransition": {
-    "message": "缩短播放条与全屏播放页过渡动画时长"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.miniPlayerGesture": {
-    "message": "优化迷你播放条展开手势，减少轻微横向滑动导致误切歌"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.coverTransition": {
-    "message": "修复未完成上滑时封面卡在中间态、导致播放条不显示封面的问题"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.miniPlayerTouch": {
-    "message": "修复迷你播放条空白区域点击穿透问题"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.immersiveLyrics": {
-    "message": "沉浸式歌词交互修复"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.singleEndpoint": {
-    "message": "单线路场景不再提示线路切换"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.audioTimeline": {
-    "message": "修复解码音频后端恢复播放时的时间线同步"
-  },
-  "download.release.beta.2_0_1_beta_11.macos.formSpacer": {
+  "download.release.beta.2_0_1_beta_11.apple.formSpacer": {
     "message": "修复设置页出现空白卡片的问题"
   },
   "download.release.beta.2_0_1_beta_11.harmony.playbackVolume": {
@@ -1451,35 +1415,35 @@
   "download.release.beta.2_0_1_beta_12.android.streamCache401": {
     "message": "流缓存场景下切歌不再因 401 中断"
   },
-  "download.release.beta.2_0_1_beta_12.ios.landscapePlayer": {
+  "download.release.beta.2_0_1_beta_12.apple.landscapePlayer": {
     "message": "横屏播放页：播放页支持横屏显示"
   },
-  "download.release.beta.2_0_1_beta_12.ios.colorfulXBackground": {
+  "download.release.beta.2_0_1_beta_12.apple.colorfulXBackground": {
     "message": "动态背景升级：全屏播放页动态背景改用 ColorfulX，并从封面提取动态调色板"
   },
-  "download.release.beta.2_0_1_beta_12.ios.navigationRefactor": {
+  "download.release.beta.2_0_1_beta_12.apple.navigationRefactor": {
     "message": "导航重构：iPhone 主导航改为根级单栈，Tab 栏仅在首页显示"
   },
-  "download.release.beta.2_0_1_beta_12.ios.loopToast": {
+  "download.release.beta.2_0_1_beta_12.apple.loopToast": {
     "message": "循环播放提示：激活循环播放时显示 Toast 提示"
   },
-  "download.release.beta.2_0_1_beta_12.ios.immersiveLyricsFix": {
+  "download.release.beta.2_0_1_beta_12.apple.immersiveLyricsFix": {
     "message": "修复沉浸式歌词收起后迷你条不可点击、滑动无法恢复控件的问题"
   },
-  "download.release.beta.2_0_1_beta_12.ios.detailPageMiniBar": {
+  "download.release.beta.2_0_1_beta_12.apple.detailPageMiniBar": {
     "message": "修复详情页底部被迷你播放条遮挡"
   },
-  "download.release.beta.2_0_1_beta_12.ios.sharedPlaylistArrow": {
+  "download.release.beta.2_0_1_beta_12.apple.sharedPlaylistArrow": {
     "message": "修复共享歌单行重复显示右箭头"
   },
-  "download.release.beta.2_0_1_beta_12.macos.miniWindow": {
+  "download.release.beta.2_0_1_beta_12.apple.miniWindow": {
     "message": "迷你窗口模式：支持迷你窗口模式，方便边听边做其他事"
   },
-  "download.release.beta.2_0_1_beta_12.macos.windowGeometry": {
+  "download.release.beta.2_0_1_beta_12.apple.windowGeometry": {
     "message": "主窗口几何记忆：记住窗口位置与大小，下次启动自动恢复"
   },
-  "download.release.beta.2_0_1_beta_12.macos.sharedPlaylistArrow": {
-    "message": "修复共享歌单行重复显示右箭头"
+  "download.release.beta.2_0_1_beta_12.apple.initialClient": {
+    "message": "新增 Apple TV 客户端：浏览曲库、播放音乐，并支持会员恢复"
   },
   "download.release.beta.2_0_1_beta_12.harmony.landscapePlayer": {
     "message": "横屏播放页：播放页支持横屏显示"

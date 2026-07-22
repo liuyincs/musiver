@@ -14,7 +14,7 @@ const features = [
     desc: translate({
       id: "homepage.features.crossPlatform.desc",
       message:
-        "iOS, Android, macOS, Windows, and Linux — set it up once and enjoy your music everywhere with a consistent experience.",
+        "Android, HarmonyOS, iOS, macOS, Apple TV, Windows, and Web — set it up once and enjoy your music everywhere with a consistent experience.",
     }),
   },
   {
