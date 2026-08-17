@@ -1690,5 +1690,347 @@
   },
   "download.release.beta.2_0_1_beta_13.web.sidebarLogoFix": {
     "message": "Fixed sidebar logo not being left-aligned"
+  },
+  "download.release.beta.2_0_1_beta_14.common.transparentTheme": {
+    "message": "Transparent theme and custom wallpaper support"
+  },
+  "download.release.beta.2_0_1_beta_14.common.albumArtistRating": {
+    "message": "Album / artist ratings, shown when the server supports them"
+  },
+  "download.release.beta.2_0_1_beta_14.common.albumResumeUnread": {
+    "message": "Resume albums from where you left off; unplayed tracks show a green dot"
+  },
+  "download.release.beta.2_0_1_beta_14.common.markAsPlayed": {
+    "message": "Mark a track, or preceding unplayed album tracks, as played for audiobooks / podcasts"
+  },
+  "download.release.beta.2_0_1_beta_14.common.dailyRecRefresh": {
+    "message": "Daily picks refresh after you favorite, scrobble, or rate"
+  },
+  "download.release.beta.2_0_1_beta_14.common.coverHighestQuality": {
+    "message": "Keep only the highest-quality cover already seen, reducing blurry artwork"
+  },
+  "download.release.beta.2_0_1_beta_14.common.playbackStreamCache": {
+    "message": "More reliable playback: seek within buffered audio, and transcoded tracks advance correctly at the end"
+  },
+  "download.release.beta.2_0_1_beta_14.common.playlistFullLoad": {
+    "message": "Home playlists load in full in one request"
+  },
+  "download.release.beta.2_0_1_beta_14.common.searchFavoriteRating": {
+    "message": "Search results show favorite and rating state"
+  },
+  "download.release.beta.2_0_1_beta_14.common.serverAddressNormalize": {
+    "message": "Server addresses are normalized on add, avoiding duplicated ports"
+  },
+  "download.release.beta.2_0_1_beta_14.common.embyJellyfinDirectPlay": {
+    "message": "Emby / Jellyfin stream the original file when quality is already met, without transcoding"
+  },
+  "download.release.beta.2_0_1_beta_14.common.plexHomeLoginFix": {
+    "message": "Fixed Plex Home sign-in for independent-account family members"
+  },
+  "download.release.beta.2_0_1_beta_14.common.audioStation2faFix": {
+    "message": "Fixed Audio Station 2FA not reusing the first login session"
+  },
+  "download.release.beta.2_0_1_beta_14.common.authTokenPersistFix": {
+    "message": "Fixed restored sessions still using expired credentials"
+  },
+  "download.release.beta.2_0_1_beta_14.common.queueTrackIdFix": {
+    "message": "Fixed Play Next / Add to Queue showing a track ID"
+  },
+  "download.release.beta.2_0_1_beta_14.common.staleProgressQueueFix": {
+    "message": "Fixed stale playback progress polluting the queue"
+  },
+  "download.release.beta.2_0_1_beta_14.common.lyricsMissingFieldsFix": {
+    "message": "Fixed lyrics failing when OpenSubsonic / Emby / Jellyfin omit fields or timestamps"
+  },
+  "download.release.beta.2_0_1_beta_14.common.subsonicNavidromeFix": {
+    "message": "Fixed Subsonic album pagination never ending, and Navidrome token refresh"
+  },
+  "download.release.beta.2_0_1_beta_14.common.artistAlbumYearSortFix": {
+    "message": "Fixed artist album lists sorted by year and missing fields"
+  },
+  "download.release.beta.2_0_1_beta_14.common.embyDailyRecommendFix": {
+    "message": "Fixed Emby daily recommendation shuffle"
+  },
+  "download.release.beta.2_0_1_beta_14.android.padLayout": {
+    "message": "Deeper tablet layout: two-pane navigation and library list-detail"
+  },
+  "download.release.beta.2_0_1_beta_14.android.musicRoaming": {
+    "message": "Music roaming aligned with other clients"
+  },
+  "download.release.beta.2_0_1_beta_14.android.equalizer": {
+    "message": "10-band equalizer on the now-playing screen"
+  },
+  "download.release.beta.2_0_1_beta_14.android.playbackInfo": {
+    "message": "Now-playing screen shows source and measured audio quality"
+  },
+  "download.release.beta.2_0_1_beta_14.android.colorfulX": {
+    "message": "Fullscreen dynamic background now uses ColorfulX"
+  },
+  "download.release.beta.2_0_1_beta_14.android.notificationControls": {
+    "message": "Media notification supports favorite and playback-mode switching"
+  },
+  "download.release.beta.2_0_1_beta_14.android.dsfDsd": {
+    "message": "Software decode for DSF / DSD / DTS-WAV"
+  },
+  "download.release.beta.2_0_1_beta_14.android.offlineBrowse": {
+    "message": "Browse cached library metadata while offline"
+  },
+  "download.release.beta.2_0_1_beta_14.android.downloadExperience": {
+    "message": "Improved auto-download, streaming download, and the downloads page; full queues wait instead of rejecting, and failed tasks can retry"
+  },
+  "download.release.beta.2_0_1_beta_14.android.quickConnect": {
+    "message": "Audio Station QuickConnect ID sign-in"
+  },
+  "download.release.beta.2_0_1_beta_14.android.formatFilter": {
+    "message": "Filter track lists by audio format (Navidrome)"
+  },
+  "download.release.beta.2_0_1_beta_14.android.settingsBottomSheet": {
+    "message": "Settings choices open as a bottom sheet"
+  },
+  "download.release.beta.2_0_1_beta_14.android.addServerAdaptedTypes": {
+    "message": "Add-server only lists supported server types"
+  },
+  "download.release.beta.2_0_1_beta_14.android.serverAvatarMenu": {
+    "message": "Settings top bar includes a server avatar menu; Jellyfin / Plex can show the user avatar"
+  },
+  "download.release.beta.2_0_1_beta_14.android.searchImeSubmit": {
+    "message": "Search runs after the keyboard submit action"
+  },
+  "download.release.beta.2_0_1_beta_14.android.bindEmailPage": {
+    "message": "Bind email is a dedicated page"
+  },
+  "download.release.beta.2_0_1_beta_14.android.portraitPlayerLayout": {
+    "message": "Portrait now-playing layout aligned with iOS; the progress bar shows buffering and is easier to drag"
+  },
+  "download.release.beta.2_0_1_beta_14.android.spectrumPause": {
+    "message": "Spectrum bars show a static indicator while the current track is paused"
+  },
+  "download.release.beta.2_0_1_beta_14.android.favoriteTabCount": {
+    "message": "Favorites tab counts match the server totals"
+  },
+  "download.release.beta.2_0_1_beta_14.android.androidTvLyricsContrast": {
+    "message": "Android TV: finer lyrics size control; dark palette forced for now-playing contrast"
+  },
+  "download.release.beta.2_0_1_beta_14.android.miniPlayerTabFix": {
+    "message": "Fixed the mini player overlapping the bottom tab bar"
+  },
+  "download.release.beta.2_0_1_beta_14.android.lightSettingsOverlayFix": {
+    "message": "Fixed settings overlay background in light mode"
+  },
+  "download.release.beta.2_0_1_beta_14.android.networkJitterFix": {
+    "message": "Fixed network flaps triggering full UI refreshes"
+  },
+  "download.release.beta.2_0_1_beta_14.android.coldStartSplashFix": {
+    "message": "Fixed cold start stuck on the splash screen, and missing Discover sections"
+  },
+  "download.release.beta.2_0_1_beta_14.android.autoPlayOnceFix": {
+    "message": "Fixed auto-play on startup firing again when returning to the foreground"
+  },
+  "download.release.beta.2_0_1_beta_14.android.longAudioResumeDefaultFix": {
+    "message": "Fixed long-audio resume default not matching settings"
+  },
+  "download.release.beta.2_0_1_beta_14.android.missingTrackNumber": {
+    "message": "Tracks without a track number show a question mark"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.ffmpegSoftDecode": {
+    "message": "FFmpeg software decode so more formats play reliably"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.offlineDownload": {
+    "message": "Browse cached library metadata offline; downloads, offline playback, and auto-download are now available"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.playbackInfo": {
+    "message": "Now-playing screen shows source and measured audio quality"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.colorfulX": {
+    "message": "Fullscreen dynamic background now uses ColorfulX"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.musicRoaming": {
+    "message": "Music roaming aligned with other clients"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.quickConnect": {
+    "message": "Audio Station QuickConnect ID sign-in"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.userAvatar": {
+    "message": "Jellyfin / Plex can show the user avatar"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.searchPage": {
+    "message": "Search page filters, grid layout, and enter-to-search"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.favoritePagination": {
+    "message": "Favorites page supports paged loading"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.trackRowSpectrum": {
+    "message": "The current playing row shows a spectrum animation and highlight"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.longAudioSkipSteps": {
+    "message": "Long-audio skip steps aligned to 10 / 15 / 30 seconds"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.dsfDsd": {
+    "message": "Software decode for DSF / DSD / DTS-WAV"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.multiSelectBack": {
+    "message": "Back gesture is blocked during multi-select to avoid leaving by accident"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.artistAlbumAnrFix": {
+    "message": "Fixed freeze when opening an album from an artist"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.splashHangFix": {
+    "message": "Fixed splash screen hangs"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.twoFaStayFix": {
+    "message": "Fixed 2FA failure sending you back to the password page"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.artistAlbumCountFix": {
+    "message": "Fixed incorrect album counts on artist details"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.miniBarPlaceholderFix": {
+    "message": "Fixed the mini player bottom spacer intercepting taps"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.carPlay": {
+    "message": "iOS CarPlay browsing and playback controls"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.iPadLayout": {
+    "message": "iPad sidebar, fullscreen player, and queue side drawer; collapsible sidebar; play history removed"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.sleepTimer": {
+    "message": "Sleep timer stops playback when it expires"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.iosDlna": {
+    "message": "DLNA casting on iOS"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.playbackInfo": {
+    "message": "Now-playing screen shows source, quality, and transcode info"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.offlineBrowse": {
+    "message": "Browse cached library metadata while offline"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.dsfDsd": {
+    "message": "Software decode for DSF / DSD / DTS-WAV"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.playlistManualSort": {
+    "message": "Playlists support manual sort, and the sort order is remembered"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.formatFilter": {
+    "message": "Filter track lists by audio format"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.bindEmailCode": {
+    "message": "Bind email can send a verification code with cooldown"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.landscapeMarquee": {
+    "message": "Landscape now-playing titles support marquee scrolling"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.offlineDeleteConfirm": {
+    "message": "Larger tap targets for deleting offline items, with a confirmation alert"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.playerSubtitleArtist": {
+    "message": "Fullscreen player subtitle prefers the full artist name"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.dockIconFix": {
+    "message": "Fixed the macOS Dock icon appearing square"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.headphoneRemoteFix": {
+    "message": "Fixed wired-headphone remote controls"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.backgroundResumeFix": {
+    "message": "Fixed iOS failing to resume after a background pause"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.settingsFocusFix": {
+    "message": "Fixed settings fields losing focus immediately"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.coldStartQueueFix": {
+    "message": "Fixed cold-start queue restore failing or staying on loading"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.seamlessStopFix": {
+    "message": "Fixed seamless playback stopping mid-queue"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.autoPlayCrashFix": {
+    "message": "Fixed a crash when auto-play on startup ran"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.artistHeaderBlurFix": {
+    "message": "Fixed the artist-detail header blur on iOS 26/27"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.albumScrollPositionFix": {
+    "message": "Fixed losing scroll position after returning from an album list"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.lyricsResizeFont": {
+    "message": "Desktop lyrics can be resized by dragging, with local font selection"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.arm64Installer": {
+    "message": "Installers for both x64 and ARM64"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.languageFollowSystem": {
+    "message": "Interface language can follow the system"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.playlistManualSort": {
+    "message": "Sidebar playlists support manual sort"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.playNextMenu": {
+    "message": "Song menu includes Play Next"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.quickConnect": {
+    "message": "Audio Station QuickConnect ID sign-in"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.userAvatar": {
+    "message": "Jellyfin / Plex can show the user avatar in the title bar"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.favoriteButton": {
+    "message": "Favorite on album / artist details is a dedicated button instead of living in More"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.longAudioSkip": {
+    "message": "Audiobook skip steps aligned to 10 / 15 / 30 seconds; skip icons show the seconds; playback speed moved into More"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.nonMusicLibraryPlaylist": {
+    "message": "Non-music libraries no longer show a playlists entry"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.roundedIcon": {
+    "message": "App icon uses rounded corners; the tray uses a separate icon"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.downloadRetry": {
+    "message": "Failed downloads can retry automatically; progress and remaining time still show when file size is unknown"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.globalHotkeyFix": {
+    "message": "Fixed global keyboard shortcuts"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.coverOriginalFix": {
+    "message": "Fixed fullscreen cover failing to upgrade to original quality"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.submenuClickFix": {
+    "message": "Fixed submenu clicks being swallowed by the parent menu"
+  },
+  "download.release.beta.2_0_1_beta_14.web.languageFollowSystem": {
+    "message": "Interface language can follow the system"
+  },
+  "download.release.beta.2_0_1_beta_14.web.playlistManualSort": {
+    "message": "Sidebar playlists support manual sort"
+  },
+  "download.release.beta.2_0_1_beta_14.web.playNextMenu": {
+    "message": "Song menu includes Play Next"
+  },
+  "download.release.beta.2_0_1_beta_14.web.quickConnect": {
+    "message": "Audio Station QuickConnect ID sign-in"
+  },
+  "download.release.beta.2_0_1_beta_14.web.userAvatar": {
+    "message": "Jellyfin / Plex can show the user avatar in the title bar"
+  },
+  "download.release.beta.2_0_1_beta_14.web.favoriteButton": {
+    "message": "Favorite on album / artist details is a dedicated button instead of living in More"
+  },
+  "download.release.beta.2_0_1_beta_14.web.longAudioSkip": {
+    "message": "Audiobook skip steps aligned to 10 / 15 / 30 seconds; skip icons show the seconds; playback speed moved into More"
+  },
+  "download.release.beta.2_0_1_beta_14.web.nonMusicLibraryPlaylist": {
+    "message": "Non-music libraries no longer show a playlists entry"
+  },
+  "download.release.beta.2_0_1_beta_14.web.playbackErrorClassify": {
+    "message": "Playback failures show clearer error categories"
+  },
+  "download.release.beta.2_0_1_beta_14.web.submenuClickFix": {
+    "message": "Fixed submenu clicks being swallowed by the parent menu"
+  },
+  "download.release.beta.2_0_1_beta_14.web.coverOriginalFix": {
+    "message": "Fixed fullscreen cover failing to upgrade to original quality"
+  },
+  "download.release.beta.2_0_1_beta_14.web.onboardingMigrateFix": {
+    "message": "Fixed onboarding migration for older saved data"
   }
 }

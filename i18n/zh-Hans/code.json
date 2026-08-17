@@ -1690,5 +1690,347 @@
   },
   "download.release.beta.2_0_1_beta_13.web.sidebarLogoFix": {
     "message": "修复侧边栏 logo 未左对齐"
+  },
+  "download.release.beta.2_0_1_beta_14.common.transparentTheme": {
+    "message": "支持透明主题与自定义背景图"
+  },
+  "download.release.beta.2_0_1_beta_14.common.albumArtistRating": {
+    "message": "支持为专辑 / 艺术家评分（按服务器能力显示）"
+  },
+  "download.release.beta.2_0_1_beta_14.common.albumResumeUnread": {
+    "message": "专辑支持「继续播放」；未播曲目显示绿点标记"
+  },
+  "download.release.beta.2_0_1_beta_14.common.markAsPlayed": {
+    "message": "有声书 / 播客支持将单曲或专辑前置未播曲目标记为已播放"
+  },
+  "download.release.beta.2_0_1_beta_14.common.dailyRecRefresh": {
+    "message": "收藏、打卡或评分后，当日每日推荐会同步更新"
+  },
+  "download.release.beta.2_0_1_beta_14.common.coverHighestQuality": {
+    "message": "同封面只保留已见过的最高画质，减少模糊封面"
+  },
+  "download.release.beta.2_0_1_beta_14.common.playbackStreamCache": {
+    "message": "播放更稳：已缓冲范围内可跳转，转码连播到结尾可正确切歌"
+  },
+  "download.release.beta.2_0_1_beta_14.common.playlistFullLoad": {
+    "message": "首页歌单一次加载完整列表"
+  },
+  "download.release.beta.2_0_1_beta_14.common.searchFavoriteRating": {
+    "message": "搜索结果展示收藏与评分状态"
+  },
+  "download.release.beta.2_0_1_beta_14.common.serverAddressNormalize": {
+    "message": "添加服务器时自动规范化地址，避免端口被重复拼接"
+  },
+  "download.release.beta.2_0_1_beta_14.common.embyJellyfinDirectPlay": {
+    "message": "音质已满足时，Emby / Jellyfin 直出原文件，不再转码"
+  },
+  "download.release.beta.2_0_1_beta_14.common.plexHomeLoginFix": {
+    "message": "修复 Plex Home 独立账号家庭成员无法登录"
+  },
+  "download.release.beta.2_0_1_beta_14.common.audioStation2faFix": {
+    "message": "修复 Audio Station 二次验证无法沿用首次登录会话"
+  },
+  "download.release.beta.2_0_1_beta_14.common.authTokenPersistFix": {
+    "message": "修复登录恢复后仍使用过期凭据"
+  },
+  "download.release.beta.2_0_1_beta_14.common.queueTrackIdFix": {
+    "message": "修复下一曲播放 / 加入队列后显示为曲目 ID"
+  },
+  "download.release.beta.2_0_1_beta_14.common.staleProgressQueueFix": {
+    "message": "修复过期播放进度污染队列"
+  },
+  "download.release.beta.2_0_1_beta_14.common.lyricsMissingFieldsFix": {
+    "message": "修复 OpenSubsonic / Emby / Jellyfin 歌词缺字段或时间戳时无法显示"
+  },
+  "download.release.beta.2_0_1_beta_14.common.subsonicNavidromeFix": {
+    "message": "修复 Subsonic 专辑列表分页无法结束、Navidrome 登录刷新异常"
+  },
+  "download.release.beta.2_0_1_beta_14.common.artistAlbumYearSortFix": {
+    "message": "修复艺术家专辑按年份排序与字段缺失"
+  },
+  "download.release.beta.2_0_1_beta_14.common.embyDailyRecommendFix": {
+    "message": "修复 Emby 每日推荐随机排序异常"
+  },
+  "download.release.beta.2_0_1_beta_14.android.padLayout": {
+    "message": "平板深度适配：双栏导航与资料库分栏详情"
+  },
+  "download.release.beta.2_0_1_beta_14.android.musicRoaming": {
+    "message": "接入音乐漫游（与其它端对齐）"
+  },
+  "download.release.beta.2_0_1_beta_14.android.equalizer": {
+    "message": "播放页支持 10 段均衡器"
+  },
+  "download.release.beta.2_0_1_beta_14.android.playbackInfo": {
+    "message": "播放页展示来源与实测音质"
+  },
+  "download.release.beta.2_0_1_beta_14.android.colorfulX": {
+    "message": "全屏动态背景改用 ColorfulX"
+  },
+  "download.release.beta.2_0_1_beta_14.android.notificationControls": {
+    "message": "通知栏支持收藏与切换播放模式"
+  },
+  "download.release.beta.2_0_1_beta_14.android.dsfDsd": {
+    "message": "支持 DSF / DSD / DTS-WAV 软解"
+  },
+  "download.release.beta.2_0_1_beta_14.android.offlineBrowse": {
+    "message": "无网时可浏览已缓存的资料库"
+  },
+  "download.release.beta.2_0_1_beta_14.android.downloadExperience": {
+    "message": "完善自动下载、流式下载与下载页；队列满时排队，失败可重试"
+  },
+  "download.release.beta.2_0_1_beta_14.android.quickConnect": {
+    "message": "Audio Station 支持 QuickConnect ID 登录"
+  },
+  "download.release.beta.2_0_1_beta_14.android.formatFilter": {
+    "message": "曲目列表支持按音频格式筛选（Navidrome）"
+  },
+  "download.release.beta.2_0_1_beta_14.android.settingsBottomSheet": {
+    "message": "设置项改为底部弹出选择"
+  },
+  "download.release.beta.2_0_1_beta_14.android.addServerAdaptedTypes": {
+    "message": "添加服务器只展示已适配的服务类型"
+  },
+  "download.release.beta.2_0_1_beta_14.android.serverAvatarMenu": {
+    "message": "设置页顶栏支持服务器头像菜单；Jellyfin / Plex 可显示用户头像"
+  },
+  "download.release.beta.2_0_1_beta_14.android.searchImeSubmit": {
+    "message": "搜索改为键盘提交后再执行"
+  },
+  "download.release.beta.2_0_1_beta_14.android.bindEmailPage": {
+    "message": "绑定邮箱改为独立页面"
+  },
+  "download.release.beta.2_0_1_beta_14.android.portraitPlayerLayout": {
+    "message": "播放页竖屏布局对齐 iOS；进度条显示缓冲并优化拖动手势"
+  },
+  "download.release.beta.2_0_1_beta_14.android.spectrumPause": {
+    "message": "当前曲目暂停时频谱显示静态指示"
+  },
+  "download.release.beta.2_0_1_beta_14.android.favoriteTabCount": {
+    "message": "收藏页分类计数与服务器一致"
+  },
+  "download.release.beta.2_0_1_beta_14.android.androidTvLyricsContrast": {
+    "message": "Android TV：歌词字号可细调；强制深色以保证播放页对比度"
+  },
+  "download.release.beta.2_0_1_beta_14.android.miniPlayerTabFix": {
+    "message": "修复迷你播放条遮挡底部 Tab"
+  },
+  "download.release.beta.2_0_1_beta_14.android.lightSettingsOverlayFix": {
+    "message": "修复浅色模式设置弹层背景"
+  },
+  "download.release.beta.2_0_1_beta_14.android.networkJitterFix": {
+    "message": "修复网络抖动导致界面反复全量刷新"
+  },
+  "download.release.beta.2_0_1_beta_14.android.coldStartSplashFix": {
+    "message": "修复冷启动卡在启动屏、发现页栏目缺失"
+  },
+  "download.release.beta.2_0_1_beta_14.android.autoPlayOnceFix": {
+    "message": "修复回到前台时重复触发启动自动播放"
+  },
+  "download.release.beta.2_0_1_beta_14.android.longAudioResumeDefaultFix": {
+    "message": "修复长音频续播默认未与设置对齐"
+  },
+  "download.release.beta.2_0_1_beta_14.android.missingTrackNumber": {
+    "message": "曲目无音轨号时显示问号"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.ffmpegSoftDecode": {
+    "message": "接入 FFmpeg 软解，更多格式可正常播放"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.offlineDownload": {
+    "message": "无网时可浏览已缓存的资料库；补齐下载任务、离线播放与自动下载"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.playbackInfo": {
+    "message": "播放页展示来源与实测音质"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.colorfulX": {
+    "message": "全屏动态背景改用 ColorfulX"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.musicRoaming": {
+    "message": "接入音乐漫游（与其它端对齐）"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.quickConnect": {
+    "message": "Audio Station 支持 QuickConnect ID 登录"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.userAvatar": {
+    "message": "Jellyfin / Plex 可显示用户头像"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.searchPage": {
+    "message": "搜索页支持筛选、网格布局与回车搜索"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.favoritePagination": {
+    "message": "收藏页支持分页加载"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.trackRowSpectrum": {
+    "message": "当前播放行显示频谱动画与高亮"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.longAudioSkipSteps": {
+    "message": "长音频跳秒档位对齐为 10 / 15 / 30 秒"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.dsfDsd": {
+    "message": "支持 DSF / DSD / DTS-WAV 软解"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.multiSelectBack": {
+    "message": "多选时拦截返回手势，避免误退出"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.artistAlbumAnrFix": {
+    "message": "修复艺人进入专辑详情卡死"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.splashHangFix": {
+    "message": "修复启动屏卡死"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.twoFaStayFix": {
+    "message": "修复二次验证失败后退回密码页"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.artistAlbumCountFix": {
+    "message": "修复艺人详情专辑数显示不准"
+  },
+  "download.release.beta.2_0_1_beta_14.harmony.miniBarPlaceholderFix": {
+    "message": "修复迷你播放条底部占位误拦截点击"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.carPlay": {
+    "message": "支持 iOS CarPlay 浏览与播控"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.iPadLayout": {
+    "message": "对齐 iPad 侧栏、全屏播放与队列侧抽屉；侧栏可折叠；移除播放历史"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.sleepTimer": {
+    "message": "睡眠定时器到期后停止播放"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.iosDlna": {
+    "message": "iOS 支持 DLNA 投屏"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.playbackInfo": {
+    "message": "播放页展示来源、音质与转码信息"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.offlineBrowse": {
+    "message": "无网时可浏览已缓存的资料库"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.dsfDsd": {
+    "message": "支持 DSF / DSD / DTS-WAV 软解"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.playlistManualSort": {
+    "message": "歌单支持手动排序，并记住排序方式"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.formatFilter": {
+    "message": "曲目列表支持按音频格式筛选"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.bindEmailCode": {
+    "message": "绑定邮箱支持发送验证码与冷却"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.landscapeMarquee": {
+    "message": "横屏播放页标题支持跑马灯"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.offlineDeleteConfirm": {
+    "message": "离线内容删除扩大热区，并增加二次确认"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.playerSubtitleArtist": {
+    "message": "全屏播放页副标题优先完整显示艺术家名"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.dockIconFix": {
+    "message": "修复 macOS Dock 图标呈直角"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.headphoneRemoteFix": {
+    "message": "修复有线耳机线控无响应"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.backgroundResumeFix": {
+    "message": "修复 iOS 后台暂停后无法续播"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.settingsFocusFix": {
+    "message": "修复配置页输入框获焦即失焦"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.coldStartQueueFix": {
+    "message": "修复冷启动恢复播放队列失败或卡在加载"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.seamlessStopFix": {
+    "message": "修复无缝连播中途停播"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.autoPlayCrashFix": {
+    "message": "修复启动自动播放导致闪退"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.artistHeaderBlurFix": {
+    "message": "修复艺术家详情在 iOS 26/27 上顶部头图渐变"
+  },
+  "download.release.beta.2_0_1_beta_14.apple.albumScrollPositionFix": {
+    "message": "修复专辑列表返回详情后滚动位置丢失"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.lyricsResizeFont": {
+    "message": "桌面歌词支持拖拽改宽与选择本机字体"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.arm64Installer": {
+    "message": "提供 x64 与 ARM64 安装包"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.languageFollowSystem": {
+    "message": "界面语言可跟随系统"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.playlistManualSort": {
+    "message": "侧栏歌单支持手动排序"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.playNextMenu": {
+    "message": "歌曲菜单支持「下一曲播放」"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.quickConnect": {
+    "message": "Audio Station 支持 QuickConnect ID 登录"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.userAvatar": {
+    "message": "Jellyfin / Plex 可在标题栏显示用户头像"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.favoriteButton": {
+    "message": "专辑 / 艺人详情的收藏按钮从更多菜单外提"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.longAudioSkip": {
+    "message": "有声书跳秒档位对齐为 10 / 15 / 30 秒；跳秒图标显示秒数；倍速入口移到更多菜单"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.nonMusicLibraryPlaylist": {
+    "message": "非音乐库不再展示歌单入口"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.roundedIcon": {
+    "message": "应用图标改为圆角，托盘改用独立图标"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.downloadRetry": {
+    "message": "下载失败可自动重试；无文件大小时仍显示进度与剩余时间"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.globalHotkeyFix": {
+    "message": "修复全局快捷键无效"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.coverOriginalFix": {
+    "message": "修复全屏封面无法升到原图"
+  },
+  "download.release.beta.2_0_1_beta_14.desktop.submenuClickFix": {
+    "message": "修复下拉子菜单点击被父菜单吞掉"
+  },
+  "download.release.beta.2_0_1_beta_14.web.languageFollowSystem": {
+    "message": "界面语言可跟随系统"
+  },
+  "download.release.beta.2_0_1_beta_14.web.playlistManualSort": {
+    "message": "侧栏歌单支持手动排序"
+  },
+  "download.release.beta.2_0_1_beta_14.web.playNextMenu": {
+    "message": "歌曲菜单支持「下一曲播放」"
+  },
+  "download.release.beta.2_0_1_beta_14.web.quickConnect": {
+    "message": "Audio Station 支持 QuickConnect ID 登录"
+  },
+  "download.release.beta.2_0_1_beta_14.web.userAvatar": {
+    "message": "Jellyfin / Plex 可在标题栏显示用户头像"
+  },
+  "download.release.beta.2_0_1_beta_14.web.favoriteButton": {
+    "message": "专辑 / 艺人详情的收藏按钮从更多菜单外提"
+  },
+  "download.release.beta.2_0_1_beta_14.web.longAudioSkip": {
+    "message": "有声书跳秒档位对齐为 10 / 15 / 30 秒；跳秒图标显示秒数；倍速入口移到更多菜单"
+  },
+  "download.release.beta.2_0_1_beta_14.web.nonMusicLibraryPlaylist": {
+    "message": "非音乐库不再展示歌单入口"
+  },
+  "download.release.beta.2_0_1_beta_14.web.playbackErrorClassify": {
+    "message": "播放失败原因分类更明确"
+  },
+  "download.release.beta.2_0_1_beta_14.web.submenuClickFix": {
+    "message": "修复下拉子菜单点击被父菜单吞掉"
+  },
+  "download.release.beta.2_0_1_beta_14.web.coverOriginalFix": {
+    "message": "修复全屏封面无法升到原图"
+  },
+  "download.release.beta.2_0_1_beta_14.web.onboardingMigrateFix": {
+    "message": "修复旧数据引导流程无法迁移"
   }
 }
