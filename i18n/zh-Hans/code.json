@@ -2032,5 +2032,230 @@
   },
   "download.release.beta.2_0_1_beta_14.web.onboardingMigrateFix": {
     "message": "修复旧数据引导流程无法迁移"
+  },
+  "download.release.beta.2_0_1_beta_15.common.transparentBlur": {
+    "message": "透明主题背景支持按图调节模糊程度"
+  },
+  "download.release.beta.2_0_1_beta_15.common.artistHub": {
+    "message": "艺术家详情改为发现枢纽，展示相关作品货架"
+  },
+  "download.release.beta.2_0_1_beta_15.common.karaokeLyrics": {
+    "message": "正在播放支持逐字卡拉OK扫光；同一时间戳的多行歌词成组展示"
+  },
+  "download.release.beta.2_0_1_beta_15.common.lyricsSearchPreview": {
+    "message": "歌词搜索改为半屏入口，支持全屏翻页预览"
+  },
+  "download.release.beta.2_0_1_beta_15.common.streamCacheUnlimited": {
+    "message": "流缓存可设为「无上限」，磁盘空间不足时自动兜底"
+  },
+  "download.release.beta.2_0_1_beta_15.common.autoplayOpenPlayer": {
+    "message": "启动自动播放成功后自动打开正在播放页"
+  },
+  "download.release.beta.2_0_1_beta_15.common.seedStart": {
+    "message": "从列表点播时会从所选歌曲开始播放"
+  },
+  "download.release.beta.2_0_1_beta_15.common.serverAvatarLibrary": {
+    "message": "服务器管理支持更换头像与配置资料库"
+  },
+  "download.release.beta.2_0_1_beta_15.common.customCover": {
+    "message": "自定义封面接口可生效，测试成功后显示缩略图"
+  },
+  "download.release.beta.2_0_1_beta_15.common.offlineMediaLyrics": {
+    "message": "离线缓存同时保留音频与歌词"
+  },
+  "download.release.beta.2_0_1_beta_15.common.playlistDuplicateFix": {
+    "message": "修复歌单内重复曲目显示错乱、无法正确多选"
+  },
+  "download.release.beta.2_0_1_beta_15.common.playNextFix": {
+    "message": "修复「插入下一首」后队列错位，并提示成功"
+  },
+  "download.release.beta.2_0_1_beta_15.common.playlistTruncationFix": {
+    "message": "修复歌单曲目被截成前 20 条"
+  },
+  "download.release.beta.2_0_1_beta_15.common.embyPlaylistLibraryFix": {
+    "message": "修复 Emby 歌单未限定在当前资料库"
+  },
+  "download.release.beta.2_0_1_beta_15.android.homeIA": {
+    "message": "首页信息架构改版"
+  },
+  "download.release.beta.2_0_1_beta_15.android.searchRecent": {
+    "message": "搜索页改为填充式并展示最近搜索"
+  },
+  "download.release.beta.2_0_1_beta_15.android.libraryEmbeddedLyrics": {
+    "message": "资料库详情可内嵌查看歌词"
+  },
+  "download.release.beta.2_0_1_beta_15.android.flymeStatusLyrics": {
+    "message": "Flyme 系统状态栏歌词"
+  },
+  "download.release.beta.2_0_1_beta_15.android.widgets": {
+    "message": "新增桌面播放与歌词小组件"
+  },
+  "download.release.beta.2_0_1_beta_15.android.listNameFilter": {
+    "message": "歌曲 / 专辑 / 艺术家列表支持按名称过滤"
+  },
+  "download.release.beta.2_0_1_beta_15.android.favoriteSort": {
+    "message": "收藏列表支持按字段排序"
+  },
+  "download.release.beta.2_0_1_beta_15.android.playlistDates": {
+    "message": "歌单列表展示创建与更新时间"
+  },
+  "download.release.beta.2_0_1_beta_15.android.randomAlbumRefresh": {
+    "message": "发现页随机专辑货架可单独换一批"
+  },
+  "download.release.beta.2_0_1_beta_15.android.immersiveSyncedForeground": {
+    "message": "沉浸式歌词仅同步歌词可进入，且仅在前台播放时生效"
+  },
+  "download.release.beta.2_0_1_beta_15.android.playerPrefs": {
+    "message": "收拢播放页偏好"
+  },
+  "download.release.beta.2_0_1_beta_15.android.dlnaFadeVolumeFix": {
+    "message": "修复 DLNA 投屏时淡入淡出误改设备音量"
+  },
+  "download.release.beta.2_0_1_beta_15.android.songRowFavoriteFix": {
+    "message": "修复歌曲行心形收藏"
+  },
+  "download.release.beta.2_0_1_beta_15.android.coldStartArtworkFix": {
+    "message": "修复冷启动后封面丢失"
+  },
+  "download.release.beta.2_0_1_beta_15.android.portraitCoverSize": {
+    "message": "竖屏封面尺寸对齐 iOS"
+  },
+  "download.release.beta.2_0_1_beta_15.android.androidTvRemoteArtwork": {
+    "message": "Android TV：修复遥控器导航，电台封面可正常显示"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.equalizer": {
+    "message": "播放页支持均衡器"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.homeIA": {
+    "message": "首页信息架构改版"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.hdsMiniPlayer": {
+    "message": "API 23+ 支持悬浮页签与胶囊迷你播放条"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.volumeBar": {
+    "message": "全屏播放页接入音量条"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.avsessionControls": {
+    "message": "系统媒体会话支持收藏与循环"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.randomAlbumRefresh": {
+    "message": "发现页随机专辑货架可单独换一批"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.playlistDates": {
+    "message": "歌单列表展示创建与更新时间"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.favoriteSort": {
+    "message": "收藏列表支持按字段排序"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.immersiveSyncedForeground": {
+    "message": "沉浸式歌词仅同步歌词可进入，且仅在前台播放时生效"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.switchServerMiniCrashFix": {
+    "message": "修复切换服务器后迷你播放条崩溃"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.multiSelectCheckboxFix": {
+    "message": "修复多选复选框点击无效"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.miniPlayerSubpageFix": {
+    "message": "子页面保持迷你播放条可见"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.mediaCardArtworkFix": {
+    "message": "修复系统媒体卡封面不显示"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.equalizer": {
+    "message": "播放页支持均衡器"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.homeIA": {
+    "message": "首页信息架构改版"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.appIcon": {
+    "message": "iOS 支持切换 App 图标"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.listNameFilter": {
+    "message": "歌曲 / 专辑 / 艺术家列表支持按名称过滤"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.playerPrefsSwipe": {
+    "message": "播放页偏好收拢；歌词顶区下滑可收起页面"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.immersiveSyncedForeground": {
+    "message": "iPhone 沉浸式歌词仅同步歌词可进入，且仅在前台播放时生效"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.tvosImmersive": {
+    "message": "tvOS 支持沉浸式歌词"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.carPlayOnly": {
+    "message": "CarPlay 仅连接车机时也可启动播放"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.macosMouse": {
+    "message": "macOS：发现页可刷新、货架可翻页；歌曲行支持单击选中、双击播放"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.pauseResumeSeekFix": {
+    "message": "修复暂停恢复后进度回跳"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.notificationLyricsClearFix": {
+    "message": "修复无歌词切歌后通知栏歌词残留"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.airplayBackgroundFix": {
+    "message": "修复 AirPlay 后台切歌中断"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.audioInterruptSeekFix": {
+    "message": "修复音频中断后进度错位"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.notificationLyricsUpdateFix": {
+    "message": "恢复通知栏歌词持续更新"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.sidebarPlaylistIsolation": {
+    "message": "侧边栏歌单按当前服务器与资料库隔离"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.macosRecoveryCrashFix": {
+    "message": "修复 macOS 恢复登录时崩溃"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.tvosQueueRadioArtwork": {
+    "message": "tvOS：队列抽屉可正常打开，电台封面可显示"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.sidebarIdentity": {
+    "message": "服务器切换与设置入口迁入侧栏身份栏"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.playlistDates": {
+    "message": "歌单列表展示创建与更新时间"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.favoriteSort": {
+    "message": "收藏列表支持按字段排序"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.dblclickDiscover": {
+    "message": "曲目支持双击播放；发现页可刷新、货架可翻页"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.favoriteButtonFillFix": {
+    "message": "修复专辑 / 艺人详情收藏按钮未显示实心红色"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.desktopLyricsHeightFix": {
+    "message": "桌面歌词窗口按内容调整高度，减少高分屏裁切"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.submenuOverlayFix": {
+    "message": "全屏播放页子菜单不再被遮罩挡住"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.equalizerPresetFix": {
+    "message": "修复均衡器预设保存与音效未生效"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.serverSwitchQueueFix": {
+    "message": "修复切换服务器后队列错乱"
+  },
+  "download.release.beta.2_0_1_beta_15.web.sidebarIdentity": {
+    "message": "服务器切换与设置入口迁入侧栏身份栏"
+  },
+  "download.release.beta.2_0_1_beta_15.web.playlistDates": {
+    "message": "歌单列表展示创建与更新时间"
+  },
+  "download.release.beta.2_0_1_beta_15.web.favoriteSort": {
+    "message": "收藏列表支持按字段排序"
+  },
+  "download.release.beta.2_0_1_beta_15.web.dblclickDiscover": {
+    "message": "曲目支持双击播放；发现页可刷新、货架可翻页"
+  },
+  "download.release.beta.2_0_1_beta_15.web.favoriteButtonFillFix": {
+    "message": "修复专辑 / 艺人详情收藏按钮反馈"
+  },
+  "download.release.beta.2_0_1_beta_15.web.submenuOverlayFix": {
+    "message": "全屏播放页子菜单不再被遮罩挡住"
   }
 }

@@ -2032,5 +2032,230 @@
   },
   "download.release.beta.2_0_1_beta_14.web.onboardingMigrateFix": {
     "message": "Fixed onboarding migration for older saved data"
+  },
+  "download.release.beta.2_0_1_beta_15.common.transparentBlur": {
+    "message": "Transparent theme backgrounds can have blur adjusted per image"
+  },
+  "download.release.beta.2_0_1_beta_15.common.artistHub": {
+    "message": "Artist details become a discovery hub with related-work shelves"
+  },
+  "download.release.beta.2_0_1_beta_15.common.karaokeLyrics": {
+    "message": "Now Playing supports word-by-word karaoke sweep; same-timestamp lines are grouped"
+  },
+  "download.release.beta.2_0_1_beta_15.common.lyricsSearchPreview": {
+    "message": "Lyrics search uses a half-screen entry with a full-screen page-turn preview"
+  },
+  "download.release.beta.2_0_1_beta_15.common.streamCacheUnlimited": {
+    "message": "Stream cache can be set to unlimited, falling back when disk space runs low"
+  },
+  "download.release.beta.2_0_1_beta_15.common.autoplayOpenPlayer": {
+    "message": "Startup autoplay opens the now-playing screen after playback starts"
+  },
+  "download.release.beta.2_0_1_beta_15.common.seedStart": {
+    "message": "Playing from a list starts at the selected track"
+  },
+  "download.release.beta.2_0_1_beta_15.common.serverAvatarLibrary": {
+    "message": "Server management supports changing the avatar and configuring libraries"
+  },
+  "download.release.beta.2_0_1_beta_15.common.customCover": {
+    "message": "Custom cover APIs take effect; a thumbnail is shown after a successful test"
+  },
+  "download.release.beta.2_0_1_beta_15.common.offlineMediaLyrics": {
+    "message": "Offline cache keeps both audio and lyrics"
+  },
+  "download.release.beta.2_0_1_beta_15.common.playlistDuplicateFix": {
+    "message": "Fixed duplicate playlist tracks rendering incorrectly and breaking multi-select"
+  },
+  "download.release.beta.2_0_1_beta_15.common.playNextFix": {
+    "message": "Fixed Play Next inserting into the wrong place, with a success toast"
+  },
+  "download.release.beta.2_0_1_beta_15.common.playlistTruncationFix": {
+    "message": "Fixed playlists being truncated to the first 20 tracks"
+  },
+  "download.release.beta.2_0_1_beta_15.common.embyPlaylistLibraryFix": {
+    "message": "Fixed Emby playlists not being scoped to the current library"
+  },
+  "download.release.beta.2_0_1_beta_15.android.homeIA": {
+    "message": "Home information architecture redesigned"
+  },
+  "download.release.beta.2_0_1_beta_15.android.searchRecent": {
+    "message": "Search uses a fill layout and shows recent searches"
+  },
+  "download.release.beta.2_0_1_beta_15.android.libraryEmbeddedLyrics": {
+    "message": "Library details can show lyrics inline"
+  },
+  "download.release.beta.2_0_1_beta_15.android.flymeStatusLyrics": {
+    "message": "Flyme system status-bar lyrics"
+  },
+  "download.release.beta.2_0_1_beta_15.android.widgets": {
+    "message": "Home-screen playback and lyrics widgets"
+  },
+  "download.release.beta.2_0_1_beta_15.android.listNameFilter": {
+    "message": "Song / album / artist lists can be filtered by name"
+  },
+  "download.release.beta.2_0_1_beta_15.android.favoriteSort": {
+    "message": "Favorites list supports sorting by field"
+  },
+  "download.release.beta.2_0_1_beta_15.android.playlistDates": {
+    "message": "Playlist list shows created and updated times"
+  },
+  "download.release.beta.2_0_1_beta_15.android.randomAlbumRefresh": {
+    "message": "Random-album shelf on Discover can be refreshed on its own"
+  },
+  "download.release.beta.2_0_1_beta_15.android.immersiveSyncedForeground": {
+    "message": "Immersive lyrics only for synced lyrics, and only while playing in the foreground"
+  },
+  "download.release.beta.2_0_1_beta_15.android.playerPrefs": {
+    "message": "Now-playing preferences gathered in one place"
+  },
+  "download.release.beta.2_0_1_beta_15.android.dlnaFadeVolumeFix": {
+    "message": "Fixed DLNA volume being changed by fade in/out"
+  },
+  "download.release.beta.2_0_1_beta_15.android.songRowFavoriteFix": {
+    "message": "Fixed the heart favorite on song rows"
+  },
+  "download.release.beta.2_0_1_beta_15.android.coldStartArtworkFix": {
+    "message": "Fixed artwork missing after a cold start"
+  },
+  "download.release.beta.2_0_1_beta_15.android.portraitCoverSize": {
+    "message": "Portrait cover size aligned with iOS"
+  },
+  "download.release.beta.2_0_1_beta_15.android.androidTvRemoteArtwork": {
+    "message": "Android TV: fixed remote navigation and radio artwork"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.equalizer": {
+    "message": "Equalizer on the now-playing screen"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.homeIA": {
+    "message": "Home information architecture redesigned"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.hdsMiniPlayer": {
+    "message": "API 23+ floating tabs and capsule mini player"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.volumeBar": {
+    "message": "Volume bar on the fullscreen now-playing screen"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.avsessionControls": {
+    "message": "System media session supports favorite and repeat"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.randomAlbumRefresh": {
+    "message": "Random-album shelf on Discover can be refreshed on its own"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.playlistDates": {
+    "message": "Playlist list shows created and updated times"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.favoriteSort": {
+    "message": "Favorites list supports sorting by field"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.immersiveSyncedForeground": {
+    "message": "Immersive lyrics only for synced lyrics, and only while playing in the foreground"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.switchServerMiniCrashFix": {
+    "message": "Fixed mini player crash when switching servers"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.multiSelectCheckboxFix": {
+    "message": "Fixed multi-select checkboxes not responding"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.miniPlayerSubpageFix": {
+    "message": "Mini player stays visible on subpages"
+  },
+  "download.release.beta.2_0_1_beta_15.harmony.mediaCardArtworkFix": {
+    "message": "Fixed missing artwork on the system media card"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.equalizer": {
+    "message": "Equalizer on the now-playing screen"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.homeIA": {
+    "message": "Home information architecture redesigned"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.appIcon": {
+    "message": "iOS app icon can be changed"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.listNameFilter": {
+    "message": "Song / album / artist lists can be filtered by name"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.playerPrefsSwipe": {
+    "message": "Now-playing preferences gathered in one place; swipe down from the lyrics header to dismiss"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.immersiveSyncedForeground": {
+    "message": "iPhone immersive lyrics only for synced lyrics, and only while playing in the foreground"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.tvosImmersive": {
+    "message": "tvOS immersive lyrics"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.carPlayOnly": {
+    "message": "Playback can start when connected to CarPlay only"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.macosMouse": {
+    "message": "macOS: Discover refresh and shelf paging; click to select a track, double-click to play"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.pauseResumeSeekFix": {
+    "message": "Fixed progress jumping backward after resume from pause"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.notificationLyricsClearFix": {
+    "message": "Fixed notification lyrics lingering after switching to a track with no lyrics"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.airplayBackgroundFix": {
+    "message": "Fixed AirPlay track changes breaking in the background"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.audioInterruptSeekFix": {
+    "message": "Fixed progress drifting after an audio interruption"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.notificationLyricsUpdateFix": {
+    "message": "Notification lyrics keep updating again"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.sidebarPlaylistIsolation": {
+    "message": "Sidebar playlists are isolated by the current server and library"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.macosRecoveryCrashFix": {
+    "message": "Fixed a macOS crash when restoring a login session"
+  },
+  "download.release.beta.2_0_1_beta_15.apple.tvosQueueRadioArtwork": {
+    "message": "tvOS: queue drawer opens correctly, and radio artwork is shown"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.sidebarIdentity": {
+    "message": "Server switching and Settings moved into the sidebar identity bar"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.playlistDates": {
+    "message": "Playlist list shows created and updated times"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.favoriteSort": {
+    "message": "Favorites list supports sorting by field"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.dblclickDiscover": {
+    "message": "Double-click a track to play; Discover can refresh, and shelves can page"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.favoriteButtonFillFix": {
+    "message": "Fixed the favorite button on album / artist details not showing a solid red fill"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.desktopLyricsHeightFix": {
+    "message": "Desktop lyrics window height follows content, reducing HiDPI clipping"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.submenuOverlayFix": {
+    "message": "Fullscreen now-playing submenus are no longer blocked by the overlay"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.equalizerPresetFix": {
+    "message": "Fixed equalizer presets not saving and DSP not taking effect"
+  },
+  "download.release.beta.2_0_1_beta_15.desktop.serverSwitchQueueFix": {
+    "message": "Fixed the queue going out of sync after switching servers"
+  },
+  "download.release.beta.2_0_1_beta_15.web.sidebarIdentity": {
+    "message": "Server switching and Settings moved into the sidebar identity bar"
+  },
+  "download.release.beta.2_0_1_beta_15.web.playlistDates": {
+    "message": "Playlist list shows created and updated times"
+  },
+  "download.release.beta.2_0_1_beta_15.web.favoriteSort": {
+    "message": "Favorites list supports sorting by field"
+  },
+  "download.release.beta.2_0_1_beta_15.web.dblclickDiscover": {
+    "message": "Double-click a track to play; Discover can refresh, and shelves can page"
+  },
+  "download.release.beta.2_0_1_beta_15.web.favoriteButtonFillFix": {
+    "message": "Fixed favorite-button feedback on album / artist details"
+  },
+  "download.release.beta.2_0_1_beta_15.web.submenuOverlayFix": {
+    "message": "Fullscreen now-playing submenus are no longer blocked by the overlay"
   }
 }
