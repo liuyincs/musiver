@@ -1,29 +1,20 @@
 ---
+title: "Musiver user guide"
 sidebar_position: 1
 ---
 
-# Musiver Documentation Overview
+Musiver connects to your own music server so you can browse your collection and listen on your devices. You need a supported server and an account with access to its audio library. Musiver does not include a music subscription or supply a music collection.
 
-Welcome to the Musiver documentation site.
+## Start here
 
-## What You Will Find Here
+1. [Install Musiver](getting-started/install.md) on your device.
+2. [Connect a server and play your first song](getting-started/first-play.md).
+3. Learn about the [player and queue](playback/player-queue.md), or [download music for offline listening](offline/downloads.md).
 
-- Product capabilities and scope
-- Platform support and service compatibility
-- Release-related information
+For spoken audio, start with [library types](spoken-audio/library-types.md). If you have used the previous app, see [what has changed](whats-changed/overview.md) and [getting started for existing users](whats-changed/existing-users.md).
 
-## Feedback and Suggestions
+## Scope of this guide
 
-If you want to report issues or provide suggestions, please open an Issue in the repository.
+This guide covers the implemented features of the 2.0.1 beta series, checked against build 16. Platform version labels can differ. Check the version in your app when reporting a problem.
 
-It is recommended to include the following details:
-
-- Platform and OS version
-- Media service type and version
-- Reproduction steps or expected behavior
-
-## Project Status
-
-Musiver is under continuous development, and this documentation will evolve with each release.
-
-Please refer to actual released versions for final details.
+Phone and desktop layouts differ. Instructions name the action or settings page to open; a phone may place it in a menu where a desktop uses a sidebar. Platform and server restrictions are described alongside the relevant steps. [Experimental features](experimental/tag-my-audio.md) have separate instructions.
