@@ -113,7 +113,7 @@ export default function Pricing() {
             <div style={{ height: '16px' }}></div>
             <p className={styles.planDesc}>
               <Translate id="pricing.plan.free.desc">
-                Provides a complete basic music playback and transfer experience for daily listening.
+                Provides a complete library browsing and everyday listening experience.
               </Translate>
             </p>
             <Link to="/download" className={`${styles.actionBtn} ${styles.actionBtnFree}`}>
