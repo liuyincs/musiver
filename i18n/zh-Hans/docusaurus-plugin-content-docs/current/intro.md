@@ -1,20 +1,35 @@
 ---
-title: "音流使用指南"
+title: "欢迎"
 sidebar_position: 1
 ---
 
-音流连接你自己的音乐服务器，让你在不同设备上浏览和播放收藏的音乐。开始前，你需要一个受支持的服务器，以及有权访问其中音频资料库的账号。音流不提供曲库，也不包含在线音乐订阅。
+# 欢迎使用音流 Musiver
+
+音流连接**你自己的音乐服务器**，让你在各设备上浏览和收听。它不托管曲库，也不提供流媒体订阅。
+
+![音流桌面欢迎页](/img/docs/getting-started/desktop-welcome.jpg)
+
+![支持的平台](/img/docs/illustrations/platforms.svg)
+
+## 支持平台
+
+iOS · iPadOS · macOS · tvOS · Android · Android TV · Windows · Linux · HarmonyOS · Web（自托管 Docker）
+
+桌面与 Web 共用 Tauri + React / wasm 壳；其余端为原生实现。
+
+## 支持的服务器
+
+- 音乐：Navidrome、Subsonic 兼容、群晖 Audio Station
+- 多媒体：Emby、Jellyfin、Plex（音频资料库）
+- 有声书：Audiobookshelf
+- 实验性：Tag My Audio（邀请测试）
 
 ## 从这里开始
 
-1. 在设备上[安装音流](getting-started/install.md)。
-2. [连接服务器并播放第一首歌](getting-started/first-play.md)。
-3. 了解[播放器与播放队列](playback/player-queue.md)，或[下载音乐以便离线收听](offline/downloads.md)。
+1. 用过旧版音流（StreamMusic）请先看[新版本介绍](whats-new/overview.md)。
+2. 了解[会员](membership/plans.md)的免费与终身权益。
+3. [安装](getting-started/install.md)并[播放第一首歌](getting-started/first-play.md)。
 
-收听有声书或播客，请先了解[资料库类型](spoken-audio/library-types.md)。使用过旧版的用户，可以阅读[新旧版本区别](whats-changed/overview.md)和[旧用户开始使用新版](whats-changed/existing-users.md)。
-
-## 本指南的适用范围
-
-本指南覆盖 2.0.1 测试版系列中已实现的功能，以构建 16 为核查基准。各平台的版本号格式可能不同，反馈问题时请附上应用实际显示的版本。
-
-手机和桌面的布局不同。步骤会说明要打开的功能或设置页；桌面侧栏中的入口，在手机上可能位于菜单内。平台和服务器限制会随操作说明一并标注。[实验性功能](experimental/tag-my-audio.md)单独介绍。
+:::tip 适用范围
+本指南以 2.0.1 测试版系列为基准。功能因平台与服务器而异；会员门控以应用内会员页为准。
+:::

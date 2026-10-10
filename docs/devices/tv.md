@@ -1,17 +1,18 @@
 ---
 title: "Android TV and Apple TV"
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-Musiver has TV interfaces for Android TV and Apple TV. Install the appropriate available client from the [download page](/download).
+Musiver ships TV UIs for **Android TV** and **Apple TV (tvOS)**.
 
-1. Open the TV app and add a server.
-2. Use the remote to choose the server type and complete sign-in. Follow a displayed QR authorization flow where offered, such as Plex authorization.
-3. Choose the library and browse albums, songs, or supported spoken-audio content.
-4. Start playback and use the remote to access the player, queue, and available lyric controls.
+1. Install from the [download page](/download).
+2. Add a server with the remote (QR / OAuth flows when shown).
+3. Browse and play; use focus navigation and Back to leave menus.
+4. Immersive lyrics can appear after idle time during lyric playback.
 
-The TV layout uses focus and remote navigation. Move focus to the desired control before confirming it, and use Back to leave a menu.
+Android TV keeps a download manager; tvOS does not. Android TV does not start Alipay — purchase on a phone, then restore.
 
-When eligible lyric playback is active and no menu is open, the TV can enter an immersive lyric view after about 15 seconds without interaction. On Apple TV, press a direction button to leave that view.
-
-TV interfaces do not provide the playlist-file export or Tag My Audio draft-confirmation workflows described for other clients. Complete those tasks on a supported phone or computer.
+:::caution TODO screenshot: Android TV — home / now playing
+:::
+:::caution TODO screenshot: Apple TV — home / immersive lyrics
+:::

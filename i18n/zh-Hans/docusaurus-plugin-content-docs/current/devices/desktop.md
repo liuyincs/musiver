@@ -1,29 +1,27 @@
 ---
-title: "桌面歌词、迷你窗口与快捷键"
+title: "桌面（Windows / Linux / macOS）"
 sidebar_position: 1
 ---
 
-桌面功能随操作系统不同而变化。
-
-| 功能 | 本指南版本中的可用情况 |
+| 功能 | 可用性 |
 | --- | --- |
-| 桌面歌词 | Windows 和原生 macOS，受对应会员要求限制 |
-| 独立迷你播放窗口 | Windows 和原生 macOS |
-| 全局播放快捷键 | 已安装的 Windows/Linux 客户端，网页版不提供 |
+| 桌面/悬浮歌词 | Windows 壳；原生 macOS — 会员 |
+| 迷你播放器 | Windows / macOS — 会员 |
+| 全局播放快捷键 | 已安装的 Windows/Linux 客户端（非 Web） |
+| 购买 | 桌面支付宝（Windows/Linux Tauri 壳） |
 
-先开始播放歌曲，再通过 Windows 播放器中的桌面歌词或迷你播放器操作打开相应窗口。这些功能需要客户端提示的对应会员权益。macOS 使用原生播放栏中的桌面歌词和迷你播放器控制。Linux 没有 Windows 的桌面歌词和迷你窗口入口。
+### 键盘（Windows / Linux 默认）
 
-## Windows 与 Linux 键盘操作
-
-已安装桌面客户端的默认应用内快捷键包括：
-
-| 操作 | 应用内快捷键 |
+| 操作 | 快捷键 |
 | --- | --- |
-| 播放或暂停 | 空格 |
-| 上一曲、下一曲 | Ctrl + 左、右方向键 |
-| 增大、减小音量 | Ctrl + 上、下方向键 |
+| 播放 / 暂停 | Space |
+| 上一首 / 下一首 | Ctrl + ← / → |
+| 音量 | Ctrl + ↑ / ↓ |
 | 收藏 | Ctrl + L |
 
-打开快捷键设置，可查看固定组合并开启默认关闭的全局快捷键。全局播放组合会增加 Shift，例如播放或暂停为 **Ctrl + Shift + 空格**。注册失败时，请检查是否被其他应用占用。
+全局快捷键额外加 Shift（如 Ctrl+Shift+Space），默认关闭。macOS 使用其菜单/系统快捷键。
 
-上述 Windows/Linux 组合不适用于原生 macOS 客户端，macOS 请以客户端菜单或系统提供的快捷键为准。
+:::caution TODO screenshot: Windows — 迷你播放器
+:::
+:::caution TODO screenshot: Windows — 悬浮歌词
+:::

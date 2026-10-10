@@ -19,4 +19,4 @@ sidebar_position: 3
 
 ## 控件不符合预期或歌词缺失
 
-有声书仍显示普通音乐控制时，请检查[资料库类型](../spoken-audio/library-types.md)和长音频设置。歌词缺失或匹配错误时，可使用[歌词搜索](../playback/lyrics.md)。[反馈问题](feedback.md)时，请附上这些测试结果。
+有声书仍显示普通音乐控制时，请检查[资料库类型](../features/spoken-audio.md)和长音频设置。歌词缺失或匹配错误时，可使用[歌词搜索](../features/lyrics.md)。[反馈问题](feedback.md)时，请附上这些测试结果。

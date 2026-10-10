@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-label="Membership changes">
+  <rect width="960" height="320" fill="#faf7f2"/>
+  <rect x="40" y="40" width="280" height="240" rx="16" fill="#e8f6ea" stroke="#8fbf98"/>
+  <rect x="340" y="40" width="280" height="240" rx="16" fill="#fff4e5" stroke="#e0b07a"/>
+  <rect x="640" y="40" width="280" height="240" rx="16" fill="#eef2ff" stroke="#9aa8d9"/>
+  <text x="180" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#1f4d2a">Now free / open</text>
+  <text x="480" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#6a3f10">Still member</text>
+  <text x="780" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#24306a">New member extras</text>
+  <g font-family="system-ui,sans-serif" font-size="14" fill="#333">
+    <text x="60" y="120">DLNA cast</text>
+    <text x="60" y="150">Browse + stream all songs</text>
+    <text x="60" y="180">One server</text>
+    <text x="360" y="120">Downloads / auto-download</text>
+    <text x="360" y="150">Multi-server (2+)</text>
+    <text x="360" y="180">ReplayGain · CarPlay</text>
+    <text x="360" y="210">Mini player · shortcuts</text>
+    <text x="660" y="120">Equalizer · music roaming</text>
+    <text x="660" y="150">Immersive / PiP lyrics</text>
+    <text x="660" y="180">Vinyl · accent · transparent</text>
+    <text x="660" y="210">App icon (iOS)</text>
+  </g>
+</svg>

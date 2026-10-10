@@ -1,20 +1,28 @@
 ---
-title: "Installation and supported platforms"
-sidebar_position: 2
+title: "Install"
+sidebar_position: 1
 ---
 
-Open the [download page](/download) and choose your device. Use the installation instructions and available package for that platform. Beta builds can change more frequently than stable releases; check which channel you are installing.
+Open the [download page](/download) and pick your platform package (stable or beta).
 
 | Device | Client |
 | --- | --- |
-| iPhone and iPad | iOS / iPadOS |
+| iPhone / iPad | iOS / iPadOS |
 | Mac | macOS |
-| Android phone or tablet | Android |
-| HarmonyOS device | HarmonyOS |
-| Windows or Linux computer | Desktop client |
-| Browser | Web app |
-| Television | Android TV or Apple TV |
+| Apple TV | tvOS |
+| Android phone / tablet | Android |
+| Android TV / Google TV | Android TV |
+| HarmonyOS | HarmonyOS |
+| Windows | Desktop (setup.exe) |
+| Linux | Desktop (AppImage) |
+| Browser | Web (self-hosted Docker image) |
 
-Package availability and system requirements are listed on the download page. Having a client for a platform does not mean every feature is available there. Read [Web app limitations](../devices/web.md) before choosing the browser as your main player, and [TV instructions](../devices/tv.md) for remote-control use.
+Having a client does **not** mean every feature exists on that platform. Read [Web limitations](../devices/web.md) and [TV](../devices/tv.md) before choosing a primary device.
 
-After installation, open Musiver and select **Add Server**. Keep your server address and login details ready, then follow [first playback](first-play.md).
+![Desktop welcome after install](/img/docs/getting-started/desktop-welcome.jpg)
+
+### Web (Docker)
+
+The Web client is published as a Docker image (see the app repository’s `docker/web` docs). Host it yourself; there is no public hosted demo on this documentation site.
+
+After install, continue with [first play](first-play.md).

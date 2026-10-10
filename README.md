@@ -49,15 +49,11 @@
 
 音流致力于提供多平台一致体验，目前已覆盖：
 
-- Android
-- iOS / macOS / Apple TV（tvOS）
-- HarmonyOS Next
-- Windows
-- Web
-
-规划支持：
-
-- Android TV
+- iOS / iPadOS / macOS / Apple TV（tvOS）
+- Android / Android TV
+- HarmonyOS
+- Windows / Linux
+- Web（自托管 Docker）
 
 不同平台在 UI 表现上遵循各自平台的交互规范，但核心能力保持一致。
 

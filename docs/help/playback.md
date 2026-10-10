@@ -19,4 +19,4 @@ On Web, browser and tab lifecycle rules apply; use an installed client when you 
 
 ## Wrong controls or missing lyrics
 
-For books that show music-style controls, check the [library type](../spoken-audio/library-types.md) and long-audio settings. For missing or mismatched lyrics, use [lyric search](../playback/lyrics.md). Attach these observations when [reporting a problem](feedback.md).
+For books that show music-style controls, check the [library type](../features/spoken-audio.md) and long-audio settings. For missing or mismatched lyrics, use [lyric search](../features/lyrics.md). Attach these observations when [reporting a problem](feedback.md).

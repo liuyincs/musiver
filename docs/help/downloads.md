@@ -15,6 +15,6 @@ Open **Downloads** and inspect the task state before deleting anything.
 
 If a task fails repeatedly for one track, try playing that track online and compare another download. Include the selected quality and transcoding format in a report if the failure depends on them.
 
-Avoid repeatedly clearing all storage as a first troubleshooting step: it can remove the audio you need offline. Read [cache and storage management](../offline/storage.md) to choose the correct category.
+Avoid repeatedly clearing all storage as a first troubleshooting step: it can remove the audio you need offline. Read [cache and storage management](../features/offline.md) to choose the correct category.
 
 Automatic downloads are affected by background execution and network policy. The Web app does not support formal downloads, so installing a supported client is required for that workflow.

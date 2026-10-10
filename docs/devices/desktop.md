@@ -1,29 +1,27 @@
 ---
-title: "Desktop lyrics, mini player, and shortcuts"
+title: "Desktop (Windows / Linux / macOS)"
 sidebar_position: 1
 ---
 
-Desktop features vary by operating system.
-
-| Feature | Availability in this guide's version |
+| Feature | Availability |
 | --- | --- |
-| Desktop lyrics | Windows and native macOS; subject to membership requirements |
-| Separate mini-player window | Windows and native macOS |
-| Global playback shortcuts | Installed Windows/Linux clients; not the Web app |
+| Desktop / floating lyrics | Windows shell; native macOS — membership |
+| Mini player | Windows / macOS — membership |
+| Global playback shortcuts | Installed Windows/Linux client (not Web) |
+| Purchase | Desktop Alipay (Windows/Linux Tauri shell) |
 
-Start a song first. On Windows, use the player's desktop-lyrics or mini-player action to open the corresponding window. These features require the membership access indicated by your client. On macOS, use the desktop-lyrics and mini-player controls in the native playback bar. Linux does not offer the Windows desktop-lyrics or mini-window entry points.
+### Keyboard (Windows / Linux defaults)
 
-## Windows and Linux keyboard controls
-
-The installed desktop client's defaults include:
-
-| Action | In-app shortcut |
+| Action | Shortcut |
 | --- | --- |
-| Play or pause | Space |
-| Previous / next track | Ctrl + Left / Right |
-| Volume up / down | Ctrl + Up / Down |
+| Play / pause | Space |
+| Previous / next | Ctrl + Left / Right |
+| Volume | Ctrl + Up / Down |
 | Favorite | Ctrl + L |
 
-Open shortcut settings to view the fixed combinations and enable global playback shortcuts, which are off by default. Global playback combinations add Shift, such as **Ctrl + Shift + Space** for play/pause. If registration fails, check whether another application uses that combination.
+Global shortcuts add Shift (e.g. Ctrl+Shift+Space) and are off by default. macOS uses its own menu / system shortcuts.
 
-These Windows/Linux combinations are not instructions for the native macOS client. Use the shortcuts shown in that client's menus or provided by the system.
+:::caution TODO screenshot: Windows — mini player
+:::
+:::caution TODO screenshot: Windows — floating lyrics
+:::

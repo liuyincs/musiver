@@ -1,20 +1,35 @@
 ---
-title: "Musiver user guide"
+title: "Welcome"
 sidebar_position: 1
 ---
 
-Musiver connects to your own music server so you can browse your collection and listen on your devices. You need a supported server and an account with access to its audio library. Musiver does not include a music subscription or supply a music collection.
+# Welcome to Musiver
+
+Musiver connects to **your own music server** so you can browse and listen on every device you own. It does not host a music catalog or sell a streaming subscription.
+
+![Musiver desktop welcome](/img/docs/getting-started/desktop-welcome.jpg)
+
+![Supported platforms](/img/docs/illustrations/platforms.svg)
+
+## Platforms
+
+iOS · iPadOS · macOS · tvOS · Android · Android TV · Windows · Linux · HarmonyOS · Web (self-hosted Docker)
+
+Desktop and Web share a Tauri + React / wasm shell. Other clients are native.
+
+## Supported servers
+
+- Music: Navidrome, Subsonic-compatible, Synology Audio Station
+- Media: Emby, Jellyfin, Plex (audio libraries)
+- Spoken audio: Audiobookshelf
+- Experimental: Tag My Audio (invite-only)
 
 ## Start here
 
-1. [Install Musiver](getting-started/install.md) on your device.
-2. [Connect a server and play your first song](getting-started/first-play.md).
-3. Learn about the [player and queue](playback/player-queue.md), or [download music for offline listening](offline/downloads.md).
+1. Read [What's new](whats-new/overview.md) if you used the previous StreamMusic app.
+2. Check [Membership](membership/plans.md) for free vs lifetime benefits.
+3. [Install](getting-started/install.md) and [play your first song](getting-started/first-play.md).
 
-For spoken audio, start with [library types](spoken-audio/library-types.md). If you have used the previous app, see [what has changed](whats-changed/overview.md) and [getting started for existing users](whats-changed/existing-users.md).
-
-## Scope of this guide
-
-This guide covers the implemented features of the 2.0.1 beta series, checked against build 16. Platform version labels can differ. Check the version in your app when reporting a problem.
-
-Phone and desktop layouts differ. Instructions name the action or settings page to open; a phone may place it in a menu where a desktop uses a sidebar. Platform and server restrictions are described alongside the relevant steps. [Experimental features](experimental/tag-my-audio.md) have separate instructions.
+:::tip Scope
+This guide tracks the 2.0.1 beta series. Feature availability can differ by platform and server; the in-app membership screen is authoritative for gated features.
+:::

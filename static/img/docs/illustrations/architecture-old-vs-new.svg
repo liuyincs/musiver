@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Old vs new architecture">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e8f1f4"/><stop offset="100%" stop-color="#f7f0ea"/></linearGradient>
+    <linearGradient id="old" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5b7c8a"/><stop offset="100%" stop-color="#3d5a66"/></linearGradient>
+    <linearGradient id="neu" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2f6fed"/><stop offset="100%" stop-color="#1f4fb8"/></linearGradient>
+  </defs>
+  <rect width="960" height="360" fill="url(#bg)"/>
+  <rect x="40" y="48" width="400" height="264" rx="20" fill="#fff" stroke="#d5e0e6"/>
+  <rect x="520" y="48" width="400" height="264" rx="20" fill="#fff" stroke="#d5e0e6"/>
+  <rect x="70" y="80" width="340" height="56" rx="12" fill="url(#old)"/>
+  <text x="240" y="115" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="22">StreamMusic (old)</text>
+  <text x="240" y="170" text-anchor="middle" fill="#334" font-family="system-ui,sans-serif" font-size="16">Flutter cross-platform UI</text>
+  <text x="240" y="200" text-anchor="middle" fill="#556" font-family="system-ui,sans-serif" font-size="15">Android · iOS · macOS · Windows</text>
+  <text x="240" y="240" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Library mode + direct mode</text>
+  <text x="240" y="270" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Membership gates include DLNA</text>
+  <rect x="550" y="80" width="340" height="56" rx="12" fill="url(#neu)"/>
+  <text x="720" y="115" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="22">Musiver (new)</text>
+  <text x="720" y="170" text-anchor="middle" fill="#334" font-family="system-ui,sans-serif" font-size="16">Rust core + native clients</text>
+  <text x="720" y="200" text-anchor="middle" fill="#556" font-family="system-ui,sans-serif" font-size="14">+ tvOS · Android TV · Linux · HarmonyOS · Web</text>
+  <text x="720" y="240" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Library mode not yet implemented</text>
+  <text x="720" y="270" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">DLNA is free · richer membership catalog</text>
+  <path d="M455 180 L505 180" stroke="#2f6fed" stroke-width="3" fill="none"/>
+  <polygon points="505,174 520,180 505,186" fill="#2f6fed"/>
+</svg>
