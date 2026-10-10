@@ -8,7 +8,7 @@ Primary docs: [Free vs membership](../membership/plans.md), [What changed](../me
 ### Quick checks
 
 1. Open the in-app membership screen — it is the source of truth on that client.
-2. Restore with email / order ID / App Store restore as offered.
+2. Restore with email / order ID / App Store, Google Play, or Huawei restore as offered.
 3. Legacy buyers must bind email in the old app first.
 4. Web cannot purchase; Android TV restores only.
 

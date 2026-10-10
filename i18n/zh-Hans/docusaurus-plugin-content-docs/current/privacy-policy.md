@@ -53,7 +53,7 @@ sidebar_position: 99
 | App 支付宝客户端 SDK | 支付宝（中国）网络技术有限公司 | Android（官网及国内渠道版） | 会员购买支付 | [App 支付宝客户端 SDK 隐私说明](https://opendoc.alipay.com/open/06834t?pathHash=53a65cf1) |
 | Google Play 结算库 | Google | Android（Google Play 版） | 会员购买支付 | [Google 隐私政策](https://policies.google.com/privacy) |
 
-上述 SDK 收集的信息以对应提供方的官方说明为准。iOS、macOS 与 tvOS 的会员购买由 Apple StoreKit 处理，HarmonyOS 由华为应用内支付服务处理，桌面端与网页版通过在浏览器中打开支付宝网页完成支付，这些平台的会员购买均未集成其他第三方 SDK。
+上述 SDK 收集的信息以对应提供方的官方说明为准。iOS、macOS 与 tvOS 的会员购买由 Apple StoreKit 处理，HarmonyOS 由华为应用内支付服务处理，桌面端通过在浏览器中打开支付宝网页完成支付。Web 版无购买界面。这些平台的会员购买均未集成其他第三方 SDK。
 
 ## 第三方链接
 
@@ -69,4 +69,4 @@ sidebar_position: 99
 
 本政策仅适用于音流，不适用于其他第三方应用或服务，即使您通过音流访问了这些服务。
 
-更新日期：2026 年 10 月 7 日
+更新日期：2026 年 10 月 10 日

@@ -17,4 +17,4 @@ Manual downloads, auto-download rules, and stream cache for browsing previously 
 
 ## Membership / platform
 
-Offline download and auto-download require membership. tvOS has no download manager; Android TV keeps download management but does not schedule auto-download like phones. Web has no offline downloads.
+Offline download and auto-download require membership. tvOS and Android TV do not support offline download or auto-download. Web has no offline downloads.

@@ -10,7 +10,7 @@ sidebar_position: 3
 3. 浏览并播放；使用焦点导航，按返回离开菜单。
 4. 播放有歌词的歌曲时，一段时间不操作会，可能进入沉浸式歌词。
 
-Android TV 保留下载管理；tvOS 不提供。Android TV 不发起支付宝——请在手机购买后恢复。
+Android TV 与 tvOS 均不支持离线下载或自动下载。Android TV 无应用内购买界面——请在手机购买后恢复。
 
 :::caution TODO screenshot: Android TV — 首页 / 正在播放
 :::

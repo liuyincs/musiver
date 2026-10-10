@@ -609,7 +609,7 @@
     "message": "如何购买和退款？"
   },
   "pricing.faq.a2": {
-    "message": "购买渠道：\n• iOS / Apple 平台：App Store。3 个月内通过 Apple 申请退款（不受开发者控制）。\n• Android（Google Play）：3 个月内通过 Google Play 申请退款（不受开发者控制），规则与 App Store 相同。\n• 鸿蒙（华为 IAP）：3 个月内通过华为申请退款（不受开发者控制），规则与 App Store 相同。\n• Android（国内/直接分发）：支付宝。6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Windows / Linux 桌面：支付宝。退款规则与安卓支付宝相同：6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Android TV：不发起应用内支付——请在手机购买后恢复。\n• Web：无购买界面。\n\n购买后请绑定邮箱以便在其他设备恢复（绑定后不可修改，请勿使用临时邮箱）。旧版音流买家须先在旧版绑定邮箱。"
+    "message": "购买渠道：\n• iOS / Apple 平台：App Store。退款由 Apple 按其政策处理（不受开发者控制）。见 https://support.apple.com/zh-cn/118223\n• Android（Google Play）：退款由 Google Play 按其政策处理（不受开发者控制）。见 https://support.google.com/googleplay/answer/2479637?hl=zh-Hans 与 https://support.google.com/googleplay/answer/15574897?hl=zh-Hans\n• 鸿蒙（华为 IAP / 应用市场）：退款由华为按其政策处理（不受开发者控制）。见 https://consumer.huawei.com/cn/support/content/zh-cn15987057/ 与 https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm\n• Android（国内/直接分发）：支付宝。6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Windows / Linux 桌面：支付宝。退款规则与安卓支付宝相同：6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Android TV：不发起应用内支付——请在手机购买后恢复。\n• Web：无购买界面。\n\n购买后请绑定邮箱以便在其他设备恢复（绑定后不可修改，请勿使用临时邮箱）。App Store、Google Play 与华为购买均可用同样方式恢复。旧版音流买家须先在旧版绑定邮箱。"
   },
   "pricing.faq.q3": {
     "message": "是否需要联网？"

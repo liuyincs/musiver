@@ -8,7 +8,7 @@ sidebar_position: 1
 ### 快速排查
 
 1. 打开应用内会员页——以该端显示为准。
-2. 按提示用邮箱 / 订单号 / App Store 恢复。
+2. 按提示用邮箱 / 订单号 / App Store、Google Play 或华为恢复。
 3. 旧版买家须先在旧版绑定邮箱。
 4. Web 无法购买；Android TV 仅恢复。
 
