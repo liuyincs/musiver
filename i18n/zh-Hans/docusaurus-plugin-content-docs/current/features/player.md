@@ -7,7 +7,8 @@ sidebar_position: 2
 
 播放条与完整播放页负责播控、队列、音质、均衡器、回放增益、睡眠定时与输出——其中包含免费的 DLNA 投屏。
 
-![完整播放页](/img/docs/features/desktop-full-player.jpg)
+:::caution TODO screenshot: 桌面 — 完整播放页（同步歌词）
+:::
 
 ## 怎么用
 

@@ -12,16 +12,18 @@ sidebar_position: 1
 
 ### 快捷键
 
-默认值来自音流桌面客户端。应用内快捷键在窗口聚焦且未在输入框中时生效。全局快捷键需在设置中开启（默认关闭）。
+下表默认值来自 Windows / Linux（Tauri）桌面客户端。应用内快捷键在窗口聚焦且未在输入框中时生效。全局快捷键需在设置中开启（Windows / Linux 上默认关闭）。
 
-| 操作 | Windows / Linux（应用内） | macOS（应用内） | 全局（各桌面端） |
-| --- | --- | --- | --- |
-| 播放 / 暂停 | Space | Space | Ctrl+Shift+Space / ⌘⇧Space |
-| 上一首 | Ctrl+← | ⌘← | Ctrl+Shift+← / ⌘⇧← |
-| 下一首 | Ctrl+→ | ⌘→ | Ctrl+Shift+→ / ⌘⇧→ |
-| 音量加 | Ctrl+↑ | ⌘↑ | Ctrl+Shift+↑ / ⌘⇧↑ |
-| 音量减 | Ctrl+↓ | ⌘↓ | Ctrl+Shift+↓ / ⌘⇧↓ |
-| 收藏 | Ctrl+L | ⌘L | Ctrl+Shift+L / ⌘⇧L |
+macOS 使用独立的原生客户端，其应用内与全局快捷键未在本文根据源码核对，请以 macOS 客户端内的快捷键页面为准。
+
+| 操作 | Windows / Linux（应用内） | 全局（Windows / Linux） |
+| --- | --- | --- |
+| 播放 / 暂停 | Space | Ctrl+Shift+Space |
+| 上一首 | Ctrl+← | Ctrl+Shift+← |
+| 下一首 | Ctrl+→ | Ctrl+Shift+→ |
+| 音量加 | Ctrl+↑ | Ctrl+Shift+↑ |
+| 音量减 | Ctrl+↓ | Ctrl+Shift+↓ |
+| 收藏 | Ctrl+L | Ctrl+Shift+L |
 
 :::caution TODO screenshot: Windows / macOS — 迷你播放器
 :::

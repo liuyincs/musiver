@@ -19,7 +19,7 @@ Comparison of StreamMusic (old) and Musiver (new).
 | Sound | ReplayGain | Lossless/transcode tiers, equalizer, ReplayGain, format filters |
 | Spoken audio | Long-audio preference (member) | Audiobookshelf shelf, resume, speed memory, library types |
 | Playlists | Basic server playlists | Smart playlist JSON; import/export / cross-server move |
-| Device migration | QR data sync | No confirmed import of old app config |
+| Device migration | QR data sync | Cannot import old app config |
 | Membership | Lifetime buyout, 7 devices | Lifetime, 7 devices, includes future updates; beta can trial member features |
 | Free scope | Included auto-download, listen-and-save, QR sync, etc. | Browse library, stream all songs, one server |
 | Downloads | Manual download member; auto-download free | Manual and auto-download are membership |

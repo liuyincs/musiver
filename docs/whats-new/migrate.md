@@ -3,7 +3,7 @@ title: "Migrating from the old version"
 sidebar_position: 3
 ---
 
-Treat Musiver as a new install. Automatic import of the old app’s servers, preferences, downloads, and cache is not established.
+Treat Musiver as a new install. The old app’s servers, preferences, downloads, and cache cannot be imported automatically today.
 
 ## Before you switch
 

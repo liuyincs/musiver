@@ -12,16 +12,18 @@ sidebar_position: 1
 
 ### Keyboard shortcuts
 
-Defaults from the Musiver desktop client. In-app shortcuts work when the window is focused and you are not typing in a field. Global shortcuts need Settings → enable global shortcuts (off by default).
+Defaults below are from the Windows / Linux (Tauri) desktop client. In-app shortcuts work when the window is focused and you are not typing in a field. Global shortcuts need Settings → enable global shortcuts (off by default on Windows / Linux).
 
-| Action | Windows / Linux (in-app) | macOS (in-app) | Global (all desktop) |
-| --- | --- | --- | --- |
-| Play / pause | Space | Space | Ctrl+Shift+Space / ⌘⇧Space |
-| Previous | Ctrl+← | ⌘← | Ctrl+Shift+← / ⌘⇧← |
-| Next | Ctrl+→ | ⌘→ | Ctrl+Shift+→ / ⌘⇧→ |
-| Volume up | Ctrl+↑ | ⌘↑ | Ctrl+Shift+↑ / ⌘⇧↑ |
-| Volume down | Ctrl+↓ | ⌘↓ | Ctrl+Shift+↓ / ⌘⇧↓ |
-| Favorite | Ctrl+L | ⌘L | Ctrl+Shift+L / ⌘⇧L |
+macOS uses a separate native client; its in-app and global shortcut map is not documented here from verified source. Prefer the Shortcuts page in that client.
+
+| Action | Windows / Linux (in-app) | Global (Windows / Linux) |
+| --- | --- | --- |
+| Play / pause | Space | Ctrl+Shift+Space |
+| Previous | Ctrl+← | Ctrl+Shift+← |
+| Next | Ctrl+→ | Ctrl+Shift+→ |
+| Volume up | Ctrl+↑ | Ctrl+Shift+↑ |
+| Volume down | Ctrl+↓ | Ctrl+Shift+↓ |
+| Favorite | Ctrl+L | Ctrl+Shift+L |
 
 :::caution TODO screenshot: Windows / macOS — mini player
 :::

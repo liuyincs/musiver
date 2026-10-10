@@ -7,7 +7,7 @@ sidebar_position: 1
 
 按服务器能力浏览歌曲、专辑、艺术家、流派与电台。发现页可包含每日 / 随机推荐、最近添加、最多播放等。
 
-![发现页](/img/docs/features/desktop-discover.jpg)
+![发现页](/img/docs/zh-Hans/features/desktop-discover.jpg)
 
 ## 怎么用
 

@@ -9,11 +9,14 @@ Musiver is a ground-up rewrite of the previous StreamMusic app: a shared Rust co
 
 Pick a highlight, then open the linked feature page for details.
 
-### Word-by-word lyrics
+### Lyric search
 
-Timed lyrics highlight as the song plays. Search from the player when a track has no lyrics yet.
+Search for lyrics from the player when a track has none yet. When a track already has timed lyrics, the full player can highlight them as the song plays.
 
-![Lyrics search](/img/docs/whats-new/desktop-lyrics.jpg)
+![Lyric search](/img/docs/features/desktop-lyrics-search.jpg)
+
+:::caution TODO screenshot: desktop — full player with word-by-word lyrics
+:::
 
 See [Lyrics](../features/lyrics.md).
 
@@ -21,7 +24,10 @@ See [Lyrics](../features/lyrics.md).
 
 Open the full player from the playback bar. Equalizer and related sound tools live under the player menu (membership).
 
-![Full player](/img/docs/whats-new/desktop-full-player.jpg)
+:::caution TODO screenshot: desktop — full player (now playing)
+:::
+
+![Player menu with Equalizer](/img/docs/features/desktop-equalizer-menu.jpg)
 
 See [Player](../features/player.md).
 
@@ -29,7 +35,7 @@ See [Player](../features/player.md).
 
 Create server playlists in the sidebar, or use smart playlist JSON rules on supported clients.
 
-![New playlist](/img/docs/whats-new/desktop-playlists.jpg)
+![New playlist](/img/docs/features/desktop-playlist-editor.jpg)
 
 See [Playlists](../features/playlists.md).
 
@@ -37,7 +43,7 @@ See [Playlists](../features/playlists.md).
 
 Cast to a DLNA device from the playback bar. This is free in Musiver.
 
-![Cast devices](/img/docs/whats-new/desktop-dlna.jpg)
+![Cast devices](/img/docs/features/desktop-dlna-cast.jpg)
 
 See [Player → DLNA](../features/player.md#dlna-casting).
 
@@ -45,7 +51,7 @@ See [Player → DLNA](../features/player.md#dlna-casting).
 
 Accent color, theme style, and player preferences under Settings → Personalization.
 
-![Appearance](/img/docs/whats-new/desktop-appearance.jpg)
+![Appearance](/img/docs/features/desktop-appearance.jpg)
 
 See [Appearance](../features/appearance.md).
 
@@ -53,7 +59,7 @@ See [Appearance](../features/appearance.md).
 
 Daily recommendations and recently added on the Discover home, with full artist and album pages.
 
-![Discover](/img/docs/whats-new/desktop-discover.jpg)
+![Discover](/img/docs/features/desktop-discover.jpg)
 
 See [Browse and discover](../features/library.md).
 

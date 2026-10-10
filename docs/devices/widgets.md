@@ -3,7 +3,7 @@ title: "Widgets and shortcuts"
 sidebar_position: 5
 ---
 
-- **Android widgets** for quick playback (free system integration; playback still needs a configured server).
+- **Android home screen widgets** for quick playback (free system integration; playback still needs a configured server).
 - **iOS Shortcuts / App Intents** for play favorites, search, playlists, library switch, sleep timer — **membership**, iOS-compiled.
 - macOS toolbar actions and mini window — see [Desktop](desktop.md).
 

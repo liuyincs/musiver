@@ -7,7 +7,8 @@ sidebar_position: 2
 
 The player bar and full player control playback, queue order, audio quality, equalizer, ReplayGain, sleep timer, and output — including free DLNA cast.
 
-![Full player](/img/docs/features/desktop-full-player.jpg)
+:::caution TODO screenshot: desktop — full player with synced lyrics
+:::
 
 ## How to use
 

@@ -9,11 +9,14 @@ sidebar_position: 1
 
 下面挑几处亮点，详情见对应功能页。
 
-### 逐词歌词
+### 歌词搜索
 
-有时间轴时，歌词会跟着播放进度高亮。曲目还没有歌词时，可在播放页搜索。
+曲目还没有歌词时，可在播放页搜索。已有时间轴歌词时，完整播放页会随进度高亮（含逐词高亮）。
 
-![歌词搜索](/img/docs/whats-new/desktop-lyrics.jpg)
+![歌词搜索](/img/docs/features/desktop-lyrics-search.jpg)
+
+:::caution TODO screenshot: 桌面 — 完整播放页逐词歌词
+:::
 
 见[歌词](../features/lyrics.md)。
 
@@ -21,7 +24,10 @@ sidebar_position: 1
 
 从播放条打开完整播放页。均衡器等听感工具在播放菜单中（会员）。
 
-![完整播放页](/img/docs/whats-new/desktop-full-player.jpg)
+:::caution TODO screenshot: 桌面 — 完整播放页（正在播放）
+:::
+
+![含均衡器的播放菜单](/img/docs/features/desktop-equalizer-menu.jpg)
 
 见[播放器](../features/player.md)。
 
@@ -29,7 +35,7 @@ sidebar_position: 1
 
 在侧栏创建服务器歌单；支持的客户端还可使用智能歌单 JSON 规则。
 
-![新建歌单](/img/docs/whats-new/desktop-playlists.jpg)
+![新建歌单](/img/docs/features/desktop-playlist-editor.jpg)
 
 见[歌单](../features/playlists.md)。
 
@@ -37,7 +43,7 @@ sidebar_position: 1
 
 从播放条投到局域网设备。新版中 DLNA 免费。
 
-![投屏设备](/img/docs/whats-new/desktop-dlna.jpg)
+![投屏设备](/img/docs/features/desktop-dlna-cast.jpg)
 
 见[播放器 → DLNA](../features/player.md#dlna-投屏)。
 
@@ -45,7 +51,7 @@ sidebar_position: 1
 
 主题色、主题风格等在设置 → 个性化。
 
-![外观](/img/docs/whats-new/desktop-appearance.jpg)
+![外观](/img/docs/features/desktop-appearance.jpg)
 
 见[外观](../features/appearance.md)。
 
@@ -53,7 +59,7 @@ sidebar_position: 1
 
 发现页有每日推荐与最近添加，并可进入艺术家、专辑详情。
 
-![发现页](/img/docs/whats-new/desktop-discover.jpg)
+![发现页](/img/docs/zh-Hans/features/desktop-discover.jpg)
 
 见[浏览与发现](../features/library.md)。
 
