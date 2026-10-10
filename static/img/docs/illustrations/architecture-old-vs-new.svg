@@ -12,13 +12,13 @@
   <text x="240" y="170" text-anchor="middle" fill="#334" font-family="system-ui,sans-serif" font-size="16">Flutter cross-platform UI</text>
   <text x="240" y="200" text-anchor="middle" fill="#556" font-family="system-ui,sans-serif" font-size="15">Android · iOS · macOS · Windows</text>
   <text x="240" y="240" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Library mode + direct mode</text>
-  <text x="240" y="270" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Membership gates include DLNA</text>
+  <text x="240" y="270" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Shared Flutter codebase</text>
   <rect x="550" y="80" width="340" height="56" rx="12" fill="url(#neu)"/>
   <text x="720" y="115" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="22">Musiver (new)</text>
   <text x="720" y="170" text-anchor="middle" fill="#334" font-family="system-ui,sans-serif" font-size="16">Rust core + native clients</text>
   <text x="720" y="200" text-anchor="middle" fill="#556" font-family="system-ui,sans-serif" font-size="14">+ tvOS · Android TV · Linux · HarmonyOS · Web</text>
-  <text x="720" y="240" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Library mode not yet implemented</text>
-  <text x="720" y="270" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">DLNA is free · richer membership catalog</text>
+  <text x="720" y="240" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Direct mode only for now</text>
+  <text x="720" y="270" text-anchor="middle" fill="#667" font-family="system-ui,sans-serif" font-size="14">Desktop/Web: Tauri + React</text>
   <path d="M455 180 L505 180" stroke="#2f6fed" stroke-width="3" fill="none"/>
   <polygon points="505,174 520,180 505,186" fill="#2f6fed"/>
 </svg>

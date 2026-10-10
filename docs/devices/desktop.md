@@ -5,10 +5,10 @@ sidebar_position: 1
 
 | Feature | Availability |
 | --- | --- |
-| Desktop / floating lyrics | Windows shell; native macOS — membership |
+| Desktop / floating lyrics | Windows — membership; check macOS client for native support |
 | Mini player | Windows / macOS — membership |
 | Global playback shortcuts | Installed Windows/Linux client (not Web) |
-| Purchase | Desktop Alipay (Windows/Linux Tauri shell) |
+| Purchase | Desktop Alipay (Windows / Linux); macOS via App Store |
 
 ### Keyboard (Windows / Linux defaults)
 

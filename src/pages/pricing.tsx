@@ -242,7 +242,7 @@ export default function Pricing() {
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a4">
                   {
-                    'See Docs → Membership for free vs member details, what changed from the old app, and restore steps. Platform capability gates still apply.'
+                    'See Docs → Membership for free vs member details, what changed from the old app, and restore steps. Some features still depend on the platform and device.'
                   }
                 </Translate>
               </div>

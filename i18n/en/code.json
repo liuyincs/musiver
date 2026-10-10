@@ -2253,7 +2253,7 @@
     "message": "Where is the full docs comparison?"
   },
   "pricing.faq.a4": {
-    "message": "See Docs → Membership for free vs member details, what changed from the old app, and restore steps. Platform capability gates still apply."
+    "message": "See Docs → Membership for free vs member details, what changed from the old app, and restore steps. Some features still depend on the platform and device."
   },
   "pricing.docs.link": {
     "message": "Open membership docs →"

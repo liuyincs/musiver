@@ -5,17 +5,19 @@ sidebar_position: 3
 
 ## 是什么
 
-歌词可来自音频文件、服务器或[自定义 API](../settings/custom-api.md)。支持逐词、沉浸式、各端覆盖层与内置歌词搜索。
+歌词可来自音频文件、服务器或[自定义 API](../settings/custom-api.md)。有时间轴时，逐词歌词会跟着进度一个字一个字地高亮。还支持沉浸式显示、桌面 / 悬浮 / 状态栏 / 画中画，以及内置歌词搜索。
 
 ## 怎么用
 
-1. 打开播放页查看可用歌词。
-2. 在播放页菜单中使用歌词搜索；预览候选并应用（保存在本地）。
-3. 在歌词设置中调整字号/对齐等。
-4. 在支持的客户端开启通知栏、状态栏、悬浮或画中画歌词。
+1. 打开完整播放页查看歌词（若有）。
+2. 在播放菜单里搜索歌词，预览后应用（保存在本地）。
+3. 在播放偏好 → 歌词中调整字体与对齐。
+4. 在客户端提供时，开启通知栏、状态栏、悬浮、画中画等显示方式。
 
-:::caution TODO screenshot: 桌面 — 播放页逐词歌词
-:::
+![歌词搜索](/img/docs/features/desktop-lyrics-search.jpg)
+
+![歌词偏好](/img/docs/features/desktop-lyrics-prefs.jpg)
+
 :::caution TODO screenshot: Windows — 悬浮歌词
 :::
 :::caution TODO screenshot: Android — 状态栏歌词
@@ -27,4 +29,4 @@ sidebar_position: 3
 
 ## 平台 / 会员
 
-播放页内的歌词查看/搜索以及**播放条歌词**均为**免费**。**沉浸式、通知栏、状态栏、悬浮、画中画**歌词按[会员方案](../membership/plans.md)门控。
+播放页内的歌词查看与搜索，以及播放条歌词，均为免费。沉浸式、通知栏、状态栏、悬浮、画中画歌词按[会员方案](../membership/plans.md)需要会员。
