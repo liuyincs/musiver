@@ -9,36 +9,36 @@ const features = [
     num: "01",
     title: translate({
       id: "homepage.features.crossPlatform.title",
-      message: "Cross-Platform Coverage",
+      message: "Nine platforms, one library",
     }),
     desc: translate({
       id: "homepage.features.crossPlatform.desc",
       message:
-        "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS, and Web — set it up once and enjoy your music everywhere.",
+        "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS and Web. Switch devices and it's still your library.",
     }),
   },
   {
     num: "02",
     title: translate({
       id: "homepage.features.multiSource.title",
-      message: "Multi-Source Connectivity",
+      message: "Home or away, it switches for you",
     }),
     desc: translate({
       id: "homepage.features.multiSource.desc",
       message:
-        "Connect to multiple NAS music servers at the same time, including Navidrome, Subsonic, and Jellyfin, and manage them in one place.",
+        "Give a server its home and remote addresses and Musiver picks the one that connects. Several servers can be connected at once.",
     }),
   },
   {
     num: "03",
     title: translate({
       id: "homepage.features.quality.title",
-      message: "Quality First",
+      message: "Every word on the beat",
     }),
     desc: translate({
       id: "homepage.features.quality.desc",
       message:
-        "Supports lossless audio decoding with smart caching and offline mode, so your listening quality is never compromised.",
+        "Lossless when you can, transcoded when the network is tight. Word-by-word lyrics light up with the melody, and fill the screen in immersive mode.",
     }),
   },
 ];
@@ -48,7 +48,7 @@ export default function Home(): ReactNode {
     <Layout
       title={translate({
         id: "homepage.meta.title",
-        message: "Musiver — Connect Your Music",
+        message: "Musiver: your music, everywhere you are",
       })}>
       <div className={s.wrapper}>
         <div className={s.guidelines}>
@@ -61,26 +61,26 @@ export default function Home(): ReactNode {
           <div className={s.heroText}>
             <div className={s.colophon}>Musiver</div>
             <h1 className={s.title}>
-              <Translate id="homepage.hero.title">Connect Your Music</Translate>
+              <Translate id="homepage.hero.title">
+                Your music, everywhere you are
+              </Translate>
             </h1>
             <div className={s.divider} />
             <p className={s.subtitle}>
               <Translate id="homepage.hero.subtitle">
-                Musiver is a cross-platform NAS music player that supports
-                multiple server protocols. Enjoy the richness of your personal
-                music library on every device you own.
+                Bring the whole library on your NAS to your phone, computer, TV
+                and browser. Navidrome, Subsonic, Jellyfin, Audiobookshelf:
+                connect and play.
               </Translate>
             </p>
             <div className={s.buttons}>
               <Link className={s.btnPrimary} to="/download">
                 <Translate id="homepage.hero.cta.download">
-                  ⬇ Download Now
+                  Download free
                 </Translate>
               </Link>
               <Link className={s.btnSecondary} to="/docs/intro">
-                <Translate id="homepage.hero.cta.start">
-                  Quick Start →
-                </Translate>
+                <Translate id="homepage.hero.cta.start">Quick start</Translate>
               </Link>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function Home(): ReactNode {
         <section className={s.features}>
           <div className={s.featuresHeader}>
             <span className={s.featuresLabel}>
-              <Translate id="homepage.features.title">Core Features</Translate>
+              <Translate id="homepage.features.title">Why Musiver</Translate>
             </span>
             <div className={s.featuresLine} />
           </div>
@@ -115,15 +115,20 @@ export default function Home(): ReactNode {
           </div>
         </section>
 
-        <section className={s.quote}>
-          <p className={s.quoteText}>
-            <Translate id="homepage.quote">
-              "Music is the art of time, and Musiver lets that art move beyond
-              space."
-            </Translate>
+        <section className={s.membership}>
+          <p className={s.membershipText}>
+            <Translate id="homepage.membership.text">
+              The free version streams your whole library. Want more? A one-time
+              ¥58 covers 7 devices and every future update. The price at
+              checkout applies.
+            </Translate>{" "}
+            <Link className={s.membershipLink} to="/pricing">
+              <Translate id="homepage.membership.link">
+                See what membership adds
+              </Translate>
+            </Link>
           </p>
         </section>
-
       </div>
     </Layout>
   );

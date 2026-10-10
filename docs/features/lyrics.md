@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## What it is
 
-Lyrics can come from the file, the server, or a [custom API](../settings/custom-api.md). When timing is available, word-by-word lyrics highlight word by word as the song plays. Musiver also supports immersive lyrics, plus desktop, floating, status bar, and picture-in-picture display modes, and built-in lyric search.
+Lyrics can come from the file, the server, or a [custom API](../settings/custom-api.md). When timing is available, lyrics highlight word by word as the song plays. Musiver also supports immersive lyrics, plus desktop, floating, status bar, and picture-in-picture display modes, and built-in lyric search.
 
 ## How to use
 

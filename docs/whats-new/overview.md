@@ -71,7 +71,7 @@ See [Browse and discover](../features/library.md).
 | Network | Multi-route speed testing, LAN discovery, HTTP proxy |
 | Sound | Lossless / transcode tiers, equalizer, ReplayGain, more formats |
 | Lyrics | Word-by-word, immersive (TV), search, desktop / floating / status / PiP |
-| Library tools | Smart playlist JSON, import/export / cross-server transfer |
+| Library tools | Smart playlist JSON, import/export; cross-server transfer only via Tag My Audio (experimental) |
 | Spoken audio | Audiobookshelf shelf, resume, playback-speed memory |
 | Membership | New benefit catalog (see [membership changes](../membership/changes.md)) |
 

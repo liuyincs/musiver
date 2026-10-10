@@ -1,36 +1,36 @@
 {
   "homepage.features.crossPlatform.title": {
-    "message": "全平台覆盖"
+    "message": "九个平台，一个曲库"
   },
   "homepage.features.crossPlatform.desc": {
-    "message": "iOS、Android、Android TV、macOS、tvOS、Windows、Linux、鸿蒙与 Web — 一次配置，处处聆听。"
+    "message": "iOS、Android、Android TV、macOS、tvOS、Windows、Linux、鸿蒙，还有 Web。换一台设备，还是你熟悉的那座曲库。"
   },
   "homepage.features.multiSource.title": {
-    "message": "多源连接"
+    "message": "在家出门，自动换线"
   },
   "homepage.features.multiSource.desc": {
-    "message": "同时连接 Navidrome、Subsonic、Jellyfin 等多种 NAS 音乐服务器，统一管理。"
+    "message": "给服务器配好内网和外网地址，音流会自己挑能连上的那条。多台服务器也能同时接入。"
   },
   "homepage.features.quality.title": {
-    "message": "品质至上"
+    "message": "每个字都踩在拍子上"
   },
   "homepage.features.quality.desc": {
-    "message": "支持无损播放与流媒体缓存。"
+    "message": "无损直出，网络吃紧时切到转码。逐词歌词随旋律一个字一个字亮起，全屏时整面屏幕都是歌词。"
   },
   "homepage.meta.title": {
-    "message": "音流 — 连接你的音乐"
+    "message": "音流：你的音乐，不止一处"
   },
   "homepage.hero.title": {
-    "message": "连接你的音乐"
+    "message": "你的音乐，不止一处"
   },
   "homepage.hero.subtitle": {
-    "message": "音流是一款跨平台 NAS 音乐播放器，支持多种服务器协议。在你的设备上畅听私人音乐库。"
+    "message": "把 NAS 里的整座曲库带到手机、电脑、电视和浏览器。Navidrome、Subsonic、Jellyfin、Audiobookshelf，连上就能听。"
   },
   "homepage.hero.cta.download": {
-    "message": "⬇ 立即下载"
+    "message": "免费下载"
   },
   "homepage.hero.cta.start": {
-    "message": "快速开始 →"
+    "message": "快速开始"
   },
   "homepage.devices.tv.alt": {
     "message": "电视界面"
@@ -57,10 +57,13 @@
     "message": "Musiver 设备预览图"
   },
   "homepage.features.title": {
-    "message": "核心特性"
+    "message": "为什么是音流"
   },
-  "homepage.quote": {
-    "message": "\"音乐是时间的艺术，音流让这份艺术不受空间限制。\""
+  "homepage.membership.text": {
+    "message": "免费版就能在线播放整座曲库。想要更多，一次买断 ¥58，7 台设备通用，后续更新都包含。价格以付款时为准。"
+  },
+  "homepage.membership.link": {
+    "message": "看看会员有什么"
   },
   "homepage.footer": {
     "message": "© 2026 音流。保留所有权利。"

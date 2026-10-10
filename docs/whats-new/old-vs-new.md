@@ -18,7 +18,7 @@ Comparison of StreamMusic (old) and Musiver (new).
 | Lyrics | Display/edit + desktop/status/PiP overlays | Word-by-word, immersive, notification/floating, built-in search |
 | Sound | ReplayGain | Lossless/transcode tiers, equalizer, ReplayGain, format filters |
 | Spoken audio | Long-audio preference (member) | Audiobookshelf shelf, resume, speed memory, library types |
-| Playlists | Basic server playlists | Smart playlist JSON; import/export / cross-server move |
+| Playlists | Basic server playlists | Smart playlist JSON; import/export; cross-server move only via Tag My Audio (experimental) |
 | Device migration | QR data sync | Cannot import old app config |
 | Membership | Lifetime buyout, 7 devices | Lifetime, 7 devices, includes future updates; beta can trial member features |
 | Free scope | Included auto-download, listen-and-save, QR sync, etc. | Browse library, stream all songs, one server |

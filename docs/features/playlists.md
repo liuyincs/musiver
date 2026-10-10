@@ -19,4 +19,4 @@ Create and edit server playlists, import or export smart playlist rules as JSON,
 
 ## Membership / platform
 
-Playlist create/edit follows server permissions (not a membership feature by itself). TV / CarPlay do not offer file export. Import/transfer remains experimental.
+Playlist create/edit follows server permissions (not a membership feature by itself). TV / CarPlay do not offer file export. Cross-server transfer is available only through Tag My Audio and remains experimental.

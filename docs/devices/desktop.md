@@ -14,7 +14,7 @@ sidebar_position: 1
 
 Defaults below are from the Windows / Linux (Tauri) desktop client. In-app shortcuts work when the window is focused and you are not typing in a field. Global shortcuts need Settings → enable global shortcuts (off by default on Windows / Linux).
 
-For macOS shortcuts, open **Settings → Shortcuts** in the macOS app.
+macOS shortcuts are provided by the macOS client and are not listed in the Windows / Linux table below.
 
 | Action | Windows / Linux (in-app) | Global (Windows / Linux) |
 | --- | --- | --- |

@@ -1,36 +1,36 @@
 {
   "homepage.features.crossPlatform.title": {
-    "message": "Cross-Platform Coverage"
+    "message": "Nine platforms, one library"
   },
   "homepage.features.crossPlatform.desc": {
-    "message": "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS, and Web — set it up once and enjoy your music everywhere."
+    "message": "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS and Web. Switch devices and it's still your library."
   },
   "homepage.features.multiSource.title": {
-    "message": "Multi-Source Connectivity"
+    "message": "Home or away, it switches for you"
   },
   "homepage.features.multiSource.desc": {
-    "message": "Connect to multiple NAS music servers at the same time, including Navidrome, Subsonic, and Jellyfin, and manage them in one place."
+    "message": "Give a server its home and remote addresses and Musiver picks the one that connects. Several servers can be connected at once."
   },
   "homepage.features.quality.title": {
-    "message": "Quality First"
+    "message": "Every word on the beat"
   },
   "homepage.features.quality.desc": {
-    "message": "Supports lossless playback and stream caching."
+    "message": "Lossless when you can, transcoded when the network is tight. Word-by-word lyrics light up with the melody, and fill the screen in immersive mode."
   },
   "homepage.meta.title": {
-    "message": "Musiver — Connect Your Music"
+    "message": "Musiver: your music, everywhere you are"
   },
   "homepage.hero.title": {
-    "message": "Connect Your Music"
+    "message": "Your music, everywhere you are"
   },
   "homepage.hero.subtitle": {
-    "message": "Musiver is a cross-platform NAS music player that supports multiple server protocols. Enjoy your personal music library on your devices."
+    "message": "Bring the whole library on your NAS to your phone, computer, TV and browser. Navidrome, Subsonic, Jellyfin, Audiobookshelf: connect and play."
   },
   "homepage.hero.cta.download": {
-    "message": "⬇ Download Now"
+    "message": "Download free"
   },
   "homepage.hero.cta.start": {
-    "message": "Quick Start →"
+    "message": "Quick start"
   },
   "homepage.devices.tv.alt": {
     "message": "TV Interface"
@@ -57,10 +57,13 @@
     "message": "Musiver devices preview"
   },
   "homepage.features.title": {
-    "message": "Core Features"
+    "message": "Why Musiver"
   },
-  "homepage.quote": {
-    "message": "\"Music is the art of time, and Musiver lets that art move beyond space.\""
+  "homepage.membership.text": {
+    "message": "The free version streams your whole library. Want more? A one-time ¥58 covers 7 devices and every future update. The price at checkout applies."
+  },
+  "homepage.membership.link": {
+    "message": "See what membership adds"
   },
   "homepage.footer": {
     "message": "© 2026 Musiver. All rights reserved."

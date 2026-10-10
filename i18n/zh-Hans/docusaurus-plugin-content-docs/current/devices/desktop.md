@@ -14,7 +14,7 @@ sidebar_position: 1
 
 下表默认值来自 Windows / Linux（Tauri）桌面客户端。应用内快捷键在窗口聚焦且未在输入框中时生效。全局快捷键需在设置中开启（Windows / Linux 上默认关闭）。
 
-macOS 版快捷键请在应用的「设置 → 快捷键」中查看。
+macOS 版快捷键由 macOS 客户端提供，不在下表（Windows / Linux）范围内。
 
 | 操作 | Windows / Linux（应用内） | 全局（Windows / Linux） |
 | --- | --- | --- |
