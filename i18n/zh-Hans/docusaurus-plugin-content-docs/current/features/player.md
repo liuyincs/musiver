@@ -18,7 +18,7 @@ sidebar_position: 2
 4. 在播放菜单或设置中打开均衡器、回放增益、音乐漫游。
 5. 设置睡眠定时（可选：播完当前曲再停）。
 
-![含均衡器的播放菜单](/img/docs/features/desktop-equalizer-menu.jpg)
+![含均衡器的播放菜单](/img/docs/zh-Hans/features/desktop-equalizer-menu.jpg)
 
 ## 睡眠定时
 
@@ -28,7 +28,7 @@ sidebar_position: 2
 
 新版中 DLNA 免费。在播放条打开「投屏」，刷新设备列表，选择局域网中的 DLNA 设备；结束后切回本地输出。投屏时均衡器不可用。Web 版没有 DLNA。
 
-![投屏 / DLNA](/img/docs/features/desktop-dlna-cast.jpg)
+![投屏 / DLNA](/img/docs/zh-Hans/features/desktop-dlna-cast.jpg)
 
 ## 平台 / 会员
 

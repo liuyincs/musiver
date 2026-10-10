@@ -7,7 +7,7 @@ sidebar_position: 5
 
 手动下载、自动下载规则，以及用于离线浏览已缓存内容的流媒体缓存。Web 版不能下载，请用 App 或桌面版。
 
-![下载管理](/img/docs/features/desktop-downloads.jpg)
+![下载管理](/img/docs/zh-Hans/features/desktop-downloads.jpg)
 
 ## 怎么用
 

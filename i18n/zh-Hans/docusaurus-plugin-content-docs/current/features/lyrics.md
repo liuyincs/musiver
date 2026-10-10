@@ -14,9 +14,9 @@ sidebar_position: 3
 3. 在播放偏好 → 歌词中调整字体与对齐。
 4. 在客户端提供时，开启通知栏、状态栏、悬浮、画中画等显示方式。
 
-![歌词搜索](/img/docs/features/desktop-lyrics-search.jpg)
+![歌词搜索](/img/docs/zh-Hans/features/desktop-lyrics-search.jpg)
 
-![歌词偏好](/img/docs/features/desktop-lyrics-prefs.jpg)
+![歌词偏好](/img/docs/zh-Hans/features/desktop-lyrics-prefs.jpg)
 
 :::caution TODO screenshot: Windows / macOS — 悬浮歌词
 :::

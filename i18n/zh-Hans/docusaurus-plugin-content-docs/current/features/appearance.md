@@ -7,7 +7,7 @@ sidebar_position: 7
 
 浅色 / 深色外观、主题色、透明主题、黑胶封面，以及播放页背景选项。
 
-![个性化 / 主题色](/img/docs/features/desktop-appearance.jpg)
+![个性化 / 主题色](/img/docs/zh-Hans/features/desktop-appearance.jpg)
 
 ## 怎么用
 

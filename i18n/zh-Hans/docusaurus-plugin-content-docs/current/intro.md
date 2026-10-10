@@ -7,7 +7,7 @@ sidebar_position: 1
 
 音流连接你自己的音乐服务器，让你在各设备上浏览和收听。它不托管曲库，也不提供流媒体订阅。
 
-![音流桌面欢迎页](/img/docs/getting-started/desktop-welcome.jpg)
+![音流桌面欢迎页](/img/docs/zh-Hans/getting-started/desktop-welcome.jpg)
 
 ![支持的平台](/img/docs/illustrations/zh-Hans/platforms.svg)
 

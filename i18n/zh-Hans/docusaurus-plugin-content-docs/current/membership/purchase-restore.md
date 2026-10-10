@@ -20,7 +20,7 @@ sidebar_position: 3
 | Android TV | 无应用内支付 — 在手机购买后恢复 |
 | Web | 无购买界面 |
 
-![Windows / Linux 桌面会员页（支付宝）](/img/docs/membership/desktop-membership-alipay.jpg)
+![Windows / Linux 桌面会员页（支付宝）](/img/docs/zh-Hans/membership/desktop-membership-alipay.jpg)
 
 :::caution TODO screenshot: iOS App Store 会员付费墙
 :::

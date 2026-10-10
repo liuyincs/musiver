@@ -7,7 +7,7 @@ sidebar_position: 4
 
 可创建 / 编辑的服务器歌单，以及智能歌单规则（JSON 导入导出），并可通过 Tag My Audio 做实验性导入 / 搬运。
 
-![新建歌单](/img/docs/features/desktop-playlist-editor.jpg)
+![新建歌单](/img/docs/zh-Hans/features/desktop-playlist-editor.jpg)
 
 ## 怎么用
 

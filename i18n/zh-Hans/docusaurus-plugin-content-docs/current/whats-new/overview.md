@@ -13,7 +13,7 @@ sidebar_position: 1
 
 曲目还没有歌词时，可在播放页搜索。已有时间轴歌词时，完整播放页会随进度高亮（含逐词高亮）。
 
-![歌词搜索](/img/docs/features/desktop-lyrics-search.jpg)
+![歌词搜索](/img/docs/zh-Hans/features/desktop-lyrics-search.jpg)
 
 :::caution TODO screenshot: 桌面 — 完整播放页逐词歌词
 :::
@@ -27,7 +27,7 @@ sidebar_position: 1
 :::caution TODO screenshot: 桌面 — 完整播放页（正在播放）
 :::
 
-![含均衡器的播放菜单](/img/docs/features/desktop-equalizer-menu.jpg)
+![含均衡器的播放菜单](/img/docs/zh-Hans/features/desktop-equalizer-menu.jpg)
 
 见[播放器](../features/player.md)。
 
@@ -35,7 +35,7 @@ sidebar_position: 1
 
 在侧栏创建服务器歌单；支持的客户端还可使用智能歌单 JSON 规则。
 
-![新建歌单](/img/docs/features/desktop-playlist-editor.jpg)
+![新建歌单](/img/docs/zh-Hans/features/desktop-playlist-editor.jpg)
 
 见[歌单](../features/playlists.md)。
 
@@ -43,7 +43,7 @@ sidebar_position: 1
 
 从播放条投到局域网设备。新版中 DLNA 免费。
 
-![投屏设备](/img/docs/features/desktop-dlna-cast.jpg)
+![投屏设备](/img/docs/zh-Hans/features/desktop-dlna-cast.jpg)
 
 见[播放器 → DLNA](../features/player.md#dlna-投屏)。
 
@@ -51,7 +51,7 @@ sidebar_position: 1
 
 主题色、主题风格等在设置 → 个性化。
 
-![外观](/img/docs/features/desktop-appearance.jpg)
+![外观](/img/docs/zh-Hans/features/desktop-appearance.jpg)
 
 见[外观](../features/appearance.md)。
 
