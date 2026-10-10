@@ -11,6 +11,6 @@ Tag My Audio 在服务器列表中单列为实验性、邀请测试服务。取�
 
 Tag My Audio 提供专门的[歌单导入与转移](playlist-import-transfer.md)流程。导入结果是草稿，需要检查并提交后才成为可播放歌单。
 
-这些操作同时依赖服务器和客户端支持。本指南核查版本中，Swift 手机与桌面客户端、Desktop/Web、HarmonyOS 已提供文件导入和工作台；Android 尚未纳入这一导入入口。电视和 CarPlay 不提供草稿审核。
+这些操作同时依赖服务器和客户端支持。iOS、macOS、Windows、Linux、Web、鸿蒙已支持文件导入和工作台；Android 暂不支持。电视和 CarPlay 不提供草稿审核。
 
 智能歌单并不全部属于 Tag My Audio。其他服务器也可能提供智能歌单，其规则和编辑限制取决于各自服务。

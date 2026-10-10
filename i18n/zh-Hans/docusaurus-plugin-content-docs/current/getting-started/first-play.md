@@ -1,16 +1,23 @@
 ---
-title: "连接服务器并播放第一首歌"
-sidebar_position: 3
+title: "连接并播放"
+sidebar_position: 2
 ---
 
-开始前，先确认当前设备能够访问服务器。不清楚服务器类型或地址时，请向管理员索取。
+1. 打开音流，按提示确认隐私说明。
 
-1. 打开音流，选择“添加服务器”。
-2. 选择实际使用的服务器类型。例如使用 Navidrome 时，即使它兼容 Subsonic 协议，也应选择 Navidrome。
-3. 填写连接信息并登录。不同服务的操作见[服务器说明](../servers/concepts.md)；Plex 需要通过浏览器授权，不使用普通密码登录表单。
-4. 认证完成后检查服务器的资料库，选择要使用的资料库，完成配置后进入。
-5. 打开一张专辑或歌曲列表，选择一首歌曲。播放器应显示歌曲名称，并开始推进播放进度。
+![隐私确认（桌面）](/img/docs/zh-Hans/getting-started/desktop-privacy-modal.jpg)
 
-点击播放栏可打开播放器，查看播放控制和队列。如果资料库为空，先确认选对资料库，以及服务器账号是否有权访问其中的内容。
+2. 选择「添加服务器」。
 
-登录失败时，请阅读[连接问题](../help/connection.md)。能浏览但不能播放时，请阅读[播放问题](../help/playback.md)。
+![添加服务器类型选择](/img/docs/zh-Hans/getting-started/desktop-add-server.jpg)
+
+3. 选择实际的服务器类型（Navidrome 请选 Navidrome，即使它兼容 Subsonic 协议）。
+4. 填写地址与账号（或完成 Plex 浏览器授权）。
+
+![Navidrome 登录表单](/img/docs/zh-Hans/getting-started/desktop-navidrome-login.jpg)
+
+5. 选择资料库，打开发现页或专辑列表，开始播放。
+
+![登录后的发现页](/img/docs/zh-Hans/getting-started/desktop-library-home.jpg)
+
+各服务器说明见[服务器](../servers/concepts.md)。登录失败见[连接帮助](../help/connection.md)。无法出声见[播放帮助](../help/playback.md)。

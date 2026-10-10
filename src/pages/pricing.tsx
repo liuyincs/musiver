@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import Layout from '@theme/Layout';
 import Translate, { translate } from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
@@ -15,70 +16,80 @@ const MinusIcon = () => (
   </svg>
 );
 
-const features = [
+type FeatureItem = {
+  name: ReactNode;
+  free: boolean;
+  pro: boolean;
+  note?: ReactNode;
+};
+
+const features: { category: ReactNode; items: FeatureItem[] }[] = [
   {
-    category: <Translate id="pricing.features.transfer.category">⚡️ Transfer & Playback</Translate>,
+    category: <Translate id="pricing.features.basics.category">Basics</Translate>,
     items: [
-      { name: <Translate id="pricing.features.transfer.item1">Listen & Save</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.transfer.item2">Auto Play</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.transfer.item3">Auto Download</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.transfer.item4">Sleep Timer</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.transfer.item5">Sync Data via QR</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.transfer.item6">Replay Gain</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.transfer.item7">Download Feature</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.transfer.item8">DLNA Playback</Translate>, free: false, pro: true, note: <Translate id="pricing.features.transfer.item8.note">Currently has poor compatibility, please assume unavailable</Translate> },
-    ]
+      { name: <Translate id="pricing.features.basics.browse">Browse library</Translate>, free: true, pro: true },
+      { name: <Translate id="pricing.features.basics.stream">Stream all songs online</Translate>, free: true, pro: true },
+      { name: <Translate id="pricing.features.basics.oneServer">Connect one server</Translate>, free: true, pro: true },
+      { name: <Translate id="pricing.features.basics.dlna">DLNA cast</Translate>, free: true, pro: true },
+      { name: <Translate id="pricing.features.basics.sleep">Sleep timer</Translate>, free: true, pro: true },
+    ],
   },
   {
-    category: <Translate id="pricing.features.lyrics.category">🎙️ Lyrics</Translate>,
+    category: <Translate id="pricing.features.sound.category">Sound</Translate>,
     items: [
-      { name: <Translate id="pricing.features.lyrics.item1">Lyrics Display & Edit</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.lyrics.item2">Desktop Lyrics (Android)</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.lyrics.item3">Status Bar Lyrics (Android/macOS)</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.lyrics.item4">PiP Lyrics (iOS)</Translate>, free: false, pro: true },
-    ]
+      { name: <Translate id="pricing.features.sound.equalizer">Equalizer</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.sound.replayGain">ReplayGain</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.sound.roaming">Music roaming</Translate>, free: false, pro: true },
+    ],
   },
   {
-    category: <Translate id="pricing.features.system.category">📱 System Features</Translate>,
+    category: <Translate id="pricing.features.lyrics.category">Lyrics</Translate>,
     items: [
-      { name: <Translate id="pricing.features.system.item1">Desktop Widgets (Android/iOS)</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.system.item2">Global Hotkeys (macOS/Windows)</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.system.item3">Mini Window (macOS/Windows)</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.system.item4">CarPlay</Translate>, free: false, pro: true, note: <Translate id="pricing.features.system.item4.note">If APP is closed, music stops upon next open</Translate> },
-      { name: <Translate id="pricing.features.system.item5">Shortcuts</Translate>, free: false, pro: true },
-    ]
+      { name: <Translate id="pricing.features.lyrics.view">Lyrics view & search</Translate>, free: true, pro: true },
+      { name: <Translate id="pricing.features.lyrics.playbar">Player bar lyrics</Translate>, free: true, pro: true },
+      { name: <Translate id="pricing.features.lyrics.immersive">Immersive lyrics</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.lyrics.notification">Notification lyrics</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.lyrics.statusBar">Status bar lyrics</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.lyrics.desktop">Floating / desktop lyrics</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.lyrics.pip">PiP lyrics (iOS)</Translate>, free: false, pro: true },
+    ],
   },
   {
-    category: <Translate id="pricing.features.personalization.category">🎈 Personalization</Translate>,
+    category: <Translate id="pricing.features.look.category">Look</Translate>,
     items: [
-      { name: <Translate id="pricing.features.personalization.item1">Enhanced Gestures</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.personalization.item2">Custom API</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.personalization.item3">Custom Content</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.personalization.item4">Theme Switching</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.personalization.item5">Long Audio Preferences</Translate>, free: false, pro: true },
-    ]
+      { name: <Translate id="pricing.features.look.vinyl">Vinyl cover</Translate>, free: false, pro: true },
+      {
+        name: <Translate id="pricing.features.look.playerBg">Player dynamic background</Translate>,
+        free: false,
+        pro: true,
+        note: <Translate id="pricing.features.look.playerBg.note">Free on desktop</Translate>,
+      },
+      { name: <Translate id="pricing.features.look.accent">Accent color</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.look.transparent">Transparent theme</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.look.appIcon">App icon (iOS)</Translate>, free: false, pro: true },
+    ],
   },
   {
-    category: <Translate id="pricing.features.library.category">📁 Library Management</Translate>,
+    category: <Translate id="pricing.features.anywhere.category">More scenarios</Translate>,
     items: [
-      { name: <Translate id="pricing.features.library.item1">Multi-server Switching</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.library.item2">Folder View (Library Mode)</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.library.item3">Duplicate Detection (Library Mode)</Translate>, free: false, pro: true },
-    ]
+      { name: <Translate id="pricing.features.anywhere.multiServer">Multi-server (2+)</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.anywhere.download">Offline download</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.anywhere.autoDownload">Auto-download</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.anywhere.carPlay">CarPlay (iPhone)</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.anywhere.shortcuts">Shortcuts (iOS)</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.anywhere.miniPlayer">Mini player (macOS / Windows)</Translate>, free: false, pro: true },
+    ],
   },
-  {
-    category: <Translate id="pricing.features.others.category">🪄 Others</Translate>,
-    items: [
-      { name: <Translate id="pricing.features.others.item1">Backup Routes</Translate>, free: false, pro: true },
-    ]
-  }
 ];
 
 export default function Pricing() {
   return (
-    <Layout 
-      title={translate({ id: 'pricing.meta.title', message: 'Pricing' })} 
-      description={translate({ id: 'pricing.meta.desc', message: 'Musiver Pricing Plans' })}
+    <Layout
+      title={translate({ id: 'pricing.meta.title', message: 'Pricing' })}
+      description={translate({
+        id: 'pricing.meta.desc',
+        message: 'Musiver free plan and lifetime membership',
+      })}
     >
       <div className={styles.wrapper}>
         <div className={styles.header}>
@@ -86,20 +97,19 @@ export default function Pricing() {
             <Translate id="pricing.header.badge">Pricing</Translate>
           </div>
           <h1 className={styles.title}>
-            <Translate id="pricing.header.title">Choose your plan</Translate>
+            <Translate id="pricing.header.title">Free listening. Lifetime unlock.</Translate>
           </h1>
           <p className={styles.subtitle}>
             <Translate id="pricing.header.subtitle">
-              Basic features are forever free. Unlock advanced features with a one-time lifetime purchase.
+              Browse and stream your library for free on one server. Unlock sound, lyrics overlays, look options, downloads, and more with a one-time lifetime membership.
             </Translate>
           </p>
         </div>
 
         <div className={styles.pricingCards}>
-          {/* Free Plan */}
           <div className={styles.card}>
             <h2 className={styles.planName}>
-              <Translate id="pricing.plan.free.name">Free User</Translate>
+              <Translate id="pricing.plan.free.name">Free</Translate>
             </h2>
             <div className={styles.planPrice}>
               <span className={styles.planCurrency}>
@@ -113,7 +123,7 @@ export default function Pricing() {
             <div style={{ height: '16px' }}></div>
             <p className={styles.planDesc}>
               <Translate id="pricing.plan.free.desc">
-                Provides a complete library browsing and everyday listening experience.
+                Browse the library, stream every song online, and connect one server. DLNA casting is included.
               </Translate>
             </p>
             <Link to="/download" className={`${styles.actionBtn} ${styles.actionBtnFree}`}>
@@ -121,7 +131,6 @@ export default function Pricing() {
             </Link>
           </div>
 
-          {/* Pro Plan */}
           <div className={`${styles.card} ${styles.cardPro}`}>
             <h2 className={styles.planName}>
               <Translate id="pricing.plan.pro.name">Lifetime Member</Translate>
@@ -133,12 +142,12 @@ export default function Pricing() {
               58
             </div>
             <span className={styles.planPeriod}>
-              <Translate id="pricing.plan.pro.period">One-time payment</Translate>
+              <Translate id="pricing.plan.pro.period">One-time · price at payment prevails</Translate>
             </span>
             <div style={{ height: '16px' }}></div>
             <p className={styles.planDesc}>
               <Translate id="pricing.plan.pro.desc">
-                One-time purchase, lifetime access across all platforms. Supports up to 7 devices simultaneously.
+                One purchase for lifetime access across platforms, including later updates. Up to 7 devices at once.
               </Translate>
             </p>
             <a href="#purchase-info" className={`${styles.actionBtn} ${styles.actionBtnPro}`}>
@@ -151,7 +160,7 @@ export default function Pricing() {
           <h2 className={styles.tableTitle}>
             <Translate id="pricing.table.title">Feature Comparison</Translate>
           </h2>
-          
+
           <div className={styles.featureGrid}>
             <div className={styles.gridHeader}>
               <Translate id="pricing.table.header.feature">Features</Translate>
@@ -160,7 +169,7 @@ export default function Pricing() {
               <Translate id="pricing.table.header.free">Free</Translate>
             </div>
             <div className={`${styles.gridHeader} ${styles.gridHeaderCenter}`}>
-              <Translate id="pricing.table.header.pro">Pro</Translate>
+              <Translate id="pricing.table.header.pro">Member</Translate>
             </div>
           </div>
 
@@ -196,7 +205,9 @@ export default function Pricing() {
               </div>
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a1">
-                  {'It is a one-time purchase for lifetime access across all platforms. The membership can be used on up to 7 devices simultaneously. If the limit is exceeded, the membership on the earliest logged-in device will be automatically revoked.'}
+                  {
+                    'Lifetime membership: one purchase, all later updates included. Use it on up to 7 devices; if you exceed the limit, membership on the earliest device is revoked. Reference price ¥58 — the amount shown at payment time prevails.'
+                  }
                 </Translate>
               </div>
             </div>
@@ -206,7 +217,9 @@ export default function Pricing() {
               </div>
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a2">
-                  {'Currently available for purchase on mobile devices only:\n• iOS: Purchase via AppStore. Refunds can be requested through AppStore within 3 months (not controlled by the developer).\n• Android: Purchase via Alipay. Contact aqzscn@qq.com within 6 months for a refund (Alipay order number required).\n\nIt is recommended to bind an email after a successful purchase to restore it on other devices via email verification code (Email binding cannot be changed later, so do not use temporary emails).'}
+                  {
+                    'Channels:\n• iOS / Apple platforms: App Store. Refunds go through Apple under its policy (not controlled by the developer). See https://support.apple.com/en-us/118223\n• Android (Google Play): Refunds go through Google Play under its policy (not controlled by the developer). See https://support.google.com/googleplay/answer/2479637 and https://support.google.com/googleplay/answer/15574897\n• HarmonyOS (Huawei IAP / AppGallery): Refunds go through Huawei under its policy (not controlled by the developer). See https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number (same as Android Alipay).\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). App Store, Google Play, and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind email in the old app first.'
+                  }
                 </Translate>
               </div>
             </div>
@@ -216,13 +229,31 @@ export default function Pricing() {
               </div>
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a3">
-                  {'Yes, membership verification uses online verification. Verification is triggered randomly upon startup, so please ensure your device can connect to the internet as much as possible.'}
+                  {
+                    'Yes. Membership uses online verification, triggered randomly at launch. Keep the device able to reach the internet when possible.'
+                  }
+                </Translate>
+              </div>
+            </div>
+            <div className={styles.faqItem}>
+              <div className={styles.faqQuestion}>
+                <Translate id="pricing.faq.q4">Where is the full docs comparison?</Translate>
+              </div>
+              <div className={styles.faqAnswer}>
+                <Translate id="pricing.faq.a4">
+                  {
+                    'See Docs → Membership for free vs member details, what changed from the old app, and restore steps. Some features still depend on the platform and device.'
+                  }
                 </Translate>
               </div>
             </div>
           </div>
+          <p style={{ marginTop: 24, textAlign: 'center' }}>
+            <Link to="/docs/membership/plans">
+              <Translate id="pricing.docs.link">Open membership docs →</Translate>
+            </Link>
+          </p>
         </div>
-
       </div>
     </Layout>
   );

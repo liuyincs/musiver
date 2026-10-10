@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link";
 import Translate, { translate } from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
-import { SiAndroid, SiApple, SiHuawei } from "react-icons/si";
+import { SiAndroid, SiApple, SiHuawei, SiLinux } from "react-icons/si";
 import { TbBrandWindowsFilled } from "react-icons/tb";
 import { FiGlobe } from "react-icons/fi";
 import stableReleasesData from "../data/releases/stable.json";
@@ -49,6 +49,7 @@ const platformIcons: Record<Platform, React.ReactNode> = {
   harmony: <SiHuawei className={s.platformIcon} />,
   apple: <SiApple className={s.platformIcon} />,
   windows: <TbBrandWindowsFilled className={s.platformIcon} />,
+  linux: <SiLinux className={s.platformIcon} />,
   web: <FiGlobe className={s.platformIcon} />,
 };
 
@@ -68,6 +69,7 @@ const PlatformLabel = ({ platform }: { platform: Platform }) => {
       message: "iOS/macOS/tvOS",
     }),
     windows: translate({ id: "download.platform.windows", message: "Windows" }),
+    linux: translate({ id: "download.platform.linux", message: "Linux" }),
     web: translate({ id: "download.platform.web", message: "Web" }),
   };
   return <>{labels[platform]}</>;
@@ -83,6 +85,7 @@ export default function Download(): React.ReactNode {
     "harmony",
     "apple",
     "windows",
+    "linux",
     "web",
   ];
 
@@ -119,7 +122,7 @@ export default function Download(): React.ReactNode {
       description={translate({
         id: "download.meta.desc",
         message:
-          "Download Musiver for Android, HarmonyOS, iOS, macOS, Apple TV, Windows, and Web.",
+          "Download Musiver for Android, HarmonyOS, iOS, macOS, Apple TV, Windows, Linux, and Web.",
       })}>
       <div className={s.wrapper}>
         <div className={s.guidelines}>

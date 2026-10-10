@@ -14,4 +14,4 @@ Custom API settings let a supported installed client request artwork or lyrics f
 
 Enter a song title, album, and artist, or use the currently playing song. Run the test and inspect the status code, response, and available artwork or lyric preview. A response arriving successfully does not necessarily mean it contains a usable match.
 
-If a test fails, check the URL and credentials against the provider's configuration. Do not share Authorization values in a screenshot or public issue. Once the source works, it can be selected in [lyric search](../playback/lyrics.md).
+If a test fails, check the URL and credentials against the provider's configuration. Do not share Authorization values in a screenshot or public issue. Once the source works, it can be selected in [lyric search](../features/lyrics.md).

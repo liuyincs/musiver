@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" role="img" aria-label="Free vs membership layers">
+  <rect width="960" height="340" fill="#f4f7fb"/>
+  <rect x="60" y="50" width="840" height="100" rx="18" fill="#dfeaf7" stroke="#9bb6d4"/>
+  <text x="480" y="95" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#1e3a5f">Free · browse · stream all songs · one server</text>
+  <text x="480" y="125" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#456">Core listening stays open</text>
+  <rect x="60" y="180" width="840" height="110" rx="18" fill="#1f4fb8"/>
+  <text x="480" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">Lifetime membership · sound · lyrics · look · anywhere</text>
+  <text x="480" y="260" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#d7e4ff">Equalizer · downloads · multi-server · CarPlay · mini player · and more</text>
+</svg>

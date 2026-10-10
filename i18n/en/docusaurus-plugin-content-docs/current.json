@@ -3,52 +3,40 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Getting started": {
-    "message": "Getting started",
-    "description": "The label for category 'Getting started' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.What's new": {
+    "message": "What's new",
+    "description": "The label for category What's new in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Servers and libraries": {
-    "message": "Servers and libraries",
-    "description": "The label for category 'Servers and libraries' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Membership": {
+    "message": "Membership",
+    "description": "The label for category Membership in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Browsing music": {
-    "message": "Browsing music",
-    "description": "The label for category 'Browsing music' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Quick start": {
+    "message": "Quick start",
+    "description": "The label for category Quick start in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Playing music": {
-    "message": "Playing music",
-    "description": "The label for category 'Playing music' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Servers": {
+    "message": "Servers",
+    "description": "The label for category Servers in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Playlists": {
-    "message": "Playlists",
-    "description": "The label for category 'Playlists' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Features": {
+    "message": "Features",
+    "description": "The label for category Features in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Downloads and offline listening": {
-    "message": "Downloads and offline listening",
-    "description": "The label for category 'Downloads and offline listening' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Devices": {
+    "message": "Devices",
+    "description": "The label for category Devices in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Audiobooks and podcasts": {
-    "message": "Audiobooks and podcasts",
-    "description": "The label for category 'Audiobooks and podcasts' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Settings": {
+    "message": "Settings",
+    "description": "The label for category Settings in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Devices and system integration": {
-    "message": "Devices and system integration",
-    "description": "The label for category 'Devices and system integration' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Help": {
+    "message": "Help",
+    "description": "The label for category Help in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Settings and extensions": {
-    "message": "Settings and extensions",
-    "description": "The label for category 'Settings and extensions' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.Membership and help": {
-    "message": "Membership and help",
-    "description": "The label for category 'Membership and help' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.Changes from the previous version": {
-    "message": "Changes from the previous version",
-    "description": "The label for category 'Changes from the previous version' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.Experimental features": {
-    "message": "Experimental features",
-    "description": "The label for category 'Experimental features' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Experimental": {
+    "message": "Experimental",
+    "description": "The label for category Experimental in sidebar tutorialSidebar"
   }
 }

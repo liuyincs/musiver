@@ -14,4 +14,4 @@ Musiver considers availability and your preferred order when choosing a route. T
 
 Test both situations: play a song on home Wi-Fi, then test from the network you use away from home. If remote access fails, verify that the remote address works from that device. Adding a route does not configure your router or make a private address accessible from the internet.
 
-Desktop route menus also offer **Online Audio Quality** for that route. See [audio settings](../playback/audio.md).
+Desktop route menus also offer **Online Audio Quality** for that route. See [audio quality settings](../features/player.md).

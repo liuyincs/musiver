@@ -3,7 +3,7 @@ title: "Switching servers and libraries"
 sidebar_position: 7
 ---
 
-Use the server selector to activate a saved server. Its account, available libraries, and content become the current browsing context. Adding or switching multiple servers may require membership; follow the message shown in your client.
+Use the server selector to activate a saved server. Its account, available libraries, and content become the current browsing context. Connecting a second or additional server requires membership; follow the message shown in your client.
 
 ## Choose a library
 
@@ -15,4 +15,4 @@ Settings in server management are saved as you change them. During first setup, 
 
 Selecting **All Libraries** stays within the active server. Search also follows the current server and library; it does not search every saved server.
 
-For audiobooks, select a specific library before changing its [library type](../spoken-audio/library-types.md). If the expected library is missing, check the server account's permissions rather than adding the same server repeatedly.
+For audiobooks, select a specific library before changing its [library type](../features/spoken-audio.md). If the expected library is missing, check the server account's permissions rather than adding the same server repeatedly.

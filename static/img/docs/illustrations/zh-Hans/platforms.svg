@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-label="支持的平台">
+  <defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a2f4a"/><stop offset="100%" stop-color="#2f6fed"/></linearGradient></defs>
+  <rect width="960" height="280" fill="url(#p)"/>
+  <text x="480" y="58" text-anchor="middle" fill="#fff" font-family="Georgia, 'Noto Serif SC', serif" font-size="28">音流支持的平台</text>
+  <g font-family="system-ui,'Noto Sans SC',sans-serif" font-size="16" fill="#e8f0ff">
+    <text x="80" y="120">iOS</text><text x="180" y="120">iPadOS</text><text x="300" y="120">macOS</text><text x="420" y="120">tvOS</text>
+    <text x="540" y="120">Android</text><text x="680" y="120">Android TV</text><text x="840" y="120">Windows</text>
+    <text x="120" y="180">Linux</text><text x="260" y="180">鸿蒙</text><text x="440" y="180">Web（自托管 Docker）</text>
+  </g>
+  <text x="480" y="240" text-anchor="middle" fill="#b9cdf0" font-family="system-ui,'Noto Sans SC',sans-serif" font-size="14">桌面与 Web 共用 Tauri + React；其余为各端原生</text>
+</svg>

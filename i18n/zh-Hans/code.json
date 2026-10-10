@@ -1,36 +1,36 @@
 {
   "homepage.features.crossPlatform.title": {
-    "message": "全平台覆盖"
+    "message": "九个平台，一个曲库"
   },
   "homepage.features.crossPlatform.desc": {
-    "message": "Android、HarmonyOS、iOS、macOS、Apple TV、Windows、Web — 一次配置，处处聆听，体验始终如一。"
+    "message": "iOS、Android、Android TV、macOS、tvOS、Windows、Linux、鸿蒙，还有 Web。换一台设备，还是你熟悉的那座曲库。"
   },
   "homepage.features.multiSource.title": {
-    "message": "多源连接"
+    "message": "在家出门，自动换线"
   },
   "homepage.features.multiSource.desc": {
-    "message": "同时连接 Navidrome、Subsonic、Jellyfin 等多种 NAS 音乐服务器，统一管理。"
+    "message": "给服务器配好内网和外网地址，音流会自己挑能连上的那条。多台服务器也能同时接入。"
   },
   "homepage.features.quality.title": {
-    "message": "品质至上"
+    "message": "每个字都踩在拍子上"
   },
   "homepage.features.quality.desc": {
-    "message": "支持无损音频解码，搭配智能缓存与离线模式，聆听体验不打折。"
+    "message": "无损直出，网络吃紧时切到转码。逐词歌词随旋律一个字一个字亮起，全屏时整面屏幕都是歌词。"
   },
   "homepage.meta.title": {
-    "message": "音流 — 连接你的音乐"
+    "message": "音流：你的音乐，不止一处"
   },
   "homepage.hero.title": {
-    "message": "连接你的音乐"
+    "message": "你的音乐，不止一处"
   },
   "homepage.hero.subtitle": {
-    "message": "音流是一款跨平台 NAS 音乐播放器，支持多种服务器协议。在你的每一台设备上，享受私人音乐库的纯粹与丰盈。"
+    "message": "把 NAS 里的整座曲库带到手机、电脑、电视和浏览器。Navidrome、Subsonic、Jellyfin、Audiobookshelf，连上就能听。"
   },
   "homepage.hero.cta.download": {
-    "message": "⬇ 立即下载"
+    "message": "免费下载"
   },
   "homepage.hero.cta.start": {
-    "message": "快速开始 →"
+    "message": "快速开始"
   },
   "homepage.devices.tv.alt": {
     "message": "电视界面"
@@ -39,7 +39,7 @@
     "message": "客厅电视"
   },
   "homepage.devices.tv.subtitle": {
-    "message": "正在播放：Dream it Possible"
+    "message": "正在播放：Quiet Orbit"
   },
   "homepage.devices.laptop.alt": {
     "message": "笔记本界面"
@@ -57,10 +57,13 @@
     "message": "Musiver 设备预览图"
   },
   "homepage.features.title": {
-    "message": "核心特性"
+    "message": "为什么是音流"
   },
-  "homepage.quote": {
-    "message": "\"音乐是时间的艺术，音流让这份艺术不受空间限制。\""
+  "homepage.membership.text": {
+    "message": "免费版就能在线播放整座曲库。想要更多，一次买断 ¥58，7 台设备通用，后续更新都包含。价格以付款时为准。"
+  },
+  "homepage.membership.link": {
+    "message": "看看会员有什么"
   },
   "homepage.footer": {
     "message": "© 2026 音流。保留所有权利。"
@@ -408,7 +411,7 @@
     "message": "下载音流"
   },
   "download.meta.desc": {
-    "message": "下载适用于 Android、HarmonyOS、iOS、macOS、Apple TV、Windows 和 Web 的音流。"
+    "message": "下载音流 Android、鸿蒙、iOS、macOS、Apple TV、Windows、Linux 与 Web 客户端。"
   },
   "download.colophon": {
     "message": "获取音流"
@@ -539,125 +542,23 @@
   "download.release.beta.2_0_1_beta_3.desktop.loopButtonStyle": {
     "message": "优化循环播放按钮激活状态样式"
   },
-  "pricing.features.transfer.category": {
-    "message": "⚡️ 传输与播放"
-  },
-  "pricing.features.transfer.item1": {
-    "message": "听歌与保存"
-  },
-  "pricing.features.transfer.item2": {
-    "message": "自动播放"
-  },
-  "pricing.features.transfer.item3": {
-    "message": "自动下载"
-  },
-  "pricing.features.transfer.item4": {
-    "message": "睡眠定时"
-  },
-  "pricing.features.transfer.item5": {
-    "message": "二维码同步数据"
-  },
-  "pricing.features.transfer.item6": {
-    "message": "回放增益"
-  },
-  "pricing.features.transfer.item7": {
-    "message": "下载功能"
-  },
-  "pricing.features.transfer.item8": {
-    "message": "DLNA 播放"
-  },
-  "pricing.features.transfer.item8.note": {
-    "message": "目前兼容性差，请当做不可用"
-  },
-  "pricing.features.lyrics.category": {
-    "message": "🎙️ 歌词"
-  },
-  "pricing.features.lyrics.item1": {
-    "message": "歌词显示与编辑"
-  },
-  "pricing.features.lyrics.item2": {
-    "message": "桌面歌词 (Android)"
-  },
-  "pricing.features.lyrics.item3": {
-    "message": "状态栏歌词 (Android/macOS)"
-  },
-  "pricing.features.lyrics.item4": {
-    "message": "画中画歌词 (iOS)"
-  },
-  "pricing.features.system.category": {
-    "message": "📱 系统特性"
-  },
-  "pricing.features.system.item1": {
-    "message": "桌面小部件 (Android/iOS)"
-  },
-  "pricing.features.system.item2": {
-    "message": "全局快捷键 (macOS/Windows)"
-  },
-  "pricing.features.system.item3": {
-    "message": "迷你窗口 (macOS/Windows)"
-  },
-  "pricing.features.system.item4": {
-    "message": "CarPlay"
-  },
-  "pricing.features.system.item4.note": {
-    "message": "如果 APP 被关闭，下次打开时音乐会停止"
-  },
-  "pricing.features.system.item5": {
-    "message": "快捷指令"
-  },
-  "pricing.features.personalization.category": {
-    "message": "🎈 个性化"
-  },
-  "pricing.features.personalization.item1": {
-    "message": "增强手势"
-  },
-  "pricing.features.personalization.item2": {
-    "message": "自定义 API"
-  },
-  "pricing.features.personalization.item3": {
-    "message": "自定义内容"
-  },
-  "pricing.features.personalization.item4": {
-    "message": "主题切换"
-  },
-  "pricing.features.personalization.item5": {
-    "message": "长音频偏好设置"
-  },
-  "pricing.features.library.category": {
-    "message": "📁 媒体库管理"
-  },
-  "pricing.features.library.item1": {
-    "message": "多服务器切换"
-  },
-  "pricing.features.library.item2": {
-    "message": "文件夹视图 (媒体库模式)"
-  },
-  "pricing.features.library.item3": {
-    "message": "重复检测 (媒体库模式)"
-  },
-  "pricing.features.others.category": {
-    "message": "🪄 其他"
-  },
-  "pricing.features.others.item1": {
-    "message": "备用线路"
-  },
   "pricing.meta.title": {
     "message": "定价"
   },
   "pricing.meta.desc": {
-    "message": "音流定价计划"
+    "message": "音流免费方案与终身会员"
   },
   "pricing.header.badge": {
     "message": "定价"
   },
   "pricing.header.title": {
-    "message": "选择你的计划"
+    "message": "免费听歌，一次解锁终身"
   },
   "pricing.header.subtitle": {
-    "message": "基础功能永久免费。一次性买断即可解锁高级功能。"
+    "message": "连接一台服务器，免费浏览并在线播放全部歌曲。一次购买终身会员，解锁听感、歌词叠加、外观、下载等能力。"
   },
   "pricing.plan.free.name": {
-    "message": "免费用户"
+    "message": "免费"
   },
   "pricing.plan.free.currency": {
     "message": "¥"
@@ -666,7 +567,7 @@
     "message": "永久"
   },
   "pricing.plan.free.desc": {
-    "message": "提供完整的资料库浏览和日常听歌体验。"
+    "message": "免费浏览资料库、在线播放全部歌曲，并连接一台服务器。含 DLNA 投屏、多线路自动切换、全局热键与自定义 API。"
   },
   "pricing.plan.free.cta": {
     "message": "免费下载"
@@ -678,10 +579,10 @@
     "message": "¥"
   },
   "pricing.plan.pro.period": {
-    "message": "一次性付费"
+    "message": "一次性 · 以付款时为准"
   },
   "pricing.plan.pro.desc": {
-    "message": "一次买断，全平台终身使用。最多支持 7 台设备同时在线。"
+    "message": "一次购买，全平台终身使用，包含后续更新。最多同时 7 台设备。"
   },
   "pricing.plan.pro.cta": {
     "message": "如何购买"
@@ -693,10 +594,10 @@
     "message": "功能"
   },
   "pricing.table.header.free": {
-    "message": "免费版"
+    "message": "免费"
   },
   "pricing.table.header.pro": {
-    "message": "专业版"
+    "message": "会员"
   },
   "pricing.faq.title": {
     "message": "购买指南"
@@ -705,19 +606,19 @@
     "message": "定价模式是什么？"
   },
   "pricing.faq.a1": {
-    "message": "采用一次性买断模式，全平台终身使用。会员最多支持在 7 台设备上同时使用。如果超过限制，最早登录的设备上的会员资格将被自动撤销。"
+    "message": "终身会员：一次购买，包含之后的全部更新。最多可在 7 台设备同时使用；超出后最早登录设备的会员身份会被取消。参考价 ¥58——以付款时展示的价格为准。"
   },
   "pricing.faq.q2": {
     "message": "如何购买和退款？"
   },
   "pricing.faq.a2": {
-    "message": "目前仅支持在移动端购买：\n• iOS：通过 AppStore 购买。3 个月内可通过 AppStore 申请退款（开发者无法控制）。\n• Android：通过支付宝购买。6 个月内可联系 aqzscn@qq.com 申请退款（需提供支付宝订单号）。\n\n建议购买成功后绑定邮箱，以便通过邮箱验证码在其他设备上恢复购买（邮箱绑定后不可更改，请勿使用临时邮箱）。"
+    "message": "购买渠道：\n• iOS / Apple 平台：App Store。退款由 Apple 按其政策处理（不受开发者控制）。见 https://support.apple.com/zh-cn/118223\n• Android（Google Play）：退款由 Google Play 按其政策处理（不受开发者控制）。见 https://support.google.com/googleplay/answer/2479637?hl=zh-Hans 与 https://support.google.com/googleplay/answer/15574897?hl=zh-Hans\n• 鸿蒙（华为 IAP / 应用市场）：退款由华为按其政策处理（不受开发者控制）。见 https://consumer.huawei.com/cn/support/content/zh-cn15987057/ 与 https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm\n• Android（国内/直接分发）：支付宝。6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Windows / Linux 桌面：支付宝。退款规则与安卓支付宝相同：6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Android TV：不发起应用内支付——请在手机购买后恢复。\n• Web：无购买界面。\n\n购买后请绑定邮箱以便在其他设备恢复（绑定后不可修改，请勿使用临时邮箱）。App Store、Google Play 与华为购买均可用同样方式恢复。旧版音流买家须先在旧版绑定邮箱。"
   },
   "pricing.faq.q3": {
     "message": "是否需要联网？"
   },
   "pricing.faq.a3": {
-    "message": "是的，会员验证采用在线验证方式。验证会在启动时随机触发，因此请尽量保证设备能连接到互联网。"
+    "message": "需要。会员采用联网验证，启动时随机触发。请尽量保证设备可访问互联网。"
   },
   "changelog.meta.title": {
     "message": "更新日志"
@@ -2257,5 +2158,113 @@
   },
   "download.release.beta.2_0_1_beta_15.web.submenuOverlayFix": {
     "message": "全屏播放页子菜单不再被遮罩挡住"
+  },
+  "pricing.features.basics.category": {
+    "message": "基础"
+  },
+  "pricing.features.basics.browse": {
+    "message": "浏览资料库"
+  },
+  "pricing.features.basics.stream": {
+    "message": "在线播放全部歌曲"
+  },
+  "pricing.features.basics.oneServer": {
+    "message": "连接一台服务器"
+  },
+  "pricing.features.basics.dlna": {
+    "message": "DLNA 投屏"
+  },
+  "pricing.features.basics.sleep": {
+    "message": "睡眠定时"
+  },
+  "pricing.features.sound.category": {
+    "message": "听感"
+  },
+  "pricing.features.sound.equalizer": {
+    "message": "均衡器"
+  },
+  "pricing.features.sound.replayGain": {
+    "message": "回放增益"
+  },
+  "pricing.features.sound.roaming": {
+    "message": "音乐漫游"
+  },
+  "pricing.features.lyrics.category": {
+    "message": "歌词"
+  },
+  "pricing.features.lyrics.view": {
+    "message": "歌词查看与搜索"
+  },
+  "pricing.features.lyrics.immersive": {
+    "message": "沉浸式歌词"
+  },
+  "pricing.features.lyrics.notification": {
+    "message": "通知栏歌词"
+  },
+  "pricing.features.lyrics.statusBar": {
+    "message": "状态栏歌词"
+  },
+  "pricing.features.lyrics.desktop": {
+    "message": "悬浮 / 桌面歌词"
+  },
+  "pricing.features.lyrics.pip": {
+    "message": "画中画歌词（iOS）"
+  },
+  "pricing.features.look.category": {
+    "message": "外观"
+  },
+  "pricing.features.look.vinyl": {
+    "message": "黑胶封面"
+  },
+  "pricing.features.look.playerBg": {
+    "message": "播放页动态背景"
+  },
+  "pricing.features.look.playerBg.note": {
+    "message": "桌面端免费"
+  },
+  "pricing.features.look.accent": {
+    "message": "主题色"
+  },
+  "pricing.features.look.transparent": {
+    "message": "透明主题"
+  },
+  "pricing.features.look.appIcon": {
+    "message": "应用图标（iOS）"
+  },
+  "pricing.features.anywhere.category": {
+    "message": "更多场景"
+  },
+  "pricing.features.anywhere.multiServer": {
+    "message": "多服务器（第二台起）"
+  },
+  "pricing.features.anywhere.download": {
+    "message": "离线下载"
+  },
+  "pricing.features.anywhere.autoDownload": {
+    "message": "自动下载"
+  },
+  "pricing.features.anywhere.carPlay": {
+    "message": "CarPlay（iPhone）"
+  },
+  "pricing.features.anywhere.shortcuts": {
+    "message": "快捷指令（iOS）"
+  },
+  "pricing.features.anywhere.miniPlayer": {
+    "message": "迷你播放器（macOS / Windows）"
+  },
+  "pricing.faq.q4": {
+    "message": "完整说明在哪里？"
+  },
+  "pricing.faq.a4": {
+    "message": "请查看文档 → 会员：免费与会员对比、相对旧版的变化，以及恢复步骤。部分功能仍取决于平台与设备。"
+  },
+  "pricing.docs.link": {
+    "message": "打开会员文档 →"
+  },
+  "pricing.features.lyrics.playbar": {
+    "message": "播放条歌词"
+  },
+  "download.platform.linux": {
+    "message": "Linux"
   }
 }

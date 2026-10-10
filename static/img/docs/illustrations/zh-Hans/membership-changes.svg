@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-label="会员变化">
+  <rect width="960" height="320" fill="#faf7f2"/>
+  <rect x="40" y="40" width="280" height="240" rx="16" fill="#e8f6ea" stroke="#8fbf98"/>
+  <rect x="340" y="40" width="280" height="240" rx="16" fill="#fff4e5" stroke="#e0b07a"/>
+  <rect x="640" y="40" width="280" height="240" rx="16" fill="#eef2ff" stroke="#9aa8d9"/>
+  <text x="180" y="80" text-anchor="middle" font-family="Georgia,'Noto Serif SC',serif" font-size="20" fill="#1f4d2a">现已免费 / 开放</text>
+  <text x="480" y="80" text-anchor="middle" font-family="Georgia,'Noto Serif SC',serif" font-size="20" fill="#6a3f10">仍为会员</text>
+  <text x="780" y="80" text-anchor="middle" font-family="Georgia,'Noto Serif SC',serif" font-size="20" fill="#24306a">新增会员项</text>
+  <g font-family="system-ui,'Noto Sans SC',sans-serif" font-size="14" fill="#333">
+    <text x="60" y="120">DLNA 投屏</text>
+    <text x="60" y="150">多线路自动切换</text>
+    <text x="60" y="180">浏览播放 · 一台服务器</text>
+    <text x="360" y="120">下载 / 自动下载</text>
+    <text x="360" y="150">多服务器（第 2 台起）</text>
+    <text x="360" y="180">回放增益 · CarPlay</text>
+    <text x="360" y="210">迷你播放器 · 快捷指令</text>
+    <text x="660" y="120">均衡器 · 音乐漫游</text>
+    <text x="660" y="150">沉浸式 / 画中画歌词</text>
+    <text x="660" y="180">黑胶 · 主题色 · 透明主题</text>
+    <text x="660" y="210">应用图标（iOS）</text>
+  </g>
+</svg>

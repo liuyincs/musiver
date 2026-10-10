@@ -472,26 +472,47 @@
   line-height: 1.8;
 }
 
-/* Quote section */
-.quote {
+/* Membership line */
+.membership {
   position: relative;
   z-index: 1;
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 60px 100px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.quoteText {
-  font-family: "Cormorant Garamond", serif;
-  font-size: clamp(1.5rem, 3vw, 2.2rem);
-  font-weight: 300;
-  font-style: italic;
+.membershipText {
+  /* Use body sans so ¥58 / 7 match lining figures (not serif oldstyle). */
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  font-weight: 400;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
   color: var(--navy);
-  line-height: 1.5;
-  max-width: 700px;
-  margin: 0 auto;
-  opacity: 0.7;
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.membershipLink {
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--navy);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+.membershipLink:hover {
+  opacity: 0.75;
 }
 
 @media (max-width: 900px) {
@@ -524,7 +545,7 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .quote {
+  .membership {
     padding: 40px 24px 60px;
   }
   .guidelines {

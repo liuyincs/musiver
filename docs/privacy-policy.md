@@ -53,7 +53,7 @@ To provide membership purchase and payment, the app integrates the following thi
 | Alipay App SDK | Alipay (China) Network Technology Co., Ltd. | Android (direct-download and China-channel builds) | Membership purchase and payment | [Alipay App SDK privacy notice](https://opendoc.alipay.com/open/06834t?pathHash=53a65cf1) |
 | Google Play Billing Library | Google | Android (Google Play build) | Membership purchase and payment | [Google Privacy Policy](https://policies.google.com/privacy) |
 
-Information collected by these SDKs is governed by each provider's official documentation. On iOS, macOS, and tvOS, membership purchases are handled by Apple StoreKit; on HarmonyOS, by Huawei's in-app purchase service; and on desktop and web, by an Alipay payment page opened in the browser. No other third-party SDK is integrated for membership purchases on these platforms.
+Information collected by these SDKs is governed by each provider's official documentation. On iOS, macOS, and tvOS, membership purchases are handled by Apple StoreKit; on HarmonyOS, by Huawei's in-app purchase service; and on desktop, by an Alipay payment page opened in the browser. The Web client has no purchase UI. No other third-party SDK is integrated for membership purchases on these platforms.
 
 ## Third-Party Links
 
@@ -69,4 +69,4 @@ If you have any questions about this policy, please contact our support team.
 
 This policy applies only to Musiver and does not apply to third-party apps or services, even when accessed through Musiver.
 
-Updated on: October 7, 2026
+Updated on: October 10, 2026

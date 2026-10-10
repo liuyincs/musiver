@@ -1,20 +1,28 @@
 ---
-title: "安装与平台支持"
-sidebar_position: 2
+title: "安装"
+sidebar_position: 1
 ---
 
-打开[下载页面](/download)，选择你的设备，按对应平台的说明安装可用的软件包。测试版更新较频繁，安装前请确认所选发布渠道。
+打开[下载页](/download)，选择对应平台的安装包（稳定版或测试版）。
 
 | 设备 | 客户端 |
 | --- | --- |
-| iPhone、iPad | iOS / iPadOS |
+| iPhone / iPad | iOS / iPadOS |
 | Mac | macOS |
-| Android 手机或平板 | Android |
-| HarmonyOS 设备 | HarmonyOS |
-| Windows、Linux 电脑 | 桌面客户端 |
-| 浏览器 | 网页版 |
-| 电视 | Android TV、Apple TV |
+| Apple TV | tvOS |
+| Android 手机 / 平板 | Android |
+| Android TV / Google TV | Android TV |
+| 鸿蒙 | HarmonyOS |
+| Windows | 桌面（setup.exe） |
+| Linux | 桌面（AppImage） |
+| 浏览器 | Web（自托管 Docker 镜像） |
 
-软件包是否可下载以及系统要求，以下载页面为准。不同平台的功能并不完全相同。准备主要使用浏览器听歌前，请阅读[网页版的使用限制](../devices/web.md)；使用电视遥控器操作，请阅读[电视使用说明](../devices/tv.md)。
+有客户端不等于该平台具备全部功能。主用设备选型前请阅读 [Web 限制](../devices/web.md) 与 [电视](../devices/tv.md)。
 
-安装完成后打开音流，选择“添加服务器”。准备好服务器地址和登录信息，继续[首次播放](first-play.md)。
+![安装后的桌面欢迎页](/img/docs/zh-Hans/getting-started/desktop-welcome.jpg)
+
+### Web（Docker）
+
+Web 客户端以 Docker 镜像发布（见应用仓库 `docker/web` 文档）。请自行部署；本站不提供公开在线演示。
+
+安装完成后请继续[连接并播放](first-play.md)。

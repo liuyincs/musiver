@@ -8,7 +8,7 @@ If browsing works but playback does not, test one known song before changing sev
 1. Try another track. A single failure can be caused by that file or its format.
 2. Check the selected output device and its volume.
 3. Compare original quality with an available transcoded format. If only transcoding fails, inspect the server's transcoding configuration.
-4. If casting, switch to local playback. If local playback works, check whether the renderer can reach the audio address.
+4. If casting, switch to local playback. If local playback works, check whether the cast device can reach the audio address.
 5. Record the exact error and time if the problem persists.
 
 ## Playback stops when the screen locks
@@ -19,4 +19,4 @@ On Web, browser and tab lifecycle rules apply; use an installed client when you 
 
 ## Wrong controls or missing lyrics
 
-For books that show music-style controls, check the [library type](../spoken-audio/library-types.md) and long-audio settings. For missing or mismatched lyrics, use [lyric search](../playback/lyrics.md). Attach these observations when [reporting a problem](feedback.md).
+For books that show music-style controls, check the [library type](../features/spoken-audio.md) settings. For missing or mismatched lyrics, use [lyric search](../features/lyrics.md). Attach these observations when [reporting a problem](feedback.md).

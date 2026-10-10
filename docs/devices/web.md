@@ -1,20 +1,15 @@
 ---
-title: "Web app limitations"
-sidebar_position: 5
+title: "Web"
+sidebar_position: 2
 ---
 
-The Web app runs inside your browser. Use it for supported server browsing and playback, while checking these differences from installed clients.
+The Web client runs in the browser from a self-hosted Docker deployment. It shares UI code with desktop but is feature-incomplete versus installed apps.
 
-| Area | Current limitation |
-| --- | --- |
-| Adding servers | No LAN discovery; Plex browser authorization cannot be completed in this client. |
-| Downloads | No formal audio downloads or automatic download scanning. |
-| Storage | No native Listen and Save/cache settings; storage categories are limited. |
-| Audio | No ReplayGain or DLNA playback. |
-| Desktop integration | No desktop lyrics, separate mini-player window, or global shortcuts. |
-| Extensions | No custom API settings or client network-proxy settings. |
-| Membership | No purchase interface. |
+## Common limits
 
-Browser networking rules also apply. An HTTPS page may be unable to access an HTTP server, and a server must allow the requests required by the Web app. A connection working in an installed client does not prove that the same address will work in a browser.
+- No membership purchase UI
+- No offline downloads
+- No DLNA
+- Whether playback continues in the background and whether system media keys work depends on the browser
 
-For downloads, LAN devices, or native background behavior, choose an [installed client](../getting-started/install.md). If Web sign-in fails, include the browser, site address, and server connection type when [reporting the problem](../help/feedback.md).
+Purchase, downloads, LAN cast, and native lyric overlays need an installed client.

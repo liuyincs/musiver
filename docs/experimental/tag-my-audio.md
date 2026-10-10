@@ -11,6 +11,6 @@ Tag My Audio is listed separately as an experimental, invitation-only server. Us
 
 Tag My Audio provides specialized [playlist import and transfer](playlist-import-transfer.md) workflows. Import creates a draft that must be reviewed and committed before it becomes a playable playlist.
 
-These workflows depend on both server and client support. File import and the worksheet are available in the checked Swift phone/desktop clients, Desktop/Web, and HarmonyOS implementations; the Android import entry is not included in this guide's version. TV and CarPlay do not provide draft review.
+These workflows depend on both server and client support. iOS, macOS, Windows, Linux, Web, and HarmonyOS support file import and the worksheet; Android does not yet. TV and CarPlay do not provide draft review.
 
 Smart playlists are not all Tag My Audio features. Other servers can provide their own smart playlists, whose rules and editing restrictions remain server-specific.

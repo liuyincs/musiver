@@ -881,7 +881,7 @@
       {
         "version": "2.0.1-beta.15",
         "date": "2026-09-05",
-        "downloadUrl": "https://www.ilanzou.com/s/vfGKOzo5",
+        "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-beta.15/musiver_2.0.1-beta.15_x64-setup.exe",
         "changelogI18nKeys": [
           "download.release.beta.2_0_1_beta_15.common.transparentBlur",
           "download.release.beta.2_0_1_beta_15.common.artistHub",
@@ -1153,6 +1153,38 @@
         "downloadUrl": "https://www.ilanzou.com/s/0CcIXAlz",
         "changelogI18nKeys": [
           "download.release.beta.upcoming.light"
+        ]
+      }
+    ],
+    "linux": [
+      {
+        "version": "2.0.1-beta.15",
+        "date": "2026-09-05",
+        "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-beta.15/musiver_2.0.1-beta.15_amd64.AppImage",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_beta_15.common.transparentBlur",
+          "download.release.beta.2_0_1_beta_15.common.artistHub",
+          "download.release.beta.2_0_1_beta_15.common.karaokeLyrics",
+          "download.release.beta.2_0_1_beta_15.common.lyricsSearchPreview",
+          "download.release.beta.2_0_1_beta_15.common.streamCacheUnlimited",
+          "download.release.beta.2_0_1_beta_15.common.autoplayOpenPlayer",
+          "download.release.beta.2_0_1_beta_15.common.seedStart",
+          "download.release.beta.2_0_1_beta_15.common.serverAvatarLibrary",
+          "download.release.beta.2_0_1_beta_15.common.customCover",
+          "download.release.beta.2_0_1_beta_15.common.offlineMediaLyrics",
+          "download.release.beta.2_0_1_beta_15.common.playlistDuplicateFix",
+          "download.release.beta.2_0_1_beta_15.common.playNextFix",
+          "download.release.beta.2_0_1_beta_15.common.playlistTruncationFix",
+          "download.release.beta.2_0_1_beta_15.common.embyPlaylistLibraryFix",
+          "download.release.beta.2_0_1_beta_15.desktop.sidebarIdentity",
+          "download.release.beta.2_0_1_beta_15.desktop.playlistDates",
+          "download.release.beta.2_0_1_beta_15.desktop.favoriteSort",
+          "download.release.beta.2_0_1_beta_15.desktop.dblclickDiscover",
+          "download.release.beta.2_0_1_beta_15.desktop.favoriteButtonFillFix",
+          "download.release.beta.2_0_1_beta_15.desktop.desktopLyricsHeightFix",
+          "download.release.beta.2_0_1_beta_15.desktop.submenuOverlayFix",
+          "download.release.beta.2_0_1_beta_15.desktop.equalizerPresetFix",
+          "download.release.beta.2_0_1_beta_15.desktop.serverSwitchQueueFix"
         ]
       }
     ],
