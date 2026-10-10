@@ -5,7 +5,7 @@ sidebar_position: 1
 
 | 功能 | 可用性 |
 | --- | --- |
-| 桌面 / 悬浮歌词 | Windows 与 macOS — 会员 |
+| 桌面 / 悬浮歌词 | Windows 与 macOS — 会员（Linux：不支持） |
 | 迷你播放器 | Windows / macOS — 会员 |
 | 全局播放快捷键 | 已安装的 Windows / Linux / macOS 客户端（非 Web）；默认关闭 |
 | 购买 | Windows / Linux：支付宝；macOS：App Store |
@@ -14,7 +14,7 @@ sidebar_position: 1
 
 下表默认值来自 Windows / Linux（Tauri）桌面客户端。应用内快捷键在窗口聚焦且未在输入框中时生效。全局快捷键需在设置中开启（Windows / Linux 上默认关闭）。
 
-macOS 使用独立的原生客户端，其应用内与全局快捷键未在本文根据源码核对，请以 macOS 客户端内的快捷键页面为准。
+macOS 版快捷键请在应用的「设置 → 快捷键」中查看。
 
 | 操作 | Windows / Linux（应用内） | 全局（Windows / Linux） |
 | --- | --- | --- |

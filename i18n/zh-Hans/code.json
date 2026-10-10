@@ -15,7 +15,7 @@
     "message": "品质至上"
   },
   "homepage.features.quality.desc": {
-    "message": "支持无损音频解码，搭配智能缓存与离线模式，聆听体验不打折。"
+    "message": "支持无损播放与流媒体缓存。"
   },
   "homepage.meta.title": {
     "message": "音流 — 连接你的音乐"
@@ -24,7 +24,7 @@
     "message": "连接你的音乐"
   },
   "homepage.hero.subtitle": {
-    "message": "音流是一款跨平台 NAS 音乐播放器，支持多种服务器协议。在你的每一台设备上，享受私人音乐库的纯粹与丰盈。"
+    "message": "音流是一款跨平台 NAS 音乐播放器，支持多种服务器协议。在你的设备上畅听私人音乐库。"
   },
   "homepage.hero.cta.download": {
     "message": "⬇ 立即下载"
@@ -39,7 +39,7 @@
     "message": "客厅电视"
   },
   "homepage.devices.tv.subtitle": {
-    "message": "正在播放：Dream it Possible"
+    "message": "正在播放：Soft Horizon"
   },
   "homepage.devices.laptop.alt": {
     "message": "笔记本界面"
@@ -408,7 +408,7 @@
     "message": "下载音流"
   },
   "download.meta.desc": {
-    "message": "下载适用于 Android、HarmonyOS、iOS、macOS、Apple TV、Windows 和 Web 的音流。"
+    "message": "下载音流 Android、鸿蒙、iOS、macOS、Apple TV、Windows、Linux 与 Web 客户端。"
   },
   "download.colophon": {
     "message": "获取音流"
@@ -552,7 +552,7 @@
     "message": "免费听歌，一次解锁终身"
   },
   "pricing.header.subtitle": {
-    "message": "一台服务器上免费浏览并在线播放全部歌曲。一次购买终身会员，解锁听感、歌词显示方式、外观、下载等能力。"
+    "message": "连接一台服务器，免费浏览并在线播放全部歌曲。一次购买终身会员，解锁听感、歌词叠加、外观、下载等能力。"
   },
   "pricing.plan.free.name": {
     "message": "免费"
@@ -564,7 +564,7 @@
     "message": "永久"
   },
   "pricing.plan.free.desc": {
-    "message": "浏览资料库、在线播放全部歌曲、连接一台服务器。DLNA 投屏已包含。"
+    "message": "免费浏览资料库、在线播放全部歌曲，并连接一台服务器。含 DLNA 投屏、多线路自动切换、全局热键与自定义 API。"
   },
   "pricing.plan.free.cta": {
     "message": "免费下载"
@@ -2217,7 +2217,7 @@
     "message": "播放页动态背景"
   },
   "pricing.features.look.playerBg.note": {
-    "message": "桌面端限免"
+    "message": "桌面端免费"
   },
   "pricing.features.look.accent": {
     "message": "主题色"
@@ -2260,5 +2260,8 @@
   },
   "pricing.features.lyrics.playbar": {
     "message": "播放条歌词"
+  },
+  "download.platform.linux": {
+    "message": "Linux"
   }
 }

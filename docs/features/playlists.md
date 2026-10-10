@@ -5,7 +5,7 @@ sidebar_position: 4
 
 ## What it is
 
-Server playlists you create/edit, plus smart playlist rules (JSON import/export) and experimental import/transfer via Tag My Audio.
+Create and edit server playlists, import or export smart playlist rules as JSON, and experimentally import or transfer playlists through Tag My Audio.
 
 ![New playlist](/img/docs/features/desktop-playlist-editor.jpg)
 

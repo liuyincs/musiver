@@ -19,6 +19,7 @@ These stay available without purchase:
 - Sleep timer
 - Lyrics view and search in the player
 - Player bar lyrics
+- Enhanced gestures
 - Global hotkeys, custom API, and widgets where the platform offers them
 
 ## Membership benefits
@@ -56,7 +57,7 @@ Use the in-app membership page as the source of truth. Grouped names below match
 
 | Benefit | Notes |
 | --- | --- |
-| Desktop notification / floating lyrics / mini player | Floating lyrics on Windows and macOS; mini player on Windows / macOS |
+| Desktop floating lyrics / mini player | Floating lyrics on Windows and macOS (not on Linux); mini player on Windows / macOS |
 | Desktop player dynamic background | Free on desktop (not in the desktop member catalog) |
 | tvOS downloads | Not offered |
 | Android TV | Keeps download manager; no Alipay purchase UI — restore on phone |

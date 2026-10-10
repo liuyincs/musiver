@@ -15,7 +15,7 @@
     "message": "Quality First"
   },
   "homepage.features.quality.desc": {
-    "message": "Supports lossless audio decoding with smart caching and offline mode, so your listening quality is never compromised."
+    "message": "Supports lossless playback and stream caching."
   },
   "homepage.meta.title": {
     "message": "Musiver — Connect Your Music"
@@ -24,7 +24,7 @@
     "message": "Connect Your Music"
   },
   "homepage.hero.subtitle": {
-    "message": "Musiver is a cross-platform NAS music player that supports multiple server protocols. Enjoy the richness of your personal music library on every device you own."
+    "message": "Musiver is a cross-platform NAS music player that supports multiple server protocols. Enjoy your personal music library on your devices."
   },
   "homepage.hero.cta.download": {
     "message": "⬇ Download Now"
@@ -39,7 +39,7 @@
     "message": "Living Room TV"
   },
   "homepage.devices.tv.subtitle": {
-    "message": "Now Playing: Dream it Possible"
+    "message": "Now Playing: Soft Horizon"
   },
   "homepage.devices.laptop.alt": {
     "message": "Laptop Interface"
@@ -408,7 +408,7 @@
     "message": "Download Musiver"
   },
   "download.meta.desc": {
-    "message": "Download Musiver for Android, HarmonyOS, iOS, macOS, Apple TV, Windows, and Web."
+    "message": "Download Musiver for Android, HarmonyOS, iOS, macOS, Apple TV, Windows, Linux, and Web."
   },
   "download.colophon": {
     "message": "Get Musiver"
@@ -564,7 +564,7 @@
     "message": "Forever"
   },
   "pricing.plan.free.desc": {
-    "message": "Browse the library, stream every song online, and connect one server. DLNA casting is included."
+    "message": "Browse the library, stream every song online, and connect one server. Includes DLNA casting, multi-route auto switching, global hotkeys, and custom API."
   },
   "pricing.plan.free.cta": {
     "message": "Download for Free"
@@ -2260,5 +2260,8 @@
   },
   "pricing.features.lyrics.playbar": {
     "message": "Player bar lyrics"
+  },
+  "download.platform.linux": {
+    "message": "Linux"
   }
 }

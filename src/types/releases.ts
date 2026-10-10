@@ -24,9 +24,10 @@
  * - harmony: HarmonyOS 鸿蒙系统
  * - apple: iOS / macOS / Apple TV（tvOS），共用下载入口
  * - windows: Windows 桌面系统
+ * - linux: Linux 桌面（AppImage）
  * - web: Web 浏览器版本
  */
-export type Platform = 'android' | 'harmony' | 'apple' | 'windows' | 'web';
+export type Platform = 'android' | 'harmony' | 'apple' | 'windows' | 'linux' | 'web';
 
 /**
  * 发布频道类型

@@ -8,7 +8,7 @@ The Web client runs in the browser from a self-hosted Docker deployment. It shar
 ## Common limits
 
 - No membership purchase UI
-- No formal offline download
+- No offline downloads
 - No DLNA
 - Whether playback continues in the background and whether system media keys work depends on the browser
 

@@ -27,6 +27,12 @@
         "download.release.stable.upcoming"
       ]
     },
+    "linux": {
+      "downloadUrl": "",
+      "changelogI18nKeys": [
+        "download.release.stable.upcoming"
+      ]
+    },
     "web": {
       "downloadUrl": "",
       "changelogI18nKeys": [

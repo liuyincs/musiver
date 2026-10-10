@@ -13,8 +13,8 @@ Manual downloads, auto-download rules, and stream cache for browsing previously 
 
 1. Choose Download on a track; watch progress in Downloads (pause / retry / clean on desktop).
 2. Configure Auto Download (favorites, playlists, quality, network policy) on supported clients.
-3. Prefer explicit downloads for trips — cache cleanup can remove stream cache.
+3. Download tracks before you travel: clearing cache can remove stream cache, but downloads stay.
 
 ## Membership / platform
 
-Offline download and auto-download require membership. tvOS has no download manager; Android TV keeps download management but does not schedule auto-download like phones. Web has no formal downloads.
+Offline download and auto-download require membership. tvOS has no download manager; Android TV keeps download management but does not schedule auto-download like phones. Web has no offline downloads.

@@ -11,12 +11,11 @@ sidebar_position: 1
 
 ### 歌词搜索
 
-曲目还没有歌词时，可在播放页搜索。已有时间轴歌词时，完整播放页会随进度高亮（含逐词高亮）。
+曲目还没有歌词时，可在播放页搜索。有时间轴的歌词会随播放逐行高亮，支持逐词的会逐字高亮。
+
+![完整播放页（同步歌词）](/img/docs/zh-Hans/features/desktop-full-player.jpg)
 
 ![歌词搜索](/img/docs/zh-Hans/features/desktop-lyrics-search.jpg)
-
-:::caution TODO screenshot: 桌面 — 完整播放页逐词歌词
-:::
 
 见[歌词](../features/lyrics.md)。
 
@@ -24,14 +23,13 @@ sidebar_position: 1
 
 从播放条打开完整播放页。均衡器等听感工具在播放菜单中（会员）。
 
-:::caution TODO screenshot: 桌面 — 完整播放页（正在播放）
-:::
+![完整播放页](/img/docs/zh-Hans/features/desktop-full-player.jpg)
 
 ![含均衡器的播放菜单](/img/docs/zh-Hans/features/desktop-equalizer-menu.jpg)
 
 见[播放器](../features/player.md)。
 
-### 智能歌单
+### 歌单
 
 在侧栏创建服务器歌单；支持的客户端还可使用智能歌单 JSON 规则。
 
@@ -49,7 +47,7 @@ sidebar_position: 1
 
 ### 外观
 
-主题色、主题风格等在设置 → 个性化。
+主题色、主题风格等可在「设置 → 个性化」中调整。
 
 ![外观](/img/docs/zh-Hans/features/desktop-appearance.jpg)
 
@@ -79,5 +77,5 @@ sidebar_position: 1
 
 ## 继续阅读
 
-- [新旧对比](old-vs-new.md)
-- [从旧版迁移](migrate.md)
+- [新旧对比](old-vs-new.md) — 对照表
+- [从旧版迁移](migrate.md) — 恢复购买并重新添加服务器

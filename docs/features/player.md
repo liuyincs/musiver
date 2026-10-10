@@ -5,10 +5,9 @@ sidebar_position: 2
 
 ## What it is
 
-The player bar and full player control playback, queue order, audio quality, equalizer, ReplayGain, sleep timer, and output — including free DLNA cast.
+From the player bar and full player you can control playback, the queue, and audio quality, open the equalizer, ReplayGain, and sleep timer, and cast for free to a DLNA device.
 
-:::caution TODO screenshot: desktop — full player with synced lyrics
-:::
+![Full player with synced lyrics](/img/docs/features/desktop-full-player.jpg)
 
 ## How to use
 

@@ -17,7 +17,7 @@ sidebar_position: 1
 | Linux | 桌面（AppImage） |
 | 浏览器 | Web（自托管 Docker 镜像） |
 
-有客户端**不等于**该平台具备全部功能。主用设备选型前请阅读 [Web 限制](../devices/web.md) 与 [电视](../devices/tv.md)。
+有客户端不等于该平台具备全部功能。主用设备选型前请阅读 [Web 限制](../devices/web.md) 与 [电视](../devices/tv.md)。
 
 ![安装后的桌面欢迎页](/img/docs/zh-Hans/getting-started/desktop-welcome.jpg)
 
@@ -25,4 +25,4 @@ sidebar_position: 1
 
 Web 客户端以 Docker 镜像发布（见应用仓库 `docker/web` 文档）。请自行部署；本站不提供公开在线演示。
 
-安装完成后请继续[首次播放](first-play.md)。
+安装完成后请继续[连接并播放](first-play.md)。

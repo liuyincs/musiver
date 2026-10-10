@@ -17,7 +17,7 @@ Open the [download page](/download) and pick your platform package (stable or be
 | Linux | Desktop (AppImage) |
 | Browser | Web (self-hosted Docker image) |
 
-Having a client does **not** mean every feature exists on that platform. Read [Web limitations](../devices/web.md) and [TV](../devices/tv.md) before choosing a primary device.
+Having a client does not mean every feature exists on that platform. Read [Web limitations](../devices/web.md) and [TV](../devices/tv.md) before choosing a primary device.
 
 ![Desktop welcome after install](/img/docs/getting-started/desktop-welcome.jpg)
 
@@ -25,4 +25,4 @@ Having a client does **not** mean every feature exists on that platform. Read [W
 
 The Web client is published as a Docker image (see the app repository’s `docker/web` docs). Host it yourself; there is no public hosted demo on this documentation site.
 
-After install, continue with [first play](first-play.md).
+After install, continue with [Connect and play](first-play.md).

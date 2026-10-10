@@ -44,8 +44,8 @@ Legacy StreamMusic buyers: bind email in the old app first, then restore by emai
 Same rules as the old version:
 
 - iOS / App Store: request a refund through Apple within 3 months (not controlled by the developer).
-- Android (Google Play): request a refund through Google Play within 3 months (not controlled by the developer), same rule as the App Store.
-- HarmonyOS (Huawei IAP): request a refund through Huawei within 3 months (not controlled by the developer), same rule as the App Store.
+- Android (Google Play): request a refund through Google Play within 3 months (not controlled by the developer).
+- HarmonyOS (Huawei IAP): request a refund through Huawei within 3 months (not controlled by the developer).
 - Alipay (Android / desktop): contact `aqzscn@qq.com` within 6 months with the Alipay order number.
 
 ## Online verification

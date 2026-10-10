@@ -24,7 +24,7 @@ What happened to capabilities that were free in StreamMusic:
 | QR sync between devices | Not available as an import path into Musiver |
 | Listen-and-save (play-and-cache) | Streaming cache in Settings → Storage (still free; separate from formal offline download) |
 | Global hotkeys | Still free on installed desktop clients (off by default) |
-| Enhanced gestures | Still free. Examples: swipe down to dismiss the full player, swipe up to expand the mini player bar, double-click a track to play (desktop), drag the seek bar |
+| Enhanced gestures | Still free. Common gestures on each platform remain available |
 | Custom API | Still free in Settings → Custom API |
 | Home screen widgets | Still free where the platform offers them (see [Widgets](../devices/widgets.md)) |
 

@@ -3,7 +3,7 @@ title: "Switching servers and libraries"
 sidebar_position: 7
 ---
 
-Use the server selector to activate a saved server. Its account, available libraries, and content become the current browsing context. Adding or switching multiple servers may require membership; follow the message shown in your client.
+Use the server selector to activate a saved server. Its account, available libraries, and content become the current browsing context. Connecting a second or additional server requires membership; follow the message shown in your client.
 
 ## Choose a library
 

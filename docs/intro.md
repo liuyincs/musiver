@@ -5,11 +5,9 @@ sidebar_position: 1
 
 # Welcome to Musiver
 
-Musiver connects to your own music server so you can browse and listen on every device you own. It does not host a music catalog or sell a streaming subscription.
+Musiver connects to your own music server so you can browse and listen on your devices. It does not host a music catalog or sell a streaming subscription.
 
 ![Musiver desktop welcome](/img/docs/getting-started/desktop-welcome.jpg)
-
-![Supported platforms](/img/docs/illustrations/platforms.svg)
 
 ## Platforms
 

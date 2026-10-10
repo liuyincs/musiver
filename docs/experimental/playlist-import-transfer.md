@@ -18,7 +18,7 @@ The worksheet is a draft, not yet a playable playlist. Open a track's candidates
 
 ## Transfer from another server
 
-The checked iOS/macOS clients provide **Import → From Other Servers**. Add the source server beforehand, then activate the destination Tag My Audio server.
+iOS and macOS clients provide **Import → From Other Servers**. Add the source server beforehand, then activate the destination Tag My Audio server.
 
 Choose the source server, its library when prompted, and one playlist or favorite-song list. Select a real destination library if asked. A successful transfer opens a draft for review and commitment using the same worksheet.
 

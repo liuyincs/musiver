@@ -14,3 +14,5 @@ The available controls differ between phone, desktop, and TV layouts. A desktop 
 If text or artwork becomes difficult to read, return to appearance settings and choose a simpler background or a different contrast. Change one option at a time so you can identify the setting responsible.
 
 Appearance settings affect the client display. They do not edit album artwork or metadata stored on the server. For incorrect song information, check the server's library instead.
+
+For feature-oriented notes (vinyl cover, dynamic backgrounds, membership), see [Appearance](../features/appearance.md).

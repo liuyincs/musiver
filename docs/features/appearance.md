@@ -21,4 +21,4 @@ Light/dark appearance, accent color, transparent theme, vinyl cover, and player 
 
 ## Membership / platform
 
-Accent color, transparent theme, vinyl cover, and (on mobile/TV) dynamic player background are membership benefits. On desktop, dynamic player background is free (limited free). App icon switching is iOS-only when available.
+Accent color, transparent theme, vinyl cover, and (on mobile/TV) dynamic player background are membership benefits. On desktop, dynamic player background is free. App icon switching is iOS only.

@@ -13,10 +13,9 @@ Pick a highlight, then open the linked feature page for details.
 
 Search for lyrics from the player when a track has none yet. When a track already has timed lyrics, the full player can highlight them as the song plays.
 
-![Lyric search](/img/docs/features/desktop-lyrics-search.jpg)
+![Full player with synced lyrics](/img/docs/features/desktop-full-player.jpg)
 
-:::caution TODO screenshot: desktop — full player with word-by-word lyrics
-:::
+![Lyric search](/img/docs/features/desktop-lyrics-search.jpg)
 
 See [Lyrics](../features/lyrics.md).
 
@@ -24,16 +23,15 @@ See [Lyrics](../features/lyrics.md).
 
 Open the full player from the playback bar. Equalizer and related sound tools live under the player menu (membership).
 
-:::caution TODO screenshot: desktop — full player (now playing)
-:::
+![Full player](/img/docs/features/desktop-full-player.jpg)
 
 ![Player menu with Equalizer](/img/docs/features/desktop-equalizer-menu.jpg)
 
 See [Player](../features/player.md).
 
-### Smart playlists
+### Playlists
 
-Create server playlists in the sidebar, or use smart playlist JSON rules on supported clients.
+Create server playlists from the sidebar. Supported clients can also use smart playlist JSON rules.
 
 ![New playlist](/img/docs/features/desktop-playlist-editor.jpg)
 

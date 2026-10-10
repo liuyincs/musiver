@@ -5,7 +5,7 @@ sidebar_position: 1
 
 | Feature | Availability |
 | --- | --- |
-| Desktop / floating lyrics | Windows and macOS — membership |
+| Desktop / floating lyrics | Windows and macOS — membership (not on Linux) |
 | Mini player | Windows / macOS — membership |
 | Global playback shortcuts | Installed Windows / Linux / macOS client (not Web); off by default |
 | Purchase | Windows / Linux: Alipay; macOS: App Store |
@@ -14,7 +14,7 @@ sidebar_position: 1
 
 Defaults below are from the Windows / Linux (Tauri) desktop client. In-app shortcuts work when the window is focused and you are not typing in a field. Global shortcuts need Settings → enable global shortcuts (off by default on Windows / Linux).
 
-macOS uses a separate native client; its in-app and global shortcut map is not documented here from verified source. Prefer the Shortcuts page in that client.
+For macOS shortcuts, open **Settings → Shortcuts** in the macOS app.
 
 | Action | Windows / Linux (in-app) | Global (Windows / Linux) |
 | --- | --- | --- |

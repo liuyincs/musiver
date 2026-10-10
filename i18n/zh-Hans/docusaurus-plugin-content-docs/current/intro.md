@@ -9,8 +9,6 @@ sidebar_position: 1
 
 ![音流桌面欢迎页](/img/docs/zh-Hans/getting-started/desktop-welcome.jpg)
 
-![支持的平台](/img/docs/illustrations/zh-Hans/platforms.svg)
-
 ## 支持平台
 
 iOS · iPadOS · macOS · tvOS · Android · Android TV · Windows · Linux · HarmonyOS · Web（自托管 Docker）
