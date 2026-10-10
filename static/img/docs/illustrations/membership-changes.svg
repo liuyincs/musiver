@@ -8,8 +8,8 @@
   <text x="780" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#24306a">New member extras</text>
   <g font-family="system-ui,sans-serif" font-size="14" fill="#333">
     <text x="60" y="120">DLNA cast</text>
-    <text x="60" y="150">Browse + stream all songs</text>
-    <text x="60" y="180">One server</text>
+    <text x="60" y="150">Multi-route switching</text>
+    <text x="60" y="180">Browse + stream · one server</text>
     <text x="360" y="120">Downloads / auto-download</text>
     <text x="360" y="150">Multi-server (2+)</text>
     <text x="360" y="180">ReplayGain · CarPlay</text>

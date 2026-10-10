@@ -18,7 +18,7 @@ Lyrics can come from the file, the server, or a [custom API](../settings/custom-
 
 ![Lyrics preferences](/img/docs/features/desktop-lyrics-prefs.jpg)
 
-:::caution TODO screenshot: Windows — floating / desktop lyrics
+:::caution TODO screenshot: Windows / macOS — floating / desktop lyrics
 :::
 :::caution TODO screenshot: Android — status bar lyrics
 :::

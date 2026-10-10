@@ -18,7 +18,7 @@ sidebar_position: 3
 
 ![歌词偏好](/img/docs/features/desktop-lyrics-prefs.jpg)
 
-:::caution TODO screenshot: Windows — 悬浮歌词
+:::caution TODO screenshot: Windows / macOS — 悬浮歌词
 :::
 :::caution TODO screenshot: Android — 状态栏歌词
 :::

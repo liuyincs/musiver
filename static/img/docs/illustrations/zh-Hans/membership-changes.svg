@@ -8,8 +8,8 @@
   <text x="780" y="80" text-anchor="middle" font-family="Georgia,'Noto Serif SC',serif" font-size="20" fill="#24306a">新增会员项</text>
   <g font-family="system-ui,'Noto Sans SC',sans-serif" font-size="14" fill="#333">
     <text x="60" y="120">DLNA 投屏</text>
-    <text x="60" y="150">浏览 + 在线播放全部</text>
-    <text x="60" y="180">一台服务器</text>
+    <text x="60" y="150">多线路自动切换</text>
+    <text x="60" y="180">浏览播放 · 一台服务器</text>
     <text x="360" y="120">下载 / 自动下载</text>
     <text x="360" y="150">多服务器（第 2 台起）</text>
     <text x="360" y="180">回放增益 · CarPlay</text>

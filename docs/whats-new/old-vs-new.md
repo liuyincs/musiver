@@ -13,7 +13,7 @@ Comparison of StreamMusic (old) and Musiver (new).
 | Platforms | Android, iOS, macOS, Windows | + tvOS, Android TV, Linux, HarmonyOS, Web |
 | Servers | Subsonic/Navidrome, Emby, Jellyfin, Audio Station, Plex | + Audiobookshelf; Tag My Audio (experimental) |
 | Sign-in | Password / OTP (Plex, Audio Station) | Password, API key, 2FA, Plex OAuth, Plex Home switch |
-| Network | Backup routes (member) | Multi-route auto failover, LAN discovery, HTTP proxy |
+| Network | Backup routes (member) | Multi-route auto switching (free), LAN discovery, HTTP proxy |
 | Sync / library mode | Library mode + direct mode | Direct mode only (online reads from the server); library mode not implemented yet |
 | Lyrics | Display/edit + desktop/status/PiP overlays | Word-by-word, immersive, notification/floating, built-in search |
 | Sound | ReplayGain | Lossless/transcode tiers, equalizer, ReplayGain, format filters |

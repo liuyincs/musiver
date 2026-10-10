@@ -5,23 +5,25 @@ sidebar_position: 1
 
 | 功能 | 可用性 |
 | --- | --- |
-| 桌面 / 悬浮歌词 | Windows — 会员；macOS 是否提供请以客户端为准 |
+| 桌面 / 悬浮歌词 | Windows 与 macOS — 会员 |
 | 迷你播放器 | Windows / macOS — 会员 |
-| 全局播放快捷键 | 已安装的 Windows / Linux 客户端（非 Web） |
-| 购买 | 桌面支付宝（Windows / Linux）；macOS 走 App Store |
+| 全局播放快捷键 | 已安装的 Windows / Linux / macOS 客户端（非 Web）；默认关闭 |
+| 购买 | Windows / Linux：支付宝；macOS：App Store |
 
-### 快捷键（Windows / Linux 默认）
+### 快捷键
 
-| 操作 | 快捷键 |
-| --- | --- |
-| 播放 / 暂停 | Space |
-| 上一首 / 下一首 | Ctrl + Left / Right |
-| 音量 | Ctrl + Up / Down |
-| 收藏 | Ctrl + L |
+默认值来自音流桌面客户端。应用内快捷键在窗口聚焦且未在输入框中时生效。全局快捷键需在设置中开启（默认关闭）。
 
-全局快捷键会加上 Shift（例如 Ctrl+Shift+Space），默认关闭。macOS 使用系统与菜单快捷键。
+| 操作 | Windows / Linux（应用内） | macOS（应用内） | 全局（各桌面端） |
+| --- | --- | --- | --- |
+| 播放 / 暂停 | Space | Space | Ctrl+Shift+Space / ⌘⇧Space |
+| 上一首 | Ctrl+← | ⌘← | Ctrl+Shift+← / ⌘⇧← |
+| 下一首 | Ctrl+→ | ⌘→ | Ctrl+Shift+→ / ⌘⇧→ |
+| 音量加 | Ctrl+↑ | ⌘↑ | Ctrl+Shift+↑ / ⌘⇧↑ |
+| 音量减 | Ctrl+↓ | ⌘↓ | Ctrl+Shift+↓ / ⌘⇧↓ |
+| 收藏 | Ctrl+L | ⌘L | Ctrl+Shift+L / ⌘⇧L |
 
-:::caution TODO screenshot: Windows — 迷你播放器
+:::caution TODO screenshot: Windows / macOS — 迷你播放器
 :::
-:::caution TODO screenshot: Windows — 悬浮歌词
+:::caution TODO screenshot: Windows / macOS — 悬浮歌词
 :::

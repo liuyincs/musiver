@@ -13,7 +13,7 @@ sidebar_position: 2
 | 平台 | Android、iOS、macOS、Windows | + tvOS、Android TV、Linux、鸿蒙、Web |
 | 服务器 | Subsonic/Navidrome、Emby、Jellyfin、Audio Station、Plex | + Audiobookshelf；Tag My Audio（实验） |
 | 登录 | 密码 / OTP（Plex、Audio Station） | 密码、API 密钥、双因素、Plex OAuth、Plex Home 切换 |
-| 网络 | 备用线路（会员） | 多线路自动切换、局域网发现、HTTP 代理 |
+| 网络 | 备用线路（会员） | 多线路自动切换（免费）、局域网发现、HTTP 代理 |
 | 同步 / 媒体库模式 | 媒体库模式 + 直连模式 | 目前只有直连（在线读取服务器）；媒体库模式尚未实现 |
 | 歌词 | 显示编辑 + 桌面 / 状态栏 / 画中画 | 逐词、沉浸式、通知栏 / 悬浮、内置搜索 |
 | 音质 | 回放增益 | 无损 / 转码、均衡器、回放增益、格式筛选 |

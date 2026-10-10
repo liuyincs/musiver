@@ -5,23 +5,25 @@ sidebar_position: 1
 
 | Feature | Availability |
 | --- | --- |
-| Desktop / floating lyrics | Windows — membership; check macOS client for native support |
+| Desktop / floating lyrics | Windows and macOS — membership |
 | Mini player | Windows / macOS — membership |
-| Global playback shortcuts | Installed Windows/Linux client (not Web) |
-| Purchase | Desktop Alipay (Windows / Linux); macOS via App Store |
+| Global playback shortcuts | Installed Windows / Linux / macOS client (not Web); off by default |
+| Purchase | Windows / Linux: Alipay; macOS: App Store |
 
-### Keyboard (Windows / Linux defaults)
+### Keyboard shortcuts
 
-| Action | Shortcut |
-| --- | --- |
-| Play / pause | Space |
-| Previous / next | Ctrl + Left / Right |
-| Volume | Ctrl + Up / Down |
-| Favorite | Ctrl + L |
+Defaults from the Musiver desktop client. In-app shortcuts work when the window is focused and you are not typing in a field. Global shortcuts need Settings → enable global shortcuts (off by default).
 
-Global shortcuts add Shift (e.g. Ctrl+Shift+Space) and are off by default. macOS uses its own menu / system shortcuts.
+| Action | Windows / Linux (in-app) | macOS (in-app) | Global (all desktop) |
+| --- | --- | --- | --- |
+| Play / pause | Space | Space | Ctrl+Shift+Space / ⌘⇧Space |
+| Previous | Ctrl+← | ⌘← | Ctrl+Shift+← / ⌘⇧← |
+| Next | Ctrl+→ | ⌘→ | Ctrl+Shift+→ / ⌘⇧→ |
+| Volume up | Ctrl+↑ | ⌘↑ | Ctrl+Shift+↑ / ⌘⇧↑ |
+| Volume down | Ctrl+↓ | ⌘↓ | Ctrl+Shift+↓ / ⌘⇧↓ |
+| Favorite | Ctrl+L | ⌘L | Ctrl+Shift+L / ⌘⇧L |
 
-:::caution TODO screenshot: Windows — mini player
+:::caution TODO screenshot: Windows / macOS — mini player
 :::
-:::caution TODO screenshot: Windows — floating lyrics
+:::caution TODO screenshot: Windows / macOS — floating lyrics
 :::

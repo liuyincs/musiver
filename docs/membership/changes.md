@@ -10,10 +10,10 @@ sidebar_position: 2
 | Item | Old | New |
 | --- | --- | --- |
 | DLNA | Member | Free |
+| Multi-route / backup routes | Member “backup route” | Free (multi-route auto switching) |
 | Player bar lyrics | — | Free (not a membership feature) |
 | Browse + stream entire library | Free | Free (unchanged) |
 | One server | Free | Free (unchanged) |
-| Multi-route / backup routes | Member “backup route” | Not listed in the new membership catalog |
 
 ## Former free items (old → new)
 
@@ -22,11 +22,11 @@ What happened to capabilities that were free in StreamMusic:
 | Old free item | In Musiver |
 | --- | --- |
 | QR sync between devices | Not available as an import path into Musiver |
-| Listen-and-save (play-and-cache) | Streaming cache in Settings → Storage (separate from formal offline download) |
-| Global hotkeys | Available on installed Windows / Linux desktop clients (off by default) |
-| Enhanced gestures | Absorbed into normal touch / player controls where the platform offers them |
-| Custom API | Still in Settings → Custom API (lyrics and related sources) |
-| Home-screen widgets | Free where the platform offers them (see [Widgets](../devices/widgets.md)) |
+| Listen-and-save (play-and-cache) | Streaming cache in Settings → Storage (still free; separate from formal offline download) |
+| Global hotkeys | Still free on installed desktop clients (off by default) |
+| Enhanced gestures | Still free where the platform offers touch / player gestures |
+| Custom API | Still free in Settings → Custom API |
+| Home-screen widgets | Still free where the platform offers them (see [Widgets](../devices/widgets.md)) |
 
 ## Still membership (with adjustments)
 
@@ -38,7 +38,7 @@ What happened to capabilities that were free in StreamMusic:
 | Theme / appearance extras | Old “theme switch” maps to accent color and transparent theme (member) |
 | ReplayGain | Still member |
 | CarPlay / Shortcuts / mini player | Still member where the platform offers them |
-| Desktop / status / PiP lyrics | Still member where offered |
+| Desktop / status / PiP lyrics | Still member where offered (floating lyrics on Windows and macOS) |
 
 ## New membership extras
 

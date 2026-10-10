@@ -14,8 +14,12 @@ These stay available without purchase:
 - Browse the library
 - Stream all songs online
 - Connect one server
-
-DLNA casting is free in the new version.
+- DLNA casting
+- Multi-route auto switching (formerly “backup routes”)
+- Sleep timer
+- Lyrics view and search in the player
+- Player bar lyrics
+- Global hotkeys, custom API, and widgets where the platform offers them
 
 ## Membership benefits
 
@@ -52,13 +56,11 @@ Use the in-app membership page as the source of truth. Grouped names below match
 
 | Benefit | Notes |
 | --- | --- |
-| Desktop notification / floating lyrics / mini player | Windows (floating lyrics); mini player on Windows / macOS |
+| Desktop notification / floating lyrics / mini player | Floating lyrics on Windows and macOS; mini player on Windows / macOS |
 | Desktop player dynamic background | Free on desktop (not in the desktop member catalog) |
 | tvOS downloads | Not offered |
 | Android TV | Keeps download manager; no Alipay purchase UI — restore on phone |
 | Web | No membership purchase UI |
 | Transparent theme / app icon / PiP / CarPlay | Also depends on OS / device support |
-
-Player bar lyrics (lyrics shown in the playback bar) are free, not a membership feature.
 
 See also the [pricing page](/pricing).
