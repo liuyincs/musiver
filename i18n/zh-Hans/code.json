@@ -609,7 +609,7 @@
     "message": "如何购买和退款？"
   },
   "pricing.faq.a2": {
-    "message": "购买渠道：\n• iOS / Apple 平台：App Store。3 个月内通过 Apple 申请退款（不受开发者控制）。\n• Android（国内/直接分发）：支付宝。6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Android（Play）：Google Play Billing。\n• 鸿蒙：华为 IAP。\n• Windows / Linux 桌面：支付宝。\n• Android TV：不发起应用内支付——请在手机购买后恢复。\n• Web：无购买界面。\n\n购买后请绑定邮箱以便在其他设备恢复（绑定后不可修改，请勿使用临时邮箱）。旧版音流买家须先在旧版绑定邮箱。"
+    "message": "购买渠道：\n• iOS / Apple 平台：App Store。3 个月内通过 Apple 申请退款（不受开发者控制）。\n• Android（Google Play）：3 个月内通过 Google Play 申请退款（不受开发者控制），规则与 App Store 相同。\n• 鸿蒙（华为 IAP）：3 个月内通过华为申请退款（不受开发者控制），规则与 App Store 相同。\n• Android（国内/直接分发）：支付宝。6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Windows / Linux 桌面：支付宝。\n• Android TV：不发起应用内支付——请在手机购买后恢复。\n• Web：无购买界面。\n\n购买后请绑定邮箱以便在其他设备恢复（绑定后不可修改，请勿使用临时邮箱）。旧版音流买家须先在旧版绑定邮箱。"
   },
   "pricing.faq.q3": {
     "message": "是否需要联网？"
@@ -2257,5 +2257,8 @@
   },
   "pricing.docs.link": {
     "message": "打开会员文档 →"
+  },
+  "pricing.features.lyrics.playbar": {
+    "message": "播放条歌词"
   }
 }

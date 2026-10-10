@@ -27,4 +27,4 @@ Lyrics can come from the file, the server, or a [custom API](../settings/custom-
 
 ## Membership / platform
 
-Inline player lyrics viewing/search are generally available; **immersive, notification, status bar, floating, and PiP** lyrics are membership-gated per [plans](../membership/plans.md). [TBC: player bar lyrics membership — listed in README, not in confirmed catalog.]
+Lyrics view/search in the player and **player bar lyrics** are **free**. **Immersive, notification, status bar, floating, and PiP** lyrics are membership-gated per [plans](../membership/plans.md).

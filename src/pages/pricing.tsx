@@ -46,6 +46,7 @@ const features: { category: ReactNode; items: FeatureItem[] }[] = [
     category: <Translate id="pricing.features.lyrics.category">Lyrics</Translate>,
     items: [
       { name: <Translate id="pricing.features.lyrics.view">Lyrics view & search</Translate>, free: true, pro: true },
+      { name: <Translate id="pricing.features.lyrics.playbar">Player bar lyrics</Translate>, free: true, pro: true },
       { name: <Translate id="pricing.features.lyrics.immersive">Immersive lyrics</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.lyrics.notification">Notification lyrics</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.lyrics.statusBar">Status bar lyrics</Translate>, free: false, pro: true },
@@ -217,7 +218,7 @@ export default function Pricing() {
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a2">
                   {
-                    'Channels:\n• iOS / Apple platforms: App Store. Refund via Apple within 3 months (not controlled by the developer).\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Android (Play): Google Play Billing.\n• HarmonyOS: Huawei IAP.\n• Windows / Linux desktop: Alipay.\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). Legacy StreamMusic buyers must bind email in the old app first.'
+                    'Channels:\n• iOS / Apple platforms: App Store. Refund via Apple within 3 months (not controlled by the developer).\n• Android (Google Play): Refund via Google Play within 3 months (not controlled by the developer), same rule as the App Store.\n• HarmonyOS (Huawei IAP): Refund via Huawei within 3 months (not controlled by the developer), same rule as the App Store.\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay.\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). Legacy StreamMusic buyers must bind email in the old app first.'
                   }
                 </Translate>
               </div>

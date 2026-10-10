@@ -44,9 +44,9 @@ sidebar_position: 3
 与旧版相同：
 
 - **iOS / App Store：**购买后 **3** 个月内通过 Apple 申请退款（不受开发者控制）。
+- **Android（Google Play）：**购买后 **3** 个月内通过 Google Play 申请退款（不受开发者控制），规则与 App Store 相同。
+- **鸿蒙（华为 IAP）：**购买后 **3** 个月内通过华为申请退款（不受开发者控制），规则与 App Store 相同。
 - **安卓支付宝：**购买后 **6** 个月内联系 `aqzscn@qq.com`，邮件需含支付宝订单号。
-
-[待确认: Google Play / 华为 IAP 的对外退款说明是否需单独表述（通常遵循各商店政策）。]
 
 ## 联网验证
 

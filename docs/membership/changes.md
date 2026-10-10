@@ -10,6 +10,7 @@ sidebar_position: 2
 | Item | Old | New |
 | --- | --- | --- |
 | DLNA | Member | **Free** |
+| Player bar lyrics | — | **Free** (not a membership feature) |
 | Browse + stream entire library | Free | Free (unchanged) |
 | One server | Free | Free (unchanged) |
 | Multi-route / backup routes | Member “backup route” | Multi-route failover is part of core networking (not listed as a paid benefit) |
@@ -29,15 +30,15 @@ sidebar_position: 2
 
 Equalizer, music roaming, immersive lyrics, notification lyrics, vinyl cover, player dynamic background (mobile/TV), accent color, transparent theme, app icon (iOS).
 
-## Removed or not carried over as member perks
+## Removed in the new version
 
-These appeared in the old comparison table but are **not** in the new benefit catalog:
+- **Custom content** — removed; it will not return in Musiver.
 
-- Custom content
-- Long-audio preference (as a member toggle)
+## Not available (library mode not implemented)
+
+These old member perks depended on **library mode**, which is **not implemented** yet:
+
 - Folder view (library mode)
 - Duplicate song detection (library mode)
 
-:::note
-Library mode itself is **not implemented** yet, so folder view / duplicate detection from that mode are unavailable. [TBC: whether “custom content” returns later.]
-:::
+Long-audio preference as a separate member toggle is also gone; use [spoken-audio / library-type](../features/spoken-audio.md) workflows instead.

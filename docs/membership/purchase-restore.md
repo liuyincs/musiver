@@ -44,9 +44,9 @@ Use **Restore purchase** in an installed client:
 Same rules as the old version:
 
 - **iOS / App Store:** request a refund through Apple within **3 months** (not controlled by the developer).
+- **Android (Google Play):** request a refund through Google Play within **3 months** (not controlled by the developer), same rule as the App Store.
+- **HarmonyOS (Huawei IAP):** request a refund through Huawei within **3 months** (not controlled by the developer), same rule as the App Store.
 - **Android Alipay:** contact `aqzscn@qq.com` within **6 months** with the Alipay order number.
-
-[TBC: Google Play / Huawei IAP refund windows follow each store’s policy — confirm public wording if needed.]
 
 ## Online verification
 

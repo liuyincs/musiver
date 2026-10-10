@@ -59,8 +59,6 @@ Authoritative catalog: product `membership-benefits.md` and each client’s `Mem
 | Web | No membership purchase UI |
 | Transparent theme / app icon / PiP / CarPlay | Extra capability gates (OS / device) |
 
-:::note [TBC: player bar lyrics]
-The app README lists “player bar lyrics” as a membership feature, but it is **not** in the confirmed benefit catalog. Treat the catalog + in-app membership screen as authoritative until clarified.
-:::
+**Player bar lyrics** (lyrics shown in the playback bar) are **free**, not a membership feature.
 
 See also the [pricing page](/pricing).
