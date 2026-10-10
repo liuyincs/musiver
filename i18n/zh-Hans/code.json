@@ -1,33 +1,33 @@
 {
   "homepage.features.crossPlatform.title": {
-    "message": "九个平台，一个曲库"
+    "message": "九个平台"
   },
   "homepage.features.crossPlatform.desc": {
-    "message": "iOS、Android、Android TV、macOS、tvOS、Windows、Linux、鸿蒙，还有 Web。换一台设备，还是你熟悉的那座曲库。"
+    "message": "iOS、Android、Android TV、macOS、tvOS、Windows、Linux、鸿蒙和 Web。设置一次服务器，各处都能接着听。"
   },
   "homepage.features.multiSource.title": {
-    "message": "在家出门，自动换线"
+    "message": "多服务器，多线路"
   },
   "homepage.features.multiSource.desc": {
-    "message": "给服务器配好内网和外网地址，音流会自己挑能连上的那条。多台服务器也能同时接入。"
+    "message": "同时连接多台服务器。给一台服务器配好内网和外网地址，音流会自动选能连上的那条。歌单可以在服务器之间搬运。"
   },
   "homepage.features.quality.title": {
-    "message": "每个字都踩在拍子上"
+    "message": "音质和歌词"
   },
   "homepage.features.quality.desc": {
-    "message": "无损直出，网络吃紧时切到转码。逐词歌词随旋律一个字一个字亮起，全屏时整面屏幕都是歌词。"
+    "message": "支持无损播放，网络不好时可以改用转码音质。逐词歌词跟着进度一个字一个字亮起，也可以全屏沉浸式显示。"
   },
   "homepage.meta.title": {
-    "message": "音流：你的音乐，不止一处"
+    "message": "音流：连接你的音乐服务器"
   },
   "homepage.hero.title": {
-    "message": "你的音乐，不止一处"
+    "message": "你的音乐库，在每台设备上"
   },
   "homepage.hero.subtitle": {
-    "message": "把 NAS 里的整座曲库带到手机、电脑、电视和浏览器。Navidrome、Subsonic、Jellyfin、Audiobookshelf，连上就能听。"
+    "message": "音流连接你自己的音乐服务器，Navidrome、Subsonic、Jellyfin、Audiobookshelf 都能用。在手机、电脑、电视和网页上打开，看到的都是同一个资料库。"
   },
   "homepage.hero.cta.download": {
-    "message": "免费下载"
+    "message": "下载"
   },
   "homepage.hero.cta.start": {
     "message": "快速开始"
@@ -39,7 +39,7 @@
     "message": "客厅电视"
   },
   "homepage.devices.tv.subtitle": {
-    "message": "正在播放：Soft Horizon"
+    "message": "正在播放：Quiet Orbit"
   },
   "homepage.devices.laptop.alt": {
     "message": "笔记本界面"
@@ -57,13 +57,13 @@
     "message": "Musiver 设备预览图"
   },
   "homepage.features.title": {
-    "message": "为什么是音流"
+    "message": "主要功能"
   },
   "homepage.membership.text": {
-    "message": "免费版就能在线播放整座曲库。想要更多，一次买断 ¥58，7 台设备通用，后续更新都包含。价格以付款时为准。"
+    "message": "免费版可连接一台服务器，在线播放全部歌曲。会员一次买断 ¥58，最多 7 台设备使用，包含后续更新。价格以付款时为准。"
   },
   "homepage.membership.link": {
-    "message": "看看会员有什么"
+    "message": "价格"
   },
   "homepage.footer": {
     "message": "© 2026 音流。保留所有权利。"

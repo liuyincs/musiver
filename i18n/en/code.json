@@ -1,33 +1,33 @@
 {
   "homepage.features.crossPlatform.title": {
-    "message": "Nine platforms, one library"
+    "message": "Nine platforms"
   },
   "homepage.features.crossPlatform.desc": {
-    "message": "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS and Web. Switch devices and it's still your library."
+    "message": "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS and Web. Set up your server once and pick up where you left off anywhere."
   },
   "homepage.features.multiSource.title": {
-    "message": "Home or away, it switches for you"
+    "message": "Many servers, many routes"
   },
   "homepage.features.multiSource.desc": {
-    "message": "Give a server its home and remote addresses and Musiver picks the one that connects. Several servers can be connected at once."
+    "message": "Connect several servers at once. Give a server both a home and a remote address and Musiver picks the one that works. Playlists can move between servers."
   },
   "homepage.features.quality.title": {
-    "message": "Every word on the beat"
+    "message": "Sound and lyrics"
   },
   "homepage.features.quality.desc": {
-    "message": "Lossless when you can, transcoded when the network is tight. Word-by-word lyrics light up with the melody, and fill the screen in immersive mode."
+    "message": "Lossless playback, with transcoded quality when the network is slow. Word-by-word lyrics light up as the song plays, or fill the screen in immersive mode."
   },
   "homepage.meta.title": {
-    "message": "Musiver: your music, everywhere you are"
+    "message": "Musiver: connect your music server"
   },
   "homepage.hero.title": {
-    "message": "Your music, everywhere you are"
+    "message": "Your music library, on every device"
   },
   "homepage.hero.subtitle": {
-    "message": "Bring the whole library on your NAS to your phone, computer, TV and browser. Navidrome, Subsonic, Jellyfin, Audiobookshelf: connect and play."
+    "message": "Musiver connects to the music server you already run: Navidrome, Subsonic, Jellyfin, Audiobookshelf and more. Open it on your phone, computer, TV or browser and it's the same library."
   },
   "homepage.hero.cta.download": {
-    "message": "Download free"
+    "message": "Download"
   },
   "homepage.hero.cta.start": {
     "message": "Quick start"
@@ -39,7 +39,7 @@
     "message": "Living Room TV"
   },
   "homepage.devices.tv.subtitle": {
-    "message": "Now Playing: Soft Horizon"
+    "message": "Now Playing: Quiet Orbit"
   },
   "homepage.devices.laptop.alt": {
     "message": "Laptop Interface"
@@ -57,13 +57,13 @@
     "message": "Musiver devices preview"
   },
   "homepage.features.title": {
-    "message": "Why Musiver"
+    "message": "Features"
   },
   "homepage.membership.text": {
-    "message": "The free version streams your whole library. Want more? A one-time ¥58 covers 7 devices and every future update. The price at checkout applies."
+    "message": "The free version connects one server and streams your whole library. Membership is a one-time ¥58, for up to 7 devices, with future updates included. The price shown at checkout applies."
   },
   "homepage.membership.link": {
-    "message": "See what membership adds"
+    "message": "Pricing"
   },
   "homepage.footer": {
     "message": "© 2026 Musiver. All rights reserved."

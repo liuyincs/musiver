@@ -9,36 +9,36 @@ const features = [
     num: "01",
     title: translate({
       id: "homepage.features.crossPlatform.title",
-      message: "Nine platforms, one library",
+      message: "Nine platforms",
     }),
     desc: translate({
       id: "homepage.features.crossPlatform.desc",
       message:
-        "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS and Web. Switch devices and it's still your library.",
+        "iOS, Android, Android TV, macOS, tvOS, Windows, Linux, HarmonyOS and Web. Set up your server once and pick up where you left off anywhere.",
     }),
   },
   {
     num: "02",
     title: translate({
       id: "homepage.features.multiSource.title",
-      message: "Home or away, it switches for you",
+      message: "Many servers, many routes",
     }),
     desc: translate({
       id: "homepage.features.multiSource.desc",
       message:
-        "Give a server its home and remote addresses and Musiver picks the one that connects. Several servers can be connected at once.",
+        "Connect several servers at once. Give a server both a home and a remote address and Musiver picks the one that works. Playlists can move between servers.",
     }),
   },
   {
     num: "03",
     title: translate({
       id: "homepage.features.quality.title",
-      message: "Every word on the beat",
+      message: "Sound and lyrics",
     }),
     desc: translate({
       id: "homepage.features.quality.desc",
       message:
-        "Lossless when you can, transcoded when the network is tight. Word-by-word lyrics light up with the melody, and fill the screen in immersive mode.",
+        "Lossless playback, with transcoded quality when the network is slow. Word-by-word lyrics light up as the song plays, or fill the screen in immersive mode.",
     }),
   },
 ];
@@ -48,7 +48,7 @@ export default function Home(): ReactNode {
     <Layout
       title={translate({
         id: "homepage.meta.title",
-        message: "Musiver: your music, everywhere you are",
+        message: "Musiver: connect your music server",
       })}>
       <div className={s.wrapper}>
         <div className={s.guidelines}>
@@ -62,22 +62,20 @@ export default function Home(): ReactNode {
             <div className={s.colophon}>Musiver</div>
             <h1 className={s.title}>
               <Translate id="homepage.hero.title">
-                Your music, everywhere you are
+                Your music library, on every device
               </Translate>
             </h1>
             <div className={s.divider} />
             <p className={s.subtitle}>
               <Translate id="homepage.hero.subtitle">
-                Bring the whole library on your NAS to your phone, computer, TV
-                and browser. Navidrome, Subsonic, Jellyfin, Audiobookshelf:
-                connect and play.
+                Musiver connects to the music server you already run: Navidrome,
+                Subsonic, Jellyfin, Audiobookshelf and more. Open it on your
+                phone, computer, TV or browser and it's the same library.
               </Translate>
             </p>
             <div className={s.buttons}>
               <Link className={s.btnPrimary} to="/download">
-                <Translate id="homepage.hero.cta.download">
-                  Download free
-                </Translate>
+                <Translate id="homepage.hero.cta.download">Download</Translate>
               </Link>
               <Link className={s.btnSecondary} to="/docs/intro">
                 <Translate id="homepage.hero.cta.start">Quick start</Translate>
@@ -100,7 +98,7 @@ export default function Home(): ReactNode {
         <section className={s.features}>
           <div className={s.featuresHeader}>
             <span className={s.featuresLabel}>
-              <Translate id="homepage.features.title">Why Musiver</Translate>
+              <Translate id="homepage.features.title">Features</Translate>
             </span>
             <div className={s.featuresLine} />
           </div>
@@ -118,14 +116,12 @@ export default function Home(): ReactNode {
         <section className={s.membership}>
           <p className={s.membershipText}>
             <Translate id="homepage.membership.text">
-              The free version streams your whole library. Want more? A one-time
-              ¥58 covers 7 devices and every future update. The price at
-              checkout applies.
+              The free version connects one server and streams your whole
+              library. Membership is a one-time ¥58, for up to 7 devices, with
+              future updates included. The price shown at checkout applies.
             </Translate>{" "}
             <Link className={s.membershipLink} to="/pricing">
-              <Translate id="homepage.membership.link">
-                See what membership adds
-              </Translate>
+              <Translate id="homepage.membership.link">Pricing</Translate>
             </Link>
           </p>
         </section>
