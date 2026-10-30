@@ -11,8 +11,3 @@ Musiver ships TV UIs for **Android TV** and **Apple TV (tvOS)**.
 4. Immersive lyrics can appear after idle time during lyric playback.
 
 Neither Android TV nor tvOS supports offline download or auto-download. Android TV has no in-app purchase UI — buy on a phone, then restore.
-
-:::caution TODO screenshot: Android TV — home / now playing
-:::
-:::caution TODO screenshot: Apple TV — home / immersive lyrics
-:::

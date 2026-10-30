@@ -7,7 +7,7 @@ sidebar_position: 7
 
 Light/dark appearance, accent color, transparent theme, vinyl cover, and player background options.
 
-![Personalization / accent color](/img/docs/features/desktop-appearance.jpg)
+![Personalization / accent color](/img/docs/features/iphone-personalization.png)
 
 ## How to use
 
@@ -15,9 +15,6 @@ Light/dark appearance, accent color, transparent theme, vinyl cover, and player 
 2. Pick appearance mode and accent color.
 3. Enable vinyl cover or dynamic player background from player preferences / personalization.
 4. Transparent theme (and custom background) where the OS supports it.
-
-:::caution TODO screenshot: desktop — vinyl cover in player
-:::
 
 ## Membership / platform
 

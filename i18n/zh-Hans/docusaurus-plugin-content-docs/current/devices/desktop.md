@@ -24,8 +24,3 @@ macOS 版快捷键由 macOS 客户端提供，不在下表（Windows / Linux）�
 | 音量加 | Ctrl+↑ | Ctrl+Shift+↑ |
 | 音量减 | Ctrl+↓ | Ctrl+Shift+↓ |
 | 收藏 | Ctrl+L | Ctrl+Shift+L |
-
-:::caution TODO screenshot: Windows / macOS — 迷你播放器
-:::
-:::caution TODO screenshot: Windows / macOS — 悬浮歌词
-:::

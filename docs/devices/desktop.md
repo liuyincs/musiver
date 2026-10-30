@@ -24,8 +24,3 @@ macOS shortcuts are provided by the macOS client and are not listed in the Windo
 | Volume up | Ctrl+↑ | Ctrl+Shift+↑ |
 | Volume down | Ctrl+↓ | Ctrl+Shift+↓ |
 | Favorite | Ctrl+L | Ctrl+Shift+L |
-
-:::caution TODO screenshot: Windows / macOS — mini player
-:::
-:::caution TODO screenshot: Windows / macOS — floating lyrics
-:::

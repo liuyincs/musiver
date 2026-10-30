@@ -14,9 +14,6 @@ Spoken-audio workflows for Audiobookshelf (and library-type handling on other se
 3. Use shelf views, continue listening, and chapter / skip controls when provided.
 4. Adjust speed — Musiver can remember it for later sessions.
 
-:::caution TODO screenshot: desktop — Audiobookshelf shelf
-:::
-
 ## Membership / platform
 
 Spoken-audio browsing/playback is not sold as a separate membership tier. Old “long-audio preference” as a paid toggle is not in the new catalog.

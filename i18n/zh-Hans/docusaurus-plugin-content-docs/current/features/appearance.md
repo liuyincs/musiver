@@ -7,7 +7,7 @@ sidebar_position: 7
 
 浅色 / 深色外观、主题色、透明主题、黑胶封面，以及播放页背景选项。
 
-![个性化 / 主题色](/img/docs/zh-Hans/features/desktop-appearance.jpg)
+![个性化 / 主题色](/img/docs/zh-Hans/features/iphone-personalization.png)
 
 ## 怎么用
 
@@ -15,9 +15,6 @@ sidebar_position: 7
 2. 选择外观模式与主题色。
 3. 在播放偏好或个性化中开启黑胶封面、播放页动态背景。
 4. 系统支持时，可使用透明主题与自定义背景图。
-
-:::caution TODO screenshot: 桌面 — 播放页黑胶封面
-:::
 
 ## 平台 / 会员
 
