@@ -7,7 +7,7 @@ sidebar_position: 5
 
 Manual downloads, auto-download rules, and stream cache for browsing previously cached items offline. The Web client cannot download — use the app or desktop client.
 
-![Download manager](/img/docs/features/desktop-downloads.jpg)
+![Download manager](/img/docs/features/iphone-downloads.png)
 
 ## How to use
 

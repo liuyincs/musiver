@@ -9,13 +9,13 @@
     "message": "Home or away, it switches for you"
   },
   "homepage.features.multiSource.desc": {
-    "message": "Give a server its home and remote addresses and Musiver picks the one that connects. Several servers can be connected at once."
+    "message": "Give a server its home and remote addresses and Musiver picks the one that connects."
   },
   "homepage.features.quality.title": {
     "message": "Every word on the beat"
   },
   "homepage.features.quality.desc": {
-    "message": "Lossless when you can, transcoded when the network is tight. Word-by-word lyrics light up with the melody, and fill the screen in immersive mode."
+    "message": "Word-by-word lyrics light up with the melody, and fill the screen in immersive mode."
   },
   "homepage.meta.title": {
     "message": "Musiver: your music, everywhere you are"
@@ -24,7 +24,7 @@
     "message": "Your music, everywhere you are"
   },
   "homepage.hero.subtitle": {
-    "message": "Bring the whole library on your NAS to your phone, computer, TV and browser. Navidrome, Subsonic, Jellyfin, Audiobookshelf: connect and play."
+    "message": "Bring the whole library on your NAS to your phone, computer, TV and browser. Works with a range of music services: connect and play."
   },
   "homepage.hero.cta.download": {
     "message": "Download free"
@@ -60,7 +60,7 @@
     "message": "Why Musiver"
   },
   "homepage.membership.text": {
-    "message": "The free version streams your whole library. Want more? A one-time ¥58 covers 7 devices and every future update. The price at checkout applies."
+    "message": "The free version streams your whole library. Membership is a one-time purchase — no strings attached."
   },
   "homepage.membership.link": {
     "message": "See what membership adds"
@@ -552,10 +552,10 @@
     "message": "Pricing"
   },
   "pricing.header.title": {
-    "message": "Free listening. Lifetime unlock."
+    "message": "Choose your plan"
   },
   "pricing.header.subtitle": {
-    "message": "Browse and stream your library for free on one server. Unlock sound, lyrics overlays, look options, downloads, and more with a one-time lifetime membership."
+    "message": "Connect your server and explore freely. Membership unlocks sound, look options, and more."
   },
   "pricing.plan.free.name": {
     "message": "Free"
@@ -567,7 +567,7 @@
     "message": "Forever"
   },
   "pricing.plan.free.desc": {
-    "message": "Browse the library, stream every song online, and connect one server. Includes DLNA casting, multi-route auto switching, global hotkeys, and custom API."
+    "message": "Browse the library, stream every song online, and connect one server. Includes multi-route auto switching, global hotkeys, and custom API."
   },
   "pricing.plan.free.cta": {
     "message": "Download for Free"
@@ -582,7 +582,7 @@
     "message": "One-time · price at payment prevails"
   },
   "pricing.plan.pro.desc": {
-    "message": "One purchase for lifetime access across platforms, including later updates. Up to 7 devices at once."
+    "message": "One purchase for lifetime access across platforms, including later updates."
   },
   "pricing.plan.pro.cta": {
     "message": "How to Purchase"
@@ -606,13 +606,43 @@
     "message": "What is the pricing model?"
   },
   "pricing.faq.a1": {
-    "message": "Lifetime membership: one purchase, all later updates included. Use it on up to 7 devices; if you exceed the limit, membership on the earliest device is revoked. Reference price ¥58 — the amount shown at payment time prevails."
+    "message": "Lifetime membership: one purchase, all later updates included. Use it on up to 7 devices; if you exceed the limit, membership on the earliest device is revoked. Reference price ¥88 — the amount shown at payment time prevails."
   },
   "pricing.faq.q2": {
     "message": "How to purchase and refund?"
   },
   "pricing.faq.a2": {
-    "message": "Channels:\n• iOS / Apple platforms: App Store. Refunds go through Apple under its policy (not controlled by the developer). See https://support.apple.com/en-us/118223\n• Android (Google Play): Refunds go through Google Play under its policy (not controlled by the developer). See https://support.google.com/googleplay/answer/2479637 and https://support.google.com/googleplay/answer/15574897\n• HarmonyOS (Huawei IAP / AppGallery): Refunds go through Huawei under its policy (not controlled by the developer). See https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number (same as Android Alipay).\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). App Store, Google Play, and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind email in the old app first."
+    "message": "Channels:\n• iOS / Apple platforms: App Store. Refunds go through Apple under its policy (not controlled by the developer). See {appleLink}.\n• Android (Google Play): Refunds go through Google Play under its policy (not controlled by the developer). See {googlePolicyLink} and {googleRefundLink}.\n• HarmonyOS (Huawei IAP / AppGallery): Refunds go through Huawei under its policy (not controlled by the developer). See {huaweiTermsLink}.\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number (same as Android Alipay).\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). App Store, Google Play, and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind email in the old app first."
+  },
+  "pricing.faq.a2.apple.link": {
+    "message": "Request a refund for apps or content that you bought from Apple"
+  },
+  "pricing.faq.a2.apple.url": {
+    "message": "https://support.apple.com/en-us/118223"
+  },
+  "pricing.faq.a2.googlePolicy.link": {
+    "message": "Learn about refunds on Google Play"
+  },
+  "pricing.faq.a2.googlePolicy.url": {
+    "message": "https://support.google.com/googleplay/answer/2479637"
+  },
+  "pricing.faq.a2.googleRefund.link": {
+    "message": "Request a refund on Google Play"
+  },
+  "pricing.faq.a2.googleRefund.url": {
+    "message": "https://support.google.com/googleplay/answer/15574897"
+  },
+  "pricing.faq.a2.huaweiRefund.link": {
+    "message": "How to request a refund for AppGallery in-app purchases"
+  },
+  "pricing.faq.a2.huaweiRefund.url": {
+    "message": "https://consumer.huawei.com/cn/support/content/zh-cn15987057/"
+  },
+  "pricing.faq.a2.huaweiTerms.link": {
+    "message": "HUAWEI In-App Purchases Terms of Service"
+  },
+  "pricing.faq.a2.huaweiTerms.url": {
+    "message": "https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm"
   },
   "pricing.faq.q3": {
     "message": "Is internet connection required?"
@@ -2171,9 +2201,6 @@
   "pricing.features.basics.oneServer": {
     "message": "Connect one server"
   },
-  "pricing.features.basics.dlna": {
-    "message": "DLNA cast"
-  },
   "pricing.features.basics.sleep": {
     "message": "Sleep timer"
   },
@@ -2185,9 +2212,6 @@
   },
   "pricing.features.sound.replayGain": {
     "message": "ReplayGain"
-  },
-  "pricing.features.sound.roaming": {
-    "message": "Music roaming"
   },
   "pricing.features.lyrics.category": {
     "message": "Lyrics"
@@ -2219,9 +2243,6 @@
   "pricing.features.look.playerBg": {
     "message": "Player dynamic background"
   },
-  "pricing.features.look.playerBg.note": {
-    "message": "Free on desktop"
-  },
   "pricing.features.look.accent": {
     "message": "Accent color"
   },
@@ -2251,6 +2272,12 @@
   },
   "pricing.features.anywhere.miniPlayer": {
     "message": "Mini player (macOS / Windows)"
+  },
+  "pricing.features.anywhere.dlna": {
+    "message": "DLNA cast"
+  },
+  "pricing.features.anywhere.roaming": {
+    "message": "Music roaming"
   },
   "pricing.faq.q4": {
     "message": "Where is the full docs comparison?"

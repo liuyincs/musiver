@@ -3,7 +3,7 @@ title: "Membership FAQ"
 sidebar_position: 1
 ---
 
-Primary docs: [Free vs membership](../membership/plans.md), [What changed](../membership/changes.md), [Purchase & restore](../membership/purchase-restore.md), and the [pricing page](/pricing).
+Primary docs: [Free vs membership](../membership/plans.md), [Purchase & restore](../membership/purchase-restore.md), and the [pricing page](/pricing).
 
 ### Quick checks
 

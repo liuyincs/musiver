@@ -48,12 +48,12 @@
 .hero {
   position: relative;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 100px 60px 60px;
+  padding: 72px 60px 48px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 32px;
   align-items: center;
 }
 
@@ -82,7 +82,8 @@
 
 .title {
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  font-size: clamp(2.6rem, 4.2vw, 3.7rem);
+  text-wrap: balance;
   font-weight: 300;
   line-height: 1.15;
   letter-spacing: -0.02em;
@@ -174,13 +175,14 @@
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .heroDevicesImage {
-  width: 100%;
-  max-width: 640px;
-  aspect-ratio: 1600 / 1040;
+  width: 112%;
+  max-width: none;
+  flex-shrink: 0;
+  aspect-ratio: 4 / 3;
   height: auto;
   display: block;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15))
@@ -381,6 +383,11 @@
   .heroDevices {
     height: auto;
     margin-top: 40px;
+    justify-content: center;
+  }
+  .heroDevicesImage {
+    width: 100%;
+    max-width: 760px;
   }
   .colophon {
     justify-content: flex-start;
@@ -487,7 +494,7 @@
 }
 
 .membershipText {
-  /* Use body sans so ¥58 / 7 match lining figures (not serif oldstyle). */
+  /* Use body sans so numerals match lining figures (not serif oldstyle). */
   font-family: "Manrope", sans-serif;
   font-size: clamp(1rem, 1.8vw, 1.15rem);
   font-weight: 400;

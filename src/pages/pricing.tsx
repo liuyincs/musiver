@@ -16,6 +16,12 @@ const MinusIcon = () => (
   </svg>
 );
 
+const ExtLink = ({ urlId, url, labelId, children }: { urlId: string; url: string; labelId: string; children: ReactNode }) => (
+  <a href={translate({ id: urlId, message: url })} target="_blank" rel="noopener noreferrer">
+    <Translate id={labelId}>{children}</Translate>
+  </a>
+);
+
 type FeatureItem = {
   name: ReactNode;
   free: boolean;
@@ -30,7 +36,6 @@ const features: { category: ReactNode; items: FeatureItem[] }[] = [
       { name: <Translate id="pricing.features.basics.browse">Browse library</Translate>, free: true, pro: true },
       { name: <Translate id="pricing.features.basics.stream">Stream all songs online</Translate>, free: true, pro: true },
       { name: <Translate id="pricing.features.basics.oneServer">Connect one server</Translate>, free: true, pro: true },
-      { name: <Translate id="pricing.features.basics.dlna">DLNA cast</Translate>, free: true, pro: true },
       { name: <Translate id="pricing.features.basics.sleep">Sleep timer</Translate>, free: true, pro: true },
     ],
   },
@@ -39,7 +44,6 @@ const features: { category: ReactNode; items: FeatureItem[] }[] = [
     items: [
       { name: <Translate id="pricing.features.sound.equalizer">Equalizer</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.sound.replayGain">ReplayGain</Translate>, free: false, pro: true },
-      { name: <Translate id="pricing.features.sound.roaming">Music roaming</Translate>, free: false, pro: true },
     ],
   },
   {
@@ -58,12 +62,7 @@ const features: { category: ReactNode; items: FeatureItem[] }[] = [
     category: <Translate id="pricing.features.look.category">Look</Translate>,
     items: [
       { name: <Translate id="pricing.features.look.vinyl">Vinyl cover</Translate>, free: false, pro: true },
-      {
-        name: <Translate id="pricing.features.look.playerBg">Player dynamic background</Translate>,
-        free: false,
-        pro: true,
-        note: <Translate id="pricing.features.look.playerBg.note">Free on desktop</Translate>,
-      },
+      { name: <Translate id="pricing.features.look.playerBg">Player dynamic background</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.look.accent">Accent color</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.look.transparent">Transparent theme</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.look.appIcon">App icon (iOS)</Translate>, free: false, pro: true },
@@ -78,6 +77,8 @@ const features: { category: ReactNode; items: FeatureItem[] }[] = [
       { name: <Translate id="pricing.features.anywhere.carPlay">CarPlay (iPhone)</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.anywhere.shortcuts">Shortcuts (iOS)</Translate>, free: false, pro: true },
       { name: <Translate id="pricing.features.anywhere.miniPlayer">Mini player (macOS / Windows)</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.anywhere.dlna">DLNA cast</Translate>, free: false, pro: true },
+      { name: <Translate id="pricing.features.anywhere.roaming">Music roaming</Translate>, free: false, pro: true },
     ],
   },
 ];
@@ -97,11 +98,11 @@ export default function Pricing() {
             <Translate id="pricing.header.badge">Pricing</Translate>
           </div>
           <h1 className={styles.title}>
-            <Translate id="pricing.header.title">Free listening. Lifetime unlock.</Translate>
+            <Translate id="pricing.header.title">Choose your plan</Translate>
           </h1>
           <p className={styles.subtitle}>
             <Translate id="pricing.header.subtitle">
-              Browse and stream your library for free on one server. Unlock sound, lyrics overlays, look options, downloads, and more with a one-time lifetime membership.
+              Connect your server and explore freely. Membership unlocks sound, look options, and more.
             </Translate>
           </p>
         </div>
@@ -123,7 +124,7 @@ export default function Pricing() {
             <div style={{ height: '16px' }}></div>
             <p className={styles.planDesc}>
               <Translate id="pricing.plan.free.desc">
-                Browse the library, stream every song online, and connect one server. DLNA casting is included.
+                Browse the library, stream every song online, and connect one server. Includes multi-route auto switching, global hotkeys, and custom API.
               </Translate>
             </p>
             <Link to="/download" className={`${styles.actionBtn} ${styles.actionBtnFree}`}>
@@ -139,7 +140,7 @@ export default function Pricing() {
               <span className={styles.planCurrency}>
                 <Translate id="pricing.plan.pro.currency">¥</Translate>
               </span>
-              58
+              88
             </div>
             <span className={styles.planPeriod}>
               <Translate id="pricing.plan.pro.period">One-time · price at payment prevails</Translate>
@@ -147,7 +148,7 @@ export default function Pricing() {
             <div style={{ height: '16px' }}></div>
             <p className={styles.planDesc}>
               <Translate id="pricing.plan.pro.desc">
-                One purchase for lifetime access across platforms, including later updates. Up to 7 devices at once.
+                One purchase for lifetime access across platforms, including later updates.
               </Translate>
             </p>
             <a href="#purchase-info" className={`${styles.actionBtn} ${styles.actionBtnPro}`}>
@@ -206,7 +207,7 @@ export default function Pricing() {
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a1">
                   {
-                    'Lifetime membership: one purchase, all later updates included. Use it on up to 7 devices; if you exceed the limit, membership on the earliest device is revoked. Reference price ¥58 — the amount shown at payment time prevails.'
+                    'Lifetime membership: one purchase, all later updates included. Use it on up to 7 devices; if you exceed the limit, membership on the earliest device is revoked. Reference price ¥88 — the amount shown at payment time prevails.'
                   }
                 </Translate>
               </div>
@@ -216,9 +217,58 @@ export default function Pricing() {
                 <Translate id="pricing.faq.q2">How to purchase and refund?</Translate>
               </div>
               <div className={styles.faqAnswer}>
-                <Translate id="pricing.faq.a2">
+                <Translate
+                  id="pricing.faq.a2"
+                  values={{
+                    appleLink: (
+                      <ExtLink
+                        urlId="pricing.faq.a2.apple.url"
+                        url="https://support.apple.com/en-us/118223"
+                        labelId="pricing.faq.a2.apple.link"
+                      >
+                        Request a refund for apps or content that you bought from Apple
+                      </ExtLink>
+                    ),
+                    googlePolicyLink: (
+                      <ExtLink
+                        urlId="pricing.faq.a2.googlePolicy.url"
+                        url="https://support.google.com/googleplay/answer/2479637"
+                        labelId="pricing.faq.a2.googlePolicy.link"
+                      >
+                        Learn about refunds on Google Play
+                      </ExtLink>
+                    ),
+                    googleRefundLink: (
+                      <ExtLink
+                        urlId="pricing.faq.a2.googleRefund.url"
+                        url="https://support.google.com/googleplay/answer/15574897"
+                        labelId="pricing.faq.a2.googleRefund.link"
+                      >
+                        Request a refund on Google Play
+                      </ExtLink>
+                    ),
+                    huaweiRefundLink: (
+                      <ExtLink
+                        urlId="pricing.faq.a2.huaweiRefund.url"
+                        url="https://consumer.huawei.com/cn/support/content/zh-cn15987057/"
+                        labelId="pricing.faq.a2.huaweiRefund.link"
+                      >
+                        How to request a refund for AppGallery in-app purchases
+                      </ExtLink>
+                    ),
+                    huaweiTermsLink: (
+                      <ExtLink
+                        urlId="pricing.faq.a2.huaweiTerms.url"
+                        url="https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm"
+                        labelId="pricing.faq.a2.huaweiTerms.link"
+                      >
+                        HUAWEI In-App Purchases Terms of Service
+                      </ExtLink>
+                    ),
+                  }}
+                >
                   {
-                    'Channels:\n• iOS / Apple platforms: App Store. Refunds go through Apple under its policy (not controlled by the developer). See https://support.apple.com/en-us/118223\n• Android (Google Play): Refunds go through Google Play under its policy (not controlled by the developer). See https://support.google.com/googleplay/answer/2479637 and https://support.google.com/googleplay/answer/15574897\n• HarmonyOS (Huawei IAP / AppGallery): Refunds go through Huawei under its policy (not controlled by the developer). See https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number (same as Android Alipay).\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). App Store, Google Play, and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind email in the old app first.'
+                    'Channels:\n• iOS / Apple platforms: App Store. Refunds go through Apple under its policy (not controlled by the developer). See {appleLink}.\n• Android (Google Play): Refunds go through Google Play under its policy (not controlled by the developer). See {googlePolicyLink} and {googleRefundLink}.\n• HarmonyOS (Huawei IAP / AppGallery): Refunds go through Huawei under its policy (not controlled by the developer). See {huaweiTermsLink}.\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number (same as Android Alipay).\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). App Store, Google Play, and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind email in the old app first.'
                   }
                 </Translate>
               </div>

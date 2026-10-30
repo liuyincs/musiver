@@ -7,7 +7,7 @@ sidebar_position: 1
 
 可以浏览歌曲、专辑、艺术家、流派和电台（具体取决于服务器支持哪些）。发现页可包含每日 / 随机推荐、最近添加、最多播放等。
 
-![发现页](/img/docs/zh-Hans/features/desktop-discover.jpg)
+![发现页](/img/docs/zh-Hans/features/iphone-discover.png)
 
 ## 怎么用
 
@@ -16,14 +16,14 @@ sidebar_position: 1
 3. 需要保留当前收听顺序时，优先用「下一首播放」/「加入队列」。
 4. 打开艺术家页，查看服务器返回的专辑与曲目。
 
-![艺术家页](/img/docs/zh-Hans/features/desktop-artist.jpg)
+![艺术家页](/img/docs/zh-Hans/features/iphone-artist.png)
 
 ## 收藏与历史
 
 - 收藏：在列表或播放条点爱心；侧栏「收藏」可回放。
 - 播放历史 / 最近播放：服务器或客户端提供时会显示（例如发现页的「最近播放」）。具体名称因服务器类型而异。
 
-![收藏](/img/docs/zh-Hans/features/desktop-favorites.jpg)
+![收藏](/img/docs/zh-Hans/features/iphone-favorites.png)
 
 ## 平台 / 会员
 

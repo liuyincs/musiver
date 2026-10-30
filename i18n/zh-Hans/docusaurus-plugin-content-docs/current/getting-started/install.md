@@ -19,7 +19,7 @@ sidebar_position: 1
 
 有客户端不等于该平台具备全部功能。主用设备选型前请阅读 [Web 限制](../devices/web.md) 与 [电视](../devices/tv.md)。
 
-![安装后的桌面欢迎页](/img/docs/zh-Hans/getting-started/desktop-welcome.jpg)
+![首次启动欢迎页](/img/docs/zh-Hans/getting-started/iphone-welcome.png)
 
 ### Web（Docker）
 

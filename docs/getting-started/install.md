@@ -19,7 +19,7 @@ Open the [download page](/download) and pick your platform package (stable or be
 
 Having a client does not mean every feature exists on that platform. Read [Web limitations](../devices/web.md) and [TV](../devices/tv.md) before choosing a primary device.
 
-![Desktop welcome after install](/img/docs/getting-started/desktop-welcome.jpg)
+![Welcome after install](/img/docs/getting-started/iphone-welcome.png)
 
 ### Web (Docker)
 

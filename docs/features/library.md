@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Browse songs, albums, artists, genres, and radios as your server exposes them. Discover surfaces include daily / random recommendations, recently added, and most played when the server supports them.
 
-![Discover](/img/docs/features/desktop-discover.jpg)
+![Discover](/img/docs/features/iphone-discover.png)
 
 ## How to use
 
@@ -16,14 +16,14 @@ Browse songs, albums, artists, genres, and radios as your server exposes them. D
 3. Prefer Play Next / Add to Queue when you want to keep the current listening order.
 4. Open an artist page for albums and tracks returned by the server.
 
-![Artist page](/img/docs/features/desktop-artist.jpg)
+![Artist page](/img/docs/features/iphone-artist.png)
 
 ## Favorites and history
 
 - Favorites: heart a track from a list or the player bar; open Favorites in the sidebar to play them back.
 - Play history / recently played: shown when the server or client surfaces it (for example recently played sections on Discover). Exact labels vary by server type.
 
-![Favorites](/img/docs/features/desktop-favorites.jpg)
+![Favorites](/img/docs/features/iphone-favorites.png)
 
 ## Membership / platform
 

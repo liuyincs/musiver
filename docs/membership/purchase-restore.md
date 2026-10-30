@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Price
 
-- Reference price: ¥58 lifetime.
+- Reference price: ¥88 lifetime.
 - The amount shown at payment time prevails (stores / regions may differ).
 
 ## Where to buy
@@ -20,14 +20,7 @@ sidebar_position: 3
 | Android TV | No in-app payment — buy on phone, then restore |
 | Web | No purchase UI |
 
-![Windows / Linux desktop membership (Alipay)](/img/docs/membership/desktop-membership-alipay.jpg)
-
-:::caution TODO screenshot: iOS App Store membership paywall
-:::
-:::caution TODO screenshot: Android Alipay / Play membership paywall
-:::
-:::caution TODO screenshot: HarmonyOS Huawei IAP membership paywall
-:::
+![iOS membership page](/img/docs/membership/iphone-membership.png)
 
 ## Restore
 
@@ -37,7 +30,7 @@ Use Restore purchase in an installed client:
 - Alipay order ID
 - Restore App Store, Google Play, or Huawei AppGallery purchases (same restore flow as Apple)
 
-Legacy StreamMusic buyers: bind email in the old app first, then restore by email in Musiver.
+Legacy StreamMusic members: bind email in the old app first, then restore by email in Musiver.
 
 ## Refunds
 

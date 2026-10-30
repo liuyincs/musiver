@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## 价格
 
-- 参考价：终身 ¥58。
+- 参考价：终身 ¥88。
 - 以付款时页面显示的金额为准（商店 / 地区可能不同）。
 
 ## 在哪里购买
@@ -20,14 +20,7 @@ sidebar_position: 3
 | Android TV | 无应用内支付 — 在手机购买后恢复 |
 | Web | 无购买界面 |
 
-![Windows / Linux 桌面会员页（支付宝）](/img/docs/zh-Hans/membership/desktop-membership-alipay.jpg)
-
-:::caution TODO screenshot: iOS App Store 会员付费墙
-:::
-:::caution TODO screenshot: Android 支付宝 / Play 会员付费墙
-:::
-:::caution TODO screenshot: 鸿蒙华为 IAP 会员付费墙
-:::
+![iOS 会员页](/img/docs/zh-Hans/membership/iphone-membership.png)
 
 ## 恢复
 
@@ -37,7 +30,7 @@ sidebar_position: 3
 - 支付宝订单号
 - 恢复 App Store、Google Play 或华为应用市场购买（与 Apple 相同的恢复方式）
 
-旧版音流买家：先在旧版绑定邮箱，再到新版用邮箱恢复。
+旧版音流会员：先在旧版绑定邮箱，再到新版用邮箱恢复。
 
 ## 退款
 

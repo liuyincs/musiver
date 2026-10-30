@@ -3,7 +3,7 @@ title: "Free vs membership"
 sidebar_position: 1
 ---
 
-Musiver uses a lifetime membership (one purchase, includes later updates). Up to 7 devices. During public beta, clients may let you try membership features — check the in-app banner.
+Musiver aims to work well for both free and member users, so basic browsing and playback are unrestricted.
 
 ![Free vs membership](/img/docs/illustrations/membership-layers.svg)
 
@@ -14,8 +14,7 @@ These stay available without purchase:
 - Browse the library
 - Stream all songs online
 - Connect one server
-- DLNA casting
-- Multi-route auto switching (formerly “backup routes”)
+- Multi-route auto switching
 - Sleep timer
 - Lyrics view and search in the player
 - Player bar lyrics
@@ -23,12 +22,11 @@ These stay available without purchase:
 
 ## Membership benefits
 
-Use the in-app membership page as the source of truth. Grouped names below match in-app copy.
+Actual benefits are defined in the app; usable on up to 7 devices at the same time.
 
 ### Sound
 - Equalizer
 - ReplayGain
-- Music roaming (related tracks woven into the queue)
 
 ### Lyrics
 - Immersive lyrics
@@ -41,7 +39,7 @@ Use the in-app membership page as the source of truth. Grouped names below match
 - Vinyl cover
 - Player dynamic background
 - Accent color
-- Transparent theme (incl. custom background)
+- Transparent theme
 - App icon (iOS)
 
 ### Anywhere
@@ -51,13 +49,14 @@ Use the in-app membership page as the source of truth. Grouped names below match
 - CarPlay (iPhone only)
 - Shortcuts (iOS)
 - Mini player (macOS / Windows)
+- DLNA casting
+- Music roaming
 
 ### Platform notes
 
 | Benefit | Notes |
 | --- | --- |
 | Desktop floating lyrics / mini player | Floating lyrics on Windows and macOS (not on Linux); mini player on Windows / macOS |
-| Desktop player dynamic background | Free on desktop (not in the desktop member catalog) |
 | tvOS downloads | Not offered |
 | Android TV | No offline download or auto-download; no in-app purchase UI — buy on phone, then restore |
 | Web | No membership purchase UI |

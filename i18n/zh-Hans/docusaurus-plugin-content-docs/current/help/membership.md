@@ -3,7 +3,7 @@ title: "会员常见问题"
 sidebar_position: 1
 ---
 
-主文档：[免费与会员](../membership/plans.md)、[会员变化](../membership/changes.md)、[购买与恢复](../membership/purchase-restore.md)，以及[定价页](/pricing)。
+主文档：[免费与会员](../membership/plans.md)、[购买与恢复](../membership/purchase-restore.md)，以及[定价页](/pricing)。
 
 ### 快速排查
 

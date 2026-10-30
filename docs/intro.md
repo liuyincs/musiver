@@ -7,20 +7,20 @@ sidebar_position: 1
 
 Musiver connects to your own music server so you can browse and listen on your devices. It does not host a music catalog or sell a streaming subscription.
 
-![Musiver desktop welcome](/img/docs/getting-started/desktop-welcome.jpg)
+![Musiver on multiple devices](/img/devices/musiver-devices.png)
 
 ## Platforms
 
 iOS · iPadOS · macOS · tvOS · Android · Android TV · Windows · Linux · HarmonyOS · Web (self-hosted Docker)
 
-Desktop and Web share a Tauri + React UI. Other clients are native.
+Windows and Linux use a cross-platform Tauri implementation; all other clients are native.
 
 ## Supported servers
 
-- Music: Navidrome, Subsonic-compatible, Synology Audio Station
-- Media: Emby, Jellyfin, Plex (audio libraries)
+- Music: Navidrome, Subsonic, Synology Audio Station
+- Media: Emby, Jellyfin, Plex
 - Spoken audio: Audiobookshelf
-- Experimental: Tag My Audio (invite-only)
+- Experimental: Tag My Audio
 
 ## Start here
 
@@ -28,6 +28,3 @@ Desktop and Web share a Tauri + React UI. Other clients are native.
 2. Check [Membership](membership/plans.md) for free vs lifetime benefits.
 3. [Install](getting-started/install.md) and [play your first song](getting-started/first-play.md).
 
-:::tip Scope
-This guide tracks the 2.0.1 beta series. Feature availability can differ by platform and server; the in-app membership screen is the source of truth for what requires membership.
-:::

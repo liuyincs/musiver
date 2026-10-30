@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import Translate, { translate } from "@docusaurus/Translate";
 import s from "./index.module.css";
 
@@ -26,7 +27,7 @@ const features = [
     desc: translate({
       id: "homepage.features.multiSource.desc",
       message:
-        "Give a server its home and remote addresses and Musiver picks the one that connects. Several servers can be connected at once.",
+        "Give a server its home and remote addresses and Musiver picks the one that connects.",
     }),
   },
   {
@@ -38,7 +39,7 @@ const features = [
     desc: translate({
       id: "homepage.features.quality.desc",
       message:
-        "Lossless when you can, transcoded when the network is tight. Word-by-word lyrics light up with the melody, and fill the screen in immersive mode.",
+        "Word-by-word lyrics light up with the melody, and fill the screen in immersive mode.",
     }),
   },
 ];
@@ -69,8 +70,8 @@ export default function Home(): ReactNode {
             <p className={s.subtitle}>
               <Translate id="homepage.hero.subtitle">
                 Bring the whole library on your NAS to your phone, computer, TV
-                and browser. Navidrome, Subsonic, Jellyfin, Audiobookshelf:
-                connect and play.
+                and browser. Works with a range of music services: connect and
+                play.
               </Translate>
             </p>
             <div className={s.buttons}>
@@ -87,7 +88,7 @@ export default function Home(): ReactNode {
 
           <div className={s.heroDevices}>
             <img
-              src="/img/devices/musiver-devices.png"
+              src={useBaseUrl("/img/devices/musiver-devices.png")}
               alt={translate({
                 id: "homepage.devices.image.alt",
                 message: "Musiver devices preview",
@@ -118,9 +119,8 @@ export default function Home(): ReactNode {
         <section className={s.membership}>
           <p className={s.membershipText}>
             <Translate id="homepage.membership.text">
-              The free version streams your whole library. Want more? A one-time
-              ¥58 covers 7 devices and every future update. The price at
-              checkout applies.
+              The free version streams your whole library. Membership is a
+              one-time purchase — no strings attached.
             </Translate>
           </p>
           <Link className={s.membershipLink} to="/pricing">
