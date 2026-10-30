@@ -5,9 +5,9 @@ sidebar_position: 2
 
 ## 是什么
 
-在播放条和完整播放页里，可以控制播放、调整队列和音质，打开均衡器、回放增益、睡眠定时，也可以免费投屏到 DLNA 设备。
+在播放条和完整播放页里，可以控制播放、调整队列和音质，打开均衡器、回放增益、睡眠定时，也可以投屏到 DLNA 设备（会员）。
 
-![完整播放页（同步歌词）](/img/docs/zh-Hans/features/desktop-full-player.jpg)
+![完整播放页](/img/docs/zh-Hans/features/iphone-player.png)
 
 ## 怎么用
 
@@ -17,7 +17,7 @@ sidebar_position: 2
 4. 在播放菜单或设置中打开均衡器、回放增益、音乐漫游。
 5. 设置睡眠定时（可选：播完当前曲再停）。
 
-![含均衡器的播放菜单](/img/docs/zh-Hans/features/desktop-equalizer-menu.jpg)
+![均衡器](/img/docs/zh-Hans/features/iphone-equalizer.png)
 
 ## 睡眠定时
 
@@ -25,15 +25,15 @@ sidebar_position: 2
 
 ## DLNA 投屏
 
-新版中 DLNA 免费。在播放条打开「投屏」，刷新设备列表，选择局域网中的 DLNA 设备；结束后切回本地输出。投屏时均衡器不可用。Web 版没有 DLNA。
+DLNA 为会员功能。在播放条打开「投屏」，刷新设备列表，选择局域网中的 DLNA 设备；结束后切回本地输出。投屏时均衡器不可用。Web 版没有 DLNA。
 
-![投屏 / DLNA](/img/docs/zh-Hans/features/desktop-dlna-cast.jpg)
+![DLNA 投屏](/img/docs/zh-Hans/features/iphone-dlna.png)
 
 ## 平台 / 会员
 
 | 功能 | 权限 |
 | --- | --- |
 | 基础播放、队列、睡眠定时 | 免费 |
-| DLNA | 免费 |
+| DLNA | 会员 |
 | 均衡器、回放增益、音乐漫游 | 会员 |
 | 桌面迷你播放器 | 会员（macOS / Windows） |

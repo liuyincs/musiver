@@ -3,77 +3,47 @@ title: "新版一览"
 sidebar_position: 1
 ---
 
-音流 Musiver 是对旧版 StreamMusic 的全面重写：共享 Rust 核心，各端原生界面（桌面 / Web 为 Tauri + React）。
+新版本音流在大部分平台都采用原生技术，旨在提供更好的性能与使用体验。
 
-## 值得一看
+### 新平台
 
-下面挑几处亮点，详情见对应功能页。
+新增 tvOS、Linux、鸿蒙与自托管 Web 端——从客厅电视到浏览器都能用。
 
-### 歌词搜索
+![支持平台](/img/docs/illustrations/zh-Hans/platforms.svg)
 
-曲目还没有歌词时，可在播放页搜索。有时间轴的歌词会随播放逐行高亮，支持逐词的会逐字高亮。
+见[电视](../devices/tv.md)与[网页端](../devices/web.md)。
 
-![完整播放页（同步歌词）](/img/docs/zh-Hans/features/desktop-full-player.jpg)
+### 逐词歌词
 
-![歌词搜索](/img/docs/zh-Hans/features/desktop-lyrics-search.jpg)
+歌词随旋律逐字高亮扫过。
+
+![逐词歌词](/img/docs/zh-Hans/features/iphone-lyrics.png)
 
 见[歌词](../features/lyrics.md)。
 
-### 均衡器与完整播放页
+### 均衡器
 
-从播放条打开完整播放页。均衡器等听感工具在播放菜单中（会员）。
+播放页内置 10 段均衡器，与回放增益、音乐漫游组成新的听感工具集（会员）。
 
-![完整播放页](/img/docs/zh-Hans/features/desktop-full-player.jpg)
-
-![含均衡器的播放菜单](/img/docs/zh-Hans/features/desktop-equalizer-menu.jpg)
+![均衡器](/img/docs/zh-Hans/features/iphone-equalizer.png)
 
 见[播放器](../features/player.md)。
 
-### 歌单
+### Plex OAuth
 
-在侧栏创建服务器歌单；支持的客户端还可使用智能歌单 JSON 规则。
+Plex 服务器改用官方 OAuth 授权登录，同时支持 Plex Home 成员与 PIN 切换。
 
-![新建歌单](/img/docs/zh-Hans/features/desktop-playlist-editor.jpg)
+![Plex OAuth 登录](/img/docs/zh-Hans/features/iphone-plex-oauth.png)
 
-见[歌单](../features/playlists.md)。
+见[Plex](../servers/plex.md)。
 
-### DLNA 投屏（免费）
+### Audiobookshelf
 
-从播放条投到局域网设备。新版中 DLNA 免费。
+新增有声书服务器：书架 / 系列 / 作者浏览，收听进度同步续播，章节与倍速记忆。
 
-![投屏设备](/img/docs/zh-Hans/features/desktop-dlna-cast.jpg)
+![Audiobookshelf 有声书](/img/docs/features/iphone-audiobookshelf.png)
 
-见[播放器 → DLNA](../features/player.md#dlna-投屏)。
-
-### 外观
-
-主题色、主题风格等可在「设置 → 个性化」中调整。
-
-![外观](/img/docs/zh-Hans/features/desktop-appearance.jpg)
-
-见[外观](../features/appearance.md)。
-
-### 发现与资料库
-
-发现页有每日推荐与最近添加，并可进入艺术家、专辑详情。
-
-![发现页](/img/docs/zh-Hans/features/desktop-discover.jpg)
-
-见[浏览与发现](../features/library.md)。
-
-## 一览表
-
-| 领域 | 新变化 |
-| --- | --- |
-| 架构 | Rust 核心 + 原生 UI（不再是 Flutter） |
-| 平台 | 新增 tvOS、Android TV、Linux、鸿蒙、自托管 Web |
-| 服务器 | 新增 Audiobookshelf；Tag My Audio（实验） |
-| 网络 | 多线路测速切换、局域网发现、HTTP 代理 |
-| 听感 | 无损 / 转码档、均衡器、回放增益、更多格式 |
-| 歌词 | 逐词、沉浸式（电视）、搜索、桌面 / 悬浮 / 状态栏 / 画中画 |
-| 曲库工具 | 智能歌单 JSON、导入导出；跨服务器搬运仅限 Tag My Audio（实验） |
-| 有声书 | Audiobookshelf 书架、继续收听、倍速记忆 |
-| 会员 | 新权益目录（见[会员变化](../membership/changes.md)） |
+见[Audiobookshelf](../servers/audiobookshelf.md)。
 
 ## 继续阅读
 

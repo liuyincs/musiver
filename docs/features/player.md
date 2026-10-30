@@ -5,9 +5,9 @@ sidebar_position: 2
 
 ## What it is
 
-From the player bar and full player you can control playback, the queue, and audio quality, open the equalizer, ReplayGain, and sleep timer, and cast for free to a DLNA device.
+From the player bar and full player you can control playback, the queue, and audio quality, open the equalizer, ReplayGain, and sleep timer, and cast to a DLNA device (membership).
 
-![Full player with synced lyrics](/img/docs/features/desktop-full-player.jpg)
+![Full player](/img/docs/features/iphone-player.png)
 
 ## How to use
 
@@ -17,7 +17,7 @@ From the player bar and full player you can control playback, the queue, and aud
 4. Open equalizer / ReplayGain / music roaming from the player menu or settings where shown.
 5. Set a sleep timer (optionally finish the current track first).
 
-![Player menu with Equalizer](/img/docs/features/desktop-equalizer-menu.jpg)
+![Equalizer](/img/docs/features/iphone-equalizer.png)
 
 ## Sleep timer
 
@@ -25,15 +25,15 @@ Use the sleep timer when you want playback to stop after a set time, or after th
 
 ## DLNA casting
 
-DLNA is free in Musiver. From the playback bar, open Cast, refresh the device list, pick a DLNA device on your LAN, then switch back to local output when you are done. Equalizer is unavailable while casting. Web has no DLNA.
+DLNA requires membership. From the playback bar, open Cast, refresh the device list, pick a DLNA device on your LAN, then switch back to local output when you are done. Equalizer is unavailable while casting. Web has no DLNA.
 
-![Cast / DLNA](/img/docs/features/desktop-dlna-cast.jpg)
+![DLNA casting](/img/docs/features/iphone-dlna.png)
 
 ## Membership / platform
 
 | Feature | Access |
 | --- | --- |
 | Basic playback, queue, sleep timer | Free |
-| DLNA | Free |
+| DLNA | Membership |
 | Equalizer, ReplayGain, music roaming | Membership |
 | Desktop mini player | Membership (macOS / Windows) |

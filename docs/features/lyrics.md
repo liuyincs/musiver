@@ -14,20 +14,11 @@ Lyrics can come from the file, the server, or a [custom API](../settings/custom-
 3. Adjust font and alignment in player Preferences → Lyrics.
 4. Enable platform overlays (notification, status bar, floating, PiP) where your client offers them.
 
-![Full player with word-by-word lyrics](/img/docs/features/desktop-full-player.jpg)
+![Lyrics view](/img/docs/features/iphone-lyrics.png)
 
-![Lyric search](/img/docs/features/desktop-lyrics-search.jpg)
+![Lyric search](/img/docs/features/iphone-lyric-search.png)
 
-![Lyrics preferences](/img/docs/features/desktop-lyrics-prefs.jpg)
-
-:::caution TODO screenshot: Windows / macOS — floating / desktop lyrics
-:::
-:::caution TODO screenshot: Android — status bar lyrics
-:::
-:::caution TODO screenshot: TV — immersive lyrics
-:::
-:::caution TODO screenshot: iOS — PiP lyrics
-:::
+![Lyrics settings](/img/docs/features/iphone-lyrics-settings.png)
 
 ## Membership / platform
 
