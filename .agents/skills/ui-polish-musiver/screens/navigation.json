@@ -31,7 +31,236 @@
       "name": "zh-Hans menu-locale"
     }
   ],
-  "scores": [],
+  "scores": [
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_menu",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「Changelog」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「Home」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "9e48025f391b2f2f586a756d6a02a7778711f3b0aeb8a894de13b56b49966022"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_menu",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「Changelog」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「Home」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "eedf16671a67a914ec426a4471ad7c02feff57dd4eec407bf96d35acb7c415ef"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_menu-locale",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「Changelog」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「Home」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "97bbf1cf1e25cdb865cbd454842b1c15fa81a50b1543c714e0f5230787f8efcd"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_menu-locale",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「Changelog」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「Home」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "bce890f2d5b30a84d97fb58e62d3d226726f021d586b24729a9e5221a8518fdc"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_menu",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「更新日志」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「首页」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "cbd8dda2f94e88bc1819de173e20e1dc737840ed909ff09070e610b55f75ab1c"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_menu",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「更新日志」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「首页」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "8dc7991e5a4be790b60f04242603a77c449e833630accba90e3c2cf1f968e32b"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_menu-locale",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「更新日志」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「首页」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "a180b9364e278008bf01c7cb17875f51a146a2653b210d2d7c03262726ce732d"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_menu-locale",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「更新日志」菜单项（侧栏列表第 5 项） -0.4",
+        "菜单项行高（侧栏全部菜单项） -0.1［个人偏好］",
+        "「首页」当前页左侧指示条（侧栏首项左缘） -0.1［个人偏好］"
+      ],
+      "shot": "2ba6300adf5ef11f969559576e988df488542e4b1a524b521d5c6b9a7d39b2fd"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_menu",
+      "score": 8.7,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「更新日志」/ Changelog 菜单项（侧栏菜单第 5 项） -0.2",
+        "侧栏头部品牌、主题切换与 GitHub 图标（侧栏顶部左侧） -0.1［个人偏好］",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1"
+      ],
+      "shot": "65fda8f8b3468a285a70a965c07aff00fd45ea4e6494e3de01f85601ba6b43ba"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_menu",
+      "score": 8.9,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "侧栏头部品牌、主题切换与 GitHub 图标（侧栏顶部左侧） -0.1［个人偏好］",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1",
+        "深色侧栏右边缘与遮罩（侧栏右侧与被遮挡的页面交界处） -0.1［个人偏好］"
+      ],
+      "shot": "673c5903bf20314cbf8b7b6481816bd6d8a106f3c3aa581772267089ffd167e5"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_menu-locale",
+      "score": 8.7,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "禁用的「更新日志」/ Changelog 菜单项（侧栏菜单第 5 项） -0.2",
+        "侧栏头部品牌、主题切换与 GitHub 图标（侧栏顶部左侧） -0.1［个人偏好］",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1",
+        "语言子菜单选项（「选择语言」下方 English / 简体中文 两行） -0.1［个人偏好］"
+      ],
+      "shot": "b0b50aab8749a6182b080da1a1c8403ab62831ae833e795c8ec0804e40c26ef9"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_menu-locale",
+      "score": 8.9,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "侧栏头部品牌、主题切换与 GitHub 图标（侧栏顶部左侧） -0.1［个人偏好］",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1",
+        "深色侧栏右边缘与遮罩（侧栏右侧与被遮挡的页面交界处） -0.1［个人偏好］",
+        "语言子菜单选项（「选择语言」下方 English / 简体中文 两行） -0.1［个人偏好］"
+      ],
+      "shot": "b548f2143970501caaa34a124afde90eeacbc00c4251b7f228441bd89706cbba"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_menu",
+      "score": 8.6,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "侧栏头部 GitHub 图标按钮（侧栏顶部，主题切换按钮右侧） -0.2",
+        "禁用的「更新日志」/ Changelog 菜单项（侧栏菜单第 5 项） -0.2",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1"
+      ],
+      "shot": "dcd6200ec9cbfdb04453b8a20831192757c0e4d9b2f3dad8b5c90bcd290f4bac"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_menu",
+      "score": 8.8,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "侧栏头部 GitHub 图标按钮（侧栏顶部，主题切换按钮右侧） -0.2",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1",
+        "深色侧栏右边缘与遮罩（侧栏右侧与被遮挡的页面交界处） -0.1［个人偏好］"
+      ],
+      "shot": "be49b360e3c5a503bc0ab025ee05b8f19c961bd4dd6ca986a81bf7efc1eb83b4"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_menu-locale",
+      "score": 8.6,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "侧栏头部 GitHub 图标按钮（侧栏顶部，主题切换按钮右侧） -0.2",
+        "禁用的「更新日志」/ Changelog 菜单项（侧栏菜单第 5 项） -0.2",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1",
+        "语言子菜单选项（「选择语言」下方 English / 简体中文 两行） -0.1［个人偏好］"
+      ],
+      "shot": "39f91ffc2c2928f3cd1ac643edd22d24f6826d8fe493fdfada485710db6a95cb"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_menu-locale",
+      "score": 8.8,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "侧栏头部 GitHub 图标按钮（侧栏顶部，主题切换按钮右侧） -0.2",
+        "侧栏头部品牌文字颜色（侧栏左上角品牌名） -0.1",
+        "深色侧栏右边缘与遮罩（侧栏右侧与被遮挡的页面交界处） -0.1［个人偏好］",
+        "语言子菜单选项（「选择语言」下方 English / 简体中文 两行） -0.1［个人偏好］"
+      ],
+      "shot": "ef082c2a8ef4464c8739a7e46484219bd6c557afd7d3a72154050f83068ba4a5"
+    }
+  ],
   "platforms": [
     "web-phone",
     "web-tablet"

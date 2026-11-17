@@ -23,5 +23,182 @@
       "name": "zh-Hans default"
     }
   ],
-  "scores": []
+  "scores": [
+    {
+      "platform": "web-desktop",
+      "theme": "light",
+      "state": "en_default",
+      "score": 9,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "功能比较表行高（页面中部比较表，30 行左右） -0.2",
+        "会员列强调（比较表免费列与会员列） -0.1［个人偏好］",
+        "FAQ 展开正文（Purchase Guide 第一张卡片正文） -0.1［个人偏好］",
+        "会员方案卡描述与按钮之间的空白（右侧 Lifetime Member 卡片中下部） -0.1［个人偏好］"
+      ],
+      "shot": "d84b854a7ec6cf32f2aff308083155863db2b7508cc9b837dc18ea4a82faedf0"
+    },
+    {
+      "platform": "web-desktop",
+      "theme": "dark",
+      "state": "en_default",
+      "score": 9,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "功能比较表行高（页面中部比较表） -0.2",
+        "会员列强调（比较表会员列） -0.1［个人偏好］",
+        "FAQ 展开正文（Purchase Guide 第一张卡片正文） -0.1［个人偏好］",
+        "会员方案卡描述与按钮之间的空白（右侧 Lifetime Member 卡片中下部） -0.1［个人偏好］"
+      ],
+      "shot": "f6853b0be3f02f19d1cf799ef184fbe0eaa8c22f32924cdd248084cc20655db5"
+    },
+    {
+      "platform": "web-desktop",
+      "theme": "light",
+      "state": "zh-Hans_default",
+      "score": 9,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "功能比较表行高（页面中部比较表） -0.2",
+        "会员方案卡空白（右侧终身会员卡片描述下方） -0.1［个人偏好］",
+        "会员列强调（比较表会员列） -0.1［个人偏好］",
+        "FAQ 展开正文（购买指南第一张卡片正文） -0.1［个人偏好］"
+      ],
+      "shot": "8f722480fe4b4200e09f0b5360567c4d6ca015d7367e82b7e41114cc992d08c9"
+    },
+    {
+      "platform": "web-desktop",
+      "theme": "dark",
+      "state": "zh-Hans_default",
+      "score": 9,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "功能比较表行高（页面中部比较表） -0.2",
+        "会员方案卡空白（右侧终身会员卡片描述下方） -0.1［个人偏好］",
+        "会员列强调（比较表会员列） -0.1［个人偏好］",
+        "FAQ 展开正文（购买指南第一张卡片正文） -0.1［个人偏好］"
+      ],
+      "shot": "20214d734ffe9b1349d0e0044bd6d77106e1aeff9e2e439fd3a0769c1f40bb9d"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_default",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "第一题「What is the pricing model?」展开答案（购买指南首张 FAQ 卡） -0.3",
+        "比较表数据行（Feature Comparison / 功能对比 各分组行） -0.2［个人偏好］",
+        "免费方案卡边缘（方案区第一张卡） -0.1［个人偏好］"
+      ],
+      "shot": "7c2716fc9491e2b415bf099fb37a94ee0a60f263f40e2aee4623df937dc67b52"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_default",
+      "score": 9.4,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "第一题「What is the pricing model?」展开答案（购买指南首张 FAQ 卡） -0.3",
+        "比较表数据行（Feature Comparison / 功能对比 各分组行） -0.2［个人偏好］",
+        "免费方案卡边缘（方案区第一张卡） -0.1［个人偏好］"
+      ],
+      "shot": "39ed59f442f90cf11ddb170fa689ba8fd1c2c59ec858c8dcee00c7c30259edce"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_default",
+      "score": 9.5,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "比较表数据行（Feature Comparison / 功能对比 各分组行） -0.2［个人偏好］",
+        "第一题「定价模式是什么？」展开答案（购买指南首张 FAQ 卡） -0.2",
+        "免费方案卡边缘（方案区第一张卡） -0.1［个人偏好］"
+      ],
+      "shot": "6e530deab24196e20a660eaa8f94ce6e5c1fb583bd2ccf8e4a3c07fed1d342c3"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_default",
+      "score": 9.5,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "比较表数据行（Feature Comparison / 功能对比 各分组行） -0.2［个人偏好］",
+        "第一题「定价模式是什么？」展开答案（购买指南首张 FAQ 卡） -0.2",
+        "免费方案卡边缘（方案区第一张卡） -0.1［个人偏好］"
+      ],
+      "shot": "6c9f70c2cd77db9516c6046ebd8696179af5c6b181a04e6eefae6bb9cee2c248"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_default",
+      "score": 8.7,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "购买指南 FAQ 卡片左侧竖条（页面下部 Purchase Guide / 购买指南 四张卡片左缘） -0.2［个人偏好］",
+        "方案卡描述与说明文字（免费卡 / 会员卡价格下方的灰色小字） -0.2",
+        "比较表正文行（Feature Comparison / 功能对比 各行功能名） -0.1［个人偏好］",
+        "比较表到购买指南之间的留白（比较表最后一行与「购买指南」标题之间） -0.1［个人偏好］"
+      ],
+      "shot": "19290f584347d2e26b4a9add67c35fafc290d35dbe02147f0676a15ebd594c7c"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_default",
+      "score": 8.7,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "购买指南 FAQ 卡片左侧竖条（页面下部 Purchase Guide / 购买指南 四张卡片左缘） -0.2［个人偏好］",
+        "方案卡描述与说明文字（免费卡 / 会员卡价格下方的灰色小字） -0.2",
+        "比较表正文行（Feature Comparison / 功能对比 各行功能名） -0.1［个人偏好］",
+        "比较表到购买指南之间的留白（比较表最后一行与「购买指南」标题之间） -0.1［个人偏好］"
+      ],
+      "shot": "b6d8458a44784579e5ecffe312f996f610357d6bff7c23329f65e7cd6ae8cecd"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_default",
+      "score": 8.7,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "购买指南 FAQ 卡片左侧竖条（页面下部 Purchase Guide / 购买指南 四张卡片左缘） -0.2［个人偏好］",
+        "方案卡描述与说明文字（免费卡 / 会员卡价格下方的灰色小字） -0.2",
+        "比较表正文行（Feature Comparison / 功能对比 各行功能名） -0.1［个人偏好］",
+        "比较表到购买指南之间的留白（比较表最后一行与「购买指南」标题之间） -0.1［个人偏好］"
+      ],
+      "shot": "7bbf50e7bde02084dfcbaa35889d0273e9302534df18bedd09678f86a7b0b5e1"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_default",
+      "score": 8.7,
+      "commit": "98b6388fccaf65c6b71eecb164fb8e4e6b05ef5c",
+      "date": "2026-11-17",
+      "deductions": [
+        "购买指南 FAQ 卡片左侧竖条（页面下部 Purchase Guide / 购买指南 四张卡片左缘） -0.2［个人偏好］",
+        "方案卡描述与说明文字（免费卡 / 会员卡价格下方的灰色小字） -0.2",
+        "比较表正文行（Feature Comparison / 功能对比 各行功能名） -0.1［个人偏好］",
+        "比较表到购买指南之间的留白（比较表最后一行与「购买指南」标题之间） -0.1［个人偏好］"
+      ],
+      "shot": "81c966e1131c60a1733ffd83460a7c33671bde08f576244b8e676c298bbb4f9b"
+    }
+  ]
 }
