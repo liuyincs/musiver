@@ -105,6 +105,12 @@ pnpm ui:shots prepare /tmp/ui-polish-musiver/home/round-1
 `--platform` 每次选一个；省略 `--screen` 截全部适用界面。可加 `--theme light`、`--state en_default` 截单格用于调试；verify 要求该界面的全部格，正式轮次省略这两项。
 语言是状态前缀，通过真实的 `/` 和 `/zh-Hans/` 路由呈现。下载状态通过真实按钮依次选择平台和渠道；数据直接使用 src/data/releases，不伪造发布信息。导航通过真实语言下拉和移动菜单按钮打开。
 截图等待 React hydration、h1、字体及所有图片加载完成，并断言主题、语言、选中按钮或菜单展开状态；关闭 CSS 动画与过渡，固定设备像素比为 1，整页截图，无系统状态栏，ignore 为空。新增状态同时改 screens 和 scripts/capture-ui.mjs，保留真实操作与就绪断言。
-输出目录必须在仓库外；manifest、截图和评审数据均不提交。本机使用 Chrome 无头独立会话、禁用 GPU，样式关闭动画后等待两帧绘制；第二轮首页四格连拍 compare 全部一致。ignore 保持为空；修改截图协议或浏览器版本后重新比较。
+输出目录必须在仓库外；manifest、截图和评审数据均不提交。截图要固定画面的全部输入，否则同一构建连拍会对不上：
+
+- 字体来自 Google Fonts，走网络时字重与子集到位时机不定，缺字重会合成字形、迟到的子集会先画回退字形再重绘，同一页就出现只差一级抗锯齿的画面。截图工具把 `fonts.googleapis.com`、`fonts.gstatic.com` 的响应缓存到 `~/.cache/musiver-ui-shots/fonts`（可用 `UI_SHOTS_FONT_CACHE` 改位置），之后一律从本地回放；截图前把每张 `@font-face` 都 `load()` 完，有一张没加载就报错退出。第一次抓取会写缓存，抓完再连拍一轮比较。
+- 动画、过渡、光标闪烁在首次绘制前注入关闭（`addInitScript`），不在加载后再 `addStyleTag`。
+- Chrome 以 `--disable-gpu --disable-partial-raster --num-raster-threads=1` 启动，避免分块栅格化让卡片的圆角描边差 1–3 级灰度。
+
+三个平台各连拍两轮 `compare` 全部一致（web-desktop 首页 4 格、web-phone 与 web-tablet 各 56 格）。`ignore` 保持为空；修改截图协议或浏览器版本后重新比较。
 
 范围与逐项核对见 [inventory.md](inventory.md)。`/docs/**`、文档搜索和文档专用导航不纳入本技能。国际化内容变更同时维护英文与简体中文键值；技能和机器配置本身不引入页面文案键。
