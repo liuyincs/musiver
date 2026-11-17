@@ -1,0 +1,30 @@
+{
+  "id": "navigation-desktop",
+  "name": "桌面语言菜单",
+  "priority": 2,
+  "blueprint": "marketing",
+  "sources": {
+    "*": [
+      "src/pages/index.tsx",
+      "src/pages/index.module.css",
+      "src/css/custom.css",
+      "docusaurus.config.ts",
+      "i18n/en",
+      "i18n/zh-Hans"
+    ]
+  },
+  "states": [
+    {
+      "id": "en_locale",
+      "name": "en locale"
+    },
+    {
+      "id": "zh-Hans_locale",
+      "name": "zh-Hans locale"
+    }
+  ],
+  "scores": [],
+  "platforms": [
+    "web-desktop"
+  ]
+}

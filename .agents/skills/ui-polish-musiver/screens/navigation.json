@@ -1,0 +1,39 @@
+{
+  "id": "navigation",
+  "name": "共享导航",
+  "priority": 2,
+  "blueprint": "marketing",
+  "sources": {
+    "*": [
+      "src/pages/index.tsx",
+      "src/pages/index.module.css",
+      "src/css/custom.css",
+      "docusaurus.config.ts",
+      "i18n/en",
+      "i18n/zh-Hans"
+    ]
+  },
+  "states": [
+    {
+      "id": "en_menu",
+      "name": "en menu"
+    },
+    {
+      "id": "en_menu-locale",
+      "name": "en menu-locale"
+    },
+    {
+      "id": "zh-Hans_menu",
+      "name": "zh-Hans menu"
+    },
+    {
+      "id": "zh-Hans_menu-locale",
+      "name": "zh-Hans menu-locale"
+    }
+  ],
+  "scores": [],
+  "platforms": [
+    "web-phone",
+    "web-tablet"
+  ]
+}

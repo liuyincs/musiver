@@ -14,7 +14,10 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc && pnpm ui:map check",
+    "ui:capture": "node scripts/capture-ui.mjs",
+    "ui:map": "node .agents/skills/ui-polish-musiver/scripts/ui-map.mjs",
+    "ui:shots": "node .agents/skills/ui-polish-musiver/scripts/ui-shots.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
@@ -30,6 +33,7 @@
     "@docusaurus/module-type-aliases": "3.9.2",
     "@docusaurus/tsconfig": "3.9.2",
     "@docusaurus/types": "3.9.2",
+    "@playwright/test": "1.58.0",
     "typescript": "~5.6.2"
   },
   "browserslist": {

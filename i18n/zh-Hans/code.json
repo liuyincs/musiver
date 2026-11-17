@@ -2293,5 +2293,9 @@
   },
   "download.platform.linux": {
     "message": "Linux"
+  },
+  "homepage.membership.link.ariaLabel": {
+    "message": "比较免费版与会员功能",
+    "description": "Accessible label for homepage membership comparison link"
   }
 }

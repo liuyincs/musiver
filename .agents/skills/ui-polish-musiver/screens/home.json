@@ -1,0 +1,27 @@
+{
+  "id": "home",
+  "name": "首页",
+  "priority": 1,
+  "blueprint": "marketing",
+  "sources": {
+    "*": [
+      "src/pages/index.tsx",
+      "src/pages/index.module.css",
+      "src/css/custom.css",
+      "docusaurus.config.ts",
+      "i18n/en",
+      "i18n/zh-Hans"
+    ]
+  },
+  "states": [
+    {
+      "id": "en_default",
+      "name": "en default"
+    },
+    {
+      "id": "zh-Hans_default",
+      "name": "zh-Hans default"
+    }
+  ],
+  "scores": []
+}

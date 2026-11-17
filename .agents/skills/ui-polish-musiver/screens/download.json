@@ -1,0 +1,116 @@
+{
+  "id": "download",
+  "name": "下载",
+  "priority": 2,
+  "blueprint": "marketing",
+  "sources": {
+    "*": [
+      "src/pages/download.tsx",
+      "src/pages/download.module.css",
+      "src/css/custom.css",
+      "docusaurus.config.ts",
+      "i18n/en",
+      "i18n/zh-Hans",
+      "src/data/releases"
+    ]
+  },
+  "states": [
+    {
+      "id": "en_stable-android",
+      "name": "en stable-android"
+    },
+    {
+      "id": "en_stable-harmony",
+      "name": "en stable-harmony"
+    },
+    {
+      "id": "en_stable-apple",
+      "name": "en stable-apple"
+    },
+    {
+      "id": "en_stable-windows",
+      "name": "en stable-windows"
+    },
+    {
+      "id": "en_stable-linux",
+      "name": "en stable-linux"
+    },
+    {
+      "id": "en_stable-web",
+      "name": "en stable-web"
+    },
+    {
+      "id": "en_beta-android",
+      "name": "en beta-android"
+    },
+    {
+      "id": "en_beta-harmony",
+      "name": "en beta-harmony"
+    },
+    {
+      "id": "en_beta-apple",
+      "name": "en beta-apple"
+    },
+    {
+      "id": "en_beta-windows",
+      "name": "en beta-windows"
+    },
+    {
+      "id": "en_beta-linux",
+      "name": "en beta-linux"
+    },
+    {
+      "id": "en_beta-web",
+      "name": "en beta-web"
+    },
+    {
+      "id": "zh-Hans_stable-android",
+      "name": "zh-Hans stable-android"
+    },
+    {
+      "id": "zh-Hans_stable-harmony",
+      "name": "zh-Hans stable-harmony"
+    },
+    {
+      "id": "zh-Hans_stable-apple",
+      "name": "zh-Hans stable-apple"
+    },
+    {
+      "id": "zh-Hans_stable-windows",
+      "name": "zh-Hans stable-windows"
+    },
+    {
+      "id": "zh-Hans_stable-linux",
+      "name": "zh-Hans stable-linux"
+    },
+    {
+      "id": "zh-Hans_stable-web",
+      "name": "zh-Hans stable-web"
+    },
+    {
+      "id": "zh-Hans_beta-android",
+      "name": "zh-Hans beta-android"
+    },
+    {
+      "id": "zh-Hans_beta-harmony",
+      "name": "zh-Hans beta-harmony"
+    },
+    {
+      "id": "zh-Hans_beta-apple",
+      "name": "zh-Hans beta-apple"
+    },
+    {
+      "id": "zh-Hans_beta-windows",
+      "name": "zh-Hans beta-windows"
+    },
+    {
+      "id": "zh-Hans_beta-linux",
+      "name": "zh-Hans beta-linux"
+    },
+    {
+      "id": "zh-Hans_beta-web",
+      "name": "zh-Hans beta-web"
+    }
+  ],
+  "scores": []
+}

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>界面打磨</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f6f6f4; --card: #fff; --line: #e2e2de; --text: #1d1d1b; --muted: #6b6b66; --ok: #1f7a3d; --low: #b3261e; --accent: #2f5fd0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161615; --card: #222220; --line: #34342f; --text: #ecece8; --muted: #9a9a93; --ok: #6fcf8f; --low: #ff8a80; --accent: #8fb0ff; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); }
+  header, main { max-width: 1440px; margin: 0 auto; padding: 0 24px; }
+  header { padding-top: 28px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 32px 0 12px; }
+  h3 { font-size: 15px; margin: 16px 0 8px; }
+  .meta, .muted { color: var(--muted); }
+  nav { display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap; }
+  nav a { color: var(--accent); text-decoration: none; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+  .card h3 { margin: 0 0 10px; display: flex; justify-content: space-between; gap: 12px; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .pair.single { grid-template-columns: 1fr; }
+  figure { margin: 0; }
+  figure img { width: 100%; display: block; border-radius: 6px; border: 1px solid var(--line); cursor: zoom-in; background: #000; }
+  figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .score { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ok { color: var(--ok); } .low { color: var(--low); }
+  .tag { display: inline-block; font-size: 12px; padding: 0 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  table { border-collapse: collapse; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; color: var(--muted); }
+  ul { margin: 4px 0; padding-left: 20px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; }
+  summary { cursor: pointer; font-weight: 600; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .warn { color: var(--low); }
+  #lb { position: fixed; inset: 0; background: rgba(0,0,0,.92); display: none; z-index: 10; overflow: hidden; }
+  #lb.open { display: block; }
+  #lb img { position: absolute; left: 0; top: 0; transform-origin: 0 0; cursor: grab; user-select: none; -webkit-user-drag: none; max-width: none; }
+  #lb img.drag { cursor: grabbing; }
+  #lbbar { position: absolute; left: 0; right: 0; top: 0; display: flex; gap: 10px; align-items: center; padding: 10px 14px; background: rgba(0,0,0,.6); color: #eee; z-index: 1; flex-wrap: wrap; }
+  #lbbar button { background: #333; color: #eee; border: 1px solid #555; border-radius: 6px; padding: 3px 10px; cursor: pointer; font: inherit; }
+  #lbbar button[disabled] { opacity: .4; cursor: default; }
+  #lbtitle { flex: 1; min-width: 200px; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title"></h1>
+  <div class="meta" id="meta"></div>
+  <nav id="nav"></nav>
+</header>
+<main id="main"></main>
+<div id="lb">
+  <div id="lbbar">
+    <span id="lbtitle"></span>
+    <button id="lbprev" title="上一轮（←）">← 上一轮</button>
+    <button id="lbnext" title="下一轮（→）">下一轮 →</button>
+    <button id="lbfit" title="双击图片也可切换">适应窗口 / 原始大小</button>
+    <button id="lbclose" title="Esc">关闭</button>
+  </div>
+  <img id="lbimg" alt="">
+</div>
+<script id="data" type="application/json">/*DATA*/null</script>
+<script>
+const data = JSON.parse(document.getElementById("data").textContent);
+const $ = (tag, attrs = {}, ...kids) => {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) if (v !== undefined && v !== null) k === "class" ? (el.className = v) : k.startsWith("on") ? el.addEventListener(k.slice(2), v) : el.setAttribute(k, v);
+  for (const kid of kids.flat()) if (kid !== null && kid !== undefined && kid !== false) el.append(kid.nodeType ? kid : String(kid));
+  return el;
+};
+const fmt = (n) => (n === null || n === undefined ? "—" : String(n));
+const cls = (n) => (n === null || n === undefined ? "" : n >= data.threshold ? "ok" : "low");
+const scoreEl = (n) => $("span", { class: `score ${cls(n)}` }, fmt(n));
+const delta = (a, b) => (a === null || b === null || a === undefined || b === undefined ? "" : `${b - a >= 0 ? "+" : ""}${(Math.round((b - a) * 10) / 10).toFixed(1)}`);
+const rounds = data.rounds;
+const shotOf = (r, k) => r.shots.find((s) => s.key === k);
+const history = (k) => rounds.map((r, i) => ({ i, round: r, shot: shotOf(r, k) })).filter((x) => x.shot);
+
+document.title = data.title;
+document.getElementById("title").textContent = data.title;
+document.getElementById("meta").textContent = `${rounds.length} 轮：${rounds.map((r) => r.name).join(" → ")} · 达标阈值 ${data.threshold} · 生成于 ${new Date(data.generatedAt).toLocaleString()}`;
+const main = document.getElementById("main");
+const nav = document.getElementById("nav");
+const section = (id, title) => { nav.append($("a", { href: `#${id}` }, title)); const s = $("section", { id }, $("h2", {}, title)); main.append(s); return s; };
+
+// 截图：每格取第一轮和最后一轮
+const shots = section("shots", rounds.length > 1 ? "打磨前后对比" : "截图");
+const grid = $("div", { class: "grid" });
+for (const c of data.cells) {
+  const h = history(c.key);
+  const first = h[0], last = h[h.length - 1];
+  const fig = (x, label) => $("figure", {},
+    $("img", { src: x.shot.src, loading: "lazy", alt: c.label, onclick: () => openLb(c, x.i) }),
+    $("figcaption", {}, `${label} · ${x.round.name} · `, scoreEl(x.shot.score)));
+  const same = first === last;
+  grid.append($("div", { class: "card" },
+    $("h3", {}, $("span", {}, c.label), $("span", {}, scoreEl(first.shot.score), same ? "" : [" → ", scoreEl(last.shot.score), " ", $("span", { class: "muted" }, delta(first.shot.score, last.shot.score))])),
+    $("div", { class: `pair${same ? " single" : ""}` }, same ? fig(first, "截图") : [fig(first, "打磨前"), fig(last, "打磨后")])));
+}
+shots.append(grid);
+
+// 打磨范围草案（定调轮）
+const scoped = rounds.filter((r) => r.scope && r.scope.length);
+if (scoped.length) {
+  const s = section("scope", "打磨范围草案");
+  s.append($("p", { class: "muted" }, "评审员在定调轮起草。确认或修改后告诉代理，写进蓝图后，后续轮次只改「可调」的部分。"));
+  for (const r of scoped) for (const sc of r.scope) {
+    s.append($("div", { class: "card", style: "margin-bottom:12px" },
+      $("h3", {}, $("span", {}, sc.screen), $("span", { class: "tag" }, r.name)),
+      $("div", { class: "cols" },
+        $("div", {}, $("strong", {}, "锁定"), $("ul", {}, (sc.locked || []).map((x) => $("li", {}, typeof x === "string" ? x : [x.item, x.why ? $("span", { class: "muted" }, `：${x.why}`) : ""])))),
+        $("div", {}, $("strong", {}, "可调"), $("ul", {}, (sc.adjustable || []).map((x) => $("li", {}, typeof x === "string" ? x : [x.item, x.range ? $("span", { class: "muted" }, `：${x.range}`) : ""])))))));
+  }
+}
+
+// 方向性建议：超出打磨范围，留给用户决定
+const dirs = rounds.flatMap((r) => r.directions.map((d) => ({ ...d, round: r.name })));
+if (dirs.length) {
+  const s = section("directions", "方向性建议（待你决定）");
+  s.append($("table", {}, $("tr", {}, $("th", {}, "轮次"), $("th", {}, "界面"), $("th", {}, "建议")),
+    dirs.map((d) => $("tr", {}, $("td", {}, `${d.round} ${d.id}`), $("td", {}, d.screen || ""), $("td", {}, d.text || "")))));
+}
+
+// 过程记录：每轮的分数和采纳情况
+const log = section("log", "过程记录");
+rounds.forEach((r, i) => {
+  const prev = rounds[i - 1];
+  const answer = new Map([...r.adopted.map((a) => [a.id, { ok: true, text: a.change }]), ...r.declined.map((d) => [d.id, { ok: false, text: d.reason }])]);
+  const status = (id) => { const a = answer.get(id); return a ? $("td", {}, $("span", { class: a.ok ? "ok" : "muted" }, a.ok ? "采纳" : "不采纳"), a.text ? `：${a.text}` : "") : $("td", { class: i < rounds.length - 1 ? "warn" : "muted" }, i < rounds.length - 1 ? "未交代" : "—"); };
+  const d = $("details", { open: "" }, $("summary", {}, `${r.name}`, " ", r.mode ? $("span", { class: "tag" }, r.mode === "calibrate" ? "定调轮" : "打磨轮") : ""));
+  d.append($("h3", {}, "分数"), $("table", {}, $("tr", {}, $("th", {}, "格子"), $("th", {}, "分数"), $("th", {}, "较上一轮"), $("th", {}, "主要扣分")),
+    r.shots.map((s) => { const c = data.cells.find((x) => x.key === s.key); const p = prev && shotOf(prev, s.key);
+      return $("tr", {}, $("td", {}, c ? c.label : s.key), $("td", {}, scoreEl(s.score)), $("td", { class: "muted" }, p ? delta(p.score, s.score) : ""), $("td", { class: "muted" }, (s.deductions || []).slice(0, 2).join("；"))); })));
+  if (r.suggestions.length || r.mismatches.length) {
+    d.append($("h3", {}, "修改建议与处理"), $("table", {}, $("tr", {}, $("th", {}, "编号"), $("th", {}, "建议"), $("th", {}, "处理")),
+      r.suggestions.map((s) => $("tr", {}, $("td", {}, s.id), $("td", {}, `${s.screen}/${s.theme}/${s.state} ${s.element || ""}${s.where ? `（${s.where}）` : ""} -${s.points} → ${s.suggestion}`), status(s.id))),
+      r.mismatches.map((m) => $("tr", {}, $("td", {}, m.id), $("td", {}, `与蓝图不一致：${m.text || ""}`), status(m.id)))));
+  }
+  log.append(d);
+});
+
+// 放大查看：滚轮缩放、拖动平移、双击切换适应窗口和原始大小，←/→ 切换同一格的各轮截图
+const lb = document.getElementById("lb"), img = document.getElementById("lbimg");
+let cur = null, scale = 1, tx = 0, ty = 0, fitScale = 1;
+const apply = () => { img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`; };
+const fit = () => {
+  const top = document.getElementById("lbbar").offsetHeight, w = innerWidth, h = innerHeight - top;
+  fitScale = Math.min(w / img.naturalWidth, h / img.naturalHeight, 1);
+  scale = fitScale; tx = (w - img.naturalWidth * scale) / 2; ty = top + (h - img.naturalHeight * scale) / 2; apply();
+};
+const actual = () => { scale = 1; tx = (innerWidth - img.naturalWidth) / 2; ty = document.getElementById("lbbar").offsetHeight; apply(); };
+// 切换轮次时保持缩放和位置，便于对比同一处细节；尺寸不同才重新适应窗口
+function show(keep) {
+  const x = cur.h[cur.pos];
+  document.getElementById("lbtitle").textContent = `${cur.cell.label} · ${x.round.name} · ${fmt(x.shot.score)}（${cur.pos + 1}/${cur.h.length}）`;
+  document.getElementById("lbprev").disabled = cur.pos === 0;
+  document.getElementById("lbnext").disabled = cur.pos === cur.h.length - 1;
+  const size = keep && img.naturalWidth ? `${img.naturalWidth}x${img.naturalHeight}` : null;
+  img.onload = () => (size === `${img.naturalWidth}x${img.naturalHeight}` ? apply() : fit());
+  img.src = x.shot.src;
+}
+function openLb(cell, roundIndex) {
+  const h = history(cell.key);
+  cur = { cell, h, pos: Math.max(0, h.findIndex((x) => x.i === roundIndex)) };
+  lb.classList.add("open"); show();
+}
+const step = (d) => { if (!cur) return; const p = cur.pos + d; if (p >= 0 && p < cur.h.length) { cur.pos = p; show(true); } };
+const close = () => { lb.classList.remove("open"); cur = null; };
+document.getElementById("lbprev").onclick = () => step(-1);
+document.getElementById("lbnext").onclick = () => step(1);
+document.getElementById("lbclose").onclick = close;
+document.getElementById("lbfit").onclick = () => (Math.abs(scale - fitScale) < 1e-3 ? actual() : fit());
+img.ondblclick = () => (Math.abs(scale - fitScale) < 1e-3 ? actual() : fit());
+addEventListener("keydown", (e) => { if (!cur) return; if (e.key === "Escape") close(); if (e.key === "ArrowLeft") step(-1); if (e.key === "ArrowRight") step(1); });
+lb.addEventListener("wheel", (e) => {
+  e.preventDefault();
+  const next = Math.min(8, Math.max(fitScale / 2, scale * Math.exp(-e.deltaY * 0.0015)));
+  tx = e.clientX - ((e.clientX - tx) * next) / scale; ty = e.clientY - ((e.clientY - ty) * next) / scale; scale = next; apply();
+}, { passive: false });
+let drag = null;
+img.addEventListener("pointerdown", (e) => { drag = { x: e.clientX - tx, y: e.clientY - ty }; img.setPointerCapture(e.pointerId); img.classList.add("drag"); });
+img.addEventListener("pointermove", (e) => { if (drag) { tx = e.clientX - drag.x; ty = e.clientY - drag.y; apply(); } });
+img.addEventListener("pointerup", () => { drag = null; img.classList.remove("drag"); });
+lb.addEventListener("click", (e) => { if (e.target === lb) close(); });
+addEventListener("resize", () => cur && fit());
+</script>
+</body>
+</html>

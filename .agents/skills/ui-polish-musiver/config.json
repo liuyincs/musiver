@@ -1,0 +1,24 @@
+{
+  "threshold": 9,
+  "batchSize": 3,
+  "platforms": [
+    "web-desktop",
+    "web-phone",
+    "web-tablet"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "families": {
+    "desktop": [
+      "web-desktop"
+    ],
+    "phone": [
+      "web-phone"
+    ],
+    "tablet": [
+      "web-tablet"
+    ]
+  }
+}

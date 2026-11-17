@@ -559,3 +559,23 @@
     display: none;
   }
 }
+
+/* Confirmed desktop polish scope: keep structure, refine the editorial grid. */
+@media (min-width: 997px) {
+  .wrapper { position: relative; }
+  .guidelines { position: absolute; inset: 0; }
+  .guideV1 { left: max(60px, calc((100% - 1360px) / 2 + 60px)); }
+  .guideV2 { right: max(60px, calc((100% - 1360px) / 2 + 60px)); }
+  .guideH1 { top: 40px; }
+  .hero { padding-top: 54px; }
+  .features { max-width: 1320px; padding-left: 40px; padding-right: 40px; }
+  .featureNum { color: #8993a3; }
+  .featureDesc { font-size: 15px; color: #5b6573; }
+  .btnPrimary, .btnSecondary { min-width: 156px; justify-content: center; }
+  .featuresLabel:lang(zh-Hans) { font-style: normal; }
+  .membershipLink { color: var(--azure); text-decoration-thickness: 1px; }
+  :global([data-theme="dark"]) .featureNum { color: #68798e; }
+  :global([data-theme="dark"]) .featureDesc { color: #aeb9c8; }
+  :global([data-theme="dark"]) .features { border-top-color: rgba(var(--navy-rgb), 0.12); }
+  :global([data-theme="dark"]) .featuresLine { background: rgba(var(--navy-rgb), 0.12); }
+}

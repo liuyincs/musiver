@@ -2293,5 +2293,9 @@
   },
   "download.platform.linux": {
     "message": "Linux"
+  },
+  "homepage.membership.link.ariaLabel": {
+    "message": "Compare free and member features",
+    "description": "Accessible label for homepage membership comparison link"
   }
 }

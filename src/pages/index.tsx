@@ -123,7 +123,7 @@ export default function Home(): ReactNode {
               one-time purchase — no strings attached.
             </Translate>
           </p>
-          <Link className={s.membershipLink} to="/pricing">
+          <Link className={s.membershipLink} to="/pricing" aria-label={translate({ id: "homepage.membership.link.ariaLabel", message: "Compare free and member features" })}>
             <Translate id="homepage.membership.link">
               See what membership adds
             </Translate>
