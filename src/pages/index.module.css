@@ -567,19 +567,19 @@
   .guideV1 { left: max(36px, calc((100% - 1360px) / 2 + 36px)); }
   .guideV2 { right: max(40px, calc((100% - 1360px) / 2)); }
   .guideH1 { top: 0; }
-  .hero { padding-top: 54px; }
+  .hero { padding-top: 50.4px; }
   .features { max-width: 1240px; padding-left: 0; padding-right: 0; border-top-color: transparent; }
   .features::before { content: ""; position: absolute; top: -1px; left: -24px; right: -60px; height: 1px; background: rgba(var(--navy-rgb), 0.08); }
   .featuresLine { margin-right: -60px; }
-  .featuresGrid { padding-right: 24px; gap: 30px; }
-  .featureNum { color: #7e8999; font-size: 2.42rem; }
-  .featureDesc { font-size: 14px; line-height: 1.93; color: #5b6573; }
-  .membership { padding-top: 48px; padding-bottom: 80px; }
+  .featuresGrid { padding-right: 24px; gap: 28px; }
+  .featureNum { color: #7e8999; font-size: 2.2rem; }
+  .featureDesc { font-size: 15px; line-height: 1.8; color: #5b6573; }
+  .membership { padding-top: 42px; padding-bottom: 70px; }
   .btnPrimary, .btnSecondary { min-width: 156px; justify-content: center; }
   .featuresLabel:lang(zh-Hans) { font-style: normal; }
   .membershipLink { color: var(--azure); text-decoration: none; }
   .membershipLink::after { content: " →"; }
-  :global([data-theme="dark"]) .featureNum { color: #4f5e72; }
+  :global([data-theme="dark"]) .featureNum { color: #566378; }
   :global([data-theme="dark"]) .featureDesc { color: #aeb9c8; }
   :global([data-theme="dark"]) .features::before { background: rgba(var(--navy-rgb), 0.14); }
   :global([data-theme="dark"]) .featuresLine { background: rgba(var(--navy-rgb), 0.14); }
