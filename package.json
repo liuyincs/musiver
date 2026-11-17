@@ -17,7 +17,8 @@
     "typecheck": "tsc && pnpm ui:map check",
     "ui:capture": "node scripts/capture-ui.mjs",
     "ui:map": "node .agents/skills/ui-polish-musiver/scripts/ui-map.mjs",
-    "ui:shots": "node .agents/skills/ui-polish-musiver/scripts/ui-shots.mjs"
+    "ui:shots": "node .agents/skills/ui-polish-musiver/scripts/ui-shots.mjs",
+    "ui:report:inline": "node scripts/inline-ui-report.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",

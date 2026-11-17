@@ -566,14 +566,16 @@
   .guidelines { position: absolute; inset: 0; }
   .guideV1 { left: max(60px, calc((100% - 1360px) / 2 + 60px)); }
   .guideV2 { right: max(60px, calc((100% - 1360px) / 2 + 60px)); }
-  .guideH1 { top: 40px; }
+  .guideH1 { top: 0; }
   .hero { padding-top: 54px; }
-  .features { max-width: 1320px; padding-left: 40px; padding-right: 40px; }
-  .featureNum { color: #8993a3; }
+  .features { max-width: 1240px; padding-left: 0; padding-right: 0; }
+  .featuresGrid { padding-right: 24px; }
+  .featureNum { color: #8993a3; font-size: 2.42rem; }
   .featureDesc { font-size: 15px; color: #5b6573; }
   .btnPrimary, .btnSecondary { min-width: 156px; justify-content: center; }
   .featuresLabel:lang(zh-Hans) { font-style: normal; }
-  .membershipLink { color: var(--azure); text-decoration-thickness: 1px; }
+  .membershipLink { color: var(--azure); text-decoration: none; }
+  .membershipLink::after { content: " →"; }
   :global([data-theme="dark"]) .featureNum { color: #68798e; }
   :global([data-theme="dark"]) .featureDesc { color: #aeb9c8; }
   :global([data-theme="dark"]) .features { border-top-color: rgba(var(--navy-rgb), 0.12); }
