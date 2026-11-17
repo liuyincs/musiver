@@ -624,7 +624,55 @@
     "message": "How to purchase and refund?"
   },
   "pricing.faq.a2": {
-    "message": "Channels:\n• iOS / Apple platforms: App Store. Refunds go through Apple under its policy (not controlled by the developer). See {appleLink}.\n• Android (Google Play): Refunds go through Google Play under its policy (not controlled by the developer). See {googlePolicyLink} and {googleRefundLink}.\n• HarmonyOS (Huawei IAP / AppGallery): Refunds go through Huawei under its policy (not controlled by the developer). See {huaweiTermsLink}.\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number (same as Android Alipay).\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). App Store, Google Play, and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind email in the old app first."
+    "message": "Which channel you bought from decides who handles the refund."
+  },
+  "pricing.faq.a2.and": {
+    "message": "and"
+  },
+  "pricing.faq.a2.apple": {
+    "message": "App Store. Refunds go through Apple under its policy, not controlled by the developer. See"
+  },
+  "pricing.faq.a2.google": {
+    "message": "Refunds go through Google Play under its policy, not controlled by the developer. See"
+  },
+  "pricing.faq.a2.huawei": {
+    "message": "Refunds go through Huawei under its policy, not controlled by the developer. See"
+  },
+  "pricing.faq.a2.android": {
+    "message": "Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number."
+  },
+  "pricing.faq.a2.desktop": {
+    "message": "Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number, same as Android Alipay."
+  },
+  "pricing.faq.a2.androidTv": {
+    "message": "No in-app payment: buy on the phone, then restore."
+  },
+  "pricing.faq.a2.web": {
+    "message": "No purchase UI."
+  },
+  "pricing.faq.a2.restore": {
+    "message": "After purchase, bind an email to restore on other devices (binding cannot be changed, so do not use a temporary email). App Store, Google Play and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind an email in the old app first."
+  },
+  "pricing.faq.a2.channel.apple": {
+    "message": "iOS / Apple platforms"
+  },
+  "pricing.faq.a2.channel.google": {
+    "message": "Android (Google Play)"
+  },
+  "pricing.faq.a2.channel.huawei": {
+    "message": "HarmonyOS (Huawei IAP / AppGallery)"
+  },
+  "pricing.faq.a2.channel.android": {
+    "message": "Android (China / direct)"
+  },
+  "pricing.faq.a2.channel.desktop": {
+    "message": "Windows / Linux desktop"
+  },
+  "pricing.faq.a2.channel.androidTv": {
+    "message": "Android TV"
+  },
+  "pricing.faq.a2.channel.web": {
+    "message": "Web"
   },
   "pricing.faq.a2.apple.link": {
     "message": "Request a refund for apps or content that you bought from Apple"

@@ -53,7 +53,7 @@
 }
 
 .pricingCards {
-  max-width: 1000px;
+  max-width: 880px;
   margin: 0 auto 100px;
   padding: 0 20px;
   display: grid;
@@ -64,7 +64,7 @@
 .card {
   background: var(--card-bg);
   border: 1px solid rgba(var(--navy-rgb), 0.1);
-  padding: 48px 40px;
+  padding: 40px 32px;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -135,10 +135,9 @@
   justify-content: center;
   width: 100%;
   padding: 16px 24px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
   text-decoration: none;
   transition: all 0.3s ease;
   border: 1px solid transparent;
@@ -161,6 +160,16 @@
   color: #ffffff;
 }
 
+/* 深色主题下浅蓝底配白字只有约 2.4:1，改成深色字 */
+[data-theme="dark"] .actionBtnPro {
+  color: #0b1220;
+}
+
+[data-theme="dark"] .actionBtnPro:hover {
+  background: var(--azure);
+  color: #0b1220;
+}
+
 .actionBtnPro:hover {
   background: var(--navy);
   color: #ffffff;
@@ -169,7 +178,7 @@
 
 /* Table Container */
 .tableSection {
-  max-width: 900px;
+  max-width: 880px;
   margin: 0 auto 100px;
   padding: 0 20px;
 }
@@ -189,7 +198,7 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--azure);
-  margin: 40px 0 16px;
+  margin: 36px 0 16px;
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(var(--navy-rgb), 0.1);
 }
@@ -199,8 +208,24 @@
   grid-template-columns: 2fr 1fr 1fr;
   gap: 16px;
   align-items: center;
-  padding: 16px 0;
-  border-bottom: 1px solid rgba(var(--navy-rgb), 0.05);
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(var(--navy-rgb), 0.07);
+}
+
+/* 比较表列头：桌面滚动时吸顶，列头用正文色保证可读 */
+.gridHeaderRow {
+  border-bottom: 1px solid rgba(var(--navy-rgb), 0.14);
+}
+
+@media (min-width: 997px) {
+  .gridHeaderRow {
+    position: sticky;
+    top: var(--ifm-navbar-height, 60px);
+    z-index: 3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: var(--warm-white);
+  }
 }
 
 .featureGrid:last-child {
@@ -208,11 +233,15 @@
 }
 
 .gridHeader {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--stone);
+  color: var(--navy);
+}
+
+.gridHeaderPro {
+  color: var(--azure);
 }
 
 .gridHeaderCenter {
@@ -244,13 +273,14 @@
 }
 
 .crossIcon {
-  color: rgba(var(--navy-rgb), 0.2);
+  color: var(--stone);
+  opacity: 0.8;
   width: 20px;
   height: 20px;
 }
 
 .faqSection {
-  max-width: 800px;
+  max-width: 880px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -266,28 +296,101 @@
 
 .faqGrid {
   display: grid;
-  gap: 32px;
+  gap: 28px;
 }
 
 .faqItem {
   background: var(--card-bg);
-  padding: 32px;
+  padding: 28px 32px;
   border-left: 2px solid var(--azure);
   box-shadow: 0 4px 20px rgba(var(--shadow-rgb), 0.03);
 }
 
 .faqQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 12px;
   color: var(--navy);
+  cursor: pointer;
+  list-style: none;
+}
+
+.faqQuestion::-webkit-details-marker {
+  display: none;
+}
+
+.faqQuestion::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+  border-right: 2px solid var(--azure);
+  border-bottom: 2px solid var(--azure);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.faqItem[open] .faqQuestion::after {
+  transform: rotate(-135deg);
 }
 
 .faqAnswer {
   color: var(--stone);
-  line-height: 1.7;
-  font-size: 0.95rem;
-  white-space: pre-line;
+  line-height: 1.75;
+  font-size: 0.9rem;
+  margin-top: 14px;
+}
+
+.faqAnswer p {
+  margin: 0 0 14px;
+}
+
+.faqAnswer p:last-child {
+  margin-bottom: 0;
+}
+
+/* 退款按渠道分行：渠道名加粗，规则与链接跟在后面 */
+.faqChannels {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+.faqChannel {
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 14px;
+  position: relative;
+}
+
+.faqChannel::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--azure);
+}
+
+.faqChannelName {
+  display: block;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 2px;
+}
+
+.faqChannel a {
+  color: var(--azure);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .faqItem {
+    padding: 22px 20px;
+  }
 }
 
 @media (max-width: 768px) {

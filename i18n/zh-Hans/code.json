@@ -624,7 +624,55 @@
     "message": "如何购买和退款？"
   },
   "pricing.faq.a2": {
-    "message": "购买渠道：\n• iOS / Apple 平台：App Store。退款由 Apple 按其政策处理（不受开发者控制）。见 {appleLink}\n• Android（Google Play）：退款由 Google Play 按其政策处理（不受开发者控制）。见 {googlePolicyLink} 与 {googleRefundLink}\n• 鸿蒙（华为 IAP / 应用市场）：退款由华为按其政策处理（不受开发者控制）。见 {huaweiRefundLink} 与 {huaweiTermsLink}\n• Android（国内/直接分发）：支付宝。6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Windows / Linux 桌面：支付宝。退款规则与安卓支付宝相同：6 个月内邮件联系 aqzscn@qq.com，需提供支付宝订单号。\n• Android TV：不发起应用内支付——请在手机购买后恢复。\n• Web：无购买界面。\n\n购买后请绑定邮箱以便在其他设备恢复（绑定后不可修改，请勿使用临时邮箱）。App Store、Google Play 与华为购买均可用同样方式恢复。旧版音流买家须先在旧版绑定邮箱。"
+    "message": "在哪里购买，决定了由谁处理退款。"
+  },
+  "pricing.faq.a2.and": {
+    "message": "和"
+  },
+  "pricing.faq.a2.apple": {
+    "message": "App Store。退款由 Apple 按其政策处理，开发者无法控制。参见"
+  },
+  "pricing.faq.a2.google": {
+    "message": "退款由 Google Play 按其政策处理，开发者无法控制。参见"
+  },
+  "pricing.faq.a2.huawei": {
+    "message": "退款由华为按其政策处理，开发者无法控制。参见"
+  },
+  "pricing.faq.a2.android": {
+    "message": "支付宝。6 个月内把支付宝订单号发邮件到 aqzscn@qq.com。"
+  },
+  "pricing.faq.a2.desktop": {
+    "message": "支付宝。6 个月内把支付宝订单号发邮件到 aqzscn@qq.com，与安卓支付宝购买相同。"
+  },
+  "pricing.faq.a2.androidTv": {
+    "message": "不在应用内付款：在手机上购买后恢复即可。"
+  },
+  "pricing.faq.a2.web": {
+    "message": "不提供购买入口。"
+  },
+  "pricing.faq.a2.restore": {
+    "message": "购买后请绑定邮箱，用于在其他设备恢复（绑定后不可更改，不要使用临时邮箱）。App Store、Google Play、华为的购买恢复方式相同。老版 StreamMusic 用户需要先在旧应用里绑定邮箱。"
+  },
+  "pricing.faq.a2.channel.apple": {
+    "message": "iOS / Apple 平台"
+  },
+  "pricing.faq.a2.channel.google": {
+    "message": "安卓（Google Play）"
+  },
+  "pricing.faq.a2.channel.huawei": {
+    "message": "鸿蒙（华为 IAP / AppGallery）"
+  },
+  "pricing.faq.a2.channel.android": {
+    "message": "安卓（国内 / 直购）"
+  },
+  "pricing.faq.a2.channel.desktop": {
+    "message": "Windows / Linux 桌面端"
+  },
+  "pricing.faq.a2.channel.androidTv": {
+    "message": "Android TV"
+  },
+  "pricing.faq.a2.channel.web": {
+    "message": "网页版"
   },
   "pricing.faq.a2.apple.link": {
     "message": "针对从 Apple 购买的 App 或内容请求退款"

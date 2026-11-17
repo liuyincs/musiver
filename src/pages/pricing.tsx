@@ -162,14 +162,14 @@ export default function Pricing() {
             <Translate id="pricing.table.title">Feature Comparison</Translate>
           </h2>
 
-          <div className={styles.featureGrid}>
+          <div className={`${styles.featureGrid} ${styles.gridHeaderRow}`}>
             <div className={styles.gridHeader}>
               <Translate id="pricing.table.header.feature">Features</Translate>
             </div>
             <div className={`${styles.gridHeader} ${styles.gridHeaderCenter}`}>
               <Translate id="pricing.table.header.free">Free</Translate>
             </div>
-            <div className={`${styles.gridHeader} ${styles.gridHeaderCenter}`}>
+            <div className={`${styles.gridHeader} ${styles.gridHeaderCenter} ${styles.gridHeaderPro}`}>
               <Translate id="pricing.table.header.pro">Member</Translate>
             </div>
           </div>
@@ -200,10 +200,10 @@ export default function Pricing() {
             <Translate id="pricing.faq.title">Purchase Guide</Translate>
           </h2>
           <div className={styles.faqGrid}>
-            <div className={styles.faqItem}>
-              <div className={styles.faqQuestion}>
+            <details className={styles.faqItem} open>
+              <summary className={styles.faqQuestion}>
                 <Translate id="pricing.faq.q1">What is the pricing model?</Translate>
-              </div>
+              </summary>
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a1">
                   {
@@ -211,72 +211,121 @@ export default function Pricing() {
                   }
                 </Translate>
               </div>
-            </div>
-            <div className={styles.faqItem}>
-              <div className={styles.faqQuestion}>
+            </details>
+            <details className={styles.faqItem}>
+              <summary className={styles.faqQuestion}>
                 <Translate id="pricing.faq.q2">How to purchase and refund?</Translate>
-              </div>
+              </summary>
               <div className={styles.faqAnswer}>
-                <Translate
-                  id="pricing.faq.a2"
-                  values={{
-                    appleLink: (
-                      <ExtLink
-                        urlId="pricing.faq.a2.apple.url"
-                        url="https://support.apple.com/en-us/118223"
-                        labelId="pricing.faq.a2.apple.link"
-                      >
-                        Request a refund for apps or content that you bought from Apple
-                      </ExtLink>
-                    ),
-                    googlePolicyLink: (
-                      <ExtLink
-                        urlId="pricing.faq.a2.googlePolicy.url"
-                        url="https://support.google.com/googleplay/answer/2479637"
-                        labelId="pricing.faq.a2.googlePolicy.link"
-                      >
-                        Learn about refunds on Google Play
-                      </ExtLink>
-                    ),
-                    googleRefundLink: (
-                      <ExtLink
-                        urlId="pricing.faq.a2.googleRefund.url"
-                        url="https://support.google.com/googleplay/answer/15574897"
-                        labelId="pricing.faq.a2.googleRefund.link"
-                      >
-                        Request a refund on Google Play
-                      </ExtLink>
-                    ),
-                    huaweiRefundLink: (
-                      <ExtLink
-                        urlId="pricing.faq.a2.huaweiRefund.url"
-                        url="https://consumer.huawei.com/cn/support/content/zh-cn15987057/"
-                        labelId="pricing.faq.a2.huaweiRefund.link"
-                      >
-                        How to request a refund for AppGallery in-app purchases
-                      </ExtLink>
-                    ),
-                    huaweiTermsLink: (
-                      <ExtLink
-                        urlId="pricing.faq.a2.huaweiTerms.url"
-                        url="https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm"
-                        labelId="pricing.faq.a2.huaweiTerms.link"
-                      >
-                        HUAWEI In-App Purchases Terms of Service
-                      </ExtLink>
-                    ),
-                  }}
-                >
-                  {
-                    'Channels:\n• iOS / Apple platforms: App Store. Refunds go through Apple under its policy (not controlled by the developer). See {appleLink}.\n• Android (Google Play): Refunds go through Google Play under its policy (not controlled by the developer). See {googlePolicyLink} and {googleRefundLink}.\n• HarmonyOS (Huawei IAP / AppGallery): Refunds go through Huawei under its policy (not controlled by the developer). See {huaweiTermsLink}.\n• Android (China / direct): Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.\n• Windows / Linux desktop: Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number (same as Android Alipay).\n• Android TV: no in-app payment — buy on phone, then restore.\n• Web: no purchase UI.\n\nAfter purchase, bind an email to restore on other devices (binding cannot be changed; do not use a temporary email). App Store, Google Play, and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind email in the old app first.'
-                  }
-                </Translate>
+                <p>
+                  <Translate id="pricing.faq.a2">
+                    Which channel you bought from decides who handles the refund.
+                  </Translate>
+                </p>
+                <ul className={styles.faqChannels}>
+                  <li className={styles.faqChannel}>
+                    <span className={styles.faqChannelName}>
+                      <Translate id="pricing.faq.a2.channel.apple">iOS / Apple platforms</Translate>
+                    </span>
+                    <Translate id="pricing.faq.a2.apple">
+                      App Store. Refunds go through Apple under its policy, not controlled by the developer. See
+                    </Translate>{' '}
+                    <ExtLink
+                      urlId="pricing.faq.a2.apple.url"
+                      url="https://support.apple.com/en-us/118223"
+                      labelId="pricing.faq.a2.apple.link"
+                    >
+                      Request a refund for apps or content that you bought from Apple
+                    </ExtLink>.
+                  </li>
+                  <li className={styles.faqChannel}>
+                    <span className={styles.faqChannelName}>
+                      <Translate id="pricing.faq.a2.channel.google">Android (Google Play)</Translate>
+                    </span>
+                    <Translate id="pricing.faq.a2.google">
+                      Refunds go through Google Play under its policy, not controlled by the developer. See
+                    </Translate>{' '}
+                    <ExtLink
+                      urlId="pricing.faq.a2.googlePolicy.url"
+                      url="https://support.google.com/googleplay/answer/2479637"
+                      labelId="pricing.faq.a2.googlePolicy.link"
+                    >
+                      Learn about refunds on Google Play
+                    </ExtLink>{' '}
+                    <Translate id="pricing.faq.a2.and">and</Translate>{' '}
+                    <ExtLink
+                      urlId="pricing.faq.a2.googleRefund.url"
+                      url="https://support.google.com/googleplay/answer/15574897"
+                      labelId="pricing.faq.a2.googleRefund.link"
+                    >
+                      Request a refund on Google Play
+                    </ExtLink>.
+                  </li>
+                  <li className={styles.faqChannel}>
+                    <span className={styles.faqChannelName}>
+                      <Translate id="pricing.faq.a2.channel.huawei">HarmonyOS (Huawei IAP / AppGallery)</Translate>
+                    </span>
+                    <Translate id="pricing.faq.a2.huawei">
+                      Refunds go through Huawei under its policy, not controlled by the developer. See
+                    </Translate>{' '}
+                    <ExtLink
+                      urlId="pricing.faq.a2.huaweiRefund.url"
+                      url="https://consumer.huawei.com/cn/support/content/zh-cn15987057/"
+                      labelId="pricing.faq.a2.huaweiRefund.link"
+                    >
+                      How to request a refund for AppGallery in-app purchases
+                    </ExtLink>{' '}
+                    <Translate id="pricing.faq.a2.and">and</Translate>{' '}
+                    <ExtLink
+                      urlId="pricing.faq.a2.huaweiTerms.url"
+                      url="https://consumer.huawei.com/minisite/cloudservice/iap/common/b0/latest/terms.htm"
+                      labelId="pricing.faq.a2.huaweiTerms.link"
+                    >
+                      HUAWEI In-App Purchases Terms of Service
+                    </ExtLink>.
+                  </li>
+                  <li className={styles.faqChannel}>
+                    <span className={styles.faqChannelName}>
+                      <Translate id="pricing.faq.a2.channel.android">Android (China / direct)</Translate>
+                    </span>
+                    <Translate id="pricing.faq.a2.android">
+                      Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number.
+                    </Translate>
+                  </li>
+                  <li className={styles.faqChannel}>
+                    <span className={styles.faqChannelName}>
+                      <Translate id="pricing.faq.a2.channel.desktop">Windows / Linux desktop</Translate>
+                    </span>
+                    <Translate id="pricing.faq.a2.desktop">
+                      Alipay. Within 6 months email aqzscn@qq.com with the Alipay order number, same as Android Alipay.
+                    </Translate>
+                  </li>
+                  <li className={styles.faqChannel}>
+                    <span className={styles.faqChannelName}>
+                      <Translate id="pricing.faq.a2.channel.androidTv">Android TV</Translate>
+                    </span>
+                    <Translate id="pricing.faq.a2.androidTv">
+                      No in-app payment: buy on the phone, then restore.
+                    </Translate>
+                  </li>
+                  <li className={styles.faqChannel}>
+                    <span className={styles.faqChannelName}>
+                      <Translate id="pricing.faq.a2.channel.web">Web</Translate>
+                    </span>
+                    <Translate id="pricing.faq.a2.web">No purchase UI.</Translate>
+                  </li>
+                </ul>
+                <p>
+                  <Translate id="pricing.faq.a2.restore">
+                    After purchase, bind an email to restore on other devices (binding cannot be changed, so do not use a temporary email). App Store, Google Play and Huawei purchases restore the same way. Legacy StreamMusic buyers must bind an email in the old app first.
+                  </Translate>
+                </p>
               </div>
-            </div>
-            <div className={styles.faqItem}>
-              <div className={styles.faqQuestion}>
+            </details>
+            <details className={styles.faqItem}>
+              <summary className={styles.faqQuestion}>
                 <Translate id="pricing.faq.q3">Is internet connection required?</Translate>
-              </div>
+              </summary>
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a3">
                   {
@@ -284,11 +333,11 @@ export default function Pricing() {
                   }
                 </Translate>
               </div>
-            </div>
-            <div className={styles.faqItem}>
-              <div className={styles.faqQuestion}>
+            </details>
+            <details className={styles.faqItem}>
+              <summary className={styles.faqQuestion}>
                 <Translate id="pricing.faq.q4">Where is the full docs comparison?</Translate>
-              </div>
+              </summary>
               <div className={styles.faqAnswer}>
                 <Translate id="pricing.faq.a4">
                   {
@@ -296,7 +345,7 @@ export default function Pricing() {
                   }
                 </Translate>
               </div>
-            </div>
+            </details>
           </div>
           <p style={{ marginTop: 24, textAlign: 'center' }}>
             <Link to="/docs/membership/plans">

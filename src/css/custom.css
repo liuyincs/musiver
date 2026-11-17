@@ -92,7 +92,7 @@
 .navbar-item-disabled {
   pointer-events: none;
   cursor: default;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .navbar-item-disabled:hover {
@@ -139,4 +139,147 @@
   text-align: center;
   font-size: 0.78rem;
   letter-spacing: 0.03em;
+}
+
+/* 移动侧栏：宽度、行高、高亮与 GitHub 图标 */
+.navbar-sidebar {
+  /* 宽度写死并与 --ifm-navbar-sidebar-width 一致：二级面板的位移按这个变量算，
+     两者不一致时右侧会露出二级面板的一条边 */
+  --ifm-navbar-sidebar-width: 325px;
+  width: var(--ifm-navbar-sidebar-width);
+  border-right: 1px solid rgba(var(--navy-rgb), 0.08);
+  overflow: hidden;
+}
+
+[data-theme="dark"] .navbar-sidebar {
+  border-right-color: rgba(226, 232, 240, 0.16);
+  box-shadow: 12px 0 32px rgba(0, 0, 0, 0.45);
+}
+
+.navbar-sidebar__backdrop {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.navbar-sidebar .menu {
+  padding-top: 0;
+}
+
+.navbar-sidebar .menu__link {
+  min-height: 42px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* 当前页：蓝字加左侧 2px 指示条，不再整行灰底 */
+.navbar-sidebar .menu__link--active:not(.menu__link--sublist) {
+  background: none;
+  color: var(--azure);
+  box-shadow: inset 2px 0 0 var(--azure);
+}
+
+/* 展开的 Languages 行不铺底色（Infima 在子项选中时会给父行加 --active 底色） */
+.navbar-sidebar .menu__list-item-collapsible--active,
+.navbar-sidebar .menu__list-item-collapsible:hover {
+  background: none;
+}
+
+.navbar-sidebar .menu__list-item-collapsible > .menu__link--sublist,
+.navbar-sidebar .menu__list-item-collapsible > .menu__link--sublist:hover,
+.navbar-sidebar .menu__list-item--collapsed > .menu__link--sublist {
+  background: none;
+  box-shadow: none;
+}
+
+/* 语言子项缩进对齐 Languages 文字左缘 */
+.navbar-sidebar .menu__list .menu__list {
+  padding-left: 28px;
+}
+
+/* 已选语言只保留蓝字，不再叠一层底色 */
+.navbar-sidebar .menu__list .menu__list .menu__link--active {
+  box-shadow: none;
+}
+
+/* GitHub 图标与菜单项文字左对齐 */
+.navbar-sidebar .navbar-item-disabled {
+  color: var(--navy);
+  opacity: 0.72;
+}
+
+/* 侧栏内不显示滚动条横条：内容不满一屏时会在右缘留下一条灰条 */
+.navbar-sidebar,
+.navbar-sidebar__items,
+.navbar-sidebar__item {
+  scrollbar-width: none;
+}
+
+.navbar-sidebar::-webkit-scrollbar,
+.navbar-sidebar__items::-webkit-scrollbar,
+.navbar-sidebar__item::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.navbar-sidebar .header-github-link {
+  justify-content: flex-start;
+  min-height: 42px;
+  margin-top: 8px;
+  padding: 0 16px;
+}
+
+/* 平板：侧栏收窄，GitHub 移到顶部主题切换旁做图标按钮 */
+@media (min-width: 769px) and (max-width: 996px) {
+  .navbar-sidebar {
+    --ifm-navbar-sidebar-width: 400px;
+    width: var(--ifm-navbar-sidebar-width);
+  }
+
+  .navbar-sidebar .header-github-link {
+    position: absolute;
+    /* __items 从品牌行下缘开始，往回挪一个导航高度就落回头部行 */
+    top: calc(12px - var(--ifm-navbar-height));
+    /* 品牌宽度固定，放在主题切换右侧，与头部图标同一行 */
+    left: 176px;
+    right: auto;
+    min-height: 0;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-sidebar .header-github-link:before {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* 桌面语言下拉：右缘对齐触发器，顶边贴着导航线，面板与选中项用主题表面色 */
+.navbar__items--right .dropdown__menu {
+  right: 0;
+  left: auto;
+  min-width: 156px;
+  margin-top: 14px;
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid rgba(var(--navy-rgb), 0.12);
+  background: var(--card-bg);
+  box-shadow: 0 12px 28px rgba(var(--shadow-rgb), 0.1);
+}
+
+[data-theme="dark"] .navbar__items--right .dropdown__menu {
+  background: #111a2e;
+  border-color: rgba(226, 232, 240, 0.12);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.navbar__items--right .dropdown__link {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.navbar__items--right .dropdown__link--active {
+  background: rgba(var(--azure-rgb), 0.14);
+  color: var(--azure);
 }
