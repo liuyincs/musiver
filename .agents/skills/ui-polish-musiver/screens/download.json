@@ -112,5 +112,1282 @@
       "name": "zh-Hans beta-web"
     }
   ],
-  "scores": []
+  "scores": [
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_stable-android",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格选中态（平台网格左上） -0.3"
+      ],
+      "shot": "a8bf588681e85506d707eaeabae5677d8b194392b7138419cb05ed82feb57c34"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_stable-android",
+      "score": 9.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "平台网格选中态（平台网格左上 Android 格） -0.1［个人偏好］"
+      ],
+      "shot": "f2cb0976e575b5c96cc8b51d99642983e1a663785bb803e2fcc7ffb669c27aa8"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_stable-harmony",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "a229f26aa4727963f8770ab8728f7551059a425ea14a809144129eb097d677f9"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_stable-harmony",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "5b1d24bfff2189579abab75ecaa1a4f0a29dcb3e04cada4ef9a1f2c93985d410"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_stable-apple",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "0cbe0e22411aa79471149dc601f60c65f71ef4950ded7f9c47869e1b943ff0bc"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_stable-apple",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "dd67345f1ea702ab38a0d283940dd4ecd95d0b7db2598b350777b4449ff12ca6"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_stable-windows",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "8c00b5f56faec5b4fdfdc13b1ab9f44fdbb4d857202bd065ebca36b8b16db10a"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_stable-windows",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "2ac09c49863324c152e093809732d1ecdb9cafde997613b52c6d10f9a3b04987"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_stable-linux",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "38ae65815f71531bd7b4a93366a77eb00d19f4f249098b41cc730630f6bee875"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_stable-linux",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "73b58107dc771ade6a4b0ac84562dc321835850a6386cadde36d850493699ba1"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_stable-web",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "60f1dad7c7f6959523ef6d23d0855e26547f425d4660d17647724da56cab2b67"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_stable-web",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "6b7e4b005bfcd4141d615d478e6aad6867d9cf5242176b2880248027c12d9ff3"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_beta-android",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格选中态（平台网格左上） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "231b7207a37a40b0f8086478595f448d17e5e088b9add4732077c2d0d5d4a3c0"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_beta-android",
+      "score": 9.6,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "平台网格选中态（平台网格左上 Android 格） -0.1［个人偏好］"
+      ],
+      "shot": "c2d7258f88ae3ab1dae5eda2365ea26bdc89346643f3b391b77f651de29dac21"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_beta-harmony",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "99f8f580ba8223cc293f98776b3824ed8a44abe0bd07f5146e185b18edecde66"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_beta-harmony",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "4184330e6f2eccac54f58d771e9ecc31365f468c52e37c8381cba9230c7ecf6b"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_beta-apple",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "47d53f9b7d7ad91fa6e02a2cb59167f91da7727776a0d321ce125ed5ca9fc484"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_beta-apple",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "7c69c922b21237a5ee047390d30bcff47e70e18a28638d87cbe0c03416b3817a"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_beta-windows",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "eb82ff64828dfa4ac9f9e605c91635995a752b8c86c7291e2966c06e84e5c2e4"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_beta-windows",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "27e69498bc77378323e3acdb139d37ca38f89cae95641507605b490ff88a7b2f"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_beta-linux",
+      "score": 9.6,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "最新版本下载按钮与“收起更新”控件（版本号下方操作行） -0.1［个人偏好］"
+      ],
+      "shot": "f2ae94c36550aa8e8a0d3e00b67f5d5f5c93ca69fa6754d16ab259d5c7951b1d"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_beta-linux",
+      "score": 9.4,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "最新版本下载按钮与“收起更新”控件（版本号下方操作行） -0.1［个人偏好］"
+      ],
+      "shot": "7668b54688287fce41074f78aab6cae6c27fc2bd945e0f7d942d4c43d02ce63d"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_beta-web",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "c60ddfe74ba42479f2b86d26d9ba798d8c780d093db1e14807e53965be3e5482"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_beta-web",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "eda68de71ecee9594c28a9e214a2a860fb54146eff2ac1d210d52d72e7efbd4f"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_stable-android",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格选中态（平台网格左上） -0.3"
+      ],
+      "shot": "c0ccf29a50c9cbc17d954c0951b202efcde209a3bcff0c047d7d4b73827e96c1"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_stable-android",
+      "score": 9.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "平台网格选中态（平台网格左上 Android 格） -0.1［个人偏好］"
+      ],
+      "shot": "1d9363eb6d27141d6cf643f78ec183b7d395026d48ea1691cef863d3cc9786c7"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_stable-harmony",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "422cf8fa3faf21ec041095690f11e1a278a0012599961e49fbe37be99358d4ef"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_stable-harmony",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "1a398a71a044f69377de1793b921a01bb4c7dbb5f5b812808d07904af432fc25"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_stable-apple",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "807d448390143a208aa15cb392f6cb254cc6dfbc7a4014adb766060d65706769"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_stable-apple",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "de747087feef7bd899197a60402afff1023e287793420f81b546daccafb24502"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_stable-windows",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "c7b9dce75830fb8d7ef8922289f5ae3bc70529b0cbd3ff117f261ece44d767b6"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_stable-windows",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "23c5f51f0f33adf2ecb14b127257a45f6bfdcb98ccd49b3101d0dd6d283c5976"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_stable-linux",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "54156cebd2af9bef8050c3862dbe160e985099543489233eccb464750c9fc395"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_stable-linux",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "9778af0a1e61b5f63a6857686cd842d2f9e5c1f5f4f421f427a9e3b130dd8386"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_stable-web",
+      "score": 9.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
+      ],
+      "shot": "5796d1055debb791178aa48e52813da8831e2b1a449dfb0761f94cf97df0f531"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_stable-web",
+      "score": 9.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
+      ],
+      "shot": "d98c6c6c13460f7b73203c3d6527cc4b3bbf853d0f1d9056d0a819f086d3e107"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_beta-android",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格选中态（平台网格左上） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "59c3b7ff4956da5ff90ad6cca4c36539b48e6b88484147fb67efb3823f1d8ead"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_beta-android",
+      "score": 9.6,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "平台网格选中态（平台网格左上 Android 格） -0.1［个人偏好］"
+      ],
+      "shot": "d28026eb1e8448d006f7986fc4dfc7fe6a97ab0f660615c12512741b6cd6a13a"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_beta-harmony",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "b9814a5d8e990ede389ed5400641f5f8d8e877f24b22c7b713d71346490bec8e"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_beta-harmony",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "1bc344b9ea969034fa5603ab7d0b554a9acd476ecbcd7b1402dfeb69b7fb4543"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_beta-apple",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "ee626a9e444d577685ad7cb6ab4e3608e8600c9f78d9943479a5c2d4e852e761"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_beta-apple",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "6427d74cd2ecc3963b985fa538814d3f932fff4656b3ff235876c2d95aa3fc2c"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_beta-windows",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "e1e04bd880323514be5ca820d9a5906068f4a9f59e4bc0f2d1b99f45c72135f9"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_beta-windows",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "c9045d822dd15525c610e0c94dfb3cb063581e2eb6173864da6d6381baf276c0"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_beta-linux",
+      "score": 9.6,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "最新版本下载按钮与“收起更新”控件（版本号下方操作行） -0.1［个人偏好］"
+      ],
+      "shot": "17a3bf72346bf038983c939848c7bb081f2999932d2a06c52ddb95f70eb9f2bd"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_beta-linux",
+      "score": 9.4,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "最新版本下载按钮与“收起更新”控件（版本号下方操作行） -0.1［个人偏好］"
+      ],
+      "shot": "9cbdc3c0908ca4c25758fae1660b32d36ee897e9dbba93cdd97296194d8395fd"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_beta-web",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3",
+        "旧版本的版本号徽标（折叠行左侧） -0.2"
+      ],
+      "shot": "0da6a32efb5068d4d0eab060f0553dd852b5afab39fe2c820efa7dd2b9067504"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_beta-web",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5",
+        "折叠的旧版本行（下载卡片内最新版本变更列表以下的十余个旧版本） -0.3"
+      ],
+      "shot": "cea7b8cdfd9137353643aefaca072e4a109da7d430fb8a8fd54a0b6bfe7e0a7a"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_stable-android",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "9f5066665af7cf9525eac1364141387f8af4bc014115c71a4546ce2f63481c46"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_stable-android",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "d52c7d509a90501a0320b0d748ae9759114fb9c3c73bd5fdc7ec13857a2a7237"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_stable-harmony",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "8f68b7330f3798d74063d3719622d61b3d49f9cb2ed244de88800ddf408a1bb0"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_stable-harmony",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "4a92d9a7b33b3ec639045202ec5fb2aea52c66ec904b062a1b2dae59a1e08c19"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_stable-apple",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "b200af359afdc5ea7cd3daca6b5fe0bb8eb525594e3aab6a61be7eb574ecd738"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_stable-apple",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "49abbf43d494c0629009050396ab513c4b78a24845fdb8600654cc5be477ec90"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_stable-windows",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "c289fbb437fa2b72e5f18a9767ae3510fa94820852e49843c49ba0a7bb7e5f3d"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_stable-windows",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "b239647e2dcd9a6974b8cc4554a60f8dc8f5f4741eb0b9bef5e791d173225109"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_stable-linux",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "0db2c6823b4e549b3083563dbd167b751dab8a3e9880f243dcf23aec0b9a5f7d"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_stable-linux",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "0cbaeb2f3cb2e613769038cb510f49cd015c0878a13ab572333f5da9bcad23b7"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_stable-web",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "8e5b72a8d0f5dd68797a779277fb3b71947b12d155622c251828d1d146ebe0b9"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_stable-web",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "e83de89ff637cd81cff35899732aa9fb46acd4071180d40e3c876481d680e2e4"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_beta-android",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "424bfa6c82c1d0332c308569c23b81002053a4e5360cdf625d92cf78e5da1407"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_beta-android",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "69611ff2868b77093e970a16c61ba899faecbfa93e0e3c4ee734f1388e751909"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_beta-harmony",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "4250d9fd2a2abbd903b6ad7e47e618873f21dde6c50e86a548c6375f85c37480"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_beta-harmony",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "4f41543a362954d240a04486d583c4ee675cf7b65e030cedefd92d81eb4b4f6e"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_beta-apple",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "e1f5447b6ed3a33f1d6e0f08b4282b53637d3245f4dc9ef359396d6f0205d911"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_beta-apple",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "e50657cda0cb6cb806627cefd50254e9385795cb31af8f79026fe5daca18ce8e"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_beta-windows",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］",
+        "折叠版本行右侧操作列（测试版折叠行中含 Coming Soon 的那一行） -0.1"
+      ],
+      "shot": "6176ec5a5d9214bd6b3030c595624c89306a8e8d0fc7a6c843a2d70297e37351"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_beta-windows",
+      "score": 8.8,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］",
+        "折叠版本行右侧操作列（测试版折叠行中含 Coming Soon 的那一行） -0.1",
+        "禁用 Coming Soon 按钮（测试版折叠行中的 Coming Soon） -0.1"
+      ],
+      "shot": "bd470bda61d1aab6a12eb7a82a668a7e8652e2eb3b1e433888bdbcec8481322a"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_beta-linux",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "67274901bd19fb53808b9e3e51fe61ea39da252f35d20c960d12e096634c5071"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_beta-linux",
+      "score": 9.2,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "38665a0837d69d21cf84158ac92fa2707fcbfcc62c8340752387ba4fae75812e"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_beta-web",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "02eedcd5ff4669165d97f7d12832581caca345988c26f6bec48fc41930c83708"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_beta-web",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.1",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "d21cef0b5abea12e166fbfdb9d770f536ced9656a9ee55a4868f85eb704a7066"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_stable-android",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "84904eaef86e31aa59a5acb4374a2a74e1f4cf2f19ebb10c55ba97cb89bc0cf6"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_stable-android",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "2ff599e50febcf36fc7cb06e1aad586f9796f9168bbcc1ea5c659ad051a859ef"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_stable-harmony",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "3e2a9fbfb28bc47d2361a89269155257d83566aae551d4c8c522d81343ed7bd7"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_stable-harmony",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "813167ca543e9c7cb108d04b9bd6225002a2d44422240b644e6c780ac1fb476b"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_stable-apple",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "48cdbfd17f03a63ffb1dfa3f52f73ef96df32d94e1969651522704c452bc03ee"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_stable-apple",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "58330b31414281994f4026f112afac31d1aeb75dd04f98ba79b8e324753ca7b9"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_stable-windows",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "387244c969c60aa117801ca577b5b4d54ffa8fd912c87ea066f33ca7de86b9bf"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_stable-windows",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "002fa521ceac151de56ba2e3cb5e77c7d3af06b0138b6889ddb2f101c51ba2bc"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_stable-linux",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "8bbf74952811af90df0fbf0c7988fb09692701bea6d5817fe411fe8327c0aefa"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_stable-linux",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "ba6cd2d697abc2622d0ee44f7202f51a6e449b5a5e252ddaa1b812a1e3bde30d"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_stable-web",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
+      ],
+      "shot": "4869b9925948d562bf168df1f643f434787159ac9d71e5295e64c1a25db6f83d"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_stable-web",
+      "score": 9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "禁用 Coming Soon 按钮（下载卡内） -0.1"
+      ],
+      "shot": "647e3fea97609bdc722c0b83309852d22765f936222a7ea5aa1f1458afe9350e"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_beta-android",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "4524f104f161fd49b24dba5470b01004db34e1aabd3ea9faa2c185df71e5d034"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_beta-android",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "600af8b8d1bae9e85e590867abad7bd8da25f23c82e6a6e7d334f5d4e90eed4d"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_beta-harmony",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "ec9bbd23ed04043850a73959e08df834ec4c37ad250ab0e7306b68109ed95ac6"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_beta-harmony",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "cdef44dae8722a4304a1aeb3091594f32d1dd1ff5d5cf632eebfcadd2f29d934"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_beta-apple",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "4be7475db73d88e6c0aaa6d256c6ec27b1725be9d3a796d5e50d01219a4e06d4"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_beta-apple",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "48316ca2149dc054621046da2354b4d42ca49df63cea2e196caf8de515062517"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_beta-windows",
+      "score": 8.8,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］",
+        "折叠版本行右侧操作列（测试版折叠行中含 Coming Soon 的那一行） -0.1"
+      ],
+      "shot": "0b460c8c09746d6a20939ce7b217027bdbed0008b42e564da88981d9199c3fa3"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_beta-windows",
+      "score": 8.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］",
+        "折叠版本行右侧操作列（测试版折叠行中含 Coming Soon 的那一行） -0.1",
+        "禁用 Coming Soon 按钮（测试版折叠行中的 Coming Soon） -0.1"
+      ],
+      "shot": "dd2463f81c9512157553af73e718e4bea0a2c99940abf69eee23c58229d34d1d"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_beta-linux",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "774e848a43311502295fc886a847b0663dafb05eb3e21b588870206cbb9702b0"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_beta-linux",
+      "score": 9.1,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "20706447750ad793253b16dfd92bdf05505c94688c0315420fb72d5ce9bdc0f2"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_beta-web",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "981ec7f245c640ec00adbc0b6ad935dc68110382c58d02e22eae7dc5a131ddd0"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_beta-web",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "页头描述段落（标题短横线下方的描述文字） -0.2",
+        "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
+        "最新版本行的下载按钮与版本徽标（测试版首个展开版本的头部行） -0.1［个人偏好］"
+      ],
+      "shot": "cbdad7d11941fddbcb49990047b68457551dc0f12477443147321cfb353e3312"
+    }
+  ]
 }

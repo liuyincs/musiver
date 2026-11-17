@@ -85,6 +85,108 @@
         "左右装饰参考线（x≈76 和 x≈1399 的竖线在深色背景上几乎看不见） -0.1"
       ],
       "shot": "5c6345ac019b3ce7573606896e59c9ea72aa387ab5b19a02d9a6ba4d8a43287a"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "en_default",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性编号 01/02/03（\"Why Musiver\" 下三项特性的编号） -0.3"
+      ],
+      "shot": "16afdafedc12c336cc982f8692408530a4046d0ed5b82079e70b84246b1f41df"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "en_default",
+      "score": 8.8,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性编号 01/02/03（三项特性的编号） -0.4"
+      ],
+      "shot": "8e738cc59bdbf2df2cec2f63f0b9bc24fd822d5c239f407070d1a64194baaf59"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "light",
+      "state": "zh-Hans_default",
+      "score": 8.9,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性编号 01/02/03（\"Why Musiver\" 下三项特性的编号） -0.3"
+      ],
+      "shot": "7ff921d8910731e36db881c99fb46fc81bd7460b47efa923e6f58215f33832ff"
+    },
+    {
+      "platform": "web-phone",
+      "theme": "dark",
+      "state": "zh-Hans_default",
+      "score": 8.8,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性编号 01/02/03（三项特性的编号） -0.4"
+      ],
+      "shot": "8d54bed576319b2bb7bb055b96381d9e51c13ac182adc647969e48f5161f11be"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "en_default",
+      "score": 8.8,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性编号 01/02/03（Why Musiver 区每项特性上方） -0.2",
+        "特性列与会员说明（页面下半部左侧） -0.1［个人偏好］"
+      ],
+      "shot": "9c61fe0cc5e67958cc8402e03411422e0a7bdaac8c71692a97ff7b8e7d486fc2"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "en_default",
+      "score": 8.7,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性编号 01/02/03（Why Musiver 区每项特性上方） -0.3",
+        "特性列与会员说明（页面下半部左侧） -0.1［个人偏好］"
+      ],
+      "shot": "e97eb8aeb40d7e78d6a0569c7180afc2bbd5dcb33fd706e442f1e591a0d865b8"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "light",
+      "state": "zh-Hans_default",
+      "score": 8.5,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性短横线（第一项「九个平台，一个曲库」上方短横线） -0.3",
+        "特性编号 01/02/03（Why Musiver 区每项特性上方） -0.2",
+        "特性列与会员说明（页面下半部左侧） -0.1［个人偏好］"
+      ],
+      "shot": "335584a1d9a45e5fd0f8c66a2fea0f5910409e1787e0a4b2edbe75864c9630e4"
+    },
+    {
+      "platform": "web-tablet",
+      "theme": "dark",
+      "state": "zh-Hans_default",
+      "score": 8.4,
+      "commit": "5a6bb8242be3d0e99fabacb43df1efc21a84cc82",
+      "date": "2026-11-17",
+      "deductions": [
+        "特性编号 01/02/03（Why Musiver 区每项特性上方） -0.3",
+        "特性短横线（第一项「九个平台，一个曲库」上方短横线） -0.3",
+        "特性列与会员说明（页面下半部左侧） -0.1［个人偏好］"
+      ],
+      "shot": "c17218d4568904b83e107bf02c7a5ef3908537bd5ca7ecc0ffa42b44921d96b3"
     }
   ]
 }
