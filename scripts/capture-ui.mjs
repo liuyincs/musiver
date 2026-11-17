@@ -34,7 +34,12 @@ try{
    const toggle=page.locator('button[class*="toggleBtn"]').nth(channel==='stable'?0:1); await toggle.click(); await expect(toggle).toHaveClass(/toggleBtnActive/);
    await expect(page.locator('h2')).toHaveText(await buttons.nth(index).innerText());
    const data=JSON.parse(await readFile(`src/data/releases/${channel}.json`,'utf8')); const versions=channel==='stable'?(data.platforms[platform]?[data.platforms[platform]]:[]):data.platforms[platform];
-   if(versions.length) await expect(page.locator('[class*="versionsList_"] > div')).toHaveCount(versions.length);
+   if(versions.length) {
+    const list=page.locator('[class*="versionsList_"]');
+    await expect(list.locator(':scope > div')).toHaveCount(versions.length);
+    await expect(list.locator('button:disabled')).toHaveCount(versions.filter(v=>!v.downloadUrl.trim()).length);
+    await expect(list.locator('a[class*="downloadBtn_"]')).toHaveCount(versions.filter(v=>v.downloadUrl.trim()).length);
+   }
    else await expect(page.locator('[class*="downloadCard_"]')).toContainText(lang==='en'?'No release available':'暂无');
   }
   if(screen.id.startsWith('navigation')){
