@@ -10,3 +10,13 @@
 - 无已有截图/E2E 命令；新增 scripts/capture-ui.mjs 与 pnpm ui:capture。统一入口 package.json，拼图工具 ffmpeg。
 - 设计规范与约定：根 AGENTS.md 的 pnpm 与国际化要求；现有页面和 CSS 作为布局依据。未找到其他平台 AGENTS.md 或已确认设计决定文件。无设备分工配置。
 - 项目技能目录沿用 .agents/skills（已有 sumv）。评分前由用户指定 Opus；打磨范围须在评审草案生成后由用户确认。
+
+## 首次跑通记录（2026-11-17）
+
+- 6 个界面定义、36 个状态定义、200 个平台×主题×状态格；无登记 gaps，无平台族布局待定项。
+- desktop/phone/tablet 均完成真实首页截图；共享导航三形态完整校验，下载 desktop 的 48 格校验通过，稳定版禁用按钮与测试版链接断言通过。
+- 用户指定 Opus，经 Devin/Opus 5.5 完成五轮独立评审，无换路。桌面首页最低分依次 7.2、8.3、8.5、8.3、9.0；最终四格 9.2、9.1、9.1、9.0 达到阈值。
+- 用户确认 desktop/home 范围已写入蓝图；五轮建议处理记录与截图报告输出到仓库外 /tmp/ui-polish-musiver/home/report.html。
+- 最终同构建连拍四格完全一致，ignore 为空。构建与 typecheck 通过，地图检查接入 pnpm typecheck。
+- 评分只覆盖桌面首页四格，其他 196 格尚未评分；手机和平板是 Chromium 响应式基准，不代表真机 Safari 或其他浏览器验证。
+- 后续可选决定：编号 lining 数字特性、深色 CTA 边框颜色、中文首屏说明自身的断行；不属于当前已确认范围，未擅自修改。
