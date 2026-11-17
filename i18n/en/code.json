@@ -440,6 +440,9 @@
   "download.meta.versionsAvailable": {
     "message": "{count} versions available"
   },
+  "download.meta.oneVersionAvailable": {
+    "message": "1 version available"
+  },
   "download.meta.notAvailableChannel": {
     "message": "Not available in {channel} channel"
   },
@@ -449,11 +452,20 @@
   "download.whatsNew": {
     "message": "What's New"
   },
+  "download.showChanges": {
+    "message": "What's new"
+  },
+  "download.hideChanges": {
+    "message": "Hide changes"
+  },
   "download.downloadNow": {
     "message": "Download Now"
   },
   "download.downloadVersion": {
     "message": "Download {version}"
+  },
+  "download.downloadShort": {
+    "message": "Download"
   },
   "download.comingSoon": {
     "message": "Coming Soon"

@@ -181,9 +181,14 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 20px;
   margin-bottom: 32px;
   padding-bottom: 24px;
   border-bottom: 1px solid rgba(var(--navy-rgb), 0.1);
+}
+
+.cardHeader > div {
+  min-width: 0;
 }
 
 .cardTitle {
@@ -201,6 +206,27 @@
   font-size: 0.9rem;
   color: var(--stone);
   margin-top: 8px;
+}
+
+/* 深色主题的选中态用描边加微亮底，避免整块反白抢过标题与卡片 */
+[data-theme="dark"] .toggleBtnActive {
+  background: rgba(var(--azure-rgb), 0.16);
+  color: var(--azure);
+  box-shadow: none;
+}
+
+[data-theme="dark"] .platformBtnActive {
+  background: rgba(var(--azure-rgb), 0.12);
+  border-color: var(--azure);
+  color: var(--azure);
+  box-shadow: none;
+}
+
+[data-theme="dark"] .platformBtnActive:hover {
+  background: rgba(var(--azure-rgb), 0.2);
+  border-color: var(--azure);
+  color: var(--azure);
+  box-shadow: none;
 }
 
 /* Toggle Switch for Stable/Beta */
@@ -221,6 +247,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .toggleBtnActive {
@@ -235,7 +262,7 @@
   letter-spacing: 0.1em;
   font-weight: 700;
   color: var(--stone);
-  margin-bottom: 16px;
+  margin: 14px 0 16px;
 }
 
 .changelogList {
@@ -290,11 +317,91 @@
 
 .downloadBtnDisabled,
 .downloadBtnDisabled:hover {
-  background: rgba(var(--navy-rgb), 0.35);
-  color: var(--warm-white);
+  background: rgba(var(--navy-rgb), 0.04);
+  border: 1px solid rgba(var(--navy-rgb), 0.1);
+  color: #6b7280;
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
+}
+
+/* 深色下 --stone 太亮，接近可用态；压到对比度约 3.5:1 */
+[data-theme="dark"] .downloadBtnDisabled,
+[data-theme="dark"] .downloadBtnDisabled:hover {
+  color: #7a8598;
+}
+
+/* 测试版每个版本一行：左侧版本号与日期，右侧下载入口与展开控件 */
+.versionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.versionRowActions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.downloadBtnCompact {
+  width: auto;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  gap: 0;
+  /* 旧版本用描边胶囊，只有最新版本保留实心主按钮 */
+  background: transparent;
+  color: var(--azure);
+  border: 1px solid rgba(var(--azure-rgb), 0.45);
+}
+
+.downloadBtnCompact:hover {
+  background: rgba(var(--azure-rgb), 0.08);
+  color: var(--azure);
+  transform: none;
+  box-shadow: none;
+}
+
+.downloadBtnCompactPrimary {
+  background: var(--azure);
+  color: var(--warm-white);
+  border-color: transparent;
+}
+
+.downloadBtnCompactPrimary:hover {
+  background: var(--navy);
+  color: var(--warm-white);
+}
+
+.expandBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 4px;
+  border: none;
+  background: transparent;
+  color: var(--azure);
+  font-family: "Manrope", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.expandBtn:hover {
+  text-decoration: underline;
+}
+
+.expandIcon {
+  transition: transform 0.2s ease;
+}
+
+.expandIconOpen {
+  transform: rotate(180deg);
 }
 
 /* Mobile Responsiveness */
@@ -321,12 +428,76 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 16px;
+    padding: 16px 12px;
+    font-size: 1rem;
+    overflow-wrap: anywhere;
   }
 
   .guideV1,
   .guideV2 {
     display: none;
+  }
+
+  /* 卡头改成纵向：元信息在上，渠道切换单独一行，标题可以断行，不再撑宽卡片 */
+  .downloadCard {
+    padding: 28px 24px;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 18px;
+  }
+
+  .cardTitle {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+
+  .cardMeta {
+    gap: 2px;
+    margin-top: 6px;
+  }
+
+  .toggleContainer {
+    align-self: flex-start;
+  }
+
+  /* 选中平台格不再投大阴影，只在色块上区分，避免像残留高亮 */
+  .platformBtnActive,
+  .platformBtnActive:hover {
+    box-shadow: 0 2px 8px rgba(var(--navy-rgb), 0.12);
+  }
+
+  .toggleContainer .toggleBtn {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
+
+  .changelogList {
+    margin-bottom: 20px;
+  }
+
+  .changelogItem {
+    padding-left: 16px;
+  }
+
+  .versionsList {
+    gap: 20px;
+  }
+
+  .versionItemBorder {
+    padding-top: 20px;
+  }
+}
+
+/* 平板宽度下平台网格用三列两行，避免 6 个格子在 5 列里空一格 */
+@media (min-width: 769px) and (max-width: 996px) {
+  .hero .platformList {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -338,8 +509,8 @@
 }
 
 .versionItemBorder {
-  padding-top: 32px;
-  border-top: 1px solid rgba(var(--navy-rgb), 0.1);
+  padding-top: 24px;
+  border-top: 1px solid rgba(var(--navy-rgb), 0.18);
 }
 
 .versionMetaInline {
@@ -356,6 +527,12 @@
   border-radius: 4px;
   font-size: 0.85rem;
   font-weight: 600;
+}
+
+/* 深色主题下浅蓝底配白字对比不足，换成低饱和底 + 蓝字 */
+[data-theme="dark"] .versionTag {
+  background: rgba(var(--azure-rgb), 0.22);
+  color: #dbeafe;
 }
 
 .versionDate {

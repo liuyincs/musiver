@@ -399,7 +399,8 @@
     margin: 24px 0;
   }
   .subtitle {
-    margin: 0 auto 40px;
+    text-align: left;
+    margin: 0 0 40px;
   }
 }
 
@@ -540,10 +541,16 @@
     height: auto;
     margin-top: 20px;
     position: relative;
-    overflow: hidden;
+    /* 不再裁掉投影：裁切会在底部留下一条硬边，看起来像没收好的灰块 */
+    overflow: visible;
+    padding: 14px 14px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(var(--navy-rgb), 0.08);
+    background: var(--card-bg);
   }
   .heroDevicesImage {
     max-width: min(100%, 560px);
+    filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.1));
   }
   .features {
     padding: 60px 24px 40px;
@@ -552,11 +559,33 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
+  .featureDesc {
+    font-size: 0.94rem;
+    max-width: 640px;
+  }
   .membership {
     padding: 40px 24px 60px;
+    align-items: flex-start;
+    text-align: left;
   }
   .guidelines {
     display: none;
+  }
+}
+
+/* 手机上两个 CTA 等分整行，中英文都撑满同样的宽度 */
+@media (max-width: 768px) {
+  .buttons {
+    justify-content: stretch;
+    flex-wrap: nowrap;
+  }
+  .btnPrimary,
+  .btnSecondary {
+    flex: 1 1 0;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
   }
 }
 

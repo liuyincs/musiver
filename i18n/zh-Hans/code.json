@@ -440,6 +440,9 @@
   "download.meta.versionsAvailable": {
     "message": "共 {count} 个版本"
   },
+  "download.meta.oneVersionAvailable": {
+    "message": "共 1 个版本"
+  },
   "download.meta.notAvailableChannel": {
     "message": "{channel} 暂不可用"
   },
@@ -449,11 +452,20 @@
   "download.whatsNew": {
     "message": "更新内容"
   },
+  "download.showChanges": {
+    "message": "查看更新"
+  },
+  "download.hideChanges": {
+    "message": "收起更新"
+  },
   "download.downloadNow": {
     "message": "立即下载"
   },
   "download.downloadVersion": {
     "message": "下载 {version}"
+  },
+  "download.downloadShort": {
+    "message": "下载"
   },
   "download.comingSoon": {
     "message": "即将到来"

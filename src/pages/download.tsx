@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import Translate, { translate } from "@docusaurus/Translate";
@@ -79,6 +79,12 @@ export default function Download(): React.ReactNode {
   const { i18n } = useDocusaurusContext();
   const [releaseType, setReleaseType] = useState<ReleaseType>("stable");
   const [platform, setPlatform] = useState<Platform>("android");
+  // 测试版默认只展开最新版本，更早的版本折叠成一行（蓝图「共通·状态」）。
+  const [expandedVersions, setExpandedVersions] = useState<number[]>([]);
+
+  useEffect(() => {
+    setExpandedVersions([]);
+  }, [platform, releaseType]);
 
   const platforms: Platform[] = [
     "android",
@@ -202,8 +208,14 @@ export default function Download(): React.ReactNode {
                         <span>
                           {translate(
                             {
-                              id: "download.meta.versionsAvailable",
-                              message: "{count} versions available",
+                              id:
+                                versions.length === 1
+                                  ? "download.meta.oneVersionAvailable"
+                                  : "download.meta.versionsAvailable",
+                              message:
+                                versions.length === 1
+                                  ? "1 version available"
+                                  : "{count} versions available",
                             },
                             { count: versions.length },
                           )}
@@ -245,41 +257,40 @@ export default function Download(): React.ReactNode {
 
               {versions.length > 0 ? (
                 <div className={s.versionsList}>
-                  {versions.map((version, index) => (
-                    <div
-                      key={index}
-                      className={clsx(
-                        s.versionItem,
-                        index > 0 && s.versionItemBorder,
-                      )}>
-                      {releaseType === "beta" && (
-                        <div className={s.versionMetaInline}>
-                          <span className={s.versionTag}>
-                            v{version.version}
-                          </span>
-                          <span className={s.versionDate}>
-                            {formatReleaseDate(
-                              version.date,
-                              i18n.currentLocale,
-                            )}
-                          </span>
-                        </div>
-                      )}
-
-                      <div className={s.changelogTitle}>
-                        <Translate id="download.whatsNew">What's New</Translate>
-                      </div>
-                      <ul className={s.changelogList}>
-                        {version.changelogI18nKeys.map((item, i) => (
-                          <li key={i} className={s.changelogItem}>
-                            {translate({ id: item, message: item })}
-                          </li>
-                        ))}
-                      </ul>
-
-                      {version.downloadUrl.trim().length === 0 ? (
+                  {versions.map((version, index) => {
+                    const isLatest = index === 0;
+                    const showDetails =
+                      releaseType === "stable" ||
+                      isLatest ||
+                      expandedVersions.includes(index);
+                    const unavailable = version.downloadUrl.trim().length === 0;
+                    const downloadLabel =
+                      releaseType === "beta"
+                        ? translate(
+                            {
+                              id: "download.downloadVersion",
+                              message: "Download {version}",
+                            },
+                            { version: version.version },
+                          )
+                        : translate({
+                            id: "download.downloadNow",
+                            message: "Download Now",
+                          });
+                    const compactLabel = translate({
+                      id: "download.downloadShort",
+                      message: "Download",
+                    });
+                    const downloadAction = (
+                      compact: boolean,
+                    ) =>
+                      unavailable ? (
                         <button
-                          className={clsx(s.downloadBtn, s.downloadBtnDisabled)}
+                          className={clsx(
+                            s.downloadBtn,
+                            compact && s.downloadBtnCompact,
+                            s.downloadBtnDisabled,
+                          )}
                           type="button"
                           disabled>
                           <Translate id="download.comingSoon">
@@ -288,37 +299,115 @@ export default function Download(): React.ReactNode {
                         </button>
                       ) : (
                         <Link
-                          className={s.downloadBtn}
+                          className={clsx(
+                            s.downloadBtn,
+                            compact && s.downloadBtnCompact,
+                            compact && isLatest && s.downloadBtnCompactPrimary,
+                          )}
                           to={version.downloadUrl}>
-                          {releaseType === "beta"
-                            ? translate(
-                                {
-                                  id: "download.downloadVersion",
-                                  message: "Download {version}",
-                                },
-                                { version: version.version },
-                              )
-                            : translate({
-                                id: "download.downloadNow",
-                                message: "Download Now",
-                              })}
-                          <svg
-                            width="20"
-                            height="20"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                            <polyline points="7 10 12 15 17 10" />
-                            <line x1="12" y1="15" x2="12" y2="3" />
-                          </svg>
+                          {compact ? compactLabel : downloadLabel}
+                          {!compact && (
+                            <svg
+                              width="20"
+                              height="20"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round">
+                              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                              <polyline points="7 10 12 15 17 10" />
+                              <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                          )}
                         </Link>
-                      )}
-                    </div>
-                  ))}
+                      );
+
+                    return (
+                      <div
+                        key={index}
+                        className={clsx(
+                          s.versionItem,
+                          index > 0 && s.versionItemBorder,
+                        )}>
+                        {releaseType === "beta" && (
+                          <div className={s.versionRow}>
+                            <div className={s.versionMetaInline}>
+                              <span className={s.versionTag}>
+                                v{version.version}
+                              </span>
+                              <span className={s.versionDate}>
+                                {formatReleaseDate(
+                                  version.date,
+                                  i18n.currentLocale,
+                                )}
+                              </span>
+                            </div>
+                            <div className={s.versionRowActions}>
+                              {downloadAction(true)}
+                              <button
+                                type="button"
+                                className={s.expandBtn}
+                                aria-expanded={showDetails}
+                                onClick={() =>
+                                  setExpandedVersions((prev) =>
+                                    prev.includes(index)
+                                      ? prev.filter((i) => i !== index)
+                                      : [...prev, index],
+                                  )
+                                }>
+                                {showDetails ? (
+                                  <Translate id="download.hideChanges">
+                                    Hide changes
+                                  </Translate>
+                                ) : (
+                                  <Translate id="download.showChanges">
+                                    What's new
+                                  </Translate>
+                                )}
+                                <svg
+                                  className={clsx(
+                                    s.expandIcon,
+                                    showDetails && s.expandIconOpen,
+                                  )}
+                                  width="16"
+                                  height="16"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  aria-hidden="true">
+                                  <polyline points="6 9 12 15 18 9" />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        )}
+
+                        {showDetails && (
+                          <>
+                            <div className={s.changelogTitle}>
+                              <Translate id="download.whatsNew">
+                                What's New
+                              </Translate>
+                            </div>
+                            <ul className={s.changelogList}>
+                              {version.changelogI18nKeys.map((item, i) => (
+                                <li key={i} className={s.changelogItem}>
+                                  {translate({ id: item, message: item })}
+                                </li>
+                              ))}
+                            </ul>
+
+                            {releaseType === "stable" && downloadAction(false)}
+                          </>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               ) : (
                 <div
