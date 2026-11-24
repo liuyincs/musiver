@@ -19,7 +19,7 @@ We highly value user privacy and are committed to protecting your personal infor
 
 When you use the app, we may automatically collect the following information:
 
-- **Anonymous usage statistics**: when the app launches, returns to the foreground, or starts playing a track, the app may send an anonymous counting request to our statistics service (musiver.cn); each installation is counted at most once per day to measure active installations. The request contains only the app name and counting unit, the platform, the version and build number, the system language, the system region, the date and cohort of the last count (absent on first use), and whether you upgraded from an earlier version. It carries no device identifier, account information, or membership information. The server does not record IP addresses and only stores counts aggregated by day, which are retained long-term. No statistics request is sent before you accept this policy, and you can turn off "Send Anonymous Usage Statistics" in Settings at any time.
+- **Anonymous usage statistics**: when the app launches, returns to the foreground, or starts playing a track, it may send a counting request to our statistics service (musiver.cn). The service counts each installation at most once per day. The request includes the app name and counting unit, a random identifier generated for the app installation, the platform, version and build number, system language and region, the date and cohort of the last count when available, and whether you upgraded from an earlier version. The server stores a keyed hash of the installation identifier for deduplication and retains aggregated daily counts long-term. It does not record IP addresses, and the request contains no hardware identifier, account information, or membership information. The app sends statistics only after you accept this policy. You can turn off "Send Anonymous Usage Statistics" in Settings at any time.
 - **Membership device registration**: when you purchase or restore membership, and during membership online checks, the app sends the order identifier, purchase channel, membership entitlement marker, an app-generated device identifier, the device name, the device model, and the operating system version to the payment service (pay.aqzscn.cn), used to verify your membership online and to show you the registered devices on the membership device management page.
 - **Log information**: app usage, crash logs, and error reports, used to diagnose problems and improve app performance.
 
@@ -34,7 +34,9 @@ We use collected information to:
 
 ## Information Protection
 
-We implement reasonable security measures to protect your personal information from unauthorized access, use, or disclosure. This includes encryption during transmission and secure storage practices.
+We implement reasonable security measures to protect your personal information from unauthorized access, use, or disclosure, including secure storage and HTTPS for connections to our statistics and payment services.
+
+The app connects directly to the music server you configure. If you use an HTTP address, authentication details, library requests, and media may be transmitted without encryption. Use an HTTPS address to encrypt the connection to your server.
 
 ## Information Sharing and Disclosure
 
@@ -69,4 +71,4 @@ If you have any questions about this policy, please contact our support team.
 
 This policy applies only to Musiver and does not apply to third-party apps or services, even when accessed through Musiver.
 
-Updated on: October 10, 2026
+Updated on: November 24, 2026
