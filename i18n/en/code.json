@@ -476,6 +476,9 @@
   "download.release.stable.upcoming": {
     "message": "A brand-new version is coming soon!"
   },
+  "download.release.stable.windows.microsoftStore": {
+    "message": "Musiver is now available in the Microsoft Store."
+  },
   "download.release.beta.upcoming.light": {
     "message": "A brand-new version, ready to go light!"
   },

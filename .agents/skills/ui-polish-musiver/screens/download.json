@@ -195,7 +195,11 @@
       "deductions": [
         "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
       ],
-      "shot": "8c00b5f56faec5b4fdfdc13b1ab9f44fdbb4d857202bd065ebca36b8b16db10a"
+      "shot": "8c00b5f56faec5b4fdfdc13b1ab9f44fdbb4d857202bd065ebca36b8b16db10a",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-phone",
@@ -207,7 +211,11 @@
       "deductions": [
         "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
       ],
-      "shot": "2ac09c49863324c152e093809732d1ecdb9cafde997613b52c6d10f9a3b04987"
+      "shot": "2ac09c49863324c152e093809732d1ecdb9cafde997613b52c6d10f9a3b04987",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-phone",
@@ -500,7 +508,11 @@
       "deductions": [
         "Android 平台格残留的蓝色描边与浅蓝底（平台网格左上，选中的是其他平台时） -0.3"
       ],
-      "shot": "c7b9dce75830fb8d7ef8922289f5ae3bc70529b0cbd3ff117f261ece44d767b6"
+      "shot": "c7b9dce75830fb8d7ef8922289f5ae3bc70529b0cbd3ff117f261ece44d767b6",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-phone",
@@ -512,7 +524,11 @@
       "deductions": [
         "Android 平台格与当前选中平台格同为蓝描边微亮底（平台网格，Android 格与选中格） -0.5"
       ],
-      "shot": "23c5f51f0f33adf2ecb14b127257a45f6bfdcb98ccd49b3101d0dd6d283c5976"
+      "shot": "23c5f51f0f33adf2ecb14b127257a45f6bfdcb98ccd49b3101d0dd6d283c5976",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-phone",
@@ -815,7 +831,11 @@
         "页头描述段落（标题短横线下方的描述文字） -0.1",
         "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
       ],
-      "shot": "c289fbb437fa2b72e5f18a9767ae3510fa94820852e49843c49ba0a7bb7e5f3d"
+      "shot": "c289fbb437fa2b72e5f18a9767ae3510fa94820852e49843c49ba0a7bb7e5f3d",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-tablet",
@@ -829,7 +849,11 @@
         "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
         "禁用 Coming Soon 按钮（下载卡内） -0.1"
       ],
-      "shot": "b239647e2dcd9a6974b8cc4554a60f8dc8f5f4741eb0b9bef5e791d173225109"
+      "shot": "b239647e2dcd9a6974b8cc4554a60f8dc8f5f4741eb0b9bef5e791d173225109",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-tablet",
@@ -1148,7 +1172,11 @@
         "页头描述段落（标题短横线下方的描述文字） -0.2",
         "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］"
       ],
-      "shot": "387244c969c60aa117801ca577b5b4d54ffa8fd912c87ea066f33ca7de86b9bf"
+      "shot": "387244c969c60aa117801ca577b5b4d54ffa8fd912c87ea066f33ca7de86b9bf",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-tablet",
@@ -1162,7 +1190,11 @@
         "稳定版/测试版分段控件（下载卡头元信息下方） -0.1［个人偏好］",
         "禁用 Coming Soon 按钮（下载卡内） -0.1"
       ],
-      "shot": "002fa521ceac151de56ba2e3cb5e77c7d3af06b0138b6889ddb2f101c51ba2bc"
+      "shot": "002fa521ceac151de56ba2e3cb5e77c7d3af06b0138b6889ddb2f101c51ba2bc",
+      "invalidated": {
+        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "date": "2026-11-25"
+      }
     },
     {
       "platform": "web-tablet",

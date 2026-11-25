@@ -13,7 +13,7 @@ Open the [download page](/download) and pick your platform package (stable or be
 | Android phone / tablet | Android |
 | Android TV / Google TV | Android TV |
 | HarmonyOS | HarmonyOS |
-| Windows | Desktop (setup.exe) |
+| Windows | Microsoft Store (stable) or setup.exe (beta) |
 | Linux | Desktop (AppImage) |
 | Browser | Web (self-hosted Docker image) |
 

@@ -24,7 +24,7 @@ navigation 的 locale 是顶栏语言菜单展开；menu 是移动侧栏展开�
 
 - 文档页面全部排除；指向文档的 CTA 和导航仍属于营销页（用户本次指定）。
 - 双语和浅深主题均需保留；系统主题偏好可影响默认主题，截图明确设置主题（docusaurus.config.ts）。
-- stable 下载地址为空是待发布业务状态；禁用按钮不是样式缺陷（src/data/releases/stable.json、src/pages/download.tsx）。
+- Windows 正式版的下载按钮打开微软应用商店，链接不指定语言或地区。待发布平台的下载地址为空，显示禁用按钮（src/data/releases/stable.json、src/pages/download.tsx）。
 - 测试版只是最新版本默认展开、旧版本折叠（用户 2026-11-17 采纳方向性建议 D1）；折叠不删信息，版本号、日期、变更列表与下载入口都保留，展开后与原来一致。
 - changelog 的历史版本文本是源码静态内容，顶部导航禁用但路由仍存在；评审不能自行更改版本事实（src/pages/changelog.tsx、docusaurus.config.ts、src/css/custom.css）。
 - home 的设备图片展示音乐客户端，不意味着本仓库有原生客户端（src/pages/index.tsx、static/img/devices/musiver-devices.png）。
@@ -337,3 +337,5 @@ navigation 的 locale 是顶栏语言菜单展开；menu 是移动侧栏展开�
 - 2026-11-17：截图协议改成字体本地缓存回放、首帧前关闭动画、单线程栅格化，三个平台连拍 compare 全部一致（见 SKILL.md「截图」）。改动后 desktop/home 已记录的四个格子的画面哈希不再匹配，下次选到 desktop/home 会重新评分，不属于本次需要 invalidate 的布局变动。
 
 - 2026-11-17：用户确认 navigation-desktop、pricing（desktop / phone / tablet）与 navigation（phone / tablet）的定调范围，并全部采纳方向性建议：D1 退款说明按渠道拆行并可收拢、D2 比较表列头桌面吸顶、D3 手机 FAQ 可收拢（默认展开第一题）、D4 平板 GitHub 移到侧栏头部、D5 平板退款 FAQ 按渠道分组；同时把主题切换补进 navigation 的信息结构与桌面布局（desktop 评审员上报的蓝图缺口）。
+
+- 2026-11-30：Windows 正式版上架微软应用商店，下载页从待发布切换为可下载，商店入口使用无语言和地区参数的链接。

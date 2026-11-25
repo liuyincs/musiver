@@ -22,9 +22,9 @@
       ]
     },
     "windows": {
-      "downloadUrl": "",
+      "downloadUrl": "https://apps.microsoft.com/detail/9ng5zw78qc1s",
       "changelogI18nKeys": [
-        "download.release.stable.upcoming"
+        "download.release.stable.windows.microsoftStore"
       ]
     },
     "linux": {

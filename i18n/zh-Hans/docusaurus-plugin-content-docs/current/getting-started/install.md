@@ -13,7 +13,7 @@ sidebar_position: 1
 | Android 手机 / 平板 | Android |
 | Android TV / Google TV | Android TV |
 | 鸿蒙 | HarmonyOS |
-| Windows | 桌面（setup.exe） |
+| Windows | 微软应用商店（正式版）或 setup.exe（测试版） |
 | Linux | 桌面（AppImage） |
 | 浏览器 | Web（自托管 Docker 镜像） |
 

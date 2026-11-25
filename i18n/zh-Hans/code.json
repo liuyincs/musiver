@@ -476,6 +476,9 @@
   "download.release.stable.upcoming": {
     "message": "全新版本，即将登场！"
   },
+  "download.release.stable.windows.microsoftStore": {
+    "message": "音流已上架微软应用商店。"
+  },
   "download.release.beta.upcoming.light": {
     "message": "全新版本，轻装上阵！"
   },
