@@ -80,10 +80,10 @@ export default function Download(): React.ReactNode {
   const [releaseType, setReleaseType] = useState<ReleaseType>("stable");
   const [platform, setPlatform] = useState<Platform>("android");
   // 测试版默认只展开最新版本，更早的版本折叠成一行（蓝图「共通·状态」）。
-  const [expandedVersions, setExpandedVersions] = useState<number[]>([]);
+  const [expandedVersions, setExpandedVersions] = useState<number[]>([0]);
 
   useEffect(() => {
-    setExpandedVersions([]);
+    setExpandedVersions([0]);
   }, [platform, releaseType]);
 
   const platforms: Platform[] = [
@@ -261,7 +261,6 @@ export default function Download(): React.ReactNode {
                     const isLatest = index === 0;
                     const showDetails =
                       releaseType === "stable" ||
-                      isLatest ||
                       expandedVersions.includes(index);
                     const unavailable = version.downloadUrl.trim().length === 0;
                     const downloadLabel =

@@ -480,13 +480,7 @@
     "message": "Rebuilt the Windows app with a new desktop playback interface."
   },
   "download.release.stable.2_0_1.desktop.moreServers": {
-    "message": "Added support for more server types, including Jellyfin and Audiobookshelf."
-  },
-  "download.release.stable.2_0_1.desktop.unifiedLibrary": {
-    "message": "Browse albums, artists, playlists, and folders in one library view."
-  },
-  "download.release.stable.2_0_1.desktop.storeUpgrade": {
-    "message": "After upgrading from the previous Microsoft Store app, add your music server again. Future updates are delivered through the Microsoft Store."
+    "message": "Added support for more server types, including fnOS Music and Audiobookshelf."
   },
   "download.release.beta.upcoming.light": {
     "message": "A brand-new version, ready to go light!"

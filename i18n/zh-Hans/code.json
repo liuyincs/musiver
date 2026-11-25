@@ -480,13 +480,7 @@
     "message": "重做 Windows 客户端，带来全新的桌面播放界面。"
   },
   "download.release.stable.2_0_1.desktop.moreServers": {
-    "message": "支持更多服务器类型，包括 Jellyfin 和 Audiobookshelf。"
-  },
-  "download.release.stable.2_0_1.desktop.unifiedLibrary": {
-    "message": "在统一的资料库界面浏览专辑、艺术家、歌单和文件夹。"
-  },
-  "download.release.stable.2_0_1.desktop.storeUpgrade": {
-    "message": "从微软应用商店旧版升级后，请重新添加音乐服务器。后续更新将通过微软应用商店提供。"
+    "message": "支持更多服务器类型，包括飞牛音乐和 Audiobookshelf。"
   },
   "download.release.beta.upcoming.light": {
     "message": "全新版本，轻装上阵！"
