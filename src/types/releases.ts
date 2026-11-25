@@ -7,7 +7,7 @@
  * 用于描述 src/data/releases/ 目录下 JSON 文件的数据结构。
  *
  * 数据结构说明:
- * - stable.json: 稳定版发布数据，所有平台共享同一个版本号
+ * - stable.json: 稳定版发布数据，平台可覆盖默认版本号和日期
  * - beta.json: 测试版发布数据，每个平台可包含多个历史版本
  *
  * @module types/releases
@@ -77,12 +77,7 @@ export interface VersionInfo {
 /**
  * 稳定版平台信息接口
  *
- * 稳定版中每个平台的信息，不包含版本号和日期
- * （因为 Stable 频道所有平台共享同一个版本号）。
- *
- * @remarks
- * 与 {@link VersionInfo} 不同，此接口省略了 version 和 date 字段，
- * 因为这些信息在 {@link StableRelease.channel} 级别统一管理。
+ * 稳定版的平台信息。独立发布的平台可指定自己的版本号和日期。
  *
  * @example
  * {
@@ -91,6 +86,9 @@ export interface VersionInfo {
  * }
  */
 export interface StablePlatformInfo {
+  /** 平台独立发布时使用的版本号和发布日期 */
+  release?: Pick<VersionInfo, 'version' | 'date'>;
+
   /**
    * 应用下载链接
    * - 为空字符串时表示该平台暂未发布
@@ -109,7 +107,7 @@ export interface StablePlatformInfo {
  * 稳定版发布数据结构
  *
  * 描述 stable.json 文件的完整数据结构。
- * 稳定版采用单版本模式：所有平台共享同一个版本号。
+ * 平台未指定独立版本时，使用频道默认版本号和日期。
  *
  * @example
  * {
@@ -127,10 +125,10 @@ export interface StableRelease {
   /** 固定为 "stable"，标识这是稳定版发布数据 */
   channel: 'stable';
 
-  /** 数据最后更新时间，ISO 8601 格式 (YYYY-MM-DD) */
+  /** 默认版本日期，ISO 8601 格式 (YYYY-MM-DD) */
   updatedAt: string;
 
-  /** 当前发布的版本号，所有平台共享此版本 */
+  /** 默认版本号 */
   version: string;
 
   /**

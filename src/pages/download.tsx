@@ -95,16 +95,16 @@ export default function Download(): React.ReactNode {
     "web",
   ];
 
+  const stablePlatform = stableReleases.platforms[platform];
   const versions: VersionInfo[] =
     releaseType === "stable"
-      ? stableReleases.platforms[platform]
+      ? stablePlatform
         ? [
             {
-              version: stableReleases.version,
-              date: stableReleases.updatedAt,
-              changelogI18nKeys:
-                stableReleases.platforms[platform]?.changelogI18nKeys ?? [],
-              downloadUrl: stableReleases.platforms[platform]?.downloadUrl ?? "",
+              version: stablePlatform.release?.version ?? stableReleases.version,
+              date: stablePlatform.release?.date ?? stableReleases.updatedAt,
+              changelogI18nKeys: stablePlatform.changelogI18nKeys ?? [],
+              downloadUrl: stablePlatform.downloadUrl ?? "",
             },
           ]
         : []

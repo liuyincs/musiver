@@ -22,9 +22,16 @@
       ]
     },
     "windows": {
+      "release": {
+        "version": "2.0.1",
+        "date": "2026-11-25"
+      },
       "downloadUrl": "https://apps.microsoft.com/detail/9ng5zw78qc1s",
       "changelogI18nKeys": [
-        "download.release.stable.windows.microsoftStore"
+        "download.release.stable.2_0_1.desktop.rebuiltPlayer",
+        "download.release.stable.2_0_1.desktop.moreServers",
+        "download.release.stable.2_0_1.desktop.unifiedLibrary",
+        "download.release.stable.2_0_1.desktop.storeUpgrade"
       ]
     },
     "linux": {

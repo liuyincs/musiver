@@ -476,8 +476,17 @@
   "download.release.stable.upcoming": {
     "message": "A brand-new version is coming soon!"
   },
-  "download.release.stable.windows.microsoftStore": {
-    "message": "Musiver is now available in the Microsoft Store."
+  "download.release.stable.2_0_1.desktop.rebuiltPlayer": {
+    "message": "Rebuilt the Windows app with a new desktop playback interface."
+  },
+  "download.release.stable.2_0_1.desktop.moreServers": {
+    "message": "Added support for more server types, including Jellyfin and Audiobookshelf."
+  },
+  "download.release.stable.2_0_1.desktop.unifiedLibrary": {
+    "message": "Browse albums, artists, playlists, and folders in one library view."
+  },
+  "download.release.stable.2_0_1.desktop.storeUpgrade": {
+    "message": "After upgrading from the previous Microsoft Store app, add your music server again. Future updates are delivered through the Microsoft Store."
   },
   "download.release.beta.upcoming.light": {
     "message": "A brand-new version, ready to go light!"

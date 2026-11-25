@@ -197,7 +197,7 @@
       ],
       "shot": "8c00b5f56faec5b4fdfdc13b1ab9f44fdbb4d857202bd065ebca36b8b16db10a",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
@@ -213,7 +213,7 @@
       ],
       "shot": "2ac09c49863324c152e093809732d1ecdb9cafde997613b52c6d10f9a3b04987",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
@@ -510,7 +510,7 @@
       ],
       "shot": "c7b9dce75830fb8d7ef8922289f5ae3bc70529b0cbd3ff117f261ece44d767b6",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
@@ -526,7 +526,7 @@
       ],
       "shot": "23c5f51f0f33adf2ecb14b127257a45f6bfdcb98ccd49b3101d0dd6d283c5976",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
@@ -833,7 +833,7 @@
       ],
       "shot": "c289fbb437fa2b72e5f18a9767ae3510fa94820852e49843c49ba0a7bb7e5f3d",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
@@ -851,7 +851,7 @@
       ],
       "shot": "b239647e2dcd9a6974b8cc4554a60f8dc8f5f4741eb0b9bef5e791d173225109",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
@@ -1174,7 +1174,7 @@
       ],
       "shot": "387244c969c60aa117801ca577b5b4d54ffa8fd912c87ea066f33ca7de86b9bf",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
@@ -1192,7 +1192,7 @@
       ],
       "shot": "002fa521ceac151de56ba2e3cb5e77c7d3af06b0138b6889ddb2f101c51ba2bc",
       "invalidated": {
-        "reason": "Windows 正式版启用微软应用商店下载入口",
+        "reason": "Windows 正式版同步微软应用商店的版本号、日期和更新日志",
         "date": "2026-11-25"
       }
     },
