@@ -2387,5 +2387,8 @@
   },
   "download.release.beta.2_0_1_build_30.1e83a1ba8b1c8807": {
     "message": "Refined dialogs, song lists, and lyrics search on macOS."
+  },
+  "download.release.beta.2_0_1_build_30.d25151941245b32f": {
+    "message": "Fixed an issue where the artwork for the current track did not recover after the system ran low on memory."
   }
 }

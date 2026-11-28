@@ -2387,5 +2387,8 @@
   },
   "download.release.beta.2_0_1_build_30.1e83a1ba8b1c8807": {
     "message": "改进 macOS 的弹窗、歌曲列表和歌词搜索体验。"
+  },
+  "download.release.beta.2_0_1_build_30.d25151941245b32f": {
+    "message": "修复系统内存紧张后，正在播放的歌曲封面无法恢复的问题。"
   }
 }
