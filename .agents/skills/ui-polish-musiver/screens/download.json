@@ -52,6 +52,10 @@
       "name": "en beta-apple"
     },
     {
+      "id": "en_beta-apple-application",
+      "name": "en TestFlight application dialog"
+    },
+    {
       "id": "en_beta-windows",
       "name": "en beta-windows"
     },
@@ -98,6 +102,10 @@
     {
       "id": "zh-Hans_beta-apple",
       "name": "zh-Hans beta-apple"
+    },
+    {
+      "id": "zh-Hans_beta-apple-application",
+      "name": "简体中文 TestFlight 申请弹窗"
     },
     {
       "id": "zh-Hans_beta-windows",
@@ -349,8 +357,8 @@
       ],
       "shot": "47d53f9b7d7ad91fa6e02a2cb59167f91da7727776a0d321ce125ed5ca9fc484",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {
@@ -366,8 +374,8 @@
       ],
       "shot": "7c69c922b21237a5ee047390d30bcff47e70e18a28638d87cbe0c03416b3817a",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {
@@ -710,8 +718,8 @@
       ],
       "shot": "ee626a9e444d577685ad7cb6ab4e3608e8600c9f78d9943479a5c2d4e852e761",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {
@@ -727,8 +735,8 @@
       ],
       "shot": "6427d74cd2ecc3963b985fa538814d3f932fff4656b3ff235876c2d95aa3fc2c",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {
@@ -1091,8 +1099,8 @@
       ],
       "shot": "e1f5447b6ed3a33f1d6e0f08b4282b53637d3245f4dc9ef359396d6f0205d911",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {
@@ -1109,8 +1117,8 @@
       ],
       "shot": "e50657cda0cb6cb806627cefd50254e9385795cb31af8f79026fe5daca18ce8e",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {
@@ -1480,8 +1488,8 @@
       ],
       "shot": "4be7475db73d88e6c0aaa6d256c6ec27b1725be9d3a796d5e50d01219a4e06d4",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {
@@ -1498,8 +1506,8 @@
       ],
       "shot": "48316ca2149dc054621046da2354b4d42ca49df63cea2e196caf8de515062517",
       "invalidated": {
-        "reason": "测试版版本行垂直居中并修复最新版本展开收起",
-        "date": "2026-11-25"
+        "reason": "Apple 测试版改用 TestFlight 申请按钮与邮件弹窗",
+        "date": "2026-11-28"
       }
     },
     {

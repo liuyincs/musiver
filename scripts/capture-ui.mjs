@@ -57,13 +57,38 @@ try{
    const buttons=page.locator('button[class*="platformBtn"]'); await buttons.nth(index).click();
    await expect(buttons.nth(index)).toHaveClass(/platformBtnActive/);
    const toggle=page.locator('button[class*="toggleBtn"]').nth(channel==='stable'?0:1); await toggle.click(); await expect(toggle).toHaveClass(/toggleBtnActive/);
-   await expect(page.locator('h2')).toHaveText(await buttons.nth(index).innerText());
+   await expect(page.locator('[class*="cardTitle_"]')).toHaveText(await buttons.nth(index).innerText());
    const data=JSON.parse(await readFile(`src/data/releases/${channel}.json`,'utf8')); const versions=channel==='stable'?(data.platforms[platform]?[data.platforms[platform]]:[]):data.platforms[platform];
    if(versions.length) {
     const list=page.locator('[class*="versionsList_"]');
     await expect(list.locator(':scope > div')).toHaveCount(versions.length);
-    await expect(list.locator('button:disabled')).toHaveCount(versions.filter(v=>!v.downloadUrl.trim()).length);
-    await expect(list.locator('a[class*="downloadBtn_"]')).toHaveCount(versions.filter(v=>v.downloadUrl.trim()).length);
+    if(channel==='beta'&&platform==='apple') {
+     const copy=JSON.parse(await readFile(`i18n/${lang}/code.json`,'utf8'));
+     const apply=list.getByRole('button',{name:copy['download.testflight.apply'].message,exact:true});
+     const dialog=page.getByRole('dialog',{name:copy['download.testflight.title'].message});
+     await expect(apply).toHaveCount(versions.length);
+     await expect(list.locator('a')).toHaveCount(0);
+     await expect(dialog).toBeHidden();
+     await apply.first().press('Enter');
+     await expect(dialog).toBeVisible();
+     await expect(dialog.getByRole('listitem')).toHaveText(['receipt','account','server'].map(key=>copy[`download.testflight.${key}`].message));
+     await expect(dialog.getByRole('link')).toHaveAttribute('href',`mailto:support@musiver.cn?subject=${encodeURIComponent(copy['download.testflight.subject'].message)}`);
+     await page.keyboard.press('Escape');
+     await expect(dialog).toBeHidden();
+     await expect(apply.first()).toBeFocused();
+     const last=apply.last();
+     await last.click();
+     await dialog.getByRole('button',{name:copy['download.testflight.close'].message,exact:true}).click();
+     await expect(dialog).toBeHidden();
+     await expect(last).toBeFocused();
+     if(variant==='beta-apple-application') {
+      await apply.first().click();
+      await expect(dialog).toBeVisible();
+     }
+    } else {
+     await expect(list.locator('button:disabled')).toHaveCount(versions.filter(v=>!v.downloadUrl.trim()).length);
+     await expect(list.locator('a[class*="downloadBtn_"]')).toHaveCount(versions.filter(v=>v.downloadUrl.trim()).length);
+    }
    }
    else await expect(page.locator('[class*="downloadCard_"]')).toContainText(lang==='en'?'No release available':'暂无');
   }
@@ -90,7 +115,7 @@ try{
   });
   if(!fontState.total||fontState.bad.length)throw Error(`${screen.id}/${theme}/${state.id} 字体没有就位：${[...new Set(fontState.bad)].join('、')||'没有声明任何字体'}`);
   await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
-  const file=`${screen.id}-${theme}-${state.id}.png`; await page.screenshot({path:resolve(out,file),fullPage:true,animations:'disabled'});
+  const file=`${screen.id}-${theme}-${state.id}.png`; await page.screenshot({path:resolve(out,file),fullPage:variant!=='beta-apple-application',animations:'disabled'});
   manifest.shots.push({screen:screen.id,theme,state:state.id,file}); await context.close();
  }
  if(!manifest.shots.length)throw Error('没有匹配的格子');

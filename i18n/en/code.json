@@ -467,6 +467,18 @@
   "download.downloadShort": {
     "message": "Download"
   },
+  "download.testflight.apply": { "message": "Apply" },
+  "download.testflight.title": { "message": "Apply for TestFlight access" },
+  "download.testflight.close": { "message": "Close" },
+  "download.testflight.intro": { "message": "TestFlight access is available to paid Musiver members. To request an invitation, email us with the subject and information below." },
+  "download.testflight.to": { "message": "To" },
+  "download.testflight.subjectLabel": { "message": "Subject" },
+  "download.testflight.subject": { "message": "Apply for Musiver TestFlight" },
+  "download.testflight.receipt": { "message": "Proof of membership purchase: a screenshot of your Apple receipt or Alipay order with the order number clearly visible." },
+  "download.testflight.account": { "message": "The email address for your Apple Account, where you’ll receive the invitation." },
+  "download.testflight.server": { "message": "The type of music server you usually use." },
+  "download.testflight.wait": { "message": "We review requests periodically. Please wait for an email after applying." },
+  "download.testflight.send": { "message": "Open email app" },
   "download.comingSoon": {
     "message": "Coming Soon"
   },

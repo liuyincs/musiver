@@ -467,6 +467,18 @@
   "download.downloadShort": {
     "message": "下载"
   },
+  "download.testflight.apply": { "message": "申请测试" },
+  "download.testflight.title": { "message": "申请加入 TestFlight" },
+  "download.testflight.close": { "message": "关闭" },
+  "download.testflight.intro": { "message": "TestFlight 仅向已购买音流会员的用户开放。请按下方主题发送邮件，并附上三项申请资料。" },
+  "download.testflight.to": { "message": "收件人" },
+  "download.testflight.subjectLabel": { "message": "邮件主题" },
+  "download.testflight.subject": { "message": "申请音流 TestFlight" },
+  "download.testflight.receipt": { "message": "会员购买凭证：Apple 邮件收据或支付宝订单截图，须清晰显示订单号。" },
+  "download.testflight.account": { "message": "用于接收邀请的 Apple 账户邮箱。" },
+  "download.testflight.server": { "message": "常用的音乐服务器类型。" },
+  "download.testflight.wait": { "message": "申请会定期处理，发送邮件后请耐心等待回复。" },
+  "download.testflight.send": { "message": "打开邮件应用" },
   "download.comingSoon": {
     "message": "即将到来"
   },

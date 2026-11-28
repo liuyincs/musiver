@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import Translate, { translate } from "@docusaurus/Translate";
@@ -6,7 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
 import { SiAndroid, SiApple, SiHuawei, SiLinux } from "react-icons/si";
 import { TbBrandWindowsFilled } from "react-icons/tb";
-import { FiGlobe } from "react-icons/fi";
+import { FiGlobe, FiX } from "react-icons/fi";
 import stableReleasesData from "../data/releases/stable.json";
 import betaReleasesData from "../data/releases/beta.json";
 import {
@@ -75,10 +75,68 @@ const PlatformLabel = ({ platform }: { platform: Platform }) => {
   return <>{labels[platform]}</>;
 };
 
+const TESTFLIGHT_EMAIL = "support@musiver.cn";
+
+function TestFlightApplication({
+  dialogRef,
+}: {
+  dialogRef: React.RefObject<HTMLDialogElement | null>;
+}) {
+  const subject = translate({
+    id: "download.testflight.subject",
+    message: "Apply for Musiver TestFlight",
+  });
+  return (
+    <dialog
+      ref={dialogRef}
+      className={s.testFlightDialog}
+      aria-labelledby="testflight-title"
+      aria-describedby="testflight-intro">
+      <header className={s.testFlightHeader}>
+        <h2 id="testflight-title">
+          <Translate id="download.testflight.title">Apply for TestFlight access</Translate>
+        </h2>
+        <form method="dialog">
+          <button
+            type="submit"
+            className={s.testFlightClose}
+            aria-label={translate({ id: "download.testflight.close", message: "Close" })}>
+            <FiX aria-hidden="true" />
+          </button>
+        </form>
+      </header>
+      <p id="testflight-intro">
+        <Translate id="download.testflight.intro">TestFlight access is available to paid Musiver members. To request an invitation, email us with the subject and information below.</Translate>
+      </p>
+      <dl className={s.testFlightMail}>
+        <div>
+          <dt><Translate id="download.testflight.to">To</Translate></dt>
+          <dd>{TESTFLIGHT_EMAIL}</dd>
+        </div>
+        <div>
+          <dt><Translate id="download.testflight.subjectLabel">Subject</Translate></dt>
+          <dd>{subject}</dd>
+        </div>
+      </dl>
+      <ul className={s.testFlightRequirements}>
+        <li><Translate id="download.testflight.receipt">Proof of membership purchase: a screenshot of your Apple receipt or Alipay order with the order number clearly visible.</Translate></li>
+        <li><Translate id="download.testflight.account">The email address for your Apple Account, where you’ll receive the invitation.</Translate></li>
+        <li><Translate id="download.testflight.server">The type of music server you usually use.</Translate></li>
+      </ul>
+      <p><Translate id="download.testflight.wait">We review requests periodically. Please wait for an email after applying.</Translate></p>
+      <a className={clsx(s.downloadBtn, s.testFlightSend)} href={`mailto:${TESTFLIGHT_EMAIL}?subject=${encodeURIComponent(subject)}`}>
+        <Translate id="download.testflight.send">Open email app</Translate>
+      </a>
+    </dialog>
+  );
+}
+
 export default function Download(): React.ReactNode {
   const { i18n } = useDocusaurusContext();
   const [releaseType, setReleaseType] = useState<ReleaseType>("stable");
   const [platform, setPlatform] = useState<Platform>("android");
+  const testFlightDialog = useRef<HTMLDialogElement>(null);
+  const isAppleBeta = platform === "apple" && releaseType === "beta";
   // 测试版默认只展开最新版本，更早的版本折叠成一行（蓝图「共通·状态」）。
   const [expandedVersions, setExpandedVersions] = useState<number[]>([0]);
 
@@ -283,7 +341,22 @@ export default function Download(): React.ReactNode {
                     const downloadAction = (
                       compact: boolean,
                     ) =>
-                      unavailable ? (
+                      isAppleBeta ? (
+                        <button
+                          className={clsx(
+                            s.downloadBtn,
+                            s.downloadBtnCompact,
+                            isLatest && s.downloadBtnCompactPrimary,
+                          )}
+                          type="button"
+                          aria-haspopup="dialog"
+                          onClick={(event) => {
+                            event.currentTarget.focus();
+                            testFlightDialog.current?.showModal();
+                          }}>
+                          <Translate id="download.testflight.apply">Apply</Translate>
+                        </button>
+                      ) : unavailable ? (
                         <button
                           className={clsx(
                             s.downloadBtn,
@@ -428,6 +501,7 @@ export default function Download(): React.ReactNode {
             </div>
           </div>
         </section>
+        {isAppleBeta && <TestFlightApplication dialogRef={testFlightDialog} />}
       </div>
     </Layout>
   );

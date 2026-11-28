@@ -377,6 +377,103 @@
   color: var(--warm-white);
 }
 
+.testFlightDialog {
+  width: min(34rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  padding: clamp(1.25rem, 4vw, 2rem);
+  background: var(--card-bg);
+  color: var(--navy);
+  border: 1px solid rgba(var(--navy-rgb), 0.15);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  overscroll-behavior: contain;
+}
+
+.testFlightDialog::backdrop {
+  background: rgba(5, 12, 25, 0.64);
+}
+
+.testFlightHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.testFlightHeader h2 {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(1.6rem, 4vw, 2rem);
+  line-height: 1.15;
+}
+
+.testFlightClose {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--navy);
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.testFlightClose:hover {
+  background: rgba(var(--navy-rgb), 0.08);
+}
+
+.testFlightDialog :focus-visible {
+  outline: 2px solid var(--azure);
+  outline-offset: 2px;
+}
+
+.testFlightDialog p,
+.testFlightRequirements {
+  color: var(--stone);
+  line-height: 1.6;
+}
+
+.testFlightMail {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.65rem 0 0.65rem 0.9rem;
+  border-inline-start: 2px solid var(--azure);
+  margin: 0 0 1rem;
+}
+
+.testFlightMail > div {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: 0.5rem;
+}
+
+.testFlightMail dt {
+  color: var(--stone);
+}
+
+.testFlightMail dd {
+  margin: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.testFlightRequirements {
+  padding-inline-start: 1.25rem;
+}
+
+.testFlightRequirements li + li {
+  margin-block-start: 0.35rem;
+}
+
+.testFlightSend {
+  width: fit-content;
+  min-height: 2.75rem;
+  padding: 0.55rem 1rem;
+}
+
 .expandBtn {
   display: inline-flex;
   align-items: center;

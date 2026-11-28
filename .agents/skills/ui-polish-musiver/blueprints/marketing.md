@@ -16,9 +16,9 @@
 
 状态 id 的语言前缀 en / zh-Hans 对应实际本地化路由。home、pricing、changelog 的 default 是完整静态内容。changelog 内公共变更缺省、平台空 changes 隐藏卡片、缺 downloadUrl 隐藏下载链接，当前历史记录同时呈现这些分支，无额外交互状态。
 
-download 的 stable/beta × android/harmony/apple/windows/linux/web 分别保留选中状态。稳定版只有版本和更新时间；测试版默认只展开最新版本，更早的版本折叠成一行（版本号、日期、下载入口、展开控件），点开后展开变更列表；展开态是交互结果，不单独占截图状态。真实 JSON 有版本但 URL 为空时显示禁用的 Coming Soon；无版本时显示空状态；存在链接时显示可下载按钮。具体数据取 src/data/releases，新增空／错误／加载分支时同步扩展状态地图与截图断言；当前无异步加载和错误分支。
+download 的 stable/beta × android/harmony/apple/windows/linux/web 分别保留选中状态。稳定版只有版本和更新时间；测试版默认只展开最新版本，更早的版本折叠成一行（版本号、日期、下载入口、展开控件），点开后展开变更列表；展开态是交互结果，不单独占截图状态。Apple 测试版每行的「申请测试」打开同一个邮件申请弹窗，记录不含公开邀请 URL。弹窗居中，窄窗口保留边距并可滚动，关闭后焦点回到触发按钮。其他渠道与平台的真实 JSON 有版本但 URL 为空时显示禁用的 Coming Soon；无版本时显示空状态；存在链接时显示可下载按钮。具体数据取 src/data/releases，新增空／错误／加载分支时同步扩展状态地图与截图断言；当前无异步加载和错误分支。
 
-navigation 的 locale 是顶栏语言菜单展开；menu 是移动侧栏展开；menu-locale 是侧栏中的语言选择子菜单。navigation-desktop 仅 locale。菜单关闭时由各页面 default 覆盖。没有登录、首启引导或自定义确认弹层。pricing 的 FAQ 默认展开第一题，其余卡片收起，展开态是交互结果，不单独占截图状态。
+navigation 的 locale 是顶栏语言菜单展开；menu 是移动侧栏展开；menu-locale 是侧栏中的语言选择子菜单。navigation-desktop 仅 locale。菜单关闭时由各页面 default 覆盖。没有登录或首启引导。pricing 的 FAQ 默认展开第一题，其余卡片收起，展开态是交互结果，不单独占截图状态。
 
 ### 产品约束
 
@@ -319,6 +319,8 @@ navigation 的 locale 是顶栏语言菜单展开；menu 是移动侧栏展开�
 - 区块之间的垂直留白：现值 ±20%。
 
 ## 决定记录
+
+- Apple 测试版由直接下载改为会员通过 `support@musiver.cn` 申请 TestFlight；稳定版和其他平台不变。申请弹窗纳入中英文截图状态。
 
 - 2026-11-17：按 src/pages/*.tsx、各模块 CSS、src/css/custom.css 和 docusaurus.config.ts 记录现有布局；按用户要求排除文档；打磨范围等待首轮评审后用户确认。未发现额外设计文档或设备分工。
 
