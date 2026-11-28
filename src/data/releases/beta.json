@@ -1,8 +1,19 @@
 {
   "channel": "beta",
-  "updatedAt": "2026-09-05",
+  "updatedAt": "2026-11-23",
   "platforms": {
     "android": [
+      {
+        "version": "2.0.1-build.30",
+        "date": "2026-11-23",
+        "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-build.30/musiver-2.0.1-build.30-cn-release.apk",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_build_30.d0c29db7d4449316",
+          "download.release.beta.2_0_1_build_30.57a33211ee54988b",
+          "download.release.beta.2_0_1_build_30.e212761376c0dc93",
+          "download.release.beta.2_0_1_build_30.a3a7fd9737064092"
+        ]
+      },
       {
         "version": "2.0.1-beta.15",
         "date": "2026-09-05",
@@ -554,6 +565,20 @@
     ],
     "apple": [
       {
+        "version": "2.0.1-build.30",
+        "date": "2026-11-23",
+        "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_build_30.d0c29db7d4449316",
+          "download.release.beta.2_0_1_build_30.31eabd3f2f0b7a24",
+          "download.release.beta.2_0_1_build_30.2e33f9f62d7fc714",
+          "download.release.beta.2_0_1_build_30.a0d992eb81d91db8",
+          "download.release.beta.2_0_1_build_30.1e83a1ba8b1c8807",
+          "download.release.beta.2_0_1_build_30.e212761376c0dc93",
+          "download.release.beta.2_0_1_build_30.a3a7fd9737064092"
+        ]
+      },
+      {
         "version": "2.0.1-beta.15",
         "date": "2026-09-05",
         "downloadUrl": "https://testflight.apple.com/join/nXWj6AwM",
@@ -879,6 +904,17 @@
     ],
     "windows": [
       {
+        "version": "2.0.1-build.30",
+        "date": "2026-11-23",
+        "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-build.30/musiver-2.0.1-build.30-x64-setup.exe",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_build_30.d0c29db7d4449316",
+          "download.release.beta.2_0_1_build_30.57a33211ee54988b",
+          "download.release.beta.2_0_1_build_30.e212761376c0dc93",
+          "download.release.beta.2_0_1_build_30.a3a7fd9737064092"
+        ]
+      },
+      {
         "version": "2.0.1-beta.15",
         "date": "2026-09-05",
         "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-beta.15/musiver_2.0.1-beta.15_x64-setup.exe",
@@ -1158,6 +1194,17 @@
     ],
     "linux": [
       {
+        "version": "2.0.1-build.30",
+        "date": "2026-11-23",
+        "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-build.30/musiver-2.0.1-build.30-linux-x86_64.AppImage",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_build_30.d0c29db7d4449316",
+          "download.release.beta.2_0_1_build_30.57a33211ee54988b",
+          "download.release.beta.2_0_1_build_30.e212761376c0dc93",
+          "download.release.beta.2_0_1_build_30.a3a7fd9737064092"
+        ]
+      },
+      {
         "version": "2.0.1-beta.15",
         "date": "2026-09-05",
         "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-beta.15/musiver_2.0.1-beta.15_amd64.AppImage",
@@ -1189,6 +1236,15 @@
       }
     ],
     "web": [
+      {
+        "version": "2.0.1-build.30",
+        "date": "2026-11-23",
+        "downloadUrl": "https://web.musiver.cn",
+        "changelogI18nKeys": [
+          "download.release.beta.2_0_1_build_30.d0c29db7d4449316",
+          "download.release.beta.2_0_1_build_30.57a33211ee54988b"
+        ]
+      },
       {
         "version": "2.0.1-beta.15",
         "date": "2026-09-05",

@@ -2363,5 +2363,29 @@
   "homepage.membership.link.ariaLabel": {
     "message": "Compare free and member features",
     "description": "Accessible label for homepage membership comparison link"
+  },
+  "download.release.beta.2_0_1_build_30.d0c29db7d4449316": {
+    "message": "Added fnOS Music as a music source, with improved favorites and album sorting. You can also add it directly on Android and Android TV."
+  },
+  "download.release.beta.2_0_1_build_30.57a33211ee54988b": {
+    "message": "Send feedback and suggestions anonymously from Settings."
+  },
+  "download.release.beta.2_0_1_build_30.e212761376c0dc93": {
+    "message": "Fixed an issue that could silently skip some queued items during batch downloads."
+  },
+  "download.release.beta.2_0_1_build_30.a3a7fd9737064092": {
+    "message": "Fixed an issue where unwritten data could be treated as cached when stream cache writes were paused."
+  },
+  "download.release.beta.2_0_1_build_30.31eabd3f2f0b7a24": {
+    "message": "Added Songloft and Daoliyu music sources on Apple platforms."
+  },
+  "download.release.beta.2_0_1_build_30.2e33f9f62d7fc714": {
+    "message": "You can now set intro and outro skip times for audiobooks and podcasts."
+  },
+  "download.release.beta.2_0_1_build_30.a0d992eb81d91db8": {
+    "message": "Improved detail navigation and the portrait player on iPad."
+  },
+  "download.release.beta.2_0_1_build_30.1e83a1ba8b1c8807": {
+    "message": "Refined dialogs, song lists, and lyrics search on macOS."
   }
 }

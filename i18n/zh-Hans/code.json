@@ -2363,5 +2363,29 @@
   "homepage.membership.link.ariaLabel": {
     "message": "比较免费版与会员功能",
     "description": "Accessible label for homepage membership comparison link"
+  },
+  "download.release.beta.2_0_1_build_30.d0c29db7d4449316": {
+    "message": "新增飞牛音乐（fnOS Music）音乐源，完善收藏与专辑排序；Android 和 Android TV 也可直接添加。"
+  },
+  "download.release.beta.2_0_1_build_30.57a33211ee54988b": {
+    "message": "可在设置中匿名发送反馈与建议。"
+  },
+  "download.release.beta.2_0_1_build_30.e212761376c0dc93": {
+    "message": "修复批量下载偶尔漏掉部分任务的问题。"
+  },
+  "download.release.beta.2_0_1_build_30.a3a7fd9737064092": {
+    "message": "修复流缓存暂停写入时，未缓存的数据被误判为已缓存的问题。"
+  },
+  "download.release.beta.2_0_1_build_30.31eabd3f2f0b7a24": {
+    "message": "Apple 客户端新增 Songloft 和道理鱼音乐源。"
+  },
+  "download.release.beta.2_0_1_build_30.2e33f9f62d7fc714": {
+    "message": "支持为有声书和播客设置跳过片头、片尾。"
+  },
+  "download.release.beta.2_0_1_build_30.a0d992eb81d91db8": {
+    "message": "改进 iPad 详情页导航与竖屏播放页。"
+  },
+  "download.release.beta.2_0_1_build_30.1e83a1ba8b1c8807": {
+    "message": "改进 macOS 的弹窗、歌曲列表和歌词搜索体验。"
   }
 }
