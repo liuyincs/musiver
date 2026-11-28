@@ -89,16 +89,6 @@
   font-size: 0.95rem;
 }
 
-.navbar-item-disabled {
-  pointer-events: none;
-  cursor: default;
-  opacity: 0.7;
-}
-
-.navbar-item-disabled:hover {
-  color: var(--ifm-navbar-link-color);
-}
-
 /* Navbar Logo */
 .navbar__logo img {
   border-radius: 8px;
@@ -198,12 +188,6 @@
 /* 已选语言只保留蓝字，不再叠一层底色 */
 .navbar-sidebar .menu__list .menu__list .menu__link--active {
   box-shadow: none;
-}
-
-/* GitHub 图标与菜单项文字左对齐 */
-.navbar-sidebar .navbar-item-disabled {
-  color: var(--navy);
-  opacity: 0.72;
 }
 
 /* 侧栏内不显示滚动条横条：内容不满一屏时会在右缘留下一条灰条 */

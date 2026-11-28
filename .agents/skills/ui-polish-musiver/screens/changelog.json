@@ -7,6 +7,7 @@
     "*": [
       "src/pages/changelog.tsx",
       "src/pages/changelog.module.css",
+      "src/data/releases/stable-history.json",
       "src/css/custom.css",
       "docusaurus.config.ts",
       "i18n/en",
@@ -36,7 +37,11 @@
         "平台卡片堆叠（v1.2.0 / v1.1.0 分组内连续 5–6 张平台卡片） -0.2［个人偏好］",
         "下载区底色（每个版本底部 DOWNLOAD 区块） -0.1［个人偏好］"
       ],
-      "shot": "a0f1ea2ffa52061a8b5e790395bcb640f45dcaf4f6ab1b6b6e21c7c575a7a0bd"
+      "shot": "a0f1ea2ffa52061a8b5e790395bcb640f45dcaf4f6ab1b6b6e21c7c575a7a0bd",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-phone",
@@ -50,7 +55,11 @@
         "平台卡片堆叠（v1.2.0 / v1.1.0 分组内连续 5–6 张平台卡片） -0.2［个人偏好］",
         "下载芯片描边（深色主题 DOWNLOAD 区块中的芯片） -0.1［个人偏好］"
       ],
-      "shot": "da10fc079a2af8b4a67832ec0dafa7ee88d24d3715eb228ddf8eced66a47928c"
+      "shot": "da10fc079a2af8b4a67832ec0dafa7ee88d24d3715eb228ddf8eced66a47928c",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-phone",
@@ -64,7 +73,11 @@
         "平台卡片堆叠（v1.2.0 / v1.1.0 分组内连续 5–6 张平台卡片） -0.2［个人偏好］",
         "下载区底色（每个版本底部 DOWNLOAD 区块） -0.1［个人偏好］"
       ],
-      "shot": "16c9f10a83a388bebeb62fcde2f7fb2396ea7b8df4088cdaad2ecf26f7b065ac"
+      "shot": "16c9f10a83a388bebeb62fcde2f7fb2396ea7b8df4088cdaad2ecf26f7b065ac",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-phone",
@@ -78,7 +91,11 @@
         "平台卡片堆叠（v1.2.0 / v1.1.0 分组内连续 5–6 张平台卡片） -0.2［个人偏好］",
         "下载芯片描边（深色主题 DOWNLOAD 区块中的芯片） -0.1［个人偏好］"
       ],
-      "shot": "d4f9311ee605d48c48c1f6c70ae399bc305008bbfc1e0dee0713da0e1d443b6b"
+      "shot": "d4f9311ee605d48c48c1f6c70ae399bc305008bbfc1e0dee0713da0e1d443b6b",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-tablet",
@@ -92,7 +109,11 @@
         "版本组之间的留白与分隔线（V1.2.0 / V1.1.0 / V1.0.0 之间） -0.2［个人偏好］",
         "版本日期（每组标题行右侧） -0.1"
       ],
-      "shot": "316f7132de5b69543546c19e3f6692a1898e759d3ab1c61dfc09be53f9cf163b"
+      "shot": "316f7132de5b69543546c19e3f6692a1898e759d3ab1c61dfc09be53f9cf163b",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-tablet",
@@ -107,7 +128,11 @@
         "深色平台卡片边框与背景（各平台卡片） -0.2",
         "版本日期（每组标题行右侧） -0.1"
       ],
-      "shot": "fafb70dba5839358652bb4ed076fb92c51c4c28775142b57fc74db7268e3991f"
+      "shot": "fafb70dba5839358652bb4ed076fb92c51c4c28775142b57fc74db7268e3991f",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-tablet",
@@ -121,7 +146,11 @@
         "版本组之间的留白与分隔线（V1.2.0 / V1.1.0 / V1.0.0 之间） -0.2［个人偏好］",
         "版本日期（每组标题行右侧） -0.1"
       ],
-      "shot": "ed4a1a72b8e29e3150a649435237e2fab7131f9f8087a0af900f6d869d4e7263"
+      "shot": "ed4a1a72b8e29e3150a649435237e2fab7131f9f8087a0af900f6d869d4e7263",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-tablet",
@@ -136,7 +165,11 @@
         "深色平台卡片边框与背景（各平台卡片） -0.2",
         "版本日期（每组标题行右侧） -0.1"
       ],
-      "shot": "5fe184b1a876f85c0a22eaab662cefd8cc04f1fd0e9818e92a4178571591b955"
+      "shot": "5fe184b1a876f85c0a22eaab662cefd8cc04f1fd0e9818e92a4178571591b955",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     }
   ]
 }

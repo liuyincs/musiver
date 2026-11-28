@@ -750,7 +750,7 @@
     "message": "Changelog"
   },
   "changelog.meta.desc": {
-    "message": "Musiver release notes and version history."
+    "message": "Release notes and version history for stable Musiver releases."
   },
   "changelog.colophon": {
     "message": "Updates"
@@ -759,13 +759,10 @@
     "message": "Release Notes"
   },
   "changelog.subtitle": {
-    "message": "Discover what's new in Musiver. We constantly update the app to bring you the best cross-platform music experience."
+    "message": "See what changed in each stable release of Musiver."
   },
   "changelog.download.title": {
-    "message": "Download"
-  },
-  "changelog.common": {
-    "message": "General Updates"
+    "message": "Go to downloads"
   },
   "download.release.beta.2_0_1_beta_4.common.audioStation": {
     "message": "Added AudioStation server support (Synology)"

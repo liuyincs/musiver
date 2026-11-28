@@ -92,6 +92,19 @@ try{
    }
    else await expect(page.locator('[class*="downloadCard_"]')).toContainText(lang==='en'?'No release available':'暂无');
   }
+  if(screen.id==='changelog'){
+   const history=JSON.parse(await readFile('src/data/releases/stable-history.json','utf8'));
+   const dictionaries=JSON.parse(await readFile(`i18n/${lang}/code.json`,'utf8'));
+   const timeline=page.locator('[class*="timeline_"]');
+   await expect(timeline.getByRole('heading',{level:2})).toHaveText(history.sort((a,b)=>b.date.localeCompare(a.date)).map(v=>`v${v.version}`));
+   for(const [index,release] of history.entries()){
+    const notes=timeline.locator('section').nth(index);
+    for(const keys of Object.values(release.platforms)) for(const key of keys){
+     await expect(notes.getByText(dictionaries[key].message,{exact:true}).first()).toBeVisible();
+    }
+   }
+   await expect(timeline.getByRole('link')).toHaveAttribute('href',lang==='en'?'/download':'/zh-Hans/download');
+  }
   if(screen.id.startsWith('navigation')){
    if(variant.startsWith('menu')){ await page.locator('.navbar__toggle').click(); await expect(page.locator('.navbar-sidebar')).toBeVisible(); }
    if(variant.includes('locale')){

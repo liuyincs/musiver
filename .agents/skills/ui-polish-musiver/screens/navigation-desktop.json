@@ -36,7 +36,11 @@
         "语言下拉面板边缘与阴影（面板四周，与 #f8f7f4 背景交界处） -0.1［个人偏好］",
         "导航项「Changelog」禁用态（顶栏左侧末项） -0［个人偏好］"
       ],
-      "shot": "fe3b2fdfe297fcce557ce4281a67dea50cc0d183658bb03d4fb37c1e775c193f"
+      "shot": "fe3b2fdfe297fcce557ce4281a67dea50cc0d183658bb03d4fb37c1e775c193f",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-desktop",
@@ -48,7 +52,11 @@
       "deductions": [
         "语言下拉面板右缘（右上角，English 触发器下方） -0.2"
       ],
-      "shot": "88762eb601ac82396c42e304ff43a8f6bb7308900471105e40ab7dfa5923b85e"
+      "shot": "88762eb601ac82396c42e304ff43a8f6bb7308900471105e40ab7dfa5923b85e",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-desktop",
@@ -61,7 +69,11 @@
         "语言下拉面板右缘（右上角，简体中文触发器下方） -0.2",
         "语言下拉面板边缘与阴影（面板四周） -0.1［个人偏好］"
       ],
-      "shot": "90da26c8a84a48253b832fbe5465db64ebb9f985ba8c51f8e232b68b9d62cf8c"
+      "shot": "90da26c8a84a48253b832fbe5465db64ebb9f985ba8c51f8e232b68b9d62cf8c",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     },
     {
       "platform": "web-desktop",
@@ -73,7 +85,11 @@
       "deductions": [
         "语言下拉面板右缘（右上角，简体中文触发器下方） -0.2"
       ],
-      "shot": "9a7d118dc675dbc7a9040a28bfa3ac1e46eced9aae2a37a61f1302cc318c9fe5"
+      "shot": "9a7d118dc675dbc7a9040a28bfa3ac1e46eced9aae2a37a61f1302cc318c9fe5",
+      "invalidated": {
+        "reason": "启用更新日志导航并改用正式版历史",
+        "date": "2026-11-28"
+      }
     }
   ],
   "platforms": [

@@ -1,0 +1,13 @@
+[
+  {
+    "version": "2.0.1",
+    "date": "2026-11-28",
+    "platforms": {
+      "android": ["download.release.stable.2_0_1.android.rebuiltPlayer", "download.release.stable.2_0_1.android.moreServers"],
+      "apple": ["download.release.stable.2_0_1.apple.rebuiltPlayer", "download.release.stable.2_0_1.apple.longAudio"],
+      "windows": ["download.release.stable.2_0_1.desktop.rebuiltPlayer", "download.release.stable.2_0_1.desktop.moreServers"],
+      "linux": ["download.release.stable.2_0_1.linux.appImage", "download.release.stable.2_0_1.desktop.moreServers"],
+      "web": ["download.release.stable.2_0_1.web.docker"]
+    }
+  }
+]

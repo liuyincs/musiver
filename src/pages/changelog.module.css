@@ -110,34 +110,9 @@
   text-transform: uppercase;
 }
 
-.commonSection {
-  margin-bottom: 24px;
-  background: var(--card-bg);
-  border: 1px solid rgba(var(--navy-rgb), 0.1);
-  border-radius: 12px;
-  padding: 16px 20px;
-}
-
-/* 深色下卡片比页面底色只亮一点，看不出分组；单独提亮并提高边框对比 */
-[data-theme="dark"] .commonSection,
 [data-theme="dark"] .platformSection {
   background: #131d33;
   border-color: rgba(226, 232, 240, 0.16);
-}
-
-.commonHeader {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-.commonLabel {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--navy);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .platformsGrid {
@@ -145,15 +120,6 @@
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 18px;
   align-items: stretch;
-}
-
-/* V1.0.0 没有平台卡片，空网格不留高度，下载区不要和通用卡拉开一整块的空白 */
-.platformsGrid:empty {
-  display: none;
-}
-
-.commonSection + .platformsGrid:empty + .downloadsSection {
-  margin-top: 8px;
 }
 
 .platformSection {
@@ -218,21 +184,6 @@
   background: rgba(var(--azure-rgb), 0.06);
 }
 
-.downloadsTitle {
-  font-size: 0.88rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-weight: 700;
-  color: var(--stone);
-  margin-bottom: 12px;
-}
-
-.downloadButtons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
 .downloadBtn {
   display: inline-flex;
   align-items: center;
@@ -254,11 +205,6 @@
   border-color: transparent;
   background: var(--azure);
   transform: translateY(-1px);
-}
-
-.downloadBtnIcon {
-  width: 16px;
-  height: 16px;
 }
 
 @media (max-width: 996px) {
