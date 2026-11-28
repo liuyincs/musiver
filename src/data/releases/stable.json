@@ -4,9 +4,14 @@
   "version": "2.0.0",
   "platforms": {
     "android": {
-      "downloadUrl": "",
+      "release": {
+        "version": "2.0.1",
+        "date": "2026-11-28"
+      },
+      "downloadUrl": "https://wwapa.lanzouq.com/b00jfrkgmb",
       "changelogI18nKeys": [
-        "download.release.stable.upcoming"
+        "download.release.stable.2_0_1.android.rebuiltPlayer",
+        "download.release.stable.2_0_1.android.moreServers"
       ]
     },
     "harmony": {
@@ -16,9 +21,14 @@
       ]
     },
     "apple": {
-      "downloadUrl": "",
+      "release": {
+        "version": "2.0.1",
+        "date": "2026-11-28"
+      },
+      "downloadUrl": "https://apps.apple.com/cn/app/%E9%9F%B3%E6%B5%81-2/id6811009568",
       "changelogI18nKeys": [
-        "download.release.stable.upcoming"
+        "download.release.stable.2_0_1.apple.rebuiltPlayer",
+        "download.release.stable.2_0_1.apple.longAudio"
       ]
     },
     "windows": {

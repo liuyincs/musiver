@@ -488,6 +488,18 @@
   "download.release.stable.upcoming": {
     "message": "A brand-new version is coming soon!"
   },
+  "download.release.stable.2_0_1.android.rebuiltPlayer": {
+    "message": "Musiver 2 brings a rebuilt music player to Android phones, tablets, and TVs."
+  },
+  "download.release.stable.2_0_1.android.moreServers": {
+    "message": "Connect to more music servers, including fnOS Music."
+  },
+  "download.release.stable.2_0_1.apple.rebuiltPlayer": {
+    "message": "Musiver 2 brings a rebuilt music player to iPhone, iPad, Mac, and Apple TV."
+  },
+  "download.release.stable.2_0_1.apple.longAudio": {
+    "message": "Set custom intro and outro skip times for audiobooks and podcasts."
+  },
   "download.release.stable.2_0_1.desktop.rebuiltPlayer": {
     "message": "Rebuilt the Windows app with a new desktop playback interface."
   },

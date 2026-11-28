@@ -488,6 +488,18 @@
   "download.release.stable.upcoming": {
     "message": "全新版本，即将登场！"
   },
+  "download.release.stable.2_0_1.android.rebuiltPlayer": {
+    "message": "音流 2 带来全新打造的音乐播放器，支持 Android 手机、平板和电视。"
+  },
+  "download.release.stable.2_0_1.android.moreServers": {
+    "message": "支持连接更多音乐服务器，包括飞牛音乐（fnOS Music）。"
+  },
+  "download.release.stable.2_0_1.apple.rebuiltPlayer": {
+    "message": "音流 2 带来全新打造的音乐播放器，适用于 iPhone、iPad、Mac 和 Apple TV。"
+  },
+  "download.release.stable.2_0_1.apple.longAudio": {
+    "message": "有声书和播客支持自定义跳过片头、片尾的时长。"
+  },
   "download.release.stable.2_0_1.desktop.rebuiltPlayer": {
     "message": "重做 Windows 客户端，带来全新的桌面播放界面。"
   },
