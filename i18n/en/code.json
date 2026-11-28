@@ -500,6 +500,12 @@
   "download.release.stable.2_0_1.apple.longAudio": {
     "message": "Set custom intro and outro skip times for audiobooks and podcasts."
   },
+  "download.release.stable.2_0_1.linux.appImage": {
+    "message": "Musiver 2 is available as an x86-64 AppImage for Linux."
+  },
+  "download.release.stable.2_0_1.web.docker": {
+    "message": "Self-host the web player with the gitbobobo/musiver:2.0.1-build.30 Docker image."
+  },
   "download.release.stable.2_0_1.desktop.rebuiltPlayer": {
     "message": "Rebuilt the Windows app with a new desktop playback interface."
   },

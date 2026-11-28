@@ -500,6 +500,12 @@
   "download.release.stable.2_0_1.apple.longAudio": {
     "message": "有声书和播客支持自定义跳过片头、片尾的时长。"
   },
+  "download.release.stable.2_0_1.linux.appImage": {
+    "message": "音流 2 提供适用于 x86-64 Linux 的 AppImage 安装包。"
+  },
+  "download.release.stable.2_0_1.web.docker": {
+    "message": "可使用 gitbobobo/musiver:2.0.1-build.30 Docker 镜像自行部署网页播放器。"
+  },
   "download.release.stable.2_0_1.desktop.rebuiltPlayer": {
     "message": "重做 Windows 客户端，带来全新的桌面播放界面。"
   },

@@ -43,15 +43,24 @@
       ]
     },
     "linux": {
-      "downloadUrl": "",
+      "release": {
+        "version": "2.0.1",
+        "date": "2026-11-28"
+      },
+      "downloadUrl": "https://github.com/liuyincs/musiver/releases/download/v2.0.1-build.30/musiver-2.0.1-build.30-linux-x86_64.AppImage",
       "changelogI18nKeys": [
-        "download.release.stable.upcoming"
+        "download.release.stable.2_0_1.linux.appImage",
+        "download.release.stable.2_0_1.desktop.moreServers"
       ]
     },
     "web": {
-      "downloadUrl": "",
+      "release": {
+        "version": "2.0.1",
+        "date": "2026-11-28"
+      },
+      "downloadUrl": "https://hub.docker.com/r/gitbobobo/musiver/tags?name=2.0.1-build.30",
       "changelogI18nKeys": [
-        "download.release.stable.upcoming"
+        "download.release.stable.2_0_1.web.docker"
       ]
     }
   }
